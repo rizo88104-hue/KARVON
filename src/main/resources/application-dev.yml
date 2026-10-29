@@ -6,7 +6,7 @@ spring:
   config:
     import: optional:file:.env[.properties]
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:karvon}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5433}/${DB_NAME:karvon}
     username: ${DB_USERNAME:karvon}
     password: ${DB_PASSWORD:karvon}
   data:
