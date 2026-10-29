@@ -15,7 +15,23 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public final class TestLogins {
 
+    /** Created on startup from ADMIN_PHONE in application-test.yml. */
+    public static final String ADMIN_PHONE = "+998900000001";
+
+    private static String adminToken;
+
     private TestLogins() {
+    }
+
+    /**
+     * One admin login for the whole test run: the Spring context and Redis are shared,
+     * and a login per test class would hit the limit of 3 codes per 10 minutes.
+     */
+    public static synchronized String adminToken(MockMvcTester mvc) {
+        if (adminToken == null) {
+            adminToken = accessToken(mvc, ADMIN_PHONE);
+        }
+        return adminToken;
     }
 
     /** A random Uzbek number, so tests sharing the database and Redis do not see each other's limits. */

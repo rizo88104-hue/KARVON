@@ -9,8 +9,10 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.assertj.MvcTestResult;
 import uz.karvon.AbstractIntegrationTest;
+import uz.karvon.TestLogins;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static uz.karvon.TestLogins.ADMIN_PHONE;
 import static uz.karvon.TestLogins.accessToken;
 import static uz.karvon.TestLogins.bearer;
 import static uz.karvon.TestLogins.login;
@@ -24,19 +26,14 @@ import static uz.karvon.TestLogins.requestOtp;
  */
 class AdminUserIntegrationTest extends AbstractIntegrationTest {
 
-    private static final String ADMIN_PHONE = "+998900000001";
-
     @Autowired
     private MockMvcTester mvc;
 
-    /** Logged in once per class: a login per test would hit the limit of 3 codes per 10 minutes. */
-    private static String adminToken;
+    private String adminToken;
 
     @BeforeEach
     void loginAsAdmin() {
-        if (adminToken == null) {
-            adminToken = accessToken(mvc, ADMIN_PHONE);
-        }
+        adminToken = TestLogins.adminToken(mvc);
     }
 
     @Test

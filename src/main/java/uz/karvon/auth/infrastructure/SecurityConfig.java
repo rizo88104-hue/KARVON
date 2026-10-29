@@ -30,6 +30,8 @@ public class SecurityConfig {
             "/v3/api-docs", "/v3/api-docs/**",
             "/api/v1/ping",
             "/api/v1/auth/**",
+            "/api/v1/settings/pricing",
+            "/api/v1/pricing/estimate",
             // The controller exists only in the dev and test profiles.
             "/api/v1/dev/**",
             "/error"
