@@ -1,0 +1,29 @@
+# Local development. Start Postgres and Redis with "docker compose up -d".
+# Values may be overridden in a local .env file (see .env.example); the defaults match docker-compose.yml.
+# External services (Taobao, translation, SMS, Telegram, Payme, Click) use their Fake
+# implementations in this profile: they are registered with @Profile("dev").
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:karvon}
+    username: ${DB_USERNAME:karvon}
+    password: ${DB_PASSWORD:karvon}
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+  jpa:
+    show-sql: false
+
+server:
+  port: ${SERVER_PORT:8080}
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    uz.karvon: DEBUG
