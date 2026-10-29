@@ -106,8 +106,8 @@ class AdminUserIntegrationTest extends AbstractIntegrationTest {
 
         assertThat(result).hasStatusOk();
         assertThat(result).bodyJson().extractingPath("$.roles").asArray().containsExactlyInAnyOrder("CUSTOMER", "BUYER");
-        // The user's token from before the change already passes the staff URL rule.
-        var staffArea = mvc.get().uri("/api/v1/admin/orders").header(HttpHeaders.AUTHORIZATION, bearer(userToken));
+        // The token from before the change already passes the staff URL rule (404: no such page, not 403).
+        var staffArea = mvc.get().uri("/api/v1/admin/not-there-yet").header(HttpHeaders.AUTHORIZATION, bearer(userToken));
         assertThat(staffArea).hasStatus(HttpStatus.NOT_FOUND);
     }
 

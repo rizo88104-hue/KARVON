@@ -53,6 +53,10 @@ karvon:
     cache:
       search-ttl: 30m
       product-ttl: 2h
+  orders:
+    # Unpaid orders are cancelled after this time; the check runs every auto-cancel-check-ms.
+    payment-timeout: 30m
+    auto-cancel-check-ms: 60000
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

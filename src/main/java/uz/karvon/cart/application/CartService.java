@@ -29,6 +29,7 @@ import uz.karvon.translation.domain.Lang;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -126,6 +127,13 @@ public class CartService {
         items.delete(load(userId, itemId));
         items.flush();
         return get(userId);
+    }
+
+    /** Removes these lines of the user, e.g. after they were ordered. Ids of other users are ignored. */
+    @Transactional
+    public void removeItems(UUID userId, Collection<UUID> itemIds) {
+        items.deleteAll(items.findAllById(itemIds).stream().filter(item -> item.getUserId().equals(userId)).toList());
+        items.flush();
     }
 
     /** Deletes the lines whose "selected" flag equals {@code selected}, e.g. after they were ordered. */
