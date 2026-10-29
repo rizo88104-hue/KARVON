@@ -1,0 +1,6 @@
+# Integration tests: containers supply Postgres and Redis, the fake SMS sender is used.
+karvon:
+  auth:
+    jwt-secret: test-only-jwt-secret-0123456789abcdefghij
+  admin:
+    phone: "+998900000001"

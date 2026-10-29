@@ -27,3 +27,8 @@ management:
 logging:
   level:
     uz.karvon: DEBUG
+
+karvon:
+  auth:
+    # Dev-only fallback so the app starts without a .env file. Production has no default.
+    jwt-secret: ${JWT_SECRET:dev-only-jwt-secret-change-me-0123456789}

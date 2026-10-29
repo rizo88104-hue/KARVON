@@ -3,6 +3,7 @@ package uz.karvon;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
+import org.springframework.test.context.ActiveProfiles;
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.lifecycle.Startables;
 import org.testcontainers.postgresql.PostgreSQLContainer;
@@ -10,9 +11,11 @@ import org.testcontainers.postgresql.PostgreSQLContainer;
 /**
  * Base class for tests that need the whole application with real PostgreSQL and Redis.
  * The containers are started once per test run and shared by all subclasses (Docker is required).
+ * The "test" profile uses the fake SMS sender and exposes /api/v1/dev/otp/{phone}.
  */
 @SpringBootTest
 @AutoConfigureMockMvc
+@ActiveProfiles("test")
 public abstract class AbstractIntegrationTest {
 
     @ServiceConnection

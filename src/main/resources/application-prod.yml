@@ -13,3 +13,10 @@ spring:
 
 server:
   port: ${SERVER_PORT}
+
+karvon:
+  sms:
+    eskiz:
+      email: ${ESKIZ_EMAIL}
+      password: ${ESKIZ_PASSWORD}
+      from: ${ESKIZ_FROM}

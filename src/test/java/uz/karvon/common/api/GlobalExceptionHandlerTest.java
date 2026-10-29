@@ -9,12 +9,15 @@ import org.springframework.context.annotation.Import;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.security.oauth2.jwt.JwtDecoder;
 import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.auth.infrastructure.JwtUserAuthenticator;
 import uz.karvon.auth.infrastructure.SecurityConfig;
 import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.application.NotFoundException;
@@ -26,6 +29,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Import({GlobalExceptionHandlerTest.FailingController.class, SecurityConfig.class, I18nConfig.class})
 @WithMockUser
 class GlobalExceptionHandlerTest {
+
+    @MockitoBean
+    private JwtDecoder jwtDecoder;
+
+    @MockitoBean
+    private JwtUserAuthenticator jwtUserAuthenticator;
 
     @Autowired
     private MockMvcTester mvc;

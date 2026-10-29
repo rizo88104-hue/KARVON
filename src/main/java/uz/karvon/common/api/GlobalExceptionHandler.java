@@ -5,12 +5,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.jspecify.annotations.Nullable;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
+import org.springframework.data.core.PropertyReferenceException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -46,9 +48,21 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return problem(HttpStatus.FORBIDDEN, "ACCESS_DENIED", "error.http.403");
     }
 
+    /** A valid token of a user who has been blocked. */
+    @ExceptionHandler(DisabledException.class)
+    public ResponseEntity<ProblemDetail> handleDisabled(DisabledException ex) {
+        return problem(HttpStatus.FORBIDDEN, "USER_BLOCKED", "error.user.blocked");
+    }
+
     @ExceptionHandler(AuthenticationException.class)
     public ResponseEntity<ProblemDetail> handleAuthentication(AuthenticationException ex) {
         return problem(HttpStatus.UNAUTHORIZED, "UNAUTHORIZED", "error.http.401");
+    }
+
+    /** Unknown field in a "sort" query parameter. */
+    @ExceptionHandler(PropertyReferenceException.class)
+    public ResponseEntity<ProblemDetail> handleBadSort(PropertyReferenceException ex) {
+        return problem(HttpStatus.BAD_REQUEST, "INVALID_SORT", "error.http.400");
     }
 
     @ExceptionHandler(Exception.class)
