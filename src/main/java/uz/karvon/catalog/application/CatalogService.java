@@ -1,7 +1,6 @@
 package uz.karvon.catalog.application;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import uz.karvon.catalog.api.dto.CategoryResponse;
@@ -94,17 +93,7 @@ public class CatalogService {
 
     /** A product with translated texts and a price for every SKU. Blocked goods answer PRODUCT_BLOCKED. */
     public ProductDetailResponse product(String externalId, Lang lang) {
-        if (!EXTERNAL_ID.matcher(externalId).matches()) {
-            throw new ProductNotFoundException();
-        }
-        ProductDetail original = cache.product(externalId, () -> provider.getProduct(externalId));
-        if (blockedGoods.isBlocked(original.titleOriginal())) {
-            throw blocked();
-        }
-        ProductDetail product = translate(original, lang);
-        if (blockedGoods.isBlocked(product.titleTranslated())) {
-            throw blocked();
-        }
+        ProductDetail product = orderableProduct(externalId, lang, false);
         PriceQuoter quoter = pricing.quoter();
         List<SkuResponse> skus = product.skus().stream()
                 .map(sku -> new SkuResponse(sku.skuId(), sku.properties(), sku.priceCny(), sku.stock(), sku.imageUrl(),
@@ -115,6 +104,27 @@ public class CatalogService {
                 quoter.price(product.priceCny(), product.chinaShippingCny(), 1, product.weightKg()),
                 product.salesCount(), product.shop(), product.attributes(), skus, product.chinaShippingCny(),
                 product.weightKg(), product.weightKg() == null);
+    }
+
+    /**
+     * A product that may be ordered, translated to {@code lang}. Throws {@link ProductNotFoundException} or
+     * {@link ProductBlockedException}. {@code fresh} skips the Redis cache (and refills it), e.g. to re-check prices.
+     */
+    public ProductDetail orderableProduct(String externalId, Lang lang, boolean fresh) {
+        if (externalId == null || !EXTERNAL_ID.matcher(externalId).matches()) {
+            throw new ProductNotFoundException();
+        }
+        ProductDetail original = fresh
+                ? cache.refreshProduct(externalId, () -> provider.getProduct(externalId))
+                : cache.product(externalId, () -> provider.getProduct(externalId));
+        if (blockedGoods.isBlocked(original.titleOriginal())) {
+            throw new ProductBlockedException();
+        }
+        ProductDetail product = translate(original, lang);
+        if (blockedGoods.isBlocked(product.titleTranslated())) {
+            throw new ProductBlockedException();
+        }
+        return product;
     }
 
     public String resolveLink(String pasted) {
@@ -174,9 +184,5 @@ public class CatalogService {
 
     private static BigDecimal toCny(BigDecimal uzs, PriceQuoter quoter) {
         return uzs == null ? null : uzs.divide(quoter.customerRate(), 2, RoundingMode.HALF_UP);
-    }
-
-    private static BusinessException blocked() {
-        return new BusinessException(HttpStatus.UNPROCESSABLE_CONTENT, "PRODUCT_BLOCKED", "error.catalog.productBlocked");
     }
 }

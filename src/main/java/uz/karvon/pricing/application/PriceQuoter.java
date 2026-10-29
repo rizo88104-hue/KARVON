@@ -5,6 +5,7 @@ import uz.karvon.pricing.domain.PriceCalculator;
 import uz.karvon.pricing.domain.PricingParameters;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 /**
  * Prices many items with one settings version, e.g. a page of search results.
@@ -28,5 +29,10 @@ public final class PriceQuoter {
     /** UZS for 1 CNY in these settings, e.g. to turn a UZS price filter into CNY. */
     public BigDecimal customerRate() {
         return parameters.customerRate();
+    }
+
+    /** The pricing settings version used by this quoter. */
+    public UUID settingsId() {
+        return parameters.settingsId();
     }
 }

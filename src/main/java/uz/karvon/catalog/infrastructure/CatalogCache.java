@@ -49,6 +49,13 @@ public class CatalogCache {
         return cached(PRODUCT_PREFIX + externalId, ProductDetail.class, productTtl, loader);
     }
 
+    /** Always asks the provider and stores the new answer. */
+    public ProductDetail refreshProduct(String externalId, Supplier<ProductDetail> loader) {
+        ProductDetail value = loader.get();
+        write(PRODUCT_PREFIX + externalId, value, productTtl);
+        return value;
+    }
+
     private <T> T cached(String key, Class<T> type, Duration ttl, Supplier<T> loader) {
         Optional<T> hit = read(key, type);
         if (hit.isPresent()) {
