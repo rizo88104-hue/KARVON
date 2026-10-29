@@ -1,0 +1,1460 @@
+[
+  {
+    "externalId": "680000008936",
+    "title": "男士纯棉短袖T恤宽松",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000008936-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000008936-1/800/800",
+      "https://picsum.photos/seed/karvon-680000008936-2/800/800",
+      "https://picsum.photos/seed/karvon-680000008936-3/800/800",
+      "https://picsum.photos/seed/karvon-680000008936-4/800/800"
+    ],
+    "priceCny": 49,
+    "salesCount": 31000,
+    "shop": {
+      "shopId": "100259",
+      "name": "T恤工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.25,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "夏季"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000008936001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 44,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-10/800/800"
+      },
+      {
+        "skuId": "680000008936002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 73,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-11/800/800"
+      },
+      {
+        "skuId": "680000008936003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-12/800/800"
+      },
+      {
+        "skuId": "680000008936004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 131,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-13/800/800"
+      },
+      {
+        "skuId": "680000008936005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 160,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-14/800/800"
+      },
+      {
+        "skuId": "680000008936006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 189,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-15/800/800"
+      },
+      {
+        "skuId": "680000008936007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 218,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-16/800/800"
+      },
+      {
+        "skuId": "680000008936008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 247,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-17/800/800"
+      },
+      {
+        "skuId": "680000008936009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 276,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-18/800/800"
+      },
+      {
+        "skuId": "680000008936010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-19/800/800"
+      },
+      {
+        "skuId": "680000008936011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 334,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-20/800/800"
+      },
+      {
+        "skuId": "680000008936012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 363,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-21/800/800"
+      },
+      {
+        "skuId": "680000008936013",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 392,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-22/800/800"
+      },
+      {
+        "skuId": "680000008936014",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 21,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-23/800/800"
+      },
+      {
+        "skuId": "680000008936015",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 50,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000008936-24/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000010053",
+    "title": "女士夏季碎花连衣裙",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000010053-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000010053-1/800/800",
+      "https://picsum.photos/seed/karvon-680000010053-2/800/800",
+      "https://picsum.photos/seed/karvon-680000010053-3/800/800",
+      "https://picsum.photos/seed/karvon-680000010053-4/800/800"
+    ],
+    "priceCny": 139,
+    "salesCount": 12000,
+    "shop": {
+      "shopId": "100296",
+      "name": "女装专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.35,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "适用季节",
+        "value": "夏季"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000010053001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 97,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-10/800/800"
+      },
+      {
+        "skuId": "680000010053002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 126,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-11/800/800"
+      },
+      {
+        "skuId": "680000010053003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 155,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-12/800/800"
+      },
+      {
+        "skuId": "680000010053004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 184,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-13/800/800"
+      },
+      {
+        "skuId": "680000010053005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-14/800/800"
+      },
+      {
+        "skuId": "680000010053006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 242,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-15/800/800"
+      },
+      {
+        "skuId": "680000010053007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 271,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-16/800/800"
+      },
+      {
+        "skuId": "680000010053008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 300,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000010053-17/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000011170",
+    "title": "男士冬季加厚羽绒服外套",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000011170-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000011170-1/800/800",
+      "https://picsum.photos/seed/karvon-680000011170-2/800/800",
+      "https://picsum.photos/seed/karvon-680000011170-3/800/800",
+      "https://picsum.photos/seed/karvon-680000011170-4/800/800"
+    ],
+    "priceCny": 399,
+    "salesCount": 5400,
+    "shop": {
+      "shopId": "100333",
+      "name": "羽绒服工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.4,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "羽绒"
+      },
+      {
+        "name": "适用季节",
+        "value": "冬季"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000011170001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 150,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-10/800/800"
+      },
+      {
+        "skuId": "680000011170002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 179,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-11/800/800"
+      },
+      {
+        "skuId": "680000011170003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 208,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-12/800/800"
+      },
+      {
+        "skuId": "680000011170004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 237,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-13/800/800"
+      },
+      {
+        "skuId": "680000011170005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXXL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 266,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-14/800/800"
+      },
+      {
+        "skuId": "680000011170006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "军绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 295,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-15/800/800"
+      },
+      {
+        "skuId": "680000011170007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "军绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-16/800/800"
+      },
+      {
+        "skuId": "680000011170008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "军绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 353,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-17/800/800"
+      },
+      {
+        "skuId": "680000011170009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "军绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 382,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-18/800/800"
+      },
+      {
+        "skuId": "680000011170010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "军绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXXL"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 411,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000011170-19/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000012287",
+    "title": "女士直筒牛仔裤高腰",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000012287-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000012287-1/800/800",
+      "https://picsum.photos/seed/karvon-680000012287-2/800/800",
+      "https://picsum.photos/seed/karvon-680000012287-3/800/800",
+      "https://picsum.photos/seed/karvon-680000012287-4/800/800"
+    ],
+    "priceCny": 119,
+    "salesCount": 18000,
+    "shop": {
+      "shopId": "100370",
+      "name": "牛仔裤专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "牛仔布"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000012287001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "25"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 203,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-10/800/800"
+      },
+      {
+        "skuId": "680000012287002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "26"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-11/800/800"
+      },
+      {
+        "skuId": "680000012287003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "27"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 261,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-12/800/800"
+      },
+      {
+        "skuId": "680000012287004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "28"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 290,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-13/800/800"
+      },
+      {
+        "skuId": "680000012287005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "29"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 319,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-14/800/800"
+      },
+      {
+        "skuId": "680000012287006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "30"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 348,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-15/800/800"
+      },
+      {
+        "skuId": "680000012287007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "25"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 377,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-16/800/800"
+      },
+      {
+        "skuId": "680000012287008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "26"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 406,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-17/800/800"
+      },
+      {
+        "skuId": "680000012287009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "27"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-18/800/800"
+      },
+      {
+        "skuId": "680000012287010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "28"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 64,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-19/800/800"
+      },
+      {
+        "skuId": "680000012287011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "29"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 93,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-20/800/800"
+      },
+      {
+        "skuId": "680000012287012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "深蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "30"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 122,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000012287-21/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000013404",
+    "title": "男士休闲连帽卫衣",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000013404-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000013404-1/800/800",
+      "https://picsum.photos/seed/karvon-680000013404-2/800/800",
+      "https://picsum.photos/seed/karvon-680000013404-3/800/800",
+      "https://picsum.photos/seed/karvon-680000013404-4/800/800"
+    ],
+    "priceCny": 159,
+    "salesCount": 9100,
+    "shop": {
+      "shopId": "100407",
+      "name": "卫衣专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": null,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000013404001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 256,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-10/800/800"
+      },
+      {
+        "skuId": "680000013404002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 285,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-11/800/800"
+      },
+      {
+        "skuId": "680000013404003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 314,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-12/800/800"
+      },
+      {
+        "skuId": "680000013404004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-13/800/800"
+      },
+      {
+        "skuId": "680000013404005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 372,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-14/800/800"
+      },
+      {
+        "skuId": "680000013404006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 401,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-15/800/800"
+      },
+      {
+        "skuId": "680000013404007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 30,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-16/800/800"
+      },
+      {
+        "skuId": "680000013404008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 59,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-17/800/800"
+      },
+      {
+        "skuId": "680000013404009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "藏青色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 88,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-18/800/800"
+      },
+      {
+        "skuId": "680000013404010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "藏青色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 117,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-19/800/800"
+      },
+      {
+        "skuId": "680000013404011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "藏青色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-20/800/800"
+      },
+      {
+        "skuId": "680000013404012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "藏青色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 175,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000013404-21/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000014521",
+    "title": "女士针织开衫毛衣",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000014521-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000014521-1/800/800",
+      "https://picsum.photos/seed/karvon-680000014521-2/800/800",
+      "https://picsum.photos/seed/karvon-680000014521-3/800/800",
+      "https://picsum.photos/seed/karvon-680000014521-4/800/800"
+    ],
+    "priceCny": 99,
+    "salesCount": 7600,
+    "shop": {
+      "shopId": "100444",
+      "name": "毛衣工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.45,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "适用季节",
+        "value": "冬季"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000014521001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 309,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-10/800/800"
+      },
+      {
+        "skuId": "680000014521002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 338,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-11/800/800"
+      },
+      {
+        "skuId": "680000014521003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 367,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-12/800/800"
+      },
+      {
+        "skuId": "680000014521004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 396,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-13/800/800"
+      },
+      {
+        "skuId": "680000014521005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 25,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-14/800/800"
+      },
+      {
+        "skuId": "680000014521006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000014521-15/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000015638",
+    "title": "男士商务长袖衬衫免烫",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000015638-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000015638-1/800/800",
+      "https://picsum.photos/seed/karvon-680000015638-2/800/800",
+      "https://picsum.photos/seed/karvon-680000015638-3/800/800",
+      "https://picsum.photos/seed/karvon-680000015638-4/800/800"
+    ],
+    "priceCny": 89,
+    "salesCount": 14500,
+    "shop": {
+      "shopId": "100481",
+      "name": "衬衫专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "服装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "简约"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000015638001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-10/800/800"
+      },
+      {
+        "skuId": "680000015638002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 391,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-11/800/800"
+      },
+      {
+        "skuId": "680000015638003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 20,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-12/800/800"
+      },
+      {
+        "skuId": "680000015638004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 49,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-13/800/800"
+      },
+      {
+        "skuId": "680000015638005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 78,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-14/800/800"
+      },
+      {
+        "skuId": "680000015638006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 107,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-15/800/800"
+      },
+      {
+        "skuId": "680000015638007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 136,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-16/800/800"
+      },
+      {
+        "skuId": "680000015638008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "浅蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000015638-17/800/800"
+      }
+    ]
+  }
+]

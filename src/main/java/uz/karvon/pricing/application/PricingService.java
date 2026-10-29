@@ -21,7 +21,12 @@ public class PricingService {
     private final PriceCalculator calculator = new PriceCalculator();
 
     public PriceBreakdown estimate(BigDecimal priceCny, BigDecimal chinaShippingCny, int quantity, BigDecimal weightKg) {
-        return calculator.calculate(priceCny, chinaShippingCny, quantity, weightKg, toParameters(settings.current()));
+        return quoter().price(priceCny, chinaShippingCny, quantity, weightKg);
+    }
+
+    /** A calculator bound to the active settings, read once. */
+    public PriceQuoter quoter() {
+        return new PriceQuoter(calculator, toParameters(settings.current()));
     }
 
     static PricingParameters toParameters(PricingSettingsResponse s) {

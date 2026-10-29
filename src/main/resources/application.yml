@@ -49,6 +49,10 @@ karvon:
       request-window: 10m
       max-wrong-attempts: 5
       block-duration: 15m
+  catalog:
+    cache:
+      search-ttl: 30m
+      product-ttl: 2h
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

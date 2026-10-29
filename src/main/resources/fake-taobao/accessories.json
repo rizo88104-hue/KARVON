@@ -1,0 +1,516 @@
+[
+  {
+    "externalId": "680000046914",
+    "title": "男士真皮腰带自动扣",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000046914-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000046914-1/800/800",
+      "https://picsum.photos/seed/karvon-680000046914-2/800/800",
+      "https://picsum.photos/seed/karvon-680000046914-3/800/800",
+      "https://picsum.photos/seed/karvon-680000046914-4/800/800"
+    ],
+    "priceCny": 59,
+    "salesCount": 22000,
+    "shop": {
+      "shopId": "101406",
+      "name": "皮带专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000046914001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000046914-10/800/800"
+      },
+      {
+        "skuId": "680000046914002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 275,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000046914-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000048031",
+    "title": "女士太阳镜防紫外线",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000048031-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000048031-1/800/800",
+      "https://picsum.photos/seed/karvon-680000048031-2/800/800",
+      "https://picsum.photos/seed/karvon-680000048031-3/800/800",
+      "https://picsum.photos/seed/karvon-680000048031-4/800/800"
+    ],
+    "priceCny": 49,
+    "salesCount": 18000,
+    "shop": {
+      "shopId": "101443",
+      "name": "眼镜专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "适用季节",
+        "value": "夏季"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000048031001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 299,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000048031-10/800/800"
+      },
+      {
+        "skuId": "680000048031002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "茶色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 328,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000048031-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000049148",
+    "title": "棒球帽男女同款",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000049148-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000049148-1/800/800",
+      "https://picsum.photos/seed/karvon-680000049148-2/800/800",
+      "https://picsum.photos/seed/karvon-680000049148-3/800/800",
+      "https://picsum.photos/seed/karvon-680000049148-4/800/800"
+    ],
+    "priceCny": 29,
+    "salesCount": 36000,
+    "shop": {
+      "shopId": "101480",
+      "name": "帽子专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000049148001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 352,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000049148-10/800/800"
+      },
+      {
+        "skuId": "680000049148002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 381,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000049148-11/800/800"
+      },
+      {
+        "skuId": "680000049148003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 410,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000049148-12/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000050265",
+    "title": "羊绒围巾冬季保暖",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000050265-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000050265-1/800/800",
+      "https://picsum.photos/seed/karvon-680000050265-2/800/800",
+      "https://picsum.photos/seed/karvon-680000050265-3/800/800",
+      "https://picsum.photos/seed/karvon-680000050265-4/800/800"
+    ],
+    "priceCny": 99,
+    "salesCount": 8300,
+    "shop": {
+      "shopId": "101517",
+      "name": "围巾专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.25,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "羊绒"
+      },
+      {
+        "name": "适用季节",
+        "value": "冬季"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000050265001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 405,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000050265-10/800/800"
+      },
+      {
+        "skuId": "680000050265002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 34,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000050265-11/800/800"
+      },
+      {
+        "skuId": "680000050265003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 63,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000050265-12/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000051382",
+    "title": "女士时尚石英手表",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000051382-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000051382-1/800/800",
+      "https://picsum.photos/seed/karvon-680000051382-2/800/800",
+      "https://picsum.photos/seed/karvon-680000051382-3/800/800",
+      "https://picsum.photos/seed/karvon-680000051382-4/800/800"
+    ],
+    "priceCny": 129,
+    "salesCount": 9400,
+    "shop": {
+      "shopId": "101554",
+      "name": "手表专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000051382001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 58,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000051382-10/800/800"
+      },
+      {
+        "skuId": "680000051382002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000051382-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000052499",
+    "title": "925银项链女",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000052499-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000052499-1/800/800",
+      "https://picsum.photos/seed/karvon-680000052499-2/800/800",
+      "https://picsum.photos/seed/karvon-680000052499-3/800/800",
+      "https://picsum.photos/seed/karvon-680000052499-4/800/800"
+    ],
+    "priceCny": 99,
+    "salesCount": 12000,
+    "shop": {
+      "shopId": "101591",
+      "name": "银饰专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "925银"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000052499001",
+        "properties": [
+          {
+            "name": "长度",
+            "value": "40cm"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 111,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000052499002",
+        "properties": [
+          {
+            "name": "长度",
+            "value": "45cm"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 140,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000053616",
+    "title": "法式香水持久留香",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000053616-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000053616-1/800/800",
+      "https://picsum.photos/seed/karvon-680000053616-2/800/800",
+      "https://picsum.photos/seed/karvon-680000053616-3/800/800",
+      "https://picsum.photos/seed/karvon-680000053616-4/800/800"
+    ],
+    "priceCny": 89,
+    "salesCount": 6600,
+    "shop": {
+      "shopId": "101628",
+      "name": "香水专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000053616001",
+        "properties": [
+          {
+            "name": "容量",
+            "value": "50ml"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 164,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000053616002",
+        "properties": [
+          {
+            "name": "容量",
+            "value": "100ml"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 193,
+        "imageUrl": null
+      }
+    ]
+  }
+]

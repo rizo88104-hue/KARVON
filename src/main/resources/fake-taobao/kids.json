@@ -1,0 +1,642 @@
+[
+  {
+    "externalId": "680000040212",
+    "title": "儿童益智积木玩具",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000040212-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000040212-1/800/800",
+      "https://picsum.photos/seed/karvon-680000040212-2/800/800",
+      "https://picsum.photos/seed/karvon-680000040212-3/800/800",
+      "https://picsum.photos/seed/karvon-680000040212-4/800/800"
+    ],
+    "priceCny": 89,
+    "salesCount": 19000,
+    "shop": {
+      "shopId": "101221",
+      "name": "玩具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000040212001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "300颗"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 328,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000040212002",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "500颗"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 357,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000041329",
+    "title": "婴儿纯棉连体衣",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000041329-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000041329-1/800/800",
+      "https://picsum.photos/seed/karvon-680000041329-2/800/800",
+      "https://picsum.photos/seed/karvon-680000041329-3/800/800",
+      "https://picsum.photos/seed/karvon-680000041329-4/800/800"
+    ],
+    "priceCny": 49,
+    "salesCount": 14000,
+    "shop": {
+      "shopId": "101258",
+      "name": "婴童服饰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000041329001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "59cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 381,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-10/800/800"
+      },
+      {
+        "skuId": "680000041329002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "66cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 410,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-11/800/800"
+      },
+      {
+        "skuId": "680000041329003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "73cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 39,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-12/800/800"
+      },
+      {
+        "skuId": "680000041329004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "80cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 68,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-13/800/800"
+      },
+      {
+        "skuId": "680000041329005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "59cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-14/800/800"
+      },
+      {
+        "skuId": "680000041329006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "66cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 126,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-15/800/800"
+      },
+      {
+        "skuId": "680000041329007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "73cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 155,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-16/800/800"
+      },
+      {
+        "skuId": "680000041329008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "80cm"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 184,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-17/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000042446",
+    "title": "儿童遥控汽车玩具",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000042446-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000042446-1/800/800",
+      "https://picsum.photos/seed/karvon-680000042446-2/800/800",
+      "https://picsum.photos/seed/karvon-680000042446-3/800/800",
+      "https://picsum.photos/seed/karvon-680000042446-4/800/800"
+    ],
+    "priceCny": 129,
+    "salesCount": 8700,
+    "shop": {
+      "shopId": "101221",
+      "name": "玩具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000042446001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 34,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000042446-10/800/800"
+      },
+      {
+        "skuId": "680000042446002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 63,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000042446-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000043563",
+    "title": "童装女童连衣裙",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000043563-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000043563-1/800/800",
+      "https://picsum.photos/seed/karvon-680000043563-2/800/800",
+      "https://picsum.photos/seed/karvon-680000043563-3/800/800",
+      "https://picsum.photos/seed/karvon-680000043563-4/800/800"
+    ],
+    "priceCny": 69,
+    "salesCount": 10500,
+    "shop": {
+      "shopId": "101295",
+      "name": "童装专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "夏季"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000043563001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 87,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-10/800/800"
+      },
+      {
+        "skuId": "680000043563002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-11/800/800"
+      },
+      {
+        "skuId": "680000043563003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 145,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-12/800/800"
+      },
+      {
+        "skuId": "680000043563004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "140"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 174,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-13/800/800"
+      },
+      {
+        "skuId": "680000043563005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 203,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-14/800/800"
+      },
+      {
+        "skuId": "680000043563006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 232,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-15/800/800"
+      },
+      {
+        "skuId": "680000043563007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 261,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-16/800/800"
+      },
+      {
+        "skuId": "680000043563008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "140"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 290,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-17/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000044680",
+    "title": "毛绒玩具熊",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000044680-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000044680-1/800/800",
+      "https://picsum.photos/seed/karvon-680000044680-2/800/800",
+      "https://picsum.photos/seed/karvon-680000044680-3/800/800",
+      "https://picsum.photos/seed/karvon-680000044680-4/800/800"
+    ],
+    "priceCny": 59,
+    "salesCount": 16000,
+    "shop": {
+      "shopId": "101332",
+      "name": "毛绒玩具店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "毛绒"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000044680001",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "40cm"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 140,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000044680002",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "60cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 169,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000044680003",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "80cm"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 198,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000045797",
+    "title": "儿童护脊书包双肩包",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000045797-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000045797-1/800/800",
+      "https://picsum.photos/seed/karvon-680000045797-2/800/800",
+      "https://picsum.photos/seed/karvon-680000045797-3/800/800",
+      "https://picsum.photos/seed/karvon-680000045797-4/800/800"
+    ],
+    "priceCny": 139,
+    "salesCount": 7200,
+    "shop": {
+      "shopId": "101369",
+      "name": "书包旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000045797001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 193,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000045797-10/800/800"
+      },
+      {
+        "skuId": "680000045797002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 222,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000045797-11/800/800"
+      }
+    ]
+  }
+]

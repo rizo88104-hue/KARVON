@@ -1,0 +1,544 @@
+[
+  {
+    "externalId": "680000016755",
+    "title": "女士单肩包大容量通勤",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000016755-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000016755-1/800/800",
+      "https://picsum.photos/seed/karvon-680000016755-2/800/800",
+      "https://picsum.photos/seed/karvon-680000016755-3/800/800",
+      "https://picsum.photos/seed/karvon-680000016755-4/800/800"
+    ],
+    "priceCny": 159,
+    "salesCount": 8800,
+    "shop": {
+      "shopId": "100518",
+      "name": "女包专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000016755001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 415,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-10/800/800"
+      },
+      {
+        "skuId": "680000016755002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 44,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-11/800/800"
+      },
+      {
+        "skuId": "680000016755003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-12/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000017872",
+    "title": "男士商务双肩包电脑包",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000017872-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000017872-1/800/800",
+      "https://picsum.photos/seed/karvon-680000017872-2/800/800",
+      "https://picsum.photos/seed/karvon-680000017872-3/800/800",
+      "https://picsum.photos/seed/karvon-680000017872-4/800/800"
+    ],
+    "priceCny": 189,
+    "salesCount": 11200,
+    "shop": {
+      "shopId": "100555",
+      "name": "商务箱包店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000017872001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 68,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000017872-10/800/800"
+      },
+      {
+        "skuId": "680000017872002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 97,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000017872-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000018989",
+    "title": "学生双肩包轻便",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000018989-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000018989-1/800/800",
+      "https://picsum.photos/seed/karvon-680000018989-2/800/800",
+      "https://picsum.photos/seed/karvon-680000018989-3/800/800",
+      "https://picsum.photos/seed/karvon-680000018989-4/800/800"
+    ],
+    "priceCny": 79,
+    "salesCount": 25000,
+    "shop": {
+      "shopId": "100592",
+      "name": "书包批发店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000018989001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 121,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-10/800/800"
+      },
+      {
+        "skuId": "680000018989002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 150,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-11/800/800"
+      },
+      {
+        "skuId": "680000018989003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 179,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-12/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000020106",
+    "title": "女士真皮钱包长款",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000020106-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000020106-1/800/800",
+      "https://picsum.photos/seed/karvon-680000020106-2/800/800",
+      "https://picsum.photos/seed/karvon-680000020106-3/800/800",
+      "https://picsum.photos/seed/karvon-680000020106-4/800/800"
+    ],
+    "priceCny": 69,
+    "salesCount": 9900,
+    "shop": {
+      "shopId": "100629",
+      "name": "钱包工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000020106001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 174,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000020106-10/800/800"
+      },
+      {
+        "skuId": "680000020106002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000020106-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000021223",
+    "title": "旅行拉杆箱万向轮",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000021223-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000021223-1/800/800",
+      "https://picsum.photos/seed/karvon-680000021223-2/800/800",
+      "https://picsum.photos/seed/karvon-680000021223-3/800/800",
+      "https://picsum.photos/seed/karvon-680000021223-4/800/800"
+    ],
+    "priceCny": 299,
+    "salesCount": 3900,
+    "shop": {
+      "shopId": "100666",
+      "name": "拉杆箱旗舰店"
+    },
+    "chinaShippingCny": 15,
+    "weightKg": 3.5,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000021223001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          },
+          {
+            "name": "尺寸",
+            "value": "20寸"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 227,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-10/800/800"
+      },
+      {
+        "skuId": "680000021223002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          },
+          {
+            "name": "尺寸",
+            "value": "24寸"
+          }
+        ],
+        "priceCny": 379,
+        "stock": 256,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-11/800/800"
+      },
+      {
+        "skuId": "680000021223003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺寸",
+            "value": "20寸"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 285,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-12/800/800"
+      },
+      {
+        "skuId": "680000021223004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺寸",
+            "value": "24寸"
+          }
+        ],
+        "priceCny": 379,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-13/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000022340",
+    "title": "高仿名牌女包",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000022340-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000022340-1/800/800",
+      "https://picsum.photos/seed/karvon-680000022340-2/800/800",
+      "https://picsum.photos/seed/karvon-680000022340-3/800/800",
+      "https://picsum.photos/seed/karvon-680000022340-4/800/800"
+    ],
+    "priceCny": 259,
+    "salesCount": 2100,
+    "shop": {
+      "shopId": "100703",
+      "name": "大牌包包店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000022340001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 280,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000022340-10/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000023457",
+    "title": "男士斜挎包休闲",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000023457-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000023457-1/800/800",
+      "https://picsum.photos/seed/karvon-680000023457-2/800/800",
+      "https://picsum.photos/seed/karvon-680000023457-3/800/800",
+      "https://picsum.photos/seed/karvon-680000023457-4/800/800"
+    ],
+    "priceCny": 99,
+    "salesCount": 6700,
+    "shop": {
+      "shopId": "100740",
+      "name": "男包专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000023457001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000023457-10/800/800"
+      },
+      {
+        "skuId": "680000023457002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 362,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000023457-11/800/800"
+      }
+    ]
+  }
+]

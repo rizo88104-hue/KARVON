@@ -1,0 +1,462 @@
+[
+  {
+    "externalId": "680000033510",
+    "title": "电热水壶不锈钢1.8L",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000033510-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000033510-1/800/800",
+      "https://picsum.photos/seed/karvon-680000033510-2/800/800",
+      "https://picsum.photos/seed/karvon-680000033510-3/800/800",
+      "https://picsum.photos/seed/karvon-680000033510-4/800/800"
+    ],
+    "priceCny": 79,
+    "salesCount": 21000,
+    "shop": {
+      "shopId": "100999",
+      "name": "小家电旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000033510001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 410,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000033510-10/800/800"
+      },
+      {
+        "skuId": "680000033510002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 39,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000033510-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000034627",
+    "title": "纯棉四件套床上用品",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000034627-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000034627-1/800/800",
+      "https://picsum.photos/seed/karvon-680000034627-2/800/800",
+      "https://picsum.photos/seed/karvon-680000034627-3/800/800",
+      "https://picsum.photos/seed/karvon-680000034627-4/800/800"
+    ],
+    "priceCny": 199,
+    "salesCount": 9800,
+    "shop": {
+      "shopId": "101036",
+      "name": "家纺旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000034627001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺寸",
+            "value": "1.5米床"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 63,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-10/800/800"
+      },
+      {
+        "skuId": "680000034627002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺寸",
+            "value": "1.8米床"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 92,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-11/800/800"
+      },
+      {
+        "skuId": "680000034627003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺寸",
+            "value": "1.5米床"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 121,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-12/800/800"
+      },
+      {
+        "skuId": "680000034627004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺寸",
+            "value": "1.8米床"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 150,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-13/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000035744",
+    "title": "LED护眼台灯",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000035744-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000035744-1/800/800",
+      "https://picsum.photos/seed/karvon-680000035744-2/800/800",
+      "https://picsum.photos/seed/karvon-680000035744-3/800/800",
+      "https://picsum.photos/seed/karvon-680000035744-4/800/800"
+    ],
+    "priceCny": 69,
+    "salesCount": 15000,
+    "shop": {
+      "shopId": "101073",
+      "name": "灯具专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000035744001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 116,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000035744-10/800/800"
+      },
+      {
+        "skuId": "680000035744002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000035744-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000036861",
+    "title": "陶瓷餐具套装家用",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000036861-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000036861-1/800/800",
+      "https://picsum.photos/seed/karvon-680000036861-2/800/800",
+      "https://picsum.photos/seed/karvon-680000036861-3/800/800",
+      "https://picsum.photos/seed/karvon-680000036861-4/800/800"
+    ],
+    "priceCny": 159,
+    "salesCount": 4800,
+    "shop": {
+      "shopId": "101110",
+      "name": "餐具工厂店"
+    },
+    "chinaShippingCny": 12,
+    "weightKg": 3,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000036861001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "4人份"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 169,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000036861002",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "6人份"
+          }
+        ],
+        "priceCny": 219,
+        "stock": 198,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000037978",
+    "title": "抽屉式收纳盒",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000037978-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000037978-1/800/800",
+      "https://picsum.photos/seed/karvon-680000037978-2/800/800",
+      "https://picsum.photos/seed/karvon-680000037978-3/800/800",
+      "https://picsum.photos/seed/karvon-680000037978-4/800/800"
+    ],
+    "priceCny": 45,
+    "salesCount": 13000,
+    "shop": {
+      "shopId": "101147",
+      "name": "收纳专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": null,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000037978001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 45,
+        "stock": 222,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000037978-10/800/800"
+      },
+      {
+        "skuId": "680000037978002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "透明"
+          }
+        ],
+        "priceCny": 45,
+        "stock": 251,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000037978-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000039095",
+    "title": "不粘锅炒锅家用",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000039095-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000039095-1/800/800",
+      "https://picsum.photos/seed/karvon-680000039095-2/800/800",
+      "https://picsum.photos/seed/karvon-680000039095-3/800/800",
+      "https://picsum.photos/seed/karvon-680000039095-4/800/800"
+    ],
+    "priceCny": 129,
+    "salesCount": 11000,
+    "shop": {
+      "shopId": "101184",
+      "name": "厨具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000039095001",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "30cm"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 0,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000039095002",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "32cm"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 304,
+        "imageUrl": null
+      }
+    ]
+  }
+]

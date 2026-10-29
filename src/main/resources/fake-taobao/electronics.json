@@ -1,0 +1,586 @@
+[
+  {
+    "externalId": "680000024574",
+    "title": "无线蓝牙耳机降噪",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000024574-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000024574-1/800/800",
+      "https://picsum.photos/seed/karvon-680000024574-2/800/800",
+      "https://picsum.photos/seed/karvon-680000024574-3/800/800",
+      "https://picsum.photos/seed/karvon-680000024574-4/800/800"
+    ],
+    "priceCny": 159,
+    "salesCount": 42000,
+    "shop": {
+      "shopId": "100777",
+      "name": "数码配件旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000024574001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 386,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000024574-10/800/800"
+      },
+      {
+        "skuId": "680000024574002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 415,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000024574-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000025691",
+    "title": "智能手表运动心率监测",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000025691-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000025691-1/800/800",
+      "https://picsum.photos/seed/karvon-680000025691-2/800/800",
+      "https://picsum.photos/seed/karvon-680000025691-3/800/800",
+      "https://picsum.photos/seed/karvon-680000025691-4/800/800"
+    ],
+    "priceCny": 199,
+    "salesCount": 17000,
+    "shop": {
+      "shopId": "100814",
+      "name": "智能穿戴专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000025691001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 39,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000025691-10/800/800"
+      },
+      {
+        "skuId": "680000025691002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 68,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000025691-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000026808",
+    "title": "快充充电器65W氮化镓",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000026808-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000026808-1/800/800",
+      "https://picsum.photos/seed/karvon-680000026808-2/800/800",
+      "https://picsum.photos/seed/karvon-680000026808-3/800/800",
+      "https://picsum.photos/seed/karvon-680000026808-4/800/800"
+    ],
+    "priceCny": 89,
+    "salesCount": 26000,
+    "shop": {
+      "shopId": "100851",
+      "name": "充电器专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000026808001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "单充电器"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 92,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000026808002",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "充电器+数据线"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 121,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000027925",
+    "title": "充电宝10000毫安轻薄",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000027925-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000027925-1/800/800",
+      "https://picsum.photos/seed/karvon-680000027925-2/800/800",
+      "https://picsum.photos/seed/karvon-680000027925-3/800/800",
+      "https://picsum.photos/seed/karvon-680000027925-4/800/800"
+    ],
+    "priceCny": 79,
+    "salesCount": 33000,
+    "shop": {
+      "shopId": "100888",
+      "name": "移动电源专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000027925001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 145,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000027925-10/800/800"
+      },
+      {
+        "skuId": "680000027925002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000027925-11/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000029042",
+    "title": "大容量充电宝50000毫安",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000029042-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000029042-1/800/800",
+      "https://picsum.photos/seed/karvon-680000029042-2/800/800",
+      "https://picsum.photos/seed/karvon-680000029042-3/800/800",
+      "https://picsum.photos/seed/karvon-680000029042-4/800/800"
+    ],
+    "priceCny": 199,
+    "salesCount": 5200,
+    "shop": {
+      "shopId": "100888",
+      "name": "移动电源专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000029042001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 198,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000029042-10/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000030159",
+    "title": "手机壳防摔透明",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000030159-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000030159-1/800/800",
+      "https://picsum.photos/seed/karvon-680000030159-2/800/800",
+      "https://picsum.photos/seed/karvon-680000030159-3/800/800",
+      "https://picsum.photos/seed/karvon-680000030159-4/800/800"
+    ],
+    "priceCny": 15,
+    "salesCount": 88000,
+    "shop": {
+      "shopId": "100925",
+      "name": "手机壳批发店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000030159001",
+        "properties": [
+          {
+            "name": "适用型号",
+            "value": "iPhone 15"
+          }
+        ],
+        "priceCny": 15,
+        "stock": 251,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000030159002",
+        "properties": [
+          {
+            "name": "适用型号",
+            "value": "iPhone 15 Pro"
+          }
+        ],
+        "priceCny": 15,
+        "stock": 280,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000030159003",
+        "properties": [
+          {
+            "name": "适用型号",
+            "value": "Redmi Note 13"
+          }
+        ],
+        "priceCny": 15,
+        "stock": 309,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000031276",
+    "title": "机械键盘RGB背光",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000031276-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000031276-1/800/800",
+      "https://picsum.photos/seed/karvon-680000031276-2/800/800",
+      "https://picsum.photos/seed/karvon-680000031276-3/800/800",
+      "https://picsum.photos/seed/karvon-680000031276-4/800/800"
+    ],
+    "priceCny": 229,
+    "salesCount": 7300,
+    "shop": {
+      "shopId": "100962",
+      "name": "外设专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000031276001",
+        "properties": [
+          {
+            "name": "轴体",
+            "value": "红轴"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 0,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000031276002",
+        "properties": [
+          {
+            "name": "轴体",
+            "value": "青轴"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 333,
+        "imageUrl": null
+      },
+      {
+        "skuId": "680000031276003",
+        "properties": [
+          {
+            "name": "轴体",
+            "value": "茶轴"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 362,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "externalId": "680000032393",
+    "title": "无线鼠标静音",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000032393-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000032393-1/800/800",
+      "https://picsum.photos/seed/karvon-680000032393-2/800/800",
+      "https://picsum.photos/seed/karvon-680000032393-3/800/800",
+      "https://picsum.photos/seed/karvon-680000032393-4/800/800"
+    ],
+    "priceCny": 39,
+    "salesCount": 41000,
+    "shop": {
+      "shopId": "100962",
+      "name": "外设专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000032393001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 357,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-10/800/800"
+      },
+      {
+        "skuId": "680000032393002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 386,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-11/800/800"
+      },
+      {
+        "skuId": "680000032393003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-12/800/800"
+      }
+    ]
+  }
+]

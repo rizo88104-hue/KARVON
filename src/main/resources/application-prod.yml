@@ -20,3 +20,14 @@ karvon:
       email: ${ESKIZ_EMAIL}
       password: ${ESKIZ_PASSWORD}
       from: ${ESKIZ_FROM}
+  taobao:
+    api-url: ${TAOBAO_API_URL}
+    api-key: ${TAOBAO_API_KEY}
+
+translation:
+  # google or yandex
+  provider: ${TRANSLATION_PROVIDER}
+  api-key: ${TRANSLATION_API_KEY}
+  yandex:
+    # only for Yandex user accounts; a service account API key does not need it
+    folder-id: ${YANDEX_FOLDER_ID:}

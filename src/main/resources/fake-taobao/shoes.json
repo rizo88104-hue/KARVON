@@ -1,0 +1,1604 @@
+[
+  {
+    "externalId": "680000001117",
+    "title": "男士运动鞋透气网面跑步鞋",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000001117-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000001117-1/800/800",
+      "https://picsum.photos/seed/karvon-680000001117-2/800/800",
+      "https://picsum.photos/seed/karvon-680000001117-3/800/800",
+      "https://picsum.photos/seed/karvon-680000001117-4/800/800"
+    ],
+    "priceCny": 129,
+    "salesCount": 15230,
+    "shop": {
+      "shopId": "100000",
+      "name": "运动鞋专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "网面"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000001117001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 73,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-10/800/800"
+      },
+      {
+        "skuId": "680000001117002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 102,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-11/800/800"
+      },
+      {
+        "skuId": "680000001117003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-12/800/800"
+      },
+      {
+        "skuId": "680000001117004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 160,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-13/800/800"
+      },
+      {
+        "skuId": "680000001117005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 189,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-14/800/800"
+      },
+      {
+        "skuId": "680000001117006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 218,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-15/800/800"
+      },
+      {
+        "skuId": "680000001117007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 247,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-16/800/800"
+      },
+      {
+        "skuId": "680000001117008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 276,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-17/800/800"
+      },
+      {
+        "skuId": "680000001117009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 305,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-18/800/800"
+      },
+      {
+        "skuId": "680000001117010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-19/800/800"
+      },
+      {
+        "skuId": "680000001117011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 363,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-20/800/800"
+      },
+      {
+        "skuId": "680000001117012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 392,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-21/800/800"
+      },
+      {
+        "skuId": "680000001117013",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 21,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-22/800/800"
+      },
+      {
+        "skuId": "680000001117014",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 50,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-23/800/800"
+      },
+      {
+        "skuId": "680000001117015",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 79,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-24/800/800"
+      },
+      {
+        "skuId": "680000001117016",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 108,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-25/800/800"
+      },
+      {
+        "skuId": "680000001117017",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-26/800/800"
+      },
+      {
+        "skuId": "680000001117018",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 166,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-27/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000002234",
+    "title": "女士小白鞋百搭运动鞋",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000002234-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000002234-1/800/800",
+      "https://picsum.photos/seed/karvon-680000002234-2/800/800",
+      "https://picsum.photos/seed/karvon-680000002234-3/800/800",
+      "https://picsum.photos/seed/karvon-680000002234-4/800/800"
+    ],
+    "priceCny": 89,
+    "salesCount": 23400,
+    "shop": {
+      "shopId": "100037",
+      "name": "小白鞋工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000002234001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 126,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-10/800/800"
+      },
+      {
+        "skuId": "680000002234002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 155,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-11/800/800"
+      },
+      {
+        "skuId": "680000002234003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 184,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-12/800/800"
+      },
+      {
+        "skuId": "680000002234004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 213,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-13/800/800"
+      },
+      {
+        "skuId": "680000002234005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-14/800/800"
+      },
+      {
+        "skuId": "680000002234006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 271,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-15/800/800"
+      },
+      {
+        "skuId": "680000002234007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 300,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-16/800/800"
+      },
+      {
+        "skuId": "680000002234008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 329,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-17/800/800"
+      },
+      {
+        "skuId": "680000002234009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 358,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-18/800/800"
+      },
+      {
+        "skuId": "680000002234010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 387,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-19/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000003351",
+    "title": "儿童运动鞋防滑软底",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000003351-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000003351-1/800/800",
+      "https://picsum.photos/seed/karvon-680000003351-2/800/800",
+      "https://picsum.photos/seed/karvon-680000003351-3/800/800",
+      "https://picsum.photos/seed/karvon-680000003351-4/800/800"
+    ],
+    "priceCny": 69,
+    "salesCount": 8800,
+    "shop": {
+      "shopId": "100074",
+      "name": "童鞋专营店"
+    },
+    "chinaShippingCny": 6,
+    "weightKg": 0.6,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "网面"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000003351001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "鞋码",
+            "value": "26"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 179,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-10/800/800"
+      },
+      {
+        "skuId": "680000003351002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "鞋码",
+            "value": "28"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 208,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-11/800/800"
+      },
+      {
+        "skuId": "680000003351003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "鞋码",
+            "value": "30"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 237,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-12/800/800"
+      },
+      {
+        "skuId": "680000003351004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "鞋码",
+            "value": "32"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 266,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-13/800/800"
+      },
+      {
+        "skuId": "680000003351005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "26"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 295,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-14/800/800"
+      },
+      {
+        "skuId": "680000003351006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "28"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 324,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-15/800/800"
+      },
+      {
+        "skuId": "680000003351007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "30"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-16/800/800"
+      },
+      {
+        "skuId": "680000003351008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "鞋码",
+            "value": "32"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 382,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-17/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000004468",
+    "title": "男士真皮商务皮鞋",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000004468-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000004468-1/800/800",
+      "https://picsum.photos/seed/karvon-680000004468-2/800/800",
+      "https://picsum.photos/seed/karvon-680000004468-3/800/800",
+      "https://picsum.photos/seed/karvon-680000004468-4/800/800"
+    ],
+    "priceCny": 239,
+    "salesCount": 4300,
+    "shop": {
+      "shopId": "100111",
+      "name": "男鞋工厂店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000004468001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 232,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-10/800/800"
+      },
+      {
+        "skuId": "680000004468002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-11/800/800"
+      },
+      {
+        "skuId": "680000004468003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 290,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-12/800/800"
+      },
+      {
+        "skuId": "680000004468004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 319,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-13/800/800"
+      },
+      {
+        "skuId": "680000004468005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 348,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-14/800/800"
+      },
+      {
+        "skuId": "680000004468006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 377,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-15/800/800"
+      },
+      {
+        "skuId": "680000004468007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 406,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-16/800/800"
+      },
+      {
+        "skuId": "680000004468008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 35,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-17/800/800"
+      },
+      {
+        "skuId": "680000004468009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-18/800/800"
+      },
+      {
+        "skuId": "680000004468010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 93,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-19/800/800"
+      },
+      {
+        "skuId": "680000004468011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 122,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-20/800/800"
+      },
+      {
+        "skuId": "680000004468012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 151,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-21/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000005585",
+    "title": "女士高跟鞋尖头细跟",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000005585-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000005585-1/800/800",
+      "https://picsum.photos/seed/karvon-680000005585-2/800/800",
+      "https://picsum.photos/seed/karvon-680000005585-3/800/800",
+      "https://picsum.photos/seed/karvon-680000005585-4/800/800"
+    ],
+    "priceCny": 159,
+    "salesCount": 6100,
+    "shop": {
+      "shopId": "100148",
+      "name": "女鞋专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.7,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000005585001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 285,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-10/800/800"
+      },
+      {
+        "skuId": "680000005585002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 314,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-11/800/800"
+      },
+      {
+        "skuId": "680000005585003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 343,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-12/800/800"
+      },
+      {
+        "skuId": "680000005585004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-13/800/800"
+      },
+      {
+        "skuId": "680000005585005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 401,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-14/800/800"
+      },
+      {
+        "skuId": "680000005585006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 30,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-15/800/800"
+      },
+      {
+        "skuId": "680000005585007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 59,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-16/800/800"
+      },
+      {
+        "skuId": "680000005585008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 88,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-17/800/800"
+      },
+      {
+        "skuId": "680000005585009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 117,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-18/800/800"
+      },
+      {
+        "skuId": "680000005585010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 146,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-19/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000006702",
+    "title": "冬季加绒雪地靴",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000006702-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000006702-1/800/800",
+      "https://picsum.photos/seed/karvon-680000006702-2/800/800",
+      "https://picsum.photos/seed/karvon-680000006702-3/800/800",
+      "https://picsum.photos/seed/karvon-680000006702-4/800/800"
+    ],
+    "priceCny": 179,
+    "salesCount": 9700,
+    "shop": {
+      "shopId": "100185",
+      "name": "雪地靴工厂店"
+    },
+    "chinaShippingCny": 8,
+    "weightKg": 1.3,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "冬季"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000006702001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 338,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-10/800/800"
+      },
+      {
+        "skuId": "680000006702002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 367,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-11/800/800"
+      },
+      {
+        "skuId": "680000006702003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 396,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-12/800/800"
+      },
+      {
+        "skuId": "680000006702004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 25,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-13/800/800"
+      },
+      {
+        "skuId": "680000006702005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 54,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-14/800/800"
+      },
+      {
+        "skuId": "680000006702006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-15/800/800"
+      },
+      {
+        "skuId": "680000006702007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 112,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-16/800/800"
+      },
+      {
+        "skuId": "680000006702008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 141,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-17/800/800"
+      },
+      {
+        "skuId": "680000006702009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 170,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-18/800/800"
+      },
+      {
+        "skuId": "680000006702010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 199,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-19/800/800"
+      }
+    ]
+  },
+  {
+    "externalId": "680000007819",
+    "title": "夏季男士拖鞋防滑",
+    "mainImageUrl": "https://picsum.photos/seed/karvon-680000007819-1/800/800",
+    "images": [
+      "https://picsum.photos/seed/karvon-680000007819-1/800/800",
+      "https://picsum.photos/seed/karvon-680000007819-2/800/800",
+      "https://picsum.photos/seed/karvon-680000007819-3/800/800",
+      "https://picsum.photos/seed/karvon-680000007819-4/800/800"
+    ],
+    "priceCny": 29.9,
+    "salesCount": 52000,
+    "shop": {
+      "shopId": "100222",
+      "name": "居家拖鞋店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "适用季节",
+        "value": "夏季"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000007819001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-10/800/800"
+      },
+      {
+        "skuId": "680000007819002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 20,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-11/800/800"
+      },
+      {
+        "skuId": "680000007819003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 49,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-12/800/800"
+      },
+      {
+        "skuId": "680000007819004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 78,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-13/800/800"
+      },
+      {
+        "skuId": "680000007819005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 107,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-14/800/800"
+      },
+      {
+        "skuId": "680000007819006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 136,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-15/800/800"
+      },
+      {
+        "skuId": "680000007819007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 165,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-16/800/800"
+      },
+      {
+        "skuId": "680000007819008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 0,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-17/800/800"
+      },
+      {
+        "skuId": "680000007819009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 223,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-18/800/800"
+      },
+      {
+        "skuId": "680000007819010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 252,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-19/800/800"
+      },
+      {
+        "skuId": "680000007819011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 281,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-20/800/800"
+      },
+      {
+        "skuId": "680000007819012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "鞋码",
+            "value": "44"
+          }
+        ],
+        "priceCny": 29.9,
+        "stock": 310,
+        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-21/800/800"
+      }
+    ]
+  }
+]
