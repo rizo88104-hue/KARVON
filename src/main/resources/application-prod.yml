@@ -23,6 +23,15 @@ karvon:
   taobao:
     api-url: ${TAOBAO_API_URL}
     api-key: ${TAOBAO_API_KEY}
+  payment:
+    payme:
+      login: ${PAYME_LOGIN}
+      key: ${PAYME_KEY}
+      merchant-id: ${PAYME_MERCHANT_ID}
+    click:
+      secret-key: ${CLICK_SECRET_KEY}
+      service-id: ${CLICK_SERVICE_ID}
+      merchant-id: ${CLICK_MERCHANT_ID}
 
 translation:
   # google or yandex

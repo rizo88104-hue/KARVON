@@ -59,6 +59,7 @@ public class OrderService {
     private final OrderViews views;
     private final CartService cart;
     private final AddressService addresses;
+    private final PendingPaymentCheck pendingPayments;
     private final JsonMapper json;
     private final Clock clock;
 
@@ -184,6 +185,10 @@ public class OrderService {
         Order order = orders.findById(orderId).orElse(null);
         if (order == null || order.getStatus() != OrderStatus.AWAITING_PAYMENT
                 || !order.getCreatedAt().isBefore(Instant.now(clock).minus(paymentTimeout))) {
+            return false;
+        }
+        if (pendingPayments.hasPendingPayment(orderId)) {
+            // A provider is still processing a payment for it (Payme allows up to 12 hours).
             return false;
         }
         workflow.change(order, OrderStatus.CANCELLED, SYSTEM, null, "To'lov muddati tugadi");

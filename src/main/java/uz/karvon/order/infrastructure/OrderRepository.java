@@ -16,6 +16,8 @@ public interface OrderRepository extends JpaRepository<Order, UUID>, JpaSpecific
 
     Optional<Order> findByNumberAndCustomerId(String number, UUID customerId);
 
+    Optional<Order> findByNumber(String number);
+
     @Query(value = "SELECT nextval('order_number_seq')", nativeQuery = true)
     long nextNumber();
 

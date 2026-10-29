@@ -57,6 +57,19 @@ karvon:
     # Unpaid orders are cancelled after this time; the check runs every auto-cancel-check-ms.
     payment-timeout: 30m
     auto-cancel-check-ms: 60000
+  payment:
+    # Where the customer returns after paying (optional) and the base URL of this API (dev fake checkout link).
+    return-url: ${PAYMENT_RETURN_URL:}
+    public-base-url: ${PUBLIC_BASE_URL:http://localhost:8080}
+    payme:
+      login: ${PAYME_LOGIN:}
+      key: ${PAYME_KEY:}
+      merchant-id: ${PAYME_MERCHANT_ID:}
+      checkout-url: ${PAYME_CHECKOUT_URL:https://checkout.paycom.uz}
+    click:
+      secret-key: ${CLICK_SECRET_KEY:}
+      service-id: ${CLICK_SERVICE_ID:}
+      merchant-id: ${CLICK_MERCHANT_ID:}
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

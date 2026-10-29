@@ -4,3 +4,12 @@ karvon:
     jwt-secret: test-only-jwt-secret-0123456789abcdefghij
   admin:
     phone: "+998900000001"
+  payment:
+    payme:
+      login: Paycom
+      key: test-payme-key
+      merchant-id: test-merchant
+    click:
+      secret-key: test-click-secret
+      service-id: "36"
+      merchant-id: "46"

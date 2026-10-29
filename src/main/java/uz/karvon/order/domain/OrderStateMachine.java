@@ -41,8 +41,9 @@ public final class OrderStateMachine {
         allow(AWAITING_PAYMENT, PAID, SYSTEM, ADMIN);
         allow(AWAITING_PAYMENT, CANCELLED, CUSTOMER, SYSTEM, ADMIN);
         allow(PAID, PURCHASING, BUYER, ADMIN);
-        // The customer may cancel a paid order until purchasing starts; the money is refunded.
-        allow(PAID, CANCELLED, CUSTOMER, ADMIN);
+        // The customer may cancel a paid order until purchasing starts (refunded to the wallet);
+        // SYSTEM cancels it when the payment provider reverses the payment.
+        allow(PAID, CANCELLED, CUSTOMER, SYSTEM, ADMIN);
         allow(PURCHASING, PURCHASED, BUYER, ADMIN);
         allow(PURCHASING, OUT_OF_STOCK, BUYER, ADMIN);
         allow(PURCHASING, PRICE_CHANGED, BUYER, ADMIN);

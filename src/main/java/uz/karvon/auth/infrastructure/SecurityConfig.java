@@ -33,6 +33,8 @@ public class SecurityConfig {
             "/api/v1/settings/pricing",
             "/api/v1/pricing/estimate",
             "/api/v1/catalog/**",
+            // Payme and Click call these; they check their own credentials (Basic auth / sign).
+            "/api/v1/payments/payme", "/api/v1/payments/click/**",
             // The controller exists only in the dev and test profiles.
             "/api/v1/dev/**",
             "/error"
