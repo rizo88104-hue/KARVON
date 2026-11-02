@@ -49,6 +49,14 @@ public class User extends BaseEntity {
     @Column(name = "telegram_chat_id")
     private Long telegramChatId;
 
+    /** The customer wants SMS notifications. */
+    @Column(name = "notify_sms", nullable = false)
+    private boolean notifySms = true;
+
+    /** The customer wants Telegram notifications (once a chat is linked). */
+    @Column(name = "notify_telegram", nullable = false)
+    private boolean notifyTelegram = true;
+
     protected User() {
     }
 

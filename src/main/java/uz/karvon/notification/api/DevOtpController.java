@@ -25,6 +25,8 @@ import java.util.regex.Pattern;
 public class DevOtpController {
 
     private static final Pattern CODE = Pattern.compile("\\b(\\d{5})\\b");
+    /** Part of the OTP SMS text ("Karvon: tasdiqlash kodi 12345. ..."). */
+    private static final String OTP_MARKER = "tasdiqlash kodi";
 
     private final FakeSmsSender sms;
 
@@ -32,7 +34,8 @@ public class DevOtpController {
     @GetMapping("/{phone}")
     public DevOtpResponse lastCode(@PathVariable String phone) {
         String normalized = PhoneNumbers.normalize(phone).orElse(phone);
-        String text = sms.lastMessage(normalized)
+        // Order notifications go to the same phone; only login code messages count.
+        String text = sms.lastMessage(normalized, message -> message.contains(OTP_MARKER))
                 .orElseThrow(() -> new NotFoundException("DEV_OTP_NOT_FOUND", "error.dev.otpNotFound"));
         Matcher matcher = CODE.matcher(text);
         if (!matcher.find()) {

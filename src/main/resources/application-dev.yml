@@ -32,3 +32,7 @@ karvon:
   auth:
     # Dev-only fallback so the app starts without a .env file. Production has no default.
     jwt-secret: ${JWT_SECRET:dev-only-jwt-secret-change-me-0123456789}
+  telegram:
+    # The fake Telegram sender logs messages; these only make links and the webhook work locally.
+    bot-username: ${TELEGRAM_BOT_USERNAME:karvon_dev_bot}
+    webhook-secret: ${TELEGRAM_WEBHOOK_SECRET:dev-only-telegram-secret}

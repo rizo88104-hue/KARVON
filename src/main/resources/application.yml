@@ -88,3 +88,16 @@ karvon:
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}
+  telegram:
+    # Required: there is no default outside the dev profile. The token (TELEGRAM_BOT_TOKEN) is read in prod only.
+    bot-username: ${TELEGRAM_BOT_USERNAME}
+    # Telegram sends it in X-Telegram-Bot-Api-Secret-Token (setWebhook secret_token).
+    webhook-secret: ${TELEGRAM_WEBHOOK_SECRET}
+    link-ttl: 15m
+  notification:
+    # Bounded pool for sending; when the queue is full the caller sends itself.
+    threads: 2
+    max-threads: 4
+    queue-capacity: 1000
+    # FAILED notifications are retried (5 times, 1-16 min backoff) by a job running this often.
+    retry-check-ms: 60000

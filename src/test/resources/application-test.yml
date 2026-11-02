@@ -4,6 +4,14 @@ karvon:
     jwt-secret: test-only-jwt-secret-0123456789abcdefghij
   admin:
     phone: "+998900000001"
+  telegram:
+    bot-username: karvon_test_bot
+    webhook-secret: test-telegram-secret
+  notification:
+    # Send in the test thread right after the commit, so tests can check the result at once.
+    async: false
+    # The retry job is called by the tests themselves.
+    retry-check-ms: 3600000
   files:
     local-dir: ${java.io.tmpdir}/karvon-test-files
   payment:

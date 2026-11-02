@@ -109,6 +109,38 @@ public class UserService {
         return true;
     }
 
+    /** Phone, language, Telegram chat and notification choices of a user; empty if there is no such user. */
+    public Optional<NotificationContact> notificationContact(UUID id) {
+        return users.findById(id).map(UserService::contact);
+    }
+
+    /** Links a Telegram chat to the user; the chat is taken away from any other user it was linked to. */
+    @Transactional
+    public NotificationContact linkTelegram(UUID id, long chatId) {
+        users.unlinkTelegramChatFromOthers(chatId, id);
+        User user = load(id);
+        user.setTelegramChatId(chatId);
+        return contact(user);
+    }
+
+    /** Null leaves the choice as it is. */
+    @Transactional
+    public NotificationContact updateNotificationSettings(UUID id, Boolean sms, Boolean telegram) {
+        User user = load(id);
+        if (sms != null) {
+            user.setNotifySms(sms);
+        }
+        if (telegram != null) {
+            user.setNotifyTelegram(telegram);
+        }
+        return contact(user);
+    }
+
+    private static NotificationContact contact(User user) {
+        return new NotificationContact(user.getId(), user.getPhone(), user.getLanguage(), user.getTelegramChatId(),
+                user.isNotifySms(), user.isNotifyTelegram());
+    }
+
     private User load(UUID id) {
         return users.findById(id)
                 .orElseThrow(() -> new NotFoundException("USER_NOT_FOUND", "error.user.notFound"));
