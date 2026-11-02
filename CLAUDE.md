@@ -46,6 +46,22 @@ OpenAPI at `/v3/api-docs`). **Never change the backend.** Read it only when you 
   CartShopGroup, CheckoutModal, EmptyState, Toast (+ Modal, ProductImage).
 - Content pages come from `GET /api/v1/pages/{slug}`; the slugs are in `CONTENT_PAGES` (`faq`, `delivery`,
   `returns`, `public-offer`). Admins must create pages with these slugs.
+- Route groups: customer pages live in `src/app/[locale]/(shop)/` (site header/footer layout); the staff panel in
+  `src/app/[locale]/admin/` has its own layout (`AdminShell`). URLs are unchanged.
+
+## Staff panel (/admin, Task 12)
+- Roles OPERATOR, BUYER, ADMIN. Sections and their roles are in `src/lib/admin/roles.ts` (`ADMIN_SECTIONS`, same rules
+  as the backend's `@PreAuthorize`); the menu shows only allowed sections, other sections show "no access".
+- Order actions follow `StaffOrderResponse.nextStatuses` (already filtered by the caller's roles), never a hard-coded
+  status list. Buyer queue: PAID (queue endpoint) → PURCHASING → PURCHASED (weighing), phone first.
+- Every action goes through `useAction` (toast with the result, refresh queries). Every destructive action uses
+  `ConfirmDialog` (never `window.confirm`).
+- Spring `pageable` query objects must be sent with `querySerializer: FORM_QUERY` (page=…&size=…).
+- `GET /admin/reports/orders` has no row schema in OpenAPI (`ResponseEntity<?>`): the table is rendered generically from
+  the row keys; do not hand-write a DTO for it.
+- Content editors use the config-driven `CrudSection`; page bodies use `MarkdownEditor` (live preview).
+- Dev test staff accounts (dev DB only): ADMIN +998901234567, OPERATOR +998900000002, BUYER +998900000003.
+  OTP is limited to 3 requests per phone per 10 minutes.
 
 ## Rules
 - All texts through next-intl: `src/messages/uz.json` and `src/messages/ru.json` must both be complete and have

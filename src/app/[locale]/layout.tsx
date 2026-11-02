@@ -4,8 +4,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Manrope } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
-import { SiteFooter } from "@/components/layout/SiteFooter";
-import { SiteHeader } from "@/components/layout/SiteHeader";
 import { asLocale, routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
 import { Providers } from "../providers";
@@ -63,9 +61,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="flex min-h-dvh flex-col">
         <NextIntlClientProvider>
           <Providers>
-            <SiteHeader />
-            <div className="flex-1">{children}</div>
-            <SiteFooter />
+            {children}
           </Providers>
         </NextIntlClientProvider>
       </body>

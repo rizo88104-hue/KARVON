@@ -46,3 +46,32 @@ export type Problem = {
 
 export type Banner = S["PublicBannerResponse"];
 export type ContentPage = S["PublicPageResponse"];
+
+// Staff panel (/admin)
+export type Role = NonNullable<User["roles"]>[number];
+export type StaffOrder = S["StaffOrderResponse"];
+export type StaffOrderSummary = S["StaffOrderSummaryResponse"];
+export type OrderHistory = S["OrderHistoryResponse"];
+export type OrderComment = S["OrderCommentResponse"];
+export type QueueOrder = S["ProcurementQueueOrder"];
+export type QueueItem = S["Item"];
+export type Dashboard = S["DashboardResponse"];
+export type DelayedOrder = S["DelayedOrderResponse"];
+export type CustomerSupport = S["CustomerSupportResponse"];
+export type Notification = S["NotificationResponse"];
+export type NotificationStatus = NonNullable<Notification["status"]>;
+export type StaffPricingSettings = S["PricingSettingsResponse"];
+export type UpdatePricingSettings = S["UpdatePricingSettingsRequest"];
+export type CbuRate = S["CbuRateResponse"];
+export type MonthlyReport = S["MonthlyReportResponse"];
+export type AdminBanner = S["BannerResponse"];
+export type BannerRequest = S["BannerRequest"];
+export type AdminCategory = S["AdminCategoryResponse"];
+export type CategoryRequest = S["CategoryRequest"];
+export type BlockedKeyword = S["BlockedKeywordResponse"];
+export type BlockedKeywordRequest = S["BlockedKeywordRequest"];
+export type PromoCode = S["PromoCodeResponse"];
+export type PromoCodeRequest = S["PromoCodeRequest"];
+export type AdminPage = S["ContentPageResponse"];
+export type AdminPageRequest = S["ContentPageRequest"];
+export type AuditEvent = S["AuditEventResponse"];

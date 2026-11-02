@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
-  const privatePaths = ["/cart", "/login", "/account", "/search"];
+  const privatePaths = ["/cart", "/login", "/account", "/search", "/admin"];
   return {
     rules: {
       userAgent: "*",
