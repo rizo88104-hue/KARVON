@@ -150,6 +150,8 @@ karvon:
       access-key: ${S3_ACCESS_KEY:}
       secret-key: ${S3_SECRET_KEY:}
       link-ttl: ${S3_LINK_TTL:1h}
+      # Public address for photo links when S3_ENDPOINT is internal (Docker: http://minio:9000).
+      public-endpoint: ${S3_PUBLIC_ENDPOINT:}
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

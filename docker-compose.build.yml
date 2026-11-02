@@ -1,0 +1,12 @@
+# Local builds of the api and web images (CI builds them in production):
+#   docker compose --env-file deploy/local-test.env -f docker-compose.prod.yml -f docker-compose.build.yml up -d --build
+# Expects karvon-web next to this repository (../karvon-web).
+services:
+  api:
+    build: .
+  web:
+    build:
+      context: ../karvon-web
+      args:
+        BACKEND_URL: http://api:8080
+        NEXT_PUBLIC_SENTRY_DSN: ${NEXT_PUBLIC_SENTRY_DSN:-}

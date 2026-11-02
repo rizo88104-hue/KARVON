@@ -37,3 +37,8 @@ build/
 
 # Local file storage (dev)
 /data/
+
+# Production secrets and local backups (Task 14)
+.env.prod
+.env.*.local
+backups/

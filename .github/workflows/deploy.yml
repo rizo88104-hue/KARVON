@@ -1,0 +1,111 @@
+name: Deploy API
+
+# Push to main: test, build and push ghcr.io/<owner>/karvon-api:<sha> (+ latest), deploy it over SSH,
+# then fail unless https://<API_DOMAIN>/actuator/health is UP.
+#
+# Repository secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY (private key), DEPLOY_KNOWN_HOSTS (ssh-keyscan line)
+# Repository variables: DEPLOY_PATH (default /opt/emarket), API_DOMAIN
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE: ghcr.io/${{ github.repository_owner }}/karvon-api
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+
+  image:
+    needs: test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    outputs:
+      image: ${{ steps.name.outputs.image }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: name
+        # GHCR image names must be lower case.
+        run: echo "image=${IMAGE,,}" >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ steps.name.outputs.image }}:${{ github.sha }}
+            ${{ steps.name.outputs.image }}:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy:
+    needs: image
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    environment: production
+    env:
+      DEPLOY_PATH: ${{ vars.DEPLOY_PATH || '/opt/emarket' }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: SSH key
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          echo "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+      - name: Upload compose file and deploy/ (nginx, backups, scripts)
+        run: |
+          tar -czf - docker-compose.prod.yml deploy \
+            | ssh -i ~/.ssh/id_deploy "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+                "mkdir -p '$DEPLOY_PATH' && tar -xzf - -C '$DEPLOY_PATH'"
+      - name: Pull the new image and restart the API
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Values travel on stdin with the script, so the token never shows up in the server's process list.
+          {
+            printf 'DEPLOY_PATH=%q\nTAG=%q\nGHCR_USER=%q\nGHCR_TOKEN=%q\n' \
+              "$DEPLOY_PATH" "${{ github.sha }}" "${{ github.actor }}" "$GHCR_TOKEN"
+            cat <<'EOF'
+          set -euo pipefail
+          cd "$DEPLOY_PATH"
+          compose() { docker compose --env-file .env.prod -f docker-compose.prod.yml "$@"; }
+          # The job token works only while this job runs; nothing long-lived stays on the server.
+          echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin >/dev/null
+          trap 'docker logout ghcr.io >/dev/null 2>&1 || true' EXIT
+          previous=$(grep -E '^API_IMAGE_TAG=' .env.prod | cut -d= -f2-)
+          API_IMAGE_TAG="$TAG" compose pull api
+          sed -i "s/^API_IMAGE_TAG=.*/API_IMAGE_TAG=$TAG/" .env.prod
+          echo "$(date -u +%FT%TZ) api $previous -> $TAG" >> deploy-history.log
+          compose build nginx backup
+          compose up -d --remove-orphans
+          docker image prune -f >/dev/null
+          compose ps
+          EOF
+          } | ssh -i ~/.ssh/id_deploy "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" 'bash -s'
+      - name: Health check
+        run: |
+          url="https://${{ vars.API_DOMAIN }}/actuator/health"
+          for i in $(seq 1 30); do
+            body=$(curl -fsS -m 10 "$url" || true)
+            if echo "$body" | grep -q '"status":"UP"'; then echo "UP: $body"; exit 0; fi
+            echo "waiting for $url ($i): $body"; sleep 10
+          done
+          echo "::error::$url is not UP after the deploy (roll back: docs/deploy.md)"
+          exit 1

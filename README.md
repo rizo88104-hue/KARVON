@@ -55,3 +55,9 @@ Integration tests start their own PostgreSQL and Redis with Testcontainers, so D
 
 Run with `SPRING_PROFILES_ACTIVE=prod` and set every variable from `.env.example` as a real environment variable.
 `application-prod.yml` has no defaults, so the app does not start if a value is missing.
+
+## Production
+
+Docker images, `docker-compose.prod.yml` (API, site, PostgreSQL, Redis, MinIO, nginx with Let's Encrypt, daily
+backups), GitHub Actions CI/CD and monitoring: see [docs/deploy.md](docs/deploy.md) and
+[docs/server-setup.md](docs/server-setup.md). All variables: [.env.prod.example](.env.prod.example).

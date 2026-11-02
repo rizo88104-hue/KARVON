@@ -1,0 +1,2 @@
+# Scripts and configs run inside Linux containers / on the server: always LF.
+* text=auto eol=lf

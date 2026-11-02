@@ -46,7 +46,12 @@ public class S3FileStorage implements FileStorage {
                 .serviceConfiguration(pathStyle);
         if (!s3.endpoint().isBlank()) {
             clientBuilder.endpointOverride(URI.create(s3.endpoint()));
-            presignerBuilder.endpointOverride(URI.create(s3.endpoint()));
+        }
+        // Links go to browsers: with a private endpoint (e.g. http://minio:9000 in Docker) they are signed for the
+        // public address of the same storage (e.g. https://files.karvon.uz, proxied by nginx with the Host kept).
+        String linkEndpoint = !s3.publicEndpoint().isBlank() ? s3.publicEndpoint() : s3.endpoint();
+        if (!linkEndpoint.isBlank()) {
+            presignerBuilder.endpointOverride(URI.create(linkEndpoint));
         }
         this.client = clientBuilder.build();
         this.presigner = presignerBuilder.build();

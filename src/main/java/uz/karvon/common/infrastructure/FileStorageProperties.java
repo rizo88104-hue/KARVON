@@ -18,9 +18,11 @@ public record FileStorageProperties(@DefaultValue("./data/files") String localDi
     /**
      * @param endpoint e.g. https://storage.yandexcloud.net or a MinIO URL; empty for AWS itself
      * @param linkTtl  how long a presigned photo link stays valid
+     * @param publicEndpoint address browsers use for photo links when {@code endpoint} is private; empty = endpoint
      */
     public record S3(@DefaultValue("") String endpoint, @DefaultValue("us-east-1") String region,
                      @DefaultValue("") String bucket, @DefaultValue("") String accessKey,
-                     @DefaultValue("") String secretKey, @DefaultValue("1h") Duration linkTtl) {
+                     @DefaultValue("") String secretKey, @DefaultValue("1h") Duration linkTtl,
+                     @DefaultValue("") String publicEndpoint) {
     }
 }
