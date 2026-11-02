@@ -26,8 +26,13 @@ public record WebSecurityProperties(@DefaultValue List<String> corsAllowedOrigin
 
     /**
      * Token buckets per client IP and endpoint group, shared by all API instances through Redis.
+     * {@code exemptIps}: clients never limited. By default the private networks: the site server (Next.js SSR and
+     * its auth route handlers) calls the API from there without a customer IP, and a public client cannot appear
+     * with such an address (X-Forwarded-For is only trusted from internal proxies and read from the right).
      */
     public record RateLimit(@DefaultValue("true") boolean enabled,
+                            @DefaultValue({"127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "::1", "fc00::/7"})
+                            List<String> exemptIps,
                             @DefaultValue({"10", "1m"}) Limit auth,
                             @DefaultValue({"120", "1m"}) Limit catalog,
                             @DefaultValue({"300", "1m"}) Limit payments) {

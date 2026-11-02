@@ -23,7 +23,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Per-IP rate limits for /api/v1/auth/**, /api/v1/catalog/** and /api/v1/payments/** (429 RATE_LIMITED with
- * Retry-After). Buckets live in Redis, so the limit holds across API instances. If Redis is unavailable the request
+ * Retry-After). Internal addresses (the site server) are exempt, see WebSecurityProperties.RateLimit.
+ * Buckets live in Redis, so the limit holds across API instances. If Redis is unavailable the request
  * is let through and the problem is logged: an outage of the limiter must not take the shop down.
  */
 @Component
@@ -36,18 +37,21 @@ public class RateLimitFilter extends OncePerRequestFilter {
 
     private final ProxyManager<byte[]> buckets;
     private final WebSecurityProperties.RateLimit limits;
+    private final IpRanges exempt;
     private final ProblemResponses problems;
 
     public RateLimitFilter(ObjectProvider<ProxyManager<byte[]>> buckets, WebSecurityProperties properties,
                            ProblemResponses problems) {
         this.buckets = buckets.getIfAvailable();
         this.limits = properties.rateLimit();
+        this.exempt = IpRanges.parse(limits.exemptIps());
         this.problems = problems;
     }
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
-        return buckets == null || !limits.enabled() || group(request.getRequestURI()) == null;
+        return buckets == null || !limits.enabled() || group(request.getRequestURI()) == null
+                || exempt.contains(request.getRemoteAddr());
     }
 
     @Override

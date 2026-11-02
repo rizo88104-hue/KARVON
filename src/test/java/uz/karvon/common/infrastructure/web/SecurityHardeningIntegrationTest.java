@@ -56,6 +56,14 @@ class SecurityHardeningIntegrationTest extends AbstractIntegrationTest {
     }
 
     @Test
+    void theSiteServerOnTheInternalNetworkIsNotLimited() {
+        // Next.js SSR and the auth route handlers call the API without a customer IP.
+        for (int i = 0; i < 6; i++) {
+            assertThat(otpRequest("172.18.0.5")).hasStatusOk();
+        }
+    }
+
+    @Test
     void paymentCallbacksOnlyFromAllowedIps(CapturedOutput output) {
         MvcTestResult stranger = mvc.post().uri("/api/v1/payments/payme").with(from("198.51.100.9"))
                 .header(RequestIdFilter.HEADER, "req-payme-refused-1")

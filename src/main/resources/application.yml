@@ -134,6 +134,8 @@ karvon:
     metrics-token: ${METRICS_TOKEN:}
     rate-limit:
       enabled: ${RATE_LIMIT_ENABLED:true}
+      # The site server calls the API from the internal network without a customer IP: not limited.
+      exempt-ips: ${RATE_LIMIT_EXEMPT_IPS:127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,::1,fc00::/7}
       auth: { capacity: 10, period: 1m }
       catalog: { capacity: 120, period: 1m }
       payments: { capacity: 300, period: 1m }
