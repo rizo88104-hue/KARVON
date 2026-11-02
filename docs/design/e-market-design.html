@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>E-Market — bosh sahifa dizayni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* E-Market design tokens — use these exact values in the Next.js Tailwind config */
+:root{
+  color-scheme: light;
+  --ink: #111111;          /* top bar, main text */
+  --navy: #232F3E;         /* Katalog button, hero, "Savatga" buttons, brand name */
+  --navy-hover: #2E3C4E;
+  --orange: #FF9900;       /* primary CTA, discount badges */
+  --orange-hover: #F08C00;
+  --grey-bg: #EAEBED;      /* side card, image placeholders, step circles */
+  --line: #E3E5E8;         /* card borders, header divider */
+  --muted: #6B7280;        /* secondary text, old price */
+  --white: #FFFFFF;
+  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --radius-lg: 16px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --container: 1200px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+[hidden]{display:none!important}
+body{background:var(--white);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--orange);outline-offset:2px;border-radius:6px}
+.container{max-width:calc(var(--container) + 32px);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.num{font-variant-numeric:tabular-nums}
+
+/* top bar */
+.topbar{background:var(--ink);color:#fff;font-size:13px;font-weight:500}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:34px;flex-wrap:wrap}
+.topbar .lang a{opacity:.95}
+.topbar .lang a.on{font-weight:600}
+.topbar .lang span{opacity:.6;margin:0 4px}
+
+/* header */
+header.site{border-bottom:1px solid var(--line);background:#fff}
+.head-row{display:flex;align-items:center;gap:16px;padding-top:16px;padding-bottom:10px}
+.brand{font-size:28px;font-weight:700;letter-spacing:-.02em;color:var(--navy);white-space:nowrap;margin-right:2px}
+.btn-katalog{display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 18px;border:0;border-radius:var(--radius-sm);background:var(--navy);color:#fff;font-weight:700;font-size:15px;cursor:pointer;white-space:nowrap}
+.btn-katalog:hover{background:var(--navy-hover)}
+.btn-katalog svg{width:18px;height:18px}
+.search{flex:1;min-width:0;display:flex;align-items:center;gap:10px;height:48px;padding:0 14px;border:2px solid var(--navy);border-radius:10px;background:#fff}
+.search svg{width:16px;height:16px;color:var(--muted);flex:none}
+.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font-size:15px}
+.search input::placeholder{color:var(--muted)}
+.head-actions{display:flex;align-items:center;gap:6px;margin-left:12px}
+.head-actions a{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 10px;border-radius:var(--radius-sm);font-weight:500;font-size:14px;white-space:nowrap}
+.head-actions a:hover{background:var(--grey-bg)}
+.head-actions svg{width:20px;height:20px}
+.cats{display:flex;gap:20px;padding-top:4px;padding-bottom:12px;overflow-x:auto;scrollbar-width:none}
+.cats::-webkit-scrollbar{display:none}
+.cats a{font-size:14px;font-weight:500;color:#374151;white-space:nowrap}
+.cats a:hover{color:var(--navy)}
+
+/* hero */
+main{padding-top:24px;padding-bottom:64px}
+.hero-row{display:grid;grid-template-columns:minmax(0,1.82fr) minmax(0,1fr);gap:16px}
+.hero{background:var(--navy);color:#fff;border-radius:var(--radius-lg);padding:40px 36px;min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:16px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.hero h1{margin:0;font-size:clamp(28px,3.4vw,42px);line-height:1.08;font-weight:800;letter-spacing:-.02em;text-wrap:balance}
+.btn-orange{align-self:flex-start;display:inline-flex;align-items:center;height:44px;padding:0 22px;border:0;border-radius:var(--radius-sm);background:var(--orange);color:var(--ink);font-weight:700;font-size:15px;cursor:pointer}
+.btn-orange:hover{background:var(--orange-hover)}
+.side{background:var(--grey-bg);border-radius:var(--radius-lg);padding:30px 28px;display:flex;flex-direction:column}
+.side h2{margin:0 0 8px;font-size:22px;font-weight:700;letter-spacing:-.01em}
+.side p{margin:0;color:#4B5563;font-size:15px;max-width:40ch}
+.btn-outline{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;height:44px;padding:0 18px;border:2px solid var(--navy);border-radius:var(--radius-sm);background:transparent;color:var(--navy);font-weight:700;font-size:14px;cursor:pointer}
+.btn-outline:hover{background:#fff}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}
+.step{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.step .n{width:42px;height:42px;border-radius:50%;background:var(--grey-bg);display:grid;place-items:center;font-weight:700;font-size:17px;flex:none}
+.step b{display:block;font-size:16px;font-weight:700}
+.step span{display:block;color:var(--muted);font-size:14px}
+
+/* products */
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:36px 0 14px}
+.sec-head h2{margin:0;font-size:24px;font-weight:700;letter-spacing:-.01em}
+.sec-head a{font-size:14px;font-weight:500}
+.sec-head a:hover{color:var(--navy);text-decoration:underline}
+.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;background:#fff}
+.card .img{position:relative;aspect-ratio:227/170;max-width:100%;background:var(--grey-bg);display:grid;place-items:center;color:var(--muted);font-size:13px}
+.badge{position:absolute;left:10px;top:10px;background:var(--orange);color:var(--ink);font-size:12px;font-weight:700;padding:3px 8px;border-radius:6px}
+.card .body{padding:14px 12px 12px;display:flex;flex-direction:column;gap:2px;flex:1}
+.price{font-size:19px;font-weight:700;letter-spacing:-.01em}
+.old{font-size:13px;color:var(--muted);text-decoration:line-through}
+.name{font-size:14px;color:#374151;margin-top:4px;margin-bottom:10px}
+.btn-cart{margin-top:auto;height:44px;border:0;border-radius:var(--radius-sm);background:var(--navy);color:#fff;font-weight:700;font-size:15px;cursor:pointer;width:100%}
+.btn-cart:hover{background:var(--navy-hover)}
+
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:20;max-width:calc(100% - 32px)}
+
+/* responsive */
+@media (max-width:1100px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:900px){
+  .hero-row{grid-template-columns:minmax(0,1fr)}
+  .steps{grid-template-columns:minmax(0,1fr)}
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .head-row{flex-wrap:wrap}
+  .search{order:3;flex-basis:100%}
+  .head-actions{margin-left:auto}
+}
+@media (max-width:560px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .brand{font-size:22px}
+  .btn-katalog span{display:none}
+  .btn-katalog{padding:0 12px}
+  .head-actions a span{display:none}
+  .hero{padding:28px 22px}
+  .price{font-size:16px}
+  .topbar .container{font-size:12px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="container">
+  <span>Taobao mahsulotlari — Xitoydan O'zbekistonga yetkazib berish</span>
+  <span class="lang"><a href="#" class="on">O'zbekcha</a><span>·</span><a href="#">Русский</a></span>
+</div></div>
+
+<header class="site">
+  <div class="container head-row">
+    <a class="brand" href="#">E-Market</a>
+    <button class="btn-katalog" type="button" aria-label="Katalog">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <span>Katalog</span>
+    </button>
+    <form class="search" role="search" onsubmit="event.preventDefault();toast('Qidiruv: ' + (this.q.value || 'bo\'sh'))">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" name="q" type="search" placeholder="Mahsulot nomi yoki Taobao havolasini joylang" aria-label="Qidiruv">
+    </form>
+    <nav class="head-actions" aria-label="Foydalanuvchi">
+      <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>Kirish</span></a>
+      <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.3"/><circle cx="9.5" cy="19.5" r="1.5"/><circle cx="17.5" cy="19.5" r="1.5"/></svg><span>Savat</span></a>
+    </nav>
+  </div>
+  <nav class="container cats" aria-label="Kategoriyalar">
+    <a href="#">Elektronika</a><a href="#">Kiyim</a><a href="#">Uy-ro'zg'or</a><a href="#">Go'zallik</a><a href="#">Bolalar uchun</a><a href="#">Oziq-ovqat</a><a href="#">Sport</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero-row">
+    <div class="hero">
+      <span class="eyebrow">Taobao · Xitoydan to'g'ridan-to'g'ri</span>
+      <h1>Taobao mahsulotlari<br>o'zbek tilida, narxi so'mda</h1>
+      <button class="btn-orange" type="button" onclick="document.getElementById('popular').scrollIntoView({behavior:'smooth'})">Xarid qilish</button>
+    </div>
+    <div class="side">
+      <h2>Havola orqali buyurtma</h2>
+      <p>Taobao'dagi mahsulot havolasini joylang — narxini so'mda hisoblab beramiz.</p>
+      <button class="btn-outline" type="button" onclick="var i=document.getElementById('q');i.focus();i.placeholder='https://item.taobao.com/item.htm?id=...'">Havola joylash</button>
+    </div>
+  </section>
+
+  <section class="steps" aria-label="Qanday ishlaydi">
+    <div class="step"><span class="n">1</span><div><b>Mahsulotni tanlang</b><span>Taobao katalogidan yoki havola orqali</span></div></div>
+    <div class="step"><span class="n">2</span><div><b>Buyurtma bering</b><span>Narx so'mda, to'lov qulay usulda</span></div></div>
+    <div class="step"><span class="n">3</span><div><b>Uyingizga yetkazamiz</b><span>Yetkazish muddati: [MUDDAT] kun</span></div></div>
+  </section>
+
+  <div class="sec-head" id="popular"><h2>Ommabop mahsulotlar</h2><a href="#">Hammasi</a></div>
+  <section class="grid" id="grid" aria-label="Ommabop mahsulotlar"></section>
+</main>
+
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+  var items = [
+    {price:149000, old:199000},
+    {price:89000,  old:120000},
+    {price:329000, old:410000},
+    {price:59000,  old:79000},
+    {price:210000, old:280000}
+  ];
+  var fmt = function(n){ return n.toLocaleString('ru-RU').replace(/[  ]/g,' ') + " so'm"; };
+  document.getElementById('grid').innerHTML = items.map(function(p){
+    var off = Math.round((1 - p.price / p.old) * 100);
+    return '<article class="card">' +
+      '<div class="img"><span class="badge">-' + off + '%</span>Mahsulot rasmi</div>' +
+      '<div class="body"><span class="price num">' + fmt(p.price) + '</span>' +
+      '<span class="old num">' + fmt(p.old) + '</span>' +
+      '<span class="name">Mahsulot nomi</span>' +
+      '<button class="btn-cart" type="button">Savatga</button></div></article>';
+  }).join('');
+  document.getElementById('grid').addEventListener('click', function(e){
+    if(e.target.closest('.btn-cart')) toast("Savatga qo'shildi");
+  });
+})();
+function toast(m){
+  var t=document.getElementById('toast'); t.textContent=m; t.hidden=false;
+  clearTimeout(toast.t); toast.t=setTimeout(function(){t.hidden=true;},2000);
+}
+</script>
+</body>
+</html>
