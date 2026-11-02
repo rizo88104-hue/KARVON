@@ -88,3 +88,19 @@ karvon:
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}
+  notifications:
+    # A FAILED notification is sent again up to max-retries times: after retry-base, then doubled, at most retry-max.
+    max-retries: 5
+    retry-base: 1m
+    retry-max: 1h
+    retry-check-ms: 60000
+    # Sending pool: threads and how many messages may wait for them
+    threads: 2
+    queue-capacity: 1000
+  telegram:
+    # Bot API token (used only outside dev/test), bot name without "@" (deep links), and the secret_token given to
+    # setWebhook; Telegram sends it in X-Telegram-Bot-Api-Secret-Token. An empty secret refuses every webhook call.
+    bot-token: ${TELEGRAM_BOT_TOKEN:}
+    bot-username: ${TELEGRAM_BOT_USERNAME:}
+    webhook-secret: ${TELEGRAM_WEBHOOK_SECRET:}
+    link-ttl: 15m

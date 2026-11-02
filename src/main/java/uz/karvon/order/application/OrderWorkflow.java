@@ -36,7 +36,7 @@ public class OrderWorkflow {
         history.save(new OrderStatusHistoryEntry(order.getId(), null, order.getStatus(), customerId, Actor.CUSTOMER,
                 null, now));
         events.publishEvent(new OrderStatusChangedEvent(order.getId(), order.getNumber(), order.getCustomerId(), null,
-                order.getStatus(), Actor.CUSTOMER, now));
+                order.getStatus(), Actor.CUSTOMER, now, OrderStatusChangedEvent.Details.NONE));
     }
 
     /** Checks that one of {@code actors} may make this change; returns that actor. Changes nothing. */
@@ -66,7 +66,8 @@ public class OrderWorkflow {
         history.save(new OrderStatusHistoryEntry(order.getId(), from, to, actor == Actor.SYSTEM ? null : userId, actor,
                 blankToNull(comment), now));
         events.publishEvent(new OrderStatusChangedEvent(order.getId(), order.getNumber(), order.getCustomerId(), from, to,
-                actor, now));
+                actor, now, new OrderStatusChangedEvent.Details(order.getRealWeightKg(),
+                order.getInternationalTrackingNumber(), order.getPickupInfo())));
     }
 
     /**
@@ -89,6 +90,20 @@ public class OrderWorkflow {
         order.setRefundedUzs(order.getRefundedUzs().add(amount));
         events.publishEvent(new OrderRefundRequestedEvent(order.getId(), order.getNumber(), order.getCustomerId(), amount,
                 reason));
+    }
+
+    /** The weighed parcel costs more to ship than prepaid; tells the customer (notifications). */
+    public void shippingDifferenceDue(Order order) {
+        events.publishEvent(new ShippingDifferenceDueEvent(order.getId(), order.getNumber(), order.getCustomerId(),
+                order.shippingDifferenceDueUzs()));
+    }
+
+    /** The customer accepted a higher price; {@code amount} more is due. Zero or less does nothing. */
+    public void priceDifferenceDue(Order order, BigDecimal amount) {
+        if (amount.signum() > 0) {
+            events.publishEvent(new PriceDifferenceDueEvent(order.getId(), order.getNumber(), order.getCustomerId(),
+                    amount));
+        }
     }
 
     private static String blankToNull(String text) {

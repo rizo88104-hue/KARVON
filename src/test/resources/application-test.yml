@@ -1,5 +1,11 @@
 # Integration tests: containers supply Postgres and Redis, the fake SMS sender is used.
 karvon:
+  telegram:
+    bot-username: karvon_test_bot
+    webhook-secret: test-telegram-secret
+  notifications:
+    # Tests run the retry job by hand.
+    retry-check-ms: 3600000
   auth:
     jwt-secret: test-only-jwt-secret-0123456789abcdefghij
   admin:

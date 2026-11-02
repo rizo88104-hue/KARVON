@@ -20,6 +20,10 @@ karvon:
       email: ${ESKIZ_EMAIL}
       password: ${ESKIZ_PASSWORD}
       from: ${ESKIZ_FROM}
+  telegram:
+    bot-token: ${TELEGRAM_BOT_TOKEN}
+    bot-username: ${TELEGRAM_BOT_USERNAME}
+    webhook-secret: ${TELEGRAM_WEBHOOK_SECRET}
   taobao:
     api-url: ${TAOBAO_API_URL}
     api-key: ${TAOBAO_API_KEY}

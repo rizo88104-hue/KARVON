@@ -209,6 +209,7 @@ public class StaffOrderService {
             BigDecimal difference = order.getShippingDifferenceUzs();
             if (difference.signum() > 0) {
                 workflow.change(order, OrderStatus.AWAITING_SHIPPING_PAYMENT, SYSTEM, null, null);
+                workflow.shippingDifferenceDue(order);
             } else if (difference.signum() < 0) {
                 workflow.refund(order, difference.negate(), RefundReason.SHIPPING_OVERPAID);
             }

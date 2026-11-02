@@ -37,6 +37,8 @@ public class SecurityConfig {
             "/api/v1/files/**",
             // Payme and Click call these; they check their own credentials (Basic auth / sign).
             "/api/v1/payments/payme", "/api/v1/payments/click/**",
+            // Telegram calls this; it checks the secret header itself.
+            "/api/v1/telegram/webhook",
             // The controller exists only in the dev and test profiles.
             "/api/v1/dev/**",
             "/error"

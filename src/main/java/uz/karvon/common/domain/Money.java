@@ -25,7 +25,12 @@ public final class Money {
 
     /** Rounds to 100 so'm and formats for people, e.g. "1 234 500 so'm". */
     public static String formatUzs(BigDecimal amount) {
-        return uzsFormat().format(roundUzs(amount)) + " so'm";
+        return formatUzsNumber(amount) + " so'm";
+    }
+
+    /** Rounds to 100 so'm and formats without the currency, e.g. "1 234 500". */
+    public static String formatUzsNumber(BigDecimal amount) {
+        return uzsFormat().format(roundUzs(amount));
     }
 
     // DecimalFormat is not thread-safe, so a new one is made per call.

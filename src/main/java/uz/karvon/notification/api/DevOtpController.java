@@ -11,6 +11,7 @@ import uz.karvon.common.application.NotFoundException;
 import uz.karvon.common.domain.PhoneNumbers;
 import uz.karvon.notification.infrastructure.FakeSmsSender;
 
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,6 +26,8 @@ import java.util.regex.Pattern;
 public class DevOtpController {
 
     private static final Pattern CODE = Pattern.compile("\\b(\\d{5})\\b");
+    /** Part of the login SMS text (OtpService). */
+    private static final String OTP_MARKER = "kodi";
 
     private final FakeSmsSender sms;
 
@@ -32,13 +35,16 @@ public class DevOtpController {
     @GetMapping("/{phone}")
     public DevOtpResponse lastCode(@PathVariable String phone) {
         String normalized = PhoneNumbers.normalize(phone).orElse(phone);
-        String text = sms.lastMessage(normalized)
-                .orElseThrow(() -> new NotFoundException("DEV_OTP_NOT_FOUND", "error.dev.otpNotFound"));
-        Matcher matcher = CODE.matcher(text);
-        if (!matcher.find()) {
-            throw new NotFoundException("DEV_OTP_NOT_FOUND", "error.dev.otpNotFound");
+        // The newest login SMS; order notifications to the same phone are skipped.
+        List<String> sent = sms.messages(normalized);
+        for (int i = sent.size() - 1; i >= 0; i--) {
+            String text = sent.get(i);
+            Matcher matcher = CODE.matcher(text);
+            if (text.contains(OTP_MARKER) && matcher.find()) {
+                return new DevOtpResponse(normalized, matcher.group(1), text);
+            }
         }
-        return new DevOtpResponse(normalized, matcher.group(1), text);
+        throw new NotFoundException("DEV_OTP_NOT_FOUND", "error.dev.otpNotFound");
     }
 
     public record DevOtpResponse(String phone, String code, String text) {

@@ -179,6 +179,7 @@ public class OrderService {
             }
             order.setPriceDifferenceUzs(order.getPriceDifferenceUzs().add(difference));
             workflow.change(order, OrderStatus.PURCHASING, CUSTOMER, customerId, null);
+            workflow.priceDifferenceDue(order, difference);
             workflow.finishPurchasingIfDone(order);
         }
         return views.detail(order, history.findByOrderIdOrderByCreatedAtAsc(order.getId()), false);

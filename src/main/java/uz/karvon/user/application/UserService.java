@@ -56,6 +56,27 @@ public class UserService {
         return mapper.toResponse(load(id));
     }
 
+    /** Phone, language and Telegram chat for notifications. */
+    public Optional<UserContact> contact(UUID id) {
+        return users.findById(id)
+                .map(user -> new UserContact(user.getId(), user.getPhone(), user.getLanguage(), user.getTelegramChatId()));
+    }
+
+    /**
+     * Links a Telegram chat to the user. A chat belongs to one user only: another user who had it loses it.
+     */
+    @Transactional
+    public UserContact linkTelegram(UUID id, long chatId) {
+        User user = load(id);
+        for (User other : users.findByTelegramChatId(chatId)) {
+            if (!other.getId().equals(id)) {
+                other.setTelegramChatId(null);
+            }
+        }
+        user.setTelegramChatId(chatId);
+        return new UserContact(user.getId(), user.getPhone(), user.getLanguage(), chatId);
+    }
+
     @Transactional
     public UserResponse updateProfile(UUID id, UpdateProfileRequest request) {
         User user = load(id);
