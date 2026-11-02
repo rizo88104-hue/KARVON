@@ -60,6 +60,14 @@ public class Order extends BaseEntity {
     @Column(name = "service_fee_uzs", nullable = false)
     private BigDecimal serviceFeeUzs;
 
+    /** The promo code used at checkout, upper case; null when none. */
+    @Column(name = "promo_code", length = 40)
+    private String promoCode;
+
+    /** What the promo code took off; {@code serviceFeeUzs} is already after it. */
+    @Column(name = "promo_discount_uzs", nullable = false)
+    private BigDecimal promoDiscountUzs = BigDecimal.ZERO;
+
     @Column(name = "prepaid_shipping_uzs", nullable = false)
     private BigDecimal prepaidShippingUzs;
 

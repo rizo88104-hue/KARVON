@@ -10,10 +10,12 @@ import java.util.UUID;
 
 /**
  * Orders the selected cart lines. {@code addressId} (one of the customer addresses) is required for POST and COURIER.
+ * {@code promoCode} (optional, any case) lowers the service fee; the fee never goes below 0.
  */
 public record CreateOrderRequest(
         @Schema(example = "POST") @NotNull DeliveryMethod deliveryMethod,
         UUID addressId,
         @Schema(example = "PAYME") @NotNull PaymentMethod paymentMethod,
-        @Size(max = 500) String comment) {
+        @Size(max = 500) String comment,
+        @Schema(example = "KARVON10") @Size(max = 40) String promoCode) {
 }

@@ -43,7 +43,7 @@ public class OrderViews {
                 : json.readValue(order.getAddressSnapshot(), AddressResponse.class);
         return new OrderDetailResponse(order.getId(), order.getNumber(), order.getStatus(), order.getDeliveryMethod(),
                 address, order.getPaymentMethod(), order.getPricingSettingsId(), order.getGoodsUzs(),
-                order.getServiceFeeUzs(), order.getPrepaidShippingUzs(), order.getRealWeightKg(),
+                order.getServiceFeeUzs(), order.getPromoCode(), order.getPromoDiscountUzs(), order.getPrepaidShippingUzs(), order.getRealWeightKg(),
                 order.getFinalShippingUzs(), order.getShippingDifferenceUzs(), order.getPriceDifferenceUzs(),
                 order.getTotalUzs(), order.getPaidUzs(), order.getRefundedUzs(), order.amountDueUzs(),
                 order.getCustomerComment(), order.getInternationalTrackingNumber(), order.getCarrier(),

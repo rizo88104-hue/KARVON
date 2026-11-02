@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.order.api.dto.ArrivedRequest;
 import uz.karvon.order.api.dto.BulkStatusRequest;
@@ -55,6 +56,7 @@ public class StaffOrderStepsController {
 
     /** PURCHASED -> AT_WAREHOUSE with the real weight; more expensive shipping must be paid, cheaper goes to the wallet. */
     @PostMapping("/{id}/weight")
+    @Audited(action = "ORDER_WEIGH", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('BUYER', 'OPERATOR', 'ADMIN')")
     public StaffOrderResponse weight(Authentication authentication, @PathVariable UUID id,
                                      @Valid @RequestBody WeightRequest request) {
@@ -64,6 +66,7 @@ public class StaffOrderStepsController {
 
     /** Up to 4 parcel photos (JPEG or PNG, 5 MB each), form field "files"; shown to the customer. */
     @PostMapping(value = "/{id}/photos", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    @Audited(action = "ORDER_PHOTOS_ADD", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('BUYER', 'OPERATOR', 'ADMIN')")
     public List<OrderPhotoResponse> addPhotos(Authentication authentication, @PathVariable UUID id,
                                               @RequestPart("files") List<MultipartFile> files) {
@@ -78,6 +81,7 @@ public class StaffOrderStepsController {
     }
 
     @DeleteMapping("/{id}/photos/{photoId}")
+    @Audited(action = "ORDER_PHOTO_DELETE", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('BUYER', 'OPERATOR', 'ADMIN')")
     public List<OrderPhotoResponse> deletePhoto(@PathVariable UUID id, @PathVariable UUID photoId) {
         return photos.delete(id, photoId);
@@ -85,6 +89,7 @@ public class StaffOrderStepsController {
 
     /** -> IN_TRANSIT. Refused while a price or shipping difference is unpaid. */
     @PostMapping("/{id}/ship")
+    @Audited(action = "ORDER_SHIP", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('OPERATOR', 'ADMIN')")
     public StaffOrderResponse ship(Authentication authentication, @PathVariable UUID id,
                                    @Valid @RequestBody ShipRequest request) {
@@ -94,6 +99,7 @@ public class StaffOrderStepsController {
 
     /** -> ARRIVED, with where and how to pick the parcel up. */
     @PostMapping("/{id}/arrived")
+    @Audited(action = "ORDER_ARRIVED", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('OPERATOR', 'ADMIN')")
     public StaffOrderResponse arrived(Authentication authentication, @PathVariable UUID id,
                                       @Valid @RequestBody(required = false) ArrivedRequest request) {
@@ -102,6 +108,7 @@ public class StaffOrderStepsController {
     }
 
     @PostMapping("/{id}/delivered")
+    @Audited(action = "ORDER_DELIVERED", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('OPERATOR', 'ADMIN')")
     public StaffOrderResponse delivered(Authentication authentication, @PathVariable UUID id,
                                         @Valid @RequestBody(required = false) StaffCommentRequest request) {
@@ -111,6 +118,7 @@ public class StaffOrderStepsController {
 
     /** Many orders shipped together; each one is checked on its own and reported. */
     @PostMapping("/bulk-status")
+    @Audited(action = "ORDER_BULK_STATUS", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('OPERATOR', 'ADMIN')")
     public List<BulkStatusResult> bulkStatus(Authentication authentication, @Valid @RequestBody BulkStatusRequest request) {
         return bulk.change(CurrentUser.id(authentication), StaffRoles.of(authentication), request.orderIds(),

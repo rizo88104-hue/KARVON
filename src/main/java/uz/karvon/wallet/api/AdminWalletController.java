@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.wallet.api.dto.AdjustWalletRequest;
 import uz.karvon.wallet.api.dto.CardRefundRequest;
@@ -43,6 +44,7 @@ public class AdminWalletController {
 
     /** Adds (positive) or takes (negative) money with a reason. Recorded with your user id. */
     @PostMapping("/adjust")
+    @Audited(action = "WALLET_ADJUST", entityType = "WALLET", idParam = "userId")
     public WalletTransactionResponse adjust(Authentication authentication, @PathVariable UUID userId,
                                             @Valid @RequestBody AdjustWalletRequest request) {
         return wallets.adjust(CurrentUser.id(authentication), userId, request.amount(), request.reason());
@@ -50,6 +52,7 @@ public class AdminWalletController {
 
     /** Records that you returned this wallet money to the customer card by hand. */
     @PostMapping("/card-refund")
+    @Audited(action = "WALLET_CARD_REFUND", entityType = "WALLET", idParam = "userId")
     public WalletTransactionResponse cardRefund(Authentication authentication, @PathVariable UUID userId,
                                                 @Valid @RequestBody CardRefundRequest request) {
         return wallets.cardRefund(CurrentUser.id(authentication), userId, request.amount(), request.comment());

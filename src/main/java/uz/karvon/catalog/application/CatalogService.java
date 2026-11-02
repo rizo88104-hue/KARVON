@@ -145,7 +145,7 @@ public class CatalogService {
         return byParent.getOrDefault(parentId, List.of()).stream()
                 .sorted(Comparator.comparingInt(Category::getSortOrder))
                 .map(c -> new CategoryResponse(c.getSlug(), c.getNameUz(), c.getNameRu(), c.getSearchKeywordZh(),
-                        tree(byParent, c.getId())))
+                        c.getIcon(), tree(byParent, c.getId())))
                 .toList();
     }
 

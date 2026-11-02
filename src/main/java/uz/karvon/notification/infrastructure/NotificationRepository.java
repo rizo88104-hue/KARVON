@@ -20,6 +20,8 @@ public interface NotificationRepository extends JpaRepository<Notification, UUID
 
     List<Notification> findByUserIdOrderByCreatedAtAsc(UUID userId);
 
+    Page<Notification> findByUserId(UUID userId, Pageable pageable);
+
     /**
      * Takes the notification for one send: counts the attempt and moves {@code nextAttemptAt} to {@code lease},
      * so nobody else sends it meanwhile. Returns 0 if it was sent already or someone else holds it.

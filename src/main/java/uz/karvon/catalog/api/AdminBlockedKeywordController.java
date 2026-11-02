@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.catalog.api.dto.BlockedKeywordRequest;
 import uz.karvon.catalog.api.dto.BlockedKeywordResponse;
 import uz.karvon.catalog.application.BlockedGoodsService;
@@ -48,17 +49,20 @@ public class AdminBlockedKeywordController {
     }
 
     @PostMapping
+    @Audited(action = "BLOCKED_KEYWORD_CREATE", entityType = "BLOCKED_KEYWORD")
     @ResponseStatus(HttpStatus.CREATED)
     public BlockedKeywordResponse create(@Valid @RequestBody BlockedKeywordRequest request) {
         return blockedGoods.create(request);
     }
 
     @PutMapping("/{id}")
+    @Audited(action = "BLOCKED_KEYWORD_UPDATE", entityType = "BLOCKED_KEYWORD")
     public BlockedKeywordResponse update(@PathVariable UUID id, @Valid @RequestBody BlockedKeywordRequest request) {
         return blockedGoods.update(id, request);
     }
 
     @DeleteMapping("/{id}")
+    @Audited(action = "BLOCKED_KEYWORD_DELETE", entityType = "BLOCKED_KEYWORD")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable UUID id) {
         blockedGoods.delete(id);

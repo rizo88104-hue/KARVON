@@ -58,6 +58,9 @@ karvon:
     cache:
       search-ttl: 30m
       product-ttl: 2h
+  reports:
+    # Days and months of the dashboard and reports are counted in this time zone.
+    zone: Asia/Tashkent
   orders:
     # Unpaid orders are cancelled after this time; the check runs every auto-cancel-check-ms.
     payment-timeout: 30m

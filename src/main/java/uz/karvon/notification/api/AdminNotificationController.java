@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.notification.api.dto.NotificationResponse;
 import uz.karvon.notification.application.NotificationService;
@@ -39,6 +40,7 @@ public class AdminNotificationController {
 
     /** Sends it again now (also after the automatic retries ran out). A SENT notification gives 409. */
     @PostMapping("/{id}/retry")
+    @Audited(action = "NOTIFICATION_RETRY", entityType = "NOTIFICATION")
     public NotificationResponse retry(@PathVariable UUID id) {
         return notifications.retry(id);
     }

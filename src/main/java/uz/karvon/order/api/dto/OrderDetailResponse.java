@@ -15,7 +15,8 @@ import java.util.UUID;
 /**
  * An order with items, money and the timeline. {@code amountDueUzs} is what is still to pay
  * (the order total until paid, then an accepted price difference and a positive shipping difference). {@code paymentDeadline} is set while
- * the order waits for payment; after it the order is cancelled automatically.
+ * the order waits for payment; after it the order is cancelled automatically. {@code serviceFeeUzs} is after the
+ * {@code promoDiscountUzs} of the {@code promoCode} (null when none).
  */
 public record OrderDetailResponse(
         UUID id,
@@ -27,6 +28,8 @@ public record OrderDetailResponse(
         UUID pricingSettingsId,
         BigDecimal goodsUzs,
         BigDecimal serviceFeeUzs,
+        String promoCode,
+        BigDecimal promoDiscountUzs,
         BigDecimal prepaidShippingUzs,
         BigDecimal realWeightKg,
         BigDecimal finalShippingUzs,

@@ -10,6 +10,7 @@ import uz.karvon.order.domain.OrderStateMachine;
 import uz.karvon.order.domain.OrderStatus;
 import uz.karvon.order.domain.OrderStatusHistoryEntry;
 import uz.karvon.order.infrastructure.OrderStatusHistoryRepository;
+import uz.karvon.pricing.application.PromoCodeService;
 
 import java.math.BigDecimal;
 import java.time.Clock;
@@ -28,6 +29,7 @@ public class OrderWorkflow {
 
     private final OrderStatusHistoryRepository history;
     private final ApplicationEventPublisher events;
+    private final PromoCodeService promoCodes;
     private final Clock clock;
 
     /** Writes the first history entry of a new (saved) order. */
@@ -46,7 +48,8 @@ public class OrderWorkflow {
 
     /**
      * Changes the status. {@code userId} is null for the system.
-     * PAID records the full payment; CANCELLED requests a refund of what was paid and not yet returned.
+     * PAID records the full payment; CANCELLED requests a refund of what was paid and not yet returned and gives the
+     * promo code use back.
      */
     public void change(Order order, OrderStatus to, Set<Actor> actors, UUID userId, String comment) {
         Actor actor = check(order, to, actors);
@@ -58,7 +61,12 @@ public class OrderWorkflow {
                 order.setPaidAt(now);
             }
             case DELIVERED -> order.setDeliveredAt(now);
-            case CANCELLED -> refund(order, order.refundableUzs(), RefundReason.ORDER_CANCELLED);
+            case CANCELLED -> {
+                refund(order, order.refundableUzs(), RefundReason.ORDER_CANCELLED);
+                if (order.getPromoCode() != null) {
+                    promoCodes.release(order.getId());
+                }
+            }
             default -> {
             }
         }

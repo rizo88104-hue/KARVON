@@ -157,6 +157,11 @@ public class NotificationService {
         return PageResponse.of(page, this::response);
     }
 
+    /** Notifications of one user, as {@code pageable} sorts them (customer support). */
+    public PageResponse<NotificationResponse> forUser(UUID userId, Pageable pageable) {
+        return PageResponse.of(notifications.findByUserId(userId, pageable), this::response);
+    }
+
     /** ADMIN: send a notification again now. A SENT one is refused. */
     @Transactional
     public NotificationResponse retry(UUID id) {

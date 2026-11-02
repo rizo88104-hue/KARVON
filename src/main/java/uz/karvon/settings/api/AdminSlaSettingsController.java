@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.settings.api.dto.SlaSettingsResponse;
@@ -37,6 +38,7 @@ public class AdminSlaSettingsController {
 
     /** Saves a new version of all limits; earlier versions are kept. */
     @PutMapping
+    @Audited(action = "SLA_SETTINGS_UPDATE", entityType = "SLA_SETTINGS")
     public SlaSettingsResponse update(Authentication authentication, @Valid @RequestBody UpdateSlaSettingsRequest request) {
         return sla.update(CurrentUser.id(authentication), request.limits());
     }

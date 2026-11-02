@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.order.api.dto.StaffOrderResponse;
@@ -48,12 +49,14 @@ public class ProcurementController {
 
     /** Takes the order: PURCHASING, and you become its buyer. */
     @PostMapping("/orders/{id}/start")
+    @Audited(action = "PROCUREMENT_START", entityType = "ORDER")
     public StaffOrderResponse start(Authentication authentication, @PathVariable UUID id) {
         return procurement.start(CurrentUser.id(authentication), StaffRoles.of(authentication), id);
     }
 
     /** The item is bought. When every item is done the order becomes PURCHASED. */
     @PostMapping("/items/{itemId}/purchased")
+    @Audited(action = "PROCUREMENT_ITEM_PURCHASED", entityType = "ORDER_ITEM", idParam = "itemId")
     public StaffOrderResponse purchased(Authentication authentication, @PathVariable UUID itemId,
                                         @Valid @RequestBody ItemPurchasedRequest request) {
         return procurement.purchased(CurrentUser.id(authentication), StaffRoles.of(authentication), itemId,
@@ -62,6 +65,7 @@ public class ProcurementController {
 
     /** The item cannot be bought; the customer decides (continue without it, or refund). */
     @PostMapping("/items/{itemId}/out-of-stock")
+    @Audited(action = "PROCUREMENT_ITEM_OUT_OF_STOCK", entityType = "ORDER_ITEM", idParam = "itemId")
     public StaffOrderResponse outOfStock(Authentication authentication, @PathVariable UUID itemId,
                                          @Valid @RequestBody(required = false) ItemOutOfStockRequest request) {
         return procurement.outOfStock(CurrentUser.id(authentication), StaffRoles.of(authentication), itemId,

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.settings.api.dto.CbuRateResponse;
@@ -40,6 +41,7 @@ public class AdminSettingsController {
 
     /** Saves a new version that becomes active at once. Earlier versions are kept unchanged. */
     @PutMapping("/pricing")
+    @Audited(action = "PRICING_SETTINGS_UPDATE", entityType = "PRICING_SETTINGS")
     public PricingSettingsResponse update(Authentication authentication,
                                           @Valid @RequestBody UpdatePricingSettingsRequest request) {
         return settings.update(CurrentUser.id(authentication), request);

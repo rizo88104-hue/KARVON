@@ -26,6 +26,7 @@ import uz.karvon.order.domain.OrderStatus;
 import uz.karvon.order.domain.OrderTab;
 import uz.karvon.order.infrastructure.OrderRepository;
 import uz.karvon.order.infrastructure.OrderStatusHistoryRepository;
+import uz.karvon.pricing.application.PromoCodeService;
 import uz.karvon.translation.domain.Lang;
 import uz.karvon.user.api.dto.AddressResponse;
 import uz.karvon.user.application.AddressService;
@@ -61,6 +62,7 @@ public class OrderService {
     private final AddressService addresses;
     private final PendingPaymentCheck pendingPayments;
     private final PriceDifferences priceDifferences;
+    private final PromoCodeService promoCodes;
     private final JsonMapper json;
     private final Clock clock;
 
@@ -114,6 +116,13 @@ public class OrderService {
         order.setPrepaidShippingUzs(shipping);
         order.setTotalUzs(goods.add(fee).add(shipping));
         orders.save(order);
+        if (request.promoCode() != null && !request.promoCode().isBlank()) {
+            PromoCodeService.AppliedPromo promo = promoCodes.apply(request.promoCode(), customerId, order.getId(), fee);
+            order.setPromoCode(promo.code());
+            order.setPromoDiscountUzs(promo.discountUzs());
+            order.setServiceFeeUzs(fee.subtract(promo.discountUzs()));
+            order.setTotalUzs(goods.add(order.getServiceFeeUzs()).add(shipping));
+        }
         workflow.created(order, customerId);
         cart.removeItems(customerId, selectedBefore.stream().map(CartItemResponse::id).toList());
         return views.detail(order, history.findByOrderIdOrderByCreatedAtAsc(order.getId()), false);

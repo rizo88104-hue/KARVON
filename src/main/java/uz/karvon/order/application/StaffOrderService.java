@@ -77,7 +77,16 @@ public class StaffOrderService {
             }
             customerId = customer.get().id();
         }
-        UUID customer = customerId;
+        return find(status, from, to, customerId, number, page, size);
+    }
+
+    /** Orders of one customer, newest first (customer support). */
+    public PageResponse<StaffOrderSummaryResponse> forCustomer(UUID customerId, int page, int size) {
+        return find(null, null, null, customerId, null, page, size);
+    }
+
+    private PageResponse<StaffOrderSummaryResponse> find(OrderStatus status, Instant from, Instant to, UUID customer,
+                                                         String number, int page, int size) {
         Specification<Order> filter = (root, query, cb) -> {
             List<Predicate> where = new ArrayList<>();
             if (status != null) {

@@ -5,6 +5,6 @@ import java.util.List;
 /**
  * A category and its children. Open it with GET /api/v1/catalog/search?q={searchKeywordZh}.
  */
-public record CategoryResponse(String slug, String nameUz, String nameRu, String searchKeywordZh,
+public record CategoryResponse(String slug, String nameUz, String nameRu, String searchKeywordZh, String icon,
                                List<CategoryResponse> children) {
 }

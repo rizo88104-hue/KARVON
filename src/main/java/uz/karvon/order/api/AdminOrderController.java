@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.order.api.dto.OrderCommentRequest;
@@ -64,6 +65,7 @@ public class AdminOrderController {
 
     /** Checked by the order state machine against your roles; see StatusChangeRequest for the data each step needs. */
     @PostMapping("/{id}/status")
+    @Audited(action = "ORDER_STATUS_CHANGE", entityType = "ORDER")
     public StaffOrderResponse changeStatus(Authentication authentication, @PathVariable UUID id,
                                            @Valid @RequestBody StatusChangeRequest request) {
         return orders.changeStatus(CurrentUser.id(authentication), StaffRoles.of(authentication), id, request);
@@ -71,6 +73,7 @@ public class AdminOrderController {
 
     /** Buyer data: actual price, Taobao order number, China tracking number. */
     @PatchMapping("/{id}/items/{itemId}")
+    @Audited(action = "ORDER_ITEM_UPDATE", entityType = "ORDER")
     @PreAuthorize("hasAnyRole('BUYER', 'ADMIN')")
     public StaffOrderResponse updateItem(@PathVariable UUID id, @PathVariable UUID itemId,
                                          @Valid @RequestBody UpdateOrderItemRequest request) {
@@ -79,6 +82,7 @@ public class AdminOrderController {
 
     /** Internal note, never shown to the customer. */
     @PostMapping("/{id}/comments")
+    @Audited(action = "ORDER_COMMENT_ADD", entityType = "ORDER")
     @ResponseStatus(HttpStatus.CREATED)
     public OrderCommentResponse addComment(Authentication authentication, @PathVariable UUID id,
                                            @Valid @RequestBody OrderCommentRequest request) {
@@ -87,6 +91,7 @@ public class AdminOrderController {
 
     /** ADMIN only, until online payments exist: the customer paid the shipping difference another way. */
     @PostMapping("/{id}/shipping-payment")
+    @Audited(action = "ORDER_SHIPPING_PAYMENT", entityType = "ORDER")
     @PreAuthorize("hasRole('ADMIN')")
     public StaffOrderResponse recordShippingPayment(Authentication authentication, @PathVariable UUID id) {
         return orders.recordShippingPayment(CurrentUser.id(authentication), id);

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import uz.karvon.common.api.Audited;
 import uz.karvon.common.api.CurrentUser;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.user.api.dto.UpdateRolesRequest;
@@ -48,12 +49,14 @@ public class AdminUserController {
     }
 
     @PatchMapping("/{id}/roles")
+    @Audited(action = "USER_ROLES_UPDATE", entityType = "USER")
     public UserResponse updateRoles(Authentication authentication, @PathVariable UUID id,
                                     @Valid @RequestBody UpdateRolesRequest request) {
         return userService.updateRoles(CurrentUser.id(authentication), id, request.roles());
     }
 
     @PatchMapping("/{id}/status")
+    @Audited(action = "USER_STATUS_UPDATE", entityType = "USER")
     public UserResponse updateStatus(Authentication authentication, @PathVariable UUID id,
                                      @Valid @RequestBody UpdateStatusRequest request) {
         return userService.updateStatus(CurrentUser.id(authentication), id, request.status());
