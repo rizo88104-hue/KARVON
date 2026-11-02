@@ -1,6 +1,10 @@
 // Site-wide constants.
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
+/** Public URL of the site, read at runtime on the server (SITE_URL), so one Docker image serves any domain. */
+export const SITE_URL = (process.env.SITE_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(
+  /\/$/,
+  "",
+);
 
 /**
  * Delivery time shown instead of "[MUDDAT]" (e.g. "12–18"), from deliveryDaysMin/deliveryDaysMax of

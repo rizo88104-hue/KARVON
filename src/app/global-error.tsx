@@ -1,10 +1,15 @@
 "use client";
 
+import * as Sentry from "@sentry/nextjs";
+import { useEffect } from "react";
 import uz from "@/messages/uz.json";
 import "./globals.css";
 
 // Last-resort error page when the root layout itself fails (no translations provider available).
-export default function GlobalError({ reset }: { error: Error & { digest?: string }; reset: () => void }) {
+export default function GlobalError({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
+  useEffect(() => {
+    Sentry.captureException(error);
+  }, [error]);
   return (
     <html lang="uz">
       <body className="grid min-h-dvh place-items-center p-4 text-center">

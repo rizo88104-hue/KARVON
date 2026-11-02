@@ -1,0 +1,45 @@
+name: CI
+
+# Pull requests: lint, type-check and build the site, and build its Docker image.
+on:
+  pull_request:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: npm
+      # No third-party install scripts (none are needed).
+      - run: npm ci --no-audit --no-fund --ignore-scripts
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run build
+        env:
+          BACKEND_URL: http://api:8080
+          NEXT_TELEMETRY_DISABLED: "1"
+
+  docker:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

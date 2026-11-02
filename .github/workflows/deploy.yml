@@ -1,0 +1,106 @@
+name: Deploy site
+
+# Push to main: checks, build and push ghcr.io/<owner>/karvon-web:<sha> (+ latest), deploy it over SSH,
+# then fail unless the site health route and the home page answer.
+#
+# Repository secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY, DEPLOY_KNOWN_HOSTS (the same server as the API)
+# Repository variables: DEPLOY_PATH (default /opt/emarket), SITE_DOMAIN, NEXT_PUBLIC_SENTRY_DSN (optional)
+# The compose file and .env.prod on the server come from the KARVON-PAY deploy (docs/deploy.md there).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE: ghcr.io/${{ github.repository_owner }}/karvon-web
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+
+  image:
+    needs: test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - id: name
+        run: echo "image=${IMAGE,,}" >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          build-args: |
+            BACKEND_URL=http://api:8080
+            NEXT_PUBLIC_SENTRY_DSN=${{ vars.NEXT_PUBLIC_SENTRY_DSN }}
+          tags: |
+            ${{ steps.name.outputs.image }}:${{ github.sha }}
+            ${{ steps.name.outputs.image }}:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy:
+    needs: image
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: production
+    env:
+      DEPLOY_PATH: ${{ vars.DEPLOY_PATH || '/opt/emarket' }}
+    steps:
+      - name: SSH key
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          echo "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+      - name: Pull the new image and restart the site
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Values travel on stdin with the script, so the token never shows up in the server's process list.
+          {
+            printf 'DEPLOY_PATH=%q\nTAG=%q\nGHCR_USER=%q\nGHCR_TOKEN=%q\n' \
+              "$DEPLOY_PATH" "${{ github.sha }}" "${{ github.actor }}" "$GHCR_TOKEN"
+            cat <<'EOF'
+          set -euo pipefail
+          cd "$DEPLOY_PATH"
+          compose() { docker compose --env-file .env.prod -f docker-compose.prod.yml "$@"; }
+          echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin >/dev/null
+          trap 'docker logout ghcr.io >/dev/null 2>&1 || true' EXIT
+          previous=$(grep -E '^WEB_IMAGE_TAG=' .env.prod | cut -d= -f2-)
+          WEB_IMAGE_TAG="$TAG" compose pull web
+          sed -i "s/^WEB_IMAGE_TAG=.*/WEB_IMAGE_TAG=$TAG/" .env.prod
+          echo "$(date -u +%FT%TZ) web $previous -> $TAG" >> deploy-history.log
+          compose up -d --no-deps web
+          docker image prune -f >/dev/null
+          compose ps web
+          EOF
+          } | ssh -i ~/.ssh/id_deploy "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" 'bash -s'
+      - name: Health check
+        run: |
+          site="https://${{ vars.SITE_DOMAIN }}"
+          for i in $(seq 1 30); do
+            if curl -fsS -m 10 "$site/api/health" | grep -q '"status":"UP"' \
+               && curl -fsS -m 15 -o /dev/null "$site/"; then
+              echo "site is up"; exit 0
+            fi
+            echo "waiting for $site ($i)"; sleep 10
+          done
+          echo "::error::$site is not answering after the deploy (roll back: KARVON-PAY docs/deploy.md)"
+          exit 1

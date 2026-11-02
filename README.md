@@ -30,3 +30,8 @@ With the backend's `dev` profile, the SMS code for login can be read from
 | `npm run lint` | ESLint |
 | `npm run typecheck` | TypeScript only |
 | `npm run api` | Download the backend OpenAPI spec and regenerate `src/api/schema.d.ts` |
+
+## Production
+
+Docker image: `Dockerfile`; CI/CD: `.github/workflows/`. The server setup, compose file and deploy guide are in
+`../KARVON-PAY/docs/deploy.md`.
