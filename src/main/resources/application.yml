@@ -17,6 +17,11 @@ spring:
   mvc:
     problemdetails:
       enabled: true
+  servlet:
+    multipart:
+      # parcel photos: 5 MB each, at most 4 per request
+      max-file-size: 5MB
+      max-request-size: 21MB
 
 server:
   error:
@@ -70,6 +75,16 @@ karvon:
       secret-key: ${CLICK_SECRET_KEY:}
       service-id: ${CLICK_SERVICE_ID:}
       merchant-id: ${CLICK_MERCHANT_ID:}
+  files:
+    # dev/test: local directory; prod: S3-compatible bucket (S3_*)
+    local-dir: ${FILE_STORAGE_DIR:./data/files}
+    public-base-url: ${PUBLIC_BASE_URL:http://localhost:8080}
+    s3:
+      endpoint: ${S3_ENDPOINT:}
+      region: ${S3_REGION:us-east-1}
+      bucket: ${S3_BUCKET:}
+      access-key: ${S3_ACCESS_KEY:}
+      secret-key: ${S3_SECRET_KEY:}
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

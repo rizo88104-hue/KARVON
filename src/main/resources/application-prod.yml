@@ -23,6 +23,13 @@ karvon:
   taobao:
     api-url: ${TAOBAO_API_URL}
     api-key: ${TAOBAO_API_KEY}
+  files:
+    s3:
+      endpoint: ${S3_ENDPOINT:}
+      region: ${S3_REGION}
+      bucket: ${S3_BUCKET}
+      access-key: ${S3_ACCESS_KEY}
+      secret-key: ${S3_SECRET_KEY}
   payment:
     payme:
       login: ${PAYME_LOGIN}

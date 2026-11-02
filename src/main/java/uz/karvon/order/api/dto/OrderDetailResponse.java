@@ -8,12 +8,13 @@ import uz.karvon.user.api.dto.AddressResponse;
 
 import java.math.BigDecimal;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
 /**
  * An order with items, money and the timeline. {@code amountDueUzs} is what is still to pay
- * (the order total until paid, then a positive shipping difference). {@code paymentDeadline} is set while
+ * (the order total until paid, then an accepted price difference and a positive shipping difference). {@code paymentDeadline} is set while
  * the order waits for payment; after it the order is cancelled automatically.
  */
 public record OrderDetailResponse(
@@ -30,16 +31,21 @@ public record OrderDetailResponse(
         BigDecimal realWeightKg,
         BigDecimal finalShippingUzs,
         BigDecimal shippingDifferenceUzs,
+        BigDecimal priceDifferenceUzs,
         BigDecimal totalUzs,
         BigDecimal paidUzs,
         BigDecimal refundedUzs,
         BigDecimal amountDueUzs,
         String customerComment,
         String internationalTrackingNumber,
+        String carrier,
+        LocalDate expectedArrivalDate,
+        String pickupInfo,
         Instant createdAt,
         Instant paidAt,
         Instant deliveredAt,
         Instant paymentDeadline,
         List<OrderItemResponse> items,
+        List<OrderPhotoResponse> photos,
         List<OrderTimeline.Step> timeline) {
 }

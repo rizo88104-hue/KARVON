@@ -44,7 +44,8 @@ public final class OrderStateMachine {
         // The customer may cancel a paid order until purchasing starts (refunded to the wallet);
         // SYSTEM cancels it when the payment provider reverses the payment.
         allow(PAID, CANCELLED, CUSTOMER, SYSTEM, ADMIN);
-        allow(PURCHASING, PURCHASED, BUYER, ADMIN);
+        // SYSTEM: automatically once every item is purchased or out of stock after the customer decided.
+        allow(PURCHASING, PURCHASED, SYSTEM, BUYER, ADMIN);
         allow(PURCHASING, OUT_OF_STOCK, BUYER, ADMIN);
         allow(PURCHASING, PRICE_CHANGED, BUYER, ADMIN);
         // The customer's decision: ACCEPT goes back to purchasing, REFUND cancels with a refund.

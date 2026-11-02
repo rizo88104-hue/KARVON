@@ -57,7 +57,11 @@ public class PaymentService implements PendingPaymentCheck {
         if (provider == PaymentProvider.WALLET) {
             PaymentTransaction tx = create(order, PaymentProvider.WALLET, null, null);
             wallets.debit(customerId, order.amountDueUzs(),
-                    purpose == PaymentPurpose.ORDER ? WalletTransactionType.ORDER_PAYMENT : WalletTransactionType.SHIPPING_PAYMENT,
+                    switch (purpose) {
+                        case ORDER -> WalletTransactionType.ORDER_PAYMENT;
+                        case SHIPPING_DIFFERENCE -> WalletTransactionType.SHIPPING_PAYMENT;
+                        case PRICE_DIFFERENCE -> WalletTransactionType.PRICE_DIFFERENCE_PAYMENT;
+                    },
                     order.orderId(), customerId, account.value());
             complete(tx);
             return new StartPaymentResponse(provider, order.amountDueUzs(), null, true, tx.getId());

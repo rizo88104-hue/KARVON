@@ -36,6 +36,7 @@ import uz.karvon.user.domain.Role;
 import java.math.BigDecimal;
 import java.time.Clock;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -116,26 +117,94 @@ public class StaffOrderService {
     @Transactional
     public StaffOrderResponse changeStatus(UUID staffId, Set<Role> roles, UUID orderId, StatusChangeRequest request) {
         Order order = load(orderId);
-        Set<Actor> actors = Actor.staffOf(roles);
-        OrderStatus to = request.toStatus();
+        apply(order, request.toStatus(), Actor.staffOf(roles), staffId, request.comment(),
+                new StepData(request.realWeightKg(), request.internationalTrackingNumber(), null, null, null, request.items()));
+        return response(order);
+    }
+
+    /** Warehouse: the parcel is weighed (BUYER or OPERATOR); then the shipping difference rules apply. */
+    @Transactional
+    public StaffOrderResponse weigh(UUID staffId, Set<Role> roles, UUID orderId, BigDecimal realWeightKg, String comment) {
+        Order order = load(orderId);
+        apply(order, OrderStatus.AT_WAREHOUSE, Actor.staffOf(roles), staffId, comment,
+                new StepData(realWeightKg, null, null, null, null, null));
+        return response(order);
+    }
+
+    /** OPERATOR: the parcel left China. Refused while a price or shipping difference is unpaid. */
+    @Transactional
+    public StaffOrderResponse ship(UUID staffId, Set<Role> roles, UUID orderId, String trackingNumber, String carrier,
+                                   LocalDate expectedArrivalDate, String comment) {
+        Order order = load(orderId);
+        apply(order, OrderStatus.IN_TRANSIT, Actor.staffOf(roles), staffId, comment,
+                new StepData(null, trackingNumber, carrier, expectedArrivalDate, null, null));
+        return response(order);
+    }
+
+    /** OPERATOR: the parcel is in Uzbekistan; {@code pickupInfo} tells the customer where and how to collect it. */
+    @Transactional
+    public StaffOrderResponse arrived(UUID staffId, Set<Role> roles, UUID orderId, String pickupInfo, String comment) {
+        Order order = load(orderId);
+        apply(order, OrderStatus.ARRIVED, Actor.staffOf(roles), staffId, comment,
+                new StepData(null, null, null, null, pickupInfo, null));
+        return response(order);
+    }
+
+    @Transactional
+    public StaffOrderResponse delivered(UUID staffId, Set<Role> roles, UUID orderId, String comment) {
+        Order order = load(orderId);
+        apply(order, OrderStatus.DELIVERED, Actor.staffOf(roles), staffId, comment, StepData.NONE);
+        return response(order);
+    }
+
+    /** One order of a bulk change, in the caller's transaction. Returns the new status. */
+    @Transactional
+    public OrderStatus changeOne(UUID staffId, Set<Role> roles, UUID orderId, OrderStatus to, String trackingNumber) {
+        Order order = load(orderId);
+        apply(order, to, Actor.staffOf(roles), staffId, null,
+                new StepData(null, trackingNumber, null, null, null, null));
+        return order.getStatus();
+    }
+
+    /**
+     * The shared step logic: the state machine check first, then the data each status needs, then the change.
+     * Weighing (AT_WAREHOUSE) computes the final shipping with the settings the order was priced with: more than
+     * prepaid moves the order on to AWAITING_SHIPPING_PAYMENT, less is refunded to the wallet.
+     */
+    private void apply(Order order, OrderStatus to, Set<Actor> actors, UUID staffId, String comment, StepData data) {
         workflow.check(order, to, actors);
         switch (to) {
-            case OUT_OF_STOCK -> markItems(order, request, OrderItemStatus.OUT_OF_STOCK);
-            case PRICE_CHANGED -> markItems(order, request, OrderItemStatus.PRICE_CHANGED);
-            case AT_WAREHOUSE -> weigh(order, request.realWeightKg());
+            case OUT_OF_STOCK -> markItems(order, data.items(), OrderItemStatus.OUT_OF_STOCK);
+            case PRICE_CHANGED -> markItems(order, data.items(), OrderItemStatus.PRICE_CHANGED);
+            case AT_WAREHOUSE -> weigh(order, data.realWeightKg());
             case IN_TRANSIT -> {
+                if (order.priceDifferenceDueUzs().signum() > 0) {
+                    throw new BusinessException(HttpStatus.CONFLICT, "PRICE_DIFFERENCE_UNPAID",
+                            "error.order.priceDifferenceUnpaid", order.priceDifferenceDueUzs());
+                }
                 if (order.amountDueUzs().signum() > 0) {
                     throw new BusinessException(HttpStatus.CONFLICT, "SHIPPING_DIFFERENCE_UNPAID",
                             "error.order.shippingDifferenceUnpaid", order.amountDueUzs());
                 }
-                if (request.internationalTrackingNumber() != null && !request.internationalTrackingNumber().isBlank()) {
-                    order.setInternationalTrackingNumber(request.internationalTrackingNumber().trim());
+                if (data.trackingNumber() != null && !data.trackingNumber().isBlank()) {
+                    order.setInternationalTrackingNumber(data.trackingNumber().trim());
+                }
+                if (data.carrier() != null && !data.carrier().isBlank()) {
+                    order.setCarrier(data.carrier().trim());
+                }
+                if (data.expectedArrivalDate() != null) {
+                    order.setExpectedArrivalDate(data.expectedArrivalDate());
+                }
+            }
+            case ARRIVED -> {
+                if (data.pickupInfo() != null && !data.pickupInfo().isBlank()) {
+                    order.setPickupInfo(data.pickupInfo().trim());
                 }
             }
             default -> {
             }
         }
-        workflow.change(order, to, actors, staffId, request.comment());
+        workflow.change(order, to, actors, staffId, comment);
         if (to == OrderStatus.AT_WAREHOUSE) {
             BigDecimal difference = order.getShippingDifferenceUzs();
             if (difference.signum() > 0) {
@@ -144,7 +213,12 @@ public class StaffOrderService {
                 workflow.refund(order, difference.negate(), RefundReason.SHIPPING_OVERPAID);
             }
         }
-        return response(order);
+    }
+
+    /** What a step may carry besides the target status; null fields are not used. */
+    private record StepData(BigDecimal realWeightKg, String trackingNumber, String carrier, LocalDate expectedArrivalDate,
+                            String pickupInfo, List<StatusChangeRequest.ItemChange> items) {
+        static final StepData NONE = new StepData(null, null, null, null, null, null);
     }
 
     /** Buyer data of an item. */
@@ -180,18 +254,18 @@ public class StaffOrderService {
         if (order.getStatus() != OrderStatus.AWAITING_SHIPPING_PAYMENT) {
             throw new BusinessException("NO_SHIPPING_DIFFERENCE_DUE", "error.order.noShippingDifferenceDue");
         }
-        BigDecimal due = order.amountDueUzs();
+        BigDecimal due = order.shippingDifferenceDueUzs();
         order.setPaidUzs(order.getPaidUzs().add(due));
         comments.save(new OrderComment(order.getId(), adminId, "Shipping difference paid manually: " + due + " UZS",
                 Instant.now(clock)));
         return response(order);
     }
 
-    private void markItems(Order order, StatusChangeRequest request, OrderItemStatus status) {
-        if (request.items() == null || request.items().isEmpty()) {
+    private void markItems(Order order, List<StatusChangeRequest.ItemChange> items, OrderItemStatus status) {
+        if (items == null || items.isEmpty()) {
             throw new BusinessException("ORDER_ITEMS_REQUIRED", "error.order.itemsRequired");
         }
-        for (StatusChangeRequest.ItemChange change : request.items()) {
+        for (StatusChangeRequest.ItemChange change : items) {
             OrderItem item = item(order, change.itemId());
             if (status == OrderItemStatus.PRICE_CHANGED) {
                 if (change.actualPriceCny() == null) {
@@ -221,7 +295,7 @@ public class StaffOrderService {
     private StaffOrderResponse response(Order order) {
         var entries = history.findByOrderIdOrderByCreatedAtAsc(order.getId());
         return new StaffOrderResponse(views.detail(order, entries, true),
-                users.findById(order.getCustomerId()).orElse(null),
+                users.findById(order.getCustomerId()).orElse(null), order.getBuyerId(),
                 entries.stream().map(views::history).toList(),
                 comments.findByOrderIdOrderByCreatedAtAsc(order.getId()).stream().map(views::comment).toList(),
                 OrderStateMachine.next(order.getStatus()));

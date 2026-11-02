@@ -4,6 +4,8 @@ karvon:
     jwt-secret: test-only-jwt-secret-0123456789abcdefghij
   admin:
     phone: "+998900000001"
+  files:
+    local-dir: ${java.io.tmpdir}/karvon-test-files
   payment:
     payme:
       login: Paycom

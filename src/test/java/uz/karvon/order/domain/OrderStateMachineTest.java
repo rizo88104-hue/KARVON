@@ -24,7 +24,7 @@ class OrderStateMachineTest {
             AWAITING_PAYMENT          | CANCELLED                 | CUSTOMER SYSTEM ADMIN
             PAID                      | PURCHASING                | BUYER ADMIN
             PAID                      | CANCELLED                 | CUSTOMER SYSTEM ADMIN
-            PURCHASING                | PURCHASED                 | BUYER ADMIN
+            PURCHASING                | PURCHASED                 | SYSTEM BUYER ADMIN
             PURCHASING                | OUT_OF_STOCK              | BUYER ADMIN
             PURCHASING                | PRICE_CHANGED             | BUYER ADMIN
             OUT_OF_STOCK              | PURCHASING                | CUSTOMER

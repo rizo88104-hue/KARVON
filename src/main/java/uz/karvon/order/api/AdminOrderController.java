@@ -10,7 +10,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -30,11 +29,9 @@ import uz.karvon.order.api.dto.StatusChangeRequest;
 import uz.karvon.order.api.dto.UpdateOrderItemRequest;
 import uz.karvon.order.application.StaffOrderService;
 import uz.karvon.order.domain.OrderStatus;
-import uz.karvon.user.domain.Role;
+import uz.karvon.user.api.StaffRoles;
 
 import java.time.Instant;
-import java.util.EnumSet;
-import java.util.Set;
 import java.util.UUID;
 
 @Tag(name = "Admin: orders")
@@ -69,7 +66,7 @@ public class AdminOrderController {
     @PostMapping("/{id}/status")
     public StaffOrderResponse changeStatus(Authentication authentication, @PathVariable UUID id,
                                            @Valid @RequestBody StatusChangeRequest request) {
-        return orders.changeStatus(CurrentUser.id(authentication), roles(authentication), id, request);
+        return orders.changeStatus(CurrentUser.id(authentication), StaffRoles.of(authentication), id, request);
     }
 
     /** Buyer data: actual price, Taobao order number, China tracking number. */
@@ -95,18 +92,4 @@ public class AdminOrderController {
         return orders.recordShippingPayment(CurrentUser.id(authentication), id);
     }
 
-    private static Set<Role> roles(Authentication authentication) {
-        Set<Role> roles = EnumSet.noneOf(Role.class);
-        for (GrantedAuthority authority : authentication.getAuthorities()) {
-            String name = authority.getAuthority();
-            if (name != null && name.startsWith("ROLE_")) {
-                try {
-                    roles.add(Role.valueOf(name.substring("ROLE_".length())));
-                } catch (IllegalArgumentException ignored) {
-                    // not one of our roles
-                }
-            }
-        }
-        return roles;
-    }
 }

@@ -35,7 +35,7 @@ public class WalletTransaction {
     private UUID userId;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "type", nullable = false, length = 20)
+    @Column(name = "type", nullable = false, length = 30)
     private WalletTransactionType type;
 
     @Column(name = "amount_uzs", nullable = false)

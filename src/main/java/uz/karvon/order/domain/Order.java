@@ -14,6 +14,7 @@ import uz.karvon.common.domain.BaseEntity;
 
 import java.math.BigDecimal;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -86,6 +87,27 @@ public class Order extends BaseEntity {
     @Column(name = "international_tracking_number", length = 100)
     private String internationalTrackingNumber;
 
+    /** The buyer who took the order from the queue. */
+    @Column(name = "buyer_id")
+    private UUID buyerId;
+
+    /** Extra cost the customer accepted when items became more expensive on Taobao. */
+    @Column(name = "price_difference_uzs", nullable = false)
+    private BigDecimal priceDifferenceUzs = BigDecimal.ZERO;
+
+    @Column(name = "price_difference_paid_uzs", nullable = false)
+    private BigDecimal priceDifferencePaidUzs = BigDecimal.ZERO;
+
+    @Column(name = "carrier", length = 100)
+    private String carrier;
+
+    @Column(name = "expected_arrival_date")
+    private LocalDate expectedArrivalDate;
+
+    /** Where and how the customer collects the parcel. */
+    @Column(name = "pickup_info", length = 500)
+    private String pickupInfo;
+
     @Column(name = "paid_at")
     private Instant paidAt;
 
@@ -110,10 +132,23 @@ public class Order extends BaseEntity {
         items.add(item);
     }
 
-    /** Money still to pay: the order total plus a positive shipping difference, minus what was paid. */
+    /**
+     * Money still to pay: the order total, an accepted price difference and a positive shipping difference,
+     * minus everything paid ({@code paidUzs} counts all three).
+     */
     public BigDecimal amountDueUzs() {
-        BigDecimal due = totalUzs.add(shippingDifferenceUzs.max(BigDecimal.ZERO)).subtract(paidUzs);
+        BigDecimal due = totalUzs.add(priceDifferenceUzs).add(shippingDifferenceUzs.max(BigDecimal.ZERO)).subtract(paidUzs);
         return due.max(BigDecimal.ZERO);
+    }
+
+    /** The accepted price difference not paid yet. */
+    public BigDecimal priceDifferenceDueUzs() {
+        return priceDifferenceUzs.subtract(priceDifferencePaidUzs).max(BigDecimal.ZERO);
+    }
+
+    /** The positive shipping difference not paid yet (what is due apart from the price difference). */
+    public BigDecimal shippingDifferenceDueUzs() {
+        return amountDueUzs().subtract(priceDifferenceDueUzs()).max(BigDecimal.ZERO);
     }
 
     /** Paid and not yet given back. */

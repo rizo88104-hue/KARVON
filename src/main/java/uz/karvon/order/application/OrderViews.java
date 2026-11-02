@@ -33,6 +33,7 @@ public class OrderViews {
     };
 
     private final JsonMapper json;
+    private final OrderPhotoService photos;
 
     @Value("${karvon.orders.payment-timeout:30m}")
     private Duration paymentTimeout;
@@ -43,12 +44,15 @@ public class OrderViews {
         return new OrderDetailResponse(order.getId(), order.getNumber(), order.getStatus(), order.getDeliveryMethod(),
                 address, order.getPaymentMethod(), order.getPricingSettingsId(), order.getGoodsUzs(),
                 order.getServiceFeeUzs(), order.getPrepaidShippingUzs(), order.getRealWeightKg(),
-                order.getFinalShippingUzs(), order.getShippingDifferenceUzs(), order.getTotalUzs(), order.getPaidUzs(),
-                order.getRefundedUzs(), order.amountDueUzs(), order.getCustomerComment(),
-                order.getInternationalTrackingNumber(), order.getCreatedAt(), order.getPaidAt(), order.getDeliveredAt(),
+                order.getFinalShippingUzs(), order.getShippingDifferenceUzs(), order.getPriceDifferenceUzs(),
+                order.getTotalUzs(), order.getPaidUzs(), order.getRefundedUzs(), order.amountDueUzs(),
+                order.getCustomerComment(), order.getInternationalTrackingNumber(), order.getCarrier(),
+                order.getExpectedArrivalDate(), order.getPickupInfo(), order.getCreatedAt(), order.getPaidAt(),
+                order.getDeliveredAt(),
                 order.getStatus() == OrderStatus.AWAITING_PAYMENT && order.getCreatedAt() != null
                         ? order.getCreatedAt().plus(paymentTimeout) : null,
                 order.getItems().stream().map(item -> item(item, staff)).toList(),
+                order.getId() == null ? List.of() : photos.list(order.getId()),
                 OrderTimeline.build(order.getStatus(), history));
     }
 
@@ -73,6 +77,7 @@ public class OrderViews {
                 item.getImageUrl(), json.readValue(item.getSkuProperties(), PROPERTIES), item.getShopName(),
                 item.getPriceCny(), item.getChinaShippingCny(), item.getWeightKg(), item.getQuantity(), item.getComment(),
                 item.getGoodsUzs(), item.getServiceFeeUzs(), item.getShippingUzs(), item.getTotalUzs(), item.getStatus(),
-                item.getActualPriceCny(), item.getChinaTrackingNumber(), staff ? item.getTaobaoOrderNumber() : null);
+                item.getActualPriceCny(), item.getChinaTrackingNumber(), item.getStaffComment(),
+                staff ? item.getTaobaoOrderNumber() : null);
     }
 }

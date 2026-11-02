@@ -60,6 +60,7 @@ public class OrderService {
     private final CartService cart;
     private final AddressService addresses;
     private final PendingPaymentCheck pendingPayments;
+    private final PriceDifferences priceDifferences;
     private final JsonMapper json;
     private final Clock clock;
 
@@ -143,8 +144,9 @@ public class OrderService {
 
     /**
      * The answer to OUT_OF_STOCK or PRICE_CHANGED. REFUND cancels the order with a full refund. ACCEPT continues
-     * purchasing: out-of-stock items are refunded (not possible when every item is out of stock); new prices
-     * are taken as they are.
+     * purchasing: out-of-stock items are refunded (not possible when every item is out of stock); for a higher price
+     * the item counts as purchased and the extra cost becomes payable (purpose PRICE_DIFFERENCE). When every item is
+     * then purchased or out of stock, the order becomes PURCHASED.
      */
     @Transactional
     public OrderDetailResponse decide(UUID customerId, String number, DecisionRequest.Action action) {
@@ -165,11 +167,19 @@ public class OrderService {
             BigDecimal missingTotal = missing.stream().map(OrderItem::getTotalUzs).reduce(BigDecimal.ZERO, BigDecimal::add);
             workflow.refund(order, missingTotal.min(order.refundableUzs()), RefundReason.ITEMS_OUT_OF_STOCK);
             workflow.change(order, OrderStatus.PURCHASING, CUSTOMER, customerId, null);
+            workflow.finishPurchasingIfDone(order);
         } else {
-            order.getItems().stream()
-                    .filter(item -> item.getStatus() == OrderItemStatus.PRICE_CHANGED)
-                    .forEach(item -> item.setStatus(OrderItemStatus.OK));
+            workflow.check(order, OrderStatus.PURCHASING, CUSTOMER);
+            BigDecimal difference = BigDecimal.ZERO;
+            for (OrderItem item : order.getItems()) {
+                if (item.getStatus() == OrderItemStatus.PRICE_CHANGED) {
+                    difference = difference.add(priceDifferences.of(order, item));
+                    item.setStatus(OrderItemStatus.PURCHASED);
+                }
+            }
+            order.setPriceDifferenceUzs(order.getPriceDifferenceUzs().add(difference));
             workflow.change(order, OrderStatus.PURCHASING, CUSTOMER, customerId, null);
+            workflow.finishPurchasingIfDone(order);
         }
         return views.detail(order, history.findByOrderIdOrderByCreatedAtAsc(order.getId()), false);
     }

@@ -1,8 +1,14 @@
 package uz.karvon.order.domain;
 
 /**
- * Item-level result of purchasing, set by the buyer together with the order status.
+ * Item state while purchasing. PENDING: not bought yet. PRICE_CHANGED: the Taobao price rose above the threshold,
+ * the customer decides. OUT_OF_STOCK: cannot be bought.
  */
 public enum OrderItemStatus {
-    OK, OUT_OF_STOCK, PRICE_CHANGED
+    PENDING, PURCHASED, OUT_OF_STOCK, PRICE_CHANGED;
+
+    /** Nothing more to do for the item while purchasing. */
+    public boolean resolved() {
+        return this == PURCHASED || this == OUT_OF_STOCK;
+    }
 }

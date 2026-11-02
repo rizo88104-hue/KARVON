@@ -31,6 +31,11 @@ public class PricingService {
         return new PriceQuoter(calculator, toParameters(settings.current()));
     }
 
+    /** A calculator bound to one settings version, e.g. the one an order was priced with. */
+    public PriceQuoter quoter(UUID settingsId) {
+        return new PriceQuoter(calculator, toParameters(settings.getById(settingsId)));
+    }
+
     /**
      * Shipping for the real weight, with the settings version an order was priced with.
      * {@code realWeightKg} is the weight of all {@code quantity} pieces together.

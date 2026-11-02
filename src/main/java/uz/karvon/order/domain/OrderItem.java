@@ -13,6 +13,7 @@ import lombok.Setter;
 import uz.karvon.common.domain.BaseEntity;
 
 import java.math.BigDecimal;
+import java.time.Instant;
 
 /**
  * A copy of the cart line and its price at order time, plus what the buyer fills in while purchasing.
@@ -87,5 +88,12 @@ public class OrderItem extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false, length = 20)
-    private OrderItemStatus status = OrderItemStatus.OK;
+    private OrderItemStatus status = OrderItemStatus.PENDING;
+
+    @Column(name = "purchased_at")
+    private Instant purchasedAt;
+
+    /** Buyer note, e.g. why it is out of stock. */
+    @Column(name = "staff_comment", length = 500)
+    private String staffComment;
 }

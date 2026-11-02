@@ -30,5 +30,6 @@ public record OrderItemResponse(
         OrderItemStatus status,
         BigDecimal actualPriceCny,
         String chinaTrackingNumber,
+        String staffComment,
         String taobaoOrderNumber) {
 }

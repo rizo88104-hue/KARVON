@@ -5,6 +5,7 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 import uz.karvon.order.domain.Actor;
 import uz.karvon.order.domain.Order;
+import uz.karvon.order.domain.OrderItemStatus;
 import uz.karvon.order.domain.OrderStateMachine;
 import uz.karvon.order.domain.OrderStatus;
 import uz.karvon.order.domain.OrderStatusHistoryEntry;
@@ -66,6 +67,18 @@ public class OrderWorkflow {
                 blankToNull(comment), now));
         events.publishEvent(new OrderStatusChangedEvent(order.getId(), order.getNumber(), order.getCustomerId(), from, to,
                 actor, now));
+    }
+
+    /**
+     * While PURCHASING: once every item is purchased or out of stock (and at least one was purchased), the order
+     * becomes PURCHASED. Done by the system after the last item or the customer decision.
+     */
+    public void finishPurchasingIfDone(Order order) {
+        boolean allResolved = order.getItems().stream().allMatch(item -> item.getStatus().resolved());
+        boolean anyPurchased = order.getItems().stream().anyMatch(item -> item.getStatus() == OrderItemStatus.PURCHASED);
+        if (order.getStatus() == OrderStatus.PURCHASING && allResolved && anyPurchased) {
+            change(order, OrderStatus.PURCHASED, Set.of(Actor.SYSTEM), null, null);
+        }
     }
 
     /** Requests a refund (wallet, Task 7) and counts it on the order. Zero or less does nothing. */

@@ -11,6 +11,7 @@ import uz.karvon.order.domain.OrderStatus;
 import uz.karvon.order.infrastructure.OrderRepository;
 
 import java.math.BigDecimal;
+import java.util.EnumSet;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
@@ -21,6 +22,7 @@ import java.util.UUID;
  * <ul>
  *   <li>ORDER can be paid while AWAITING_PAYMENT; the amount is the order total.</li>
  *   <li>SHIPPING_DIFFERENCE can be paid while AWAITING_SHIPPING_PAYMENT; the amount is what is still due.</li>
+ *   <li>PRICE_DIFFERENCE can be paid once the customer accepted a higher Taobao price, until it is paid.</li>
  * </ul>
  */
 @Service
@@ -29,6 +31,9 @@ import java.util.UUID;
 public class OrderPaymentService {
 
     private static final Set<Actor> SYSTEM = Set.of(Actor.SYSTEM);
+    /** A paid price difference can be returned until the parcel leaves China. */
+    private static final Set<OrderStatus> BEFORE_SHIPPING = EnumSet.of(OrderStatus.PURCHASING, OrderStatus.PURCHASED,
+            OrderStatus.AT_WAREHOUSE, OrderStatus.AWAITING_SHIPPING_PAYMENT);
 
     private final OrderRepository orders;
     private final OrderWorkflow workflow;
@@ -56,17 +61,24 @@ public class OrderPaymentService {
         if (!payable.payable() || payable.amountDueUzs().compareTo(amountUzs) != 0) {
             throw new BusinessException("ORDER_NOT_PAYABLE", "error.payment.orderNotPayable");
         }
-        if (purpose == PaymentPurpose.ORDER) {
-            workflow.change(order, OrderStatus.PAID, SYSTEM, null, null);
-        } else {
-            order.setPaidUzs(order.getPaidUzs().add(amountUzs));
+        switch (purpose) {
+            case ORDER -> workflow.change(order, OrderStatus.PAID, SYSTEM, null, null);
+            case SHIPPING_DIFFERENCE -> order.setPaidUzs(order.getPaidUzs().add(amountUzs));
+            case PRICE_DIFFERENCE -> {
+                order.setPaidUzs(order.getPaidUzs().add(amountUzs));
+                order.setPriceDifferencePaidUzs(order.getPriceDifferencePaidUzs().add(amountUzs));
+            }
         }
     }
 
     /** Whether the provider may still take this payment back (the goods were not bought / the parcel not sent). */
     public boolean canReverse(UUID orderId, PaymentPurpose purpose) {
         OrderStatus status = load(orderId).getStatus();
-        return purpose == PaymentPurpose.ORDER ? status == OrderStatus.PAID : status == OrderStatus.AWAITING_SHIPPING_PAYMENT;
+        return switch (purpose) {
+            case ORDER -> status == OrderStatus.PAID;
+            case SHIPPING_DIFFERENCE -> status == OrderStatus.AWAITING_SHIPPING_PAYMENT;
+            case PRICE_DIFFERENCE -> BEFORE_SHIPPING.contains(status);
+        };
     }
 
     /**
@@ -80,6 +92,9 @@ public class OrderPaymentService {
         }
         Order order = load(orderId);
         order.setPaidUzs(order.getPaidUzs().subtract(amountUzs).max(BigDecimal.ZERO));
+        if (purpose == PaymentPurpose.PRICE_DIFFERENCE) {
+            order.setPriceDifferencePaidUzs(order.getPriceDifferencePaidUzs().subtract(amountUzs).max(BigDecimal.ZERO));
+        }
         if (purpose == PaymentPurpose.ORDER) {
             workflow.change(order, OrderStatus.CANCELLED, SYSTEM, null, comment);
         }
@@ -87,8 +102,13 @@ public class OrderPaymentService {
 
     private static PayableOrder payable(Order order, PaymentPurpose purpose) {
         PayableOrder.State state = state(order, purpose);
+        BigDecimal due = switch (purpose) {
+            case ORDER -> order.amountDueUzs();
+            case SHIPPING_DIFFERENCE -> order.shippingDifferenceDueUzs();
+            case PRICE_DIFFERENCE -> order.priceDifferenceDueUzs();
+        };
         return new PayableOrder(order.getId(), order.getNumber(), order.getCustomerId(), order.getStatus(), purpose,
-                state, state == PayableOrder.State.PAYABLE ? order.amountDueUzs() : BigDecimal.ZERO);
+                state, state == PayableOrder.State.PAYABLE ? due : BigDecimal.ZERO);
     }
 
     private static PayableOrder.State state(Order order, PaymentPurpose purpose) {
@@ -99,8 +119,14 @@ public class OrderPaymentService {
         if (purpose == PaymentPurpose.ORDER) {
             return status == OrderStatus.AWAITING_PAYMENT ? PayableOrder.State.PAYABLE : PayableOrder.State.ALREADY_PAID;
         }
+        if (purpose == PaymentPurpose.PRICE_DIFFERENCE) {
+            if (order.getPriceDifferenceUzs().signum() == 0) {
+                return PayableOrder.State.NOT_DUE;
+            }
+            return order.priceDifferenceDueUzs().signum() > 0 ? PayableOrder.State.PAYABLE : PayableOrder.State.ALREADY_PAID;
+        }
         if (status == OrderStatus.AWAITING_SHIPPING_PAYMENT) {
-            return order.amountDueUzs().signum() > 0 ? PayableOrder.State.PAYABLE : PayableOrder.State.ALREADY_PAID;
+            return order.shippingDifferenceDueUzs().signum() > 0 ? PayableOrder.State.PAYABLE : PayableOrder.State.ALREADY_PAID;
         }
         // After the shipping step a positive difference was paid; before weighing nothing is due yet.
         boolean afterShipping = status == OrderStatus.IN_TRANSIT || status == OrderStatus.ARRIVED

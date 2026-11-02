@@ -1,6 +1,7 @@
 package uz.karvon;
 
 import com.jayway.jsonpath.JsonPath;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.assertj.MvcTestResult;
@@ -73,6 +74,16 @@ public final class TestLogins {
         MvcTestResult result = verifyOtp(mvc, phone, lastCode(mvc, phone));
         assertThat(result).hasStatusOk();
         return result;
+    }
+
+    /** A new user who has only this staff role (given by the admin); returns the access token. */
+    public static String staffToken(MockMvcTester mvc, String role) {
+        MvcTestResult login = login(mvc, newPhone());
+        MvcTestResult changed = mvc.patch().uri("/api/v1/admin/users/{id}/roles", read(login, "$.user.id"))
+                .header(HttpHeaders.AUTHORIZATION, bearer(adminToken(mvc)))
+                .contentType(MediaType.APPLICATION_JSON).content("{\"roles\":[\"%s\"]}".formatted(role)).exchange();
+        assertThat(changed).hasStatusOk();
+        return read(login, "$.accessToken");
     }
 
     public static String accessToken(MockMvcTester mvc, String phone) {

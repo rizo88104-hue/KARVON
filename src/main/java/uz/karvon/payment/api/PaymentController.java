@@ -34,6 +34,13 @@ public class PaymentController {
         return payments.start(CurrentUser.id(authentication), number, PaymentPurpose.ORDER, request.provider());
     }
 
+    /** Pays the extra cost the customer accepted when an item became more expensive on Taobao. */
+    @PostMapping("/pay-price-difference")
+    public StartPaymentResponse payPriceDifference(Authentication authentication, @PathVariable String number,
+                                                   @Valid @RequestBody StartPaymentRequest request) {
+        return payments.start(CurrentUser.id(authentication), number, PaymentPurpose.PRICE_DIFFERENCE, request.provider());
+    }
+
     /** Pays the extra shipping of an order in AWAITING_SHIPPING_PAYMENT. */
     @PostMapping("/pay-shipping")
     public StartPaymentResponse payShipping(Authentication authentication, @PathVariable String number,
