@@ -16,8 +16,11 @@ OpenAPI at `/v3/api-docs`). **Never change the backend.** Read it only when you 
 - Pages not in that file (product, cart, checkout, account, orders) take their structure and flows from
   `docs/design/karvon-demo.html`, restyled with the E-Market design (navy #232F3E, orange #FF9900, grey #EAEBED).
   We have **no photo-inspection service** ("foto-tekshiruv"): never add it.
-- "[MUDDAT]" = delivery days. Always go through `getDeliveryDays()` in `src/lib/site.ts`. The backend has no public
-  setting for it yet, so it reads `NEXT_PUBLIC_DELIVERY_DAYS` (TODO: switch to the backend setting when it exists).
+- "[MUDDAT]" = delivery days. Always go through `getDeliveryDays(settings)` in `src/lib/site.ts`: it uses
+  `deliveryDaysMin`/`deliveryDaysMax` from `GET /api/v1/settings/pricing`; `NEXT_PUBLIC_DELIVERY_DAYS` is only a
+  fallback when the settings cannot be loaded.
+- Old price: when the backend sends `originalPriceUzs`, show it crossed out (`PriceTag old`) with the orange `-NN%`
+  `DiscountBadge` on the image, as in the design's product cards.
 - Mobile first: everything must work at 375px wide.
 - Base CSS resets live in `@layer base`; unlayered CSS would override component classes like `.btn-navy`.
 

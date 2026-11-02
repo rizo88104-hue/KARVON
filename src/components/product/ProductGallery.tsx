@@ -2,10 +2,21 @@
 
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { DiscountBadge } from "@/components/DiscountBadge";
 import { ProductImage } from "@/components/ProductImage";
 
 /** Main photo with thumbnails. `highlight` (the chosen SKU's photo) is shown first when set. */
-export function ProductGallery({ images, title, highlight }: { images: string[]; title: string; highlight?: string | null }) {
+export function ProductGallery({
+  images,
+  title,
+  highlight,
+  discount,
+}: {
+  images: string[];
+  title: string;
+  highlight?: string | null;
+  discount?: number | null;
+}) {
   const t = useTranslations("product");
   const tc = useTranslations("productCard");
   const all = highlight && !images.includes(highlight) ? [highlight, ...images] : images;
@@ -22,14 +33,17 @@ export function ProductGallery({ images, title, highlight }: { images: string[];
 
   return (
     <div className="flex flex-col gap-3 min-[901px]:flex-row-reverse" aria-label={t("gallery")} role="group">
-      <ProductImage
-        src={current}
-        alt={t("image", { title, index: currentIndex + 1 })}
-        placeholder={tc("noImage")}
-        sizes="(max-width: 900px) 100vw, 480px"
-        priority
-        className="aspect-square w-full flex-1 rounded-md"
-      />
+      <div className="relative w-full flex-1">
+        <DiscountBadge percent={discount ?? null} />
+        <ProductImage
+          src={current}
+          alt={t("image", { title, index: currentIndex + 1 })}
+          placeholder={tc("noImage")}
+          sizes="(max-width: 900px) 100vw, 480px"
+          priority
+          className="aspect-square w-full rounded-md"
+        />
+      </div>
       {all.length > 1 && (
         <div className="no-scrollbar flex gap-2 overflow-x-auto min-[901px]:w-[72px] min-[901px]:flex-none min-[901px]:flex-col">
           {all.slice(0, 8).map((src, i) => (

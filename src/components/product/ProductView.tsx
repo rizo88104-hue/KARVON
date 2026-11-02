@@ -13,6 +13,7 @@ import { findSku, initialSelection, SkuSelector, type SkuSelection } from "@/com
 import { useToast } from "@/components/Toast";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { formatAmount, formatDecimal } from "@/lib/format";
+import { discountPercent } from "@/lib/site";
 import { useCartMutation } from "@/lib/queries";
 import { useErrorMessage } from "@/lib/use-error-message";
 import { useSession } from "@/lib/use-session";
@@ -58,6 +59,9 @@ export function ProductView({ product, settings, deliveryDays }: Props) {
     placeholderData: keepPreviousData,
   });
   const price = qty > 1 ? (estimate.data ?? null) : (sku?.price ?? product.price ?? null);
+  // The old price from the backend is for one item at the base (cheapest SKU) price; compare only like with like.
+  const oldPrice = qty === 1 && priceCny === product.priceCny ? (product.originalPriceUzs ?? null) : null;
+  const discount = discountPercent(price?.totalUzs, oldPrice);
 
   const addItem = useCartMutation(
     async () =>
@@ -114,7 +118,7 @@ export function ProductView({ product, settings, deliveryDays }: Props) {
   return (
     <>
       <div className="card grid grid-cols-1 gap-6 p-4 min-[901px]:grid-cols-[minmax(0,480px)_minmax(0,1fr)] min-[901px]:p-6">
-        <ProductGallery images={images} title={product.title ?? ""} highlight={sku?.imageUrl} />
+        <ProductGallery images={images} title={product.title ?? ""} highlight={sku?.imageUrl} discount={discount} />
 
         <div className="flex min-w-0 flex-col gap-4">
           <div>
@@ -129,7 +133,7 @@ export function ProductView({ product, settings, deliveryDays }: Props) {
           <div className="flex flex-col gap-1.5 rounded-md bg-grey-bg px-4 py-3.5">
             <span className="text-[13px] text-subtle">{t("finalPrice")}</span>
             <div className="flex flex-wrap items-baseline gap-3">
-              <PriceTag amount={price?.totalUzs} size="xl" />
+              <PriceTag amount={price?.totalUzs} old={discount ? oldPrice : null} size="xl" />
               {priceCny != null && (
                 <span className="num text-[13px] text-subtle">{t("taobaoPrice", { amount: formatDecimal(priceCny) })}</span>
               )}

@@ -5,7 +5,7 @@ import { LinkOrderCard } from "@/components/home/LinkOrderCard";
 import { categoryName } from "@/components/layout/categories";
 import { ProductCard, ProductGrid } from "@/components/ProductCard";
 import { Link } from "@/i18n/navigation";
-import { getBanners, getCategories, getPopularProducts } from "@/lib/server/data";
+import { getBanners, getCategories, getPopularProducts, getPricingSettings } from "@/lib/server/data";
 import { getDeliveryDays } from "@/lib/site";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -15,12 +15,16 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("home");
 
-  const [banners, categories] = await Promise.all([getBanners(locale), getCategories(locale)]);
+  const [banners, categories, settings] = await Promise.all([
+    getBanners(locale),
+    getCategories(locale),
+    getPricingSettings(),
+  ]);
   const { query: feedQuery, products } = await getPopularProducts(
     locale,
     categories.map((c) => categoryName(c, locale)),
   );
-  const days = getDeliveryDays();
+  const days = getDeliveryDays(settings);
   const allHref = feedQuery ? `/search?q=${encodeURIComponent(feedQuery)}&sort=SALES` : "/search";
 
   const steps = [

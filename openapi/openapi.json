@@ -4302,6 +4302,20 @@
             "example": 3,
             "maximum": 100,
             "minimum": 0
+          },
+          "deliveryDaysMin": {
+            "type": "integer",
+            "format": "int32",
+            "example": 12,
+            "maximum": 365,
+            "minimum": 1
+          },
+          "deliveryDaysMax": {
+            "type": "integer",
+            "format": "int32",
+            "example": 18,
+            "maximum": 365,
+            "minimum": 1
           }
         },
         "required": [
@@ -4345,6 +4359,14 @@
           },
           "priceChangeThresholdPercent": {
             "type": "number"
+          },
+          "deliveryDaysMin": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "deliveryDaysMax": {
+            "type": "integer",
+            "format": "int32"
           },
           "effectiveFrom": {
             "type": "string",
@@ -4908,7 +4930,8 @@
             "type": "string",
             "enum": [
               "PAYME",
-              "CLICK"
+              "CLICK",
+              "WALLET"
             ],
             "example": "PAYME"
           },
@@ -4971,7 +4994,8 @@
             "type": "string",
             "enum": [
               "PAYME",
-              "CLICK"
+              "CLICK",
+              "WALLET"
             ]
           },
           "pricingSettingsId": {
@@ -6269,6 +6293,14 @@
           "defaultWeightKg": {
             "type": "number"
           },
+          "deliveryDaysMin": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "deliveryDaysMax": {
+            "type": "integer",
+            "format": "int32"
+          },
           "effectiveFrom": {
             "type": "string",
             "format": "date-time"
@@ -6528,6 +6560,12 @@
           "priceUzs": {
             "type": "number"
           },
+          "originalPriceCny": {
+            "type": "number"
+          },
+          "originalPriceUzs": {
+            "type": "number"
+          },
           "salesCount": {
             "type": "integer",
             "format": "int64"
@@ -6563,6 +6601,12 @@
           },
           "price": {
             "$ref": "#/components/schemas/PriceBreakdown"
+          },
+          "originalPriceCny": {
+            "type": "number"
+          },
+          "originalPriceUzs": {
+            "type": "number"
           },
           "salesCount": {
             "type": "integer",

@@ -62,7 +62,7 @@ export function CheckoutModal({ open, onClose, totals }: Props) {
     resolver: zodResolver(schema),
     defaultValues: { deliveryMethod: "CARGO_PICKUP", provider: "PAYME", comment: "", offer: false },
   });
-  const { register, handleSubmit, formState, setValue, control } = form;
+  const { register, handleSubmit, formState, setValue, setError, control } = form;
   const deliveryMethod = useWatch({ control, name: "deliveryMethod" });
   const addressId = useWatch({ control, name: "addressId" });
 
@@ -75,24 +75,31 @@ export function CheckoutModal({ open, onClose, totals }: Props) {
 
   const onSubmit = handleSubmit(async (values) => {
     let number: string | undefined;
+    let paidAtOnce = false;
     try {
       const order = unwrap(
         await api.POST("/api/v1/orders", {
           body: {
             deliveryMethod: values.deliveryMethod,
             addressId: values.deliveryMethod === "CARGO_PICKUP" ? undefined : values.addressId,
-            // The order records a card method; paying from the balance is chosen at the payment step.
-            paymentMethod: values.provider === "WALLET" ? "PAYME" : values.provider,
+            // WALLET: the backend pays the new order from the balance at once.
+            paymentMethod: values.provider,
             comment: values.comment?.trim() || undefined,
           },
         }),
       );
       number = order.number;
+      paidAtOnce = order.status === "PAID";
     } catch (e) {
       if (isApiError(e, "CART_CHANGED")) {
         toast(t("cartChanged"));
         await qc.invalidateQueries({ queryKey: keys.cart });
         onClose();
+      } else if (isApiError(e, "WALLET_INSUFFICIENT")) {
+        // Nothing was ordered and the cart is unchanged: offer a card payment instead.
+        setError("provider", { message: t("walletInsufficient") });
+        setValue("provider", "PAYME");
+        void qc.invalidateQueries({ queryKey: ["wallet"] });
       } else {
         toast(errorMessage(e));
       }
@@ -102,6 +109,13 @@ export function CheckoutModal({ open, onClose, totals }: Props) {
     void qc.invalidateQueries({ queryKey: keys.cart });
     void qc.invalidateQueries({ queryKey: ["orders"] });
     if (!number) return;
+    if (paidAtOnce) {
+      toast(t("paid"));
+      void qc.invalidateQueries({ queryKey: ["wallet"] });
+      onClose();
+      router.push(`/account/orders/${encodeURIComponent(number)}`);
+      return;
+    }
     try {
       const payment = unwrap(
         await api.POST("/api/v1/orders/{number}/pay", {
@@ -184,6 +198,11 @@ export function CheckoutModal({ open, onClose, totals }: Props) {
               </label>
             );
           })}
+          {errors.provider && (
+            <span role="alert" className="text-[13px] text-danger">
+              {errors.provider.message}
+            </span>
+          )}
         </fieldset>
 
         <label className="flex flex-col gap-1.5 text-[14px]">

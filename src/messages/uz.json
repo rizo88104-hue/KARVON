@@ -98,7 +98,8 @@
   "productCard": {
     "addToCart": "Savatga",
     "noImage": "Mahsulot rasmi",
-    "sold": "{count} ta sotilgan"
+    "sold": "{count} ta sotilgan",
+    "discount": "-{percent}%"
   },
   "breakdown": {
     "title": "Narx tarkibi",
@@ -240,7 +241,8 @@
     "cartChanged": "Savatdagi narx yoki mavjudlik o'zgardi. Savatni tekshirib, qayta yuboring.",
     "paid": "Buyurtma balansdan to'landi",
     "orderCreated": "{number} buyurtmasi yaratildi",
-    "redirecting": "To'lov sahifasiga o'tilmoqda…"
+    "redirecting": "To'lov sahifasiga o'tilmoqda…",
+    "walletInsufficient": "Balansda mablag' yetarli emas. Payme yoki Click bilan to'lang yoki balansni to'ldiring."
   },
   "login": {
     "title": "Kirish",

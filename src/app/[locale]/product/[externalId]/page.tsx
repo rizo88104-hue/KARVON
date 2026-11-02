@@ -84,7 +84,7 @@ export default async function ProductPage({ params }: Props) {
           {product.title}
         </span>
       </nav>
-      <ProductView product={product} settings={settings} deliveryDays={getDeliveryDays()} />
+      <ProductView product={product} settings={settings} deliveryDays={getDeliveryDays(settings)} />
     </main>
   );
 }

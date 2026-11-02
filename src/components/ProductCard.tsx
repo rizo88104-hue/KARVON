@@ -1,6 +1,8 @@
 import { useTranslations } from "next-intl";
 import type { ProductCard as ProductCardData } from "@/api/types";
 import { Link } from "@/i18n/navigation";
+import { discountPercent } from "@/lib/site";
+import { DiscountBadge } from "./DiscountBadge";
 import { PriceTag } from "./PriceTag";
 import { ProductImage } from "./ProductImage";
 
@@ -13,7 +15,8 @@ export function ProductCard({ product }: { product: ProductCardData }) {
   const href = `/product/${encodeURIComponent(product.externalId ?? "")}`;
   return (
     <article className="card flex flex-col overflow-hidden">
-      <Link href={href} tabIndex={-1} aria-hidden="true">
+      <Link href={href} tabIndex={-1} aria-hidden="true" className="relative block">
+        <DiscountBadge percent={discountPercent(product.priceUzs, product.originalPriceUzs)} />
         <ProductImage
           src={product.mainImageUrl}
           alt=""
@@ -23,7 +26,7 @@ export function ProductCard({ product }: { product: ProductCardData }) {
         />
       </Link>
       <div className="flex flex-1 flex-col gap-0.5 px-3 pt-3.5 pb-3">
-        <PriceTag amount={product.priceUzs} />
+        <PriceTag amount={product.priceUzs} old={product.originalPriceUzs} />
         <Link href={href} className="mt-1 mb-2.5 line-clamp-2 text-[14px] text-body hover:text-navy">
           {product.title}
         </Link>

@@ -1354,6 +1354,16 @@ export interface components {
             defaultWeightKg: number;
             /** @example 3 */
             priceChangeThresholdPercent: number;
+            /**
+             * Format: int32
+             * @example 12
+             */
+            deliveryDaysMin?: number;
+            /**
+             * Format: int32
+             * @example 18
+             */
+            deliveryDaysMax?: number;
         };
         PricingSettingsResponse: {
             /** Format: uuid */
@@ -1366,6 +1376,10 @@ export interface components {
             minWeightKg?: number;
             defaultWeightKg?: number;
             priceChangeThresholdPercent?: number;
+            /** Format: int32 */
+            deliveryDaysMin?: number;
+            /** Format: int32 */
+            deliveryDaysMax?: number;
             /** Format: date-time */
             effectiveFrom?: string;
             /** Format: uuid */
@@ -1596,7 +1610,7 @@ export interface components {
              * @example PAYME
              * @enum {string}
              */
-            paymentMethod: "PAYME" | "CLICK";
+            paymentMethod: "PAYME" | "CLICK" | "WALLET";
             comment?: string;
             /** @example KARVON10 */
             promoCode?: string;
@@ -1611,7 +1625,7 @@ export interface components {
             deliveryMethod?: "POST" | "CARGO_PICKUP" | "COURIER";
             address?: components["schemas"]["AddressResponse"];
             /** @enum {string} */
-            paymentMethod?: "PAYME" | "CLICK";
+            paymentMethod?: "PAYME" | "CLICK" | "WALLET";
             /** Format: uuid */
             pricingSettingsId?: string;
             goodsUzs?: number;
@@ -2017,6 +2031,10 @@ export interface components {
             shippingPricePerKg?: number;
             minWeightKg?: number;
             defaultWeightKg?: number;
+            /** Format: int32 */
+            deliveryDaysMin?: number;
+            /** Format: int32 */
+            deliveryDaysMax?: number;
             /** Format: date-time */
             effectiveFrom?: string;
         };
@@ -2112,6 +2130,8 @@ export interface components {
             mainImageUrl?: string;
             priceCny?: number;
             priceUzs?: number;
+            originalPriceCny?: number;
+            originalPriceUzs?: number;
             /** Format: int64 */
             salesCount?: number;
             shopName?: string;
@@ -2124,6 +2144,8 @@ export interface components {
             images?: string[];
             priceCny?: number;
             price?: components["schemas"]["PriceBreakdown"];
+            originalPriceCny?: number;
+            originalPriceUzs?: number;
             /** Format: int64 */
             salesCount?: number;
             shop?: components["schemas"]["ShopInfo"];
