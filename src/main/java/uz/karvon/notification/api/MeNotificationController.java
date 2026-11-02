@@ -2,6 +2,7 @@ package uz.karvon.notification.api;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -39,7 +40,7 @@ public class MeNotificationController {
 
     @PatchMapping("/notification-settings")
     public NotificationSettingsResponse updateSettings(Authentication authentication,
-                                                       @RequestBody UpdateNotificationSettingsRequest request) {
+                                                       @Valid @RequestBody UpdateNotificationSettingsRequest request) {
         return notifications.updateSettings(CurrentUser.id(authentication), request);
     }
 }

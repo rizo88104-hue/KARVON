@@ -38,7 +38,6 @@ import java.time.Clock;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -107,10 +106,10 @@ public class StaffOrderService {
             return cb.and(where.toArray(Predicate[]::new));
         };
         var found = orders.findAll(filter, PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "createdAt")));
-        Map<UUID, String> phones = new HashMap<>();
+        // One query for all phones of the page (items are batch-loaded too: hibernate.default_batch_fetch_size).
+        Map<UUID, String> phones = users.phonesById(found.getContent().stream().map(Order::getCustomerId).toList());
         return PageResponse.of(found, order -> new StaffOrderSummaryResponse(order.getId(), order.getNumber(),
-                order.getStatus(), order.getCustomerId(),
-                phones.computeIfAbsent(order.getCustomerId(), id -> users.findById(id).map(UserResponse::phone).orElse(null)),
+                order.getStatus(), order.getCustomerId(), phones.get(order.getCustomerId()),
                 order.getTotalUzs(), order.amountDueUzs(), order.getItems().size(), order.getCreatedAt()));
     }
 

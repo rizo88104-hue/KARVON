@@ -2,6 +2,7 @@ package uz.karvon.settings.infrastructure;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.event.TransactionalEventListener;
@@ -21,17 +22,19 @@ public class PricingSettingsCache {
 
     // v2: delivery days were added; old cached JSON without them must not be read.
     static final String KEY = "settings:pricing:current:v2";
-    /** Safety net only; a change clears the key at once. */
-    private static final Duration TTL = Duration.ofMinutes(10);
 
     private static final Logger log = LoggerFactory.getLogger(PricingSettingsCache.class);
 
     private final StringRedisTemplate redis;
     private final JsonMapper json;
+    /** Safety net only; a change clears the key at once ({@code karvon.settings.cache-ttl}). */
+    private final Duration ttl;
 
-    public PricingSettingsCache(StringRedisTemplate redis, JsonMapper json) {
+    public PricingSettingsCache(StringRedisTemplate redis, JsonMapper json,
+                                @Value("${karvon.settings.cache-ttl:10m}") Duration ttl) {
         this.redis = redis;
         this.json = json;
+        this.ttl = ttl;
     }
 
     public Optional<PricingSettingsResponse> get() {
@@ -46,7 +49,7 @@ public class PricingSettingsCache {
 
     public void put(PricingSettingsResponse settings) {
         try {
-            redis.opsForValue().set(KEY, json.writeValueAsString(settings), TTL);
+            redis.opsForValue().set(KEY, json.writeValueAsString(settings), ttl);
         } catch (RuntimeException ex) {
             log.warn("Could not cache pricing settings in Redis", ex);
         }
@@ -57,7 +60,7 @@ public class PricingSettingsCache {
         try {
             redis.delete(KEY);
         } catch (RuntimeException ex) {
-            log.error("Could not clear cached pricing settings; old values stay up to {}", TTL, ex);
+            log.error("Could not clear cached pricing settings; old values stay up to {}", ttl, ex);
         }
     }
 }

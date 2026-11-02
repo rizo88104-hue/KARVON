@@ -30,16 +30,22 @@ public class TaobaoConfig {
     static final Duration TIMEOUT = Duration.ofSeconds(5);
     static final int RETRIES = 2;
 
+    /** Shared with TaobaoHealthIndicator: an open breaker makes the "taobao" health DOWN. */
+    @Bean
+    public CircuitBreaker taobaoCircuitBreaker() {
+        return circuitBreaker();
+    }
+
     @Bean
     public TaobaoProvider taobaoProvider(@Value("${karvon.taobao.api-url}") String apiUrl,
                                          @Value("${karvon.taobao.api-key}") String apiKey,
-                                         JsonMapper json) {
+                                         JsonMapper json, CircuitBreaker taobaoCircuitBreaker) {
         if (apiUrl.isBlank() || apiKey.isBlank()) {
             throw new IllegalStateException("TAOBAO_API_URL and TAOBAO_API_KEY must be set");
         }
         RestClient http = RestClient.builder().baseUrl(apiUrl).requestFactory(requestFactory()).build();
         return new HttpTaobaoProvider(http, apiKey, new TaobaoResponseMapper(json),
-                circuitBreaker(), retry(Duration.ofMillis(300)),
+                taobaoCircuitBreaker, retry(Duration.ofMillis(300)),
                 new ShortLinkResolver(RestClient.builder().requestFactory(requestFactory())));
     }
 

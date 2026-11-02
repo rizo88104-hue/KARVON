@@ -28,4 +28,15 @@ public final class PhoneNumbers {
         }
         return UZ_E164.matcher(phone).matches() ? Optional.of(phone) : Optional.empty();
     }
+
+    /**
+     * For logs: keeps the operator code and the last 4 digits, "+998901234567" -> "+99890***4567".
+     * Anything else is fully hidden, so logs never carry a whole phone number.
+     */
+    public static String mask(String phone) {
+        if (phone == null || !UZ_E164.matcher(phone).matches()) {
+            return "***";
+        }
+        return phone.substring(0, 6) + "***" + phone.substring(9);
+    }
 }

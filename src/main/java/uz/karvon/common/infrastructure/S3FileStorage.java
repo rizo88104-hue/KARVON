@@ -19,20 +19,20 @@ import java.time.Duration;
 
 /**
  * S3-compatible storage (AWS, Yandex Object Storage, MinIO ...). The bucket stays private: links are presigned
- * and valid for {@link #LINK_TTL}. Path-style addressing, which every S3-compatible service supports.
+ * and valid for {@code karvon.files.s3.link-ttl}. Path-style addressing, which every S3-compatible service supports.
  */
 public class S3FileStorage implements FileStorage {
-
-    static final Duration LINK_TTL = Duration.ofHours(1);
 
     private final S3Client client;
     private final S3Presigner presigner;
     private final String bucket;
+    private final Duration linkTtl;
 
     public S3FileStorage(FileStorageProperties.S3 s3) {
         if (s3.bucket().isBlank() || s3.accessKey().isBlank() || s3.secretKey().isBlank()) {
             throw new IllegalStateException("S3_BUCKET, S3_ACCESS_KEY and S3_SECRET_KEY must be set");
         }
+        this.linkTtl = s3.linkTtl();
         var credentials = StaticCredentialsProvider.create(AwsBasicCredentials.create(s3.accessKey(), s3.secretKey()));
         var pathStyle = S3Configuration.builder().pathStyleAccessEnabled(true).build();
         var clientBuilder = S3Client.builder()
@@ -62,7 +62,7 @@ public class S3FileStorage implements FileStorage {
     @Override
     public String url(String key) {
         return presigner.presignGetObject(GetObjectPresignRequest.builder()
-                .signatureDuration(LINK_TTL)
+                .signatureDuration(linkTtl)
                 .getObjectRequest(GetObjectRequest.builder().bucket(bucket).key(key).build())
                 .build()).url().toString();
     }

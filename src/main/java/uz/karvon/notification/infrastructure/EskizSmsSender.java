@@ -10,6 +10,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.RestClientException;
+import uz.karvon.common.domain.PhoneNumbers;
 import uz.karvon.notification.application.SmsSendException;
 import uz.karvon.notification.application.SmsSender;
 
@@ -41,7 +42,7 @@ public class EskizSmsSender implements SmsSender {
                 sendWith(currentToken(), phone, text);
             }
         } catch (RestClientException | EskizLoginException ex) {
-            log.error("Eskiz did not send SMS to {}", phone, ex);
+            log.error("Eskiz did not send SMS to {}", PhoneNumbers.mask(phone), ex);
             throw new SmsSendException(ex);
         }
     }

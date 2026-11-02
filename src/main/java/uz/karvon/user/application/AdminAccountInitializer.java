@@ -33,14 +33,14 @@ public class AdminAccountInitializer implements ApplicationRunner {
         String phone = PhoneNumbers.normalize(adminPhone)
                 .orElseThrow(() -> new IllegalStateException("ADMIN_PHONE must be an Uzbek number +998XXXXXXXXX"));
         if (userService.createAdminIfMissing(phone)) {
-            log.info("Created ADMIN user {}", phone);
+            log.info("Created ADMIN user {}", PhoneNumbers.mask(phone));
             return;
         }
         boolean isAdmin = userService.findByPhone(phone)
                 .map(user -> user.roles().contains(Role.ADMIN))
                 .orElse(false);
         if (!isAdmin) {
-            log.warn("ADMIN_PHONE {} belongs to an existing user without the ADMIN role; roles were not changed", phone);
+            log.warn("ADMIN_PHONE {} belongs to an existing user without the ADMIN role; roles were not changed", PhoneNumbers.mask(phone));
         }
     }
 }

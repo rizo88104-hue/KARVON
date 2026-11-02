@@ -15,6 +15,12 @@ server:
   port: ${SERVER_PORT}
 
 karvon:
+  # Required (no defaults): CORS origins of the site, Payme/Click callback IPs, the Prometheus scrape token.
+  security:
+    cors-allowed-origins: ${CORS_ALLOWED_ORIGINS}
+    payme-allowed-ips: ${PAYME_ALLOWED_IPS}
+    click-allowed-ips: ${CLICK_ALLOWED_IPS}
+    metrics-token: ${METRICS_TOKEN}
   sms:
     eskiz:
       email: ${ESKIZ_EMAIL}
@@ -51,3 +57,19 @@ translation:
   yandex:
     # only for Yandex user accounts; a service account API key does not need it
     folder-id: ${YANDEX_FOLDER_ID:}
+
+# JSON logs (ECS format) for log collectors; every line carries the request id from the MDC.
+logging:
+  structured:
+    format:
+      console: ecs
+
+# No public API documentation in production.
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+sentry:
+  environment: ${SENTRY_ENVIRONMENT:production}

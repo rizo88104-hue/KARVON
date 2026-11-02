@@ -16,6 +16,9 @@ import uz.karvon.user.domain.User;
 import uz.karvon.user.domain.UserStatus;
 import uz.karvon.user.infrastructure.UserRepository;
 
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
@@ -50,6 +53,16 @@ public class UserService {
 
     public Optional<UserResponse> findById(UUID id) {
         return users.findById(id).map(mapper::toResponse);
+    }
+
+    /** Phones of many users with one query (staff lists), keyed by user id. */
+    public Map<UUID, String> phonesById(Collection<UUID> ids) {
+        if (ids.isEmpty()) {
+            return Map.of();
+        }
+        Map<UUID, String> phones = new HashMap<>();
+        users.findAllById(Set.copyOf(ids)).forEach(user -> phones.put(user.getId(), user.getPhone()));
+        return phones;
     }
 
     public UserResponse getById(UUID id) {

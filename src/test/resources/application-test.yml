@@ -1,5 +1,9 @@
 # Integration tests: containers supply Postgres and Redis, the fake SMS sender is used.
 karvon:
+  security:
+    # Tests call /auth and /catalog many times from one IP; SecurityHardeningIntegrationTest turns it on.
+    rate-limit:
+      enabled: false
   telegram:
     bot-username: karvon_test_bot
     webhook-secret: test-telegram-secret

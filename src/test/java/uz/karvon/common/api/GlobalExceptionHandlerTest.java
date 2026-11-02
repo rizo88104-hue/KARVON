@@ -22,11 +22,15 @@ import uz.karvon.auth.infrastructure.SecurityConfig;
 import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.application.NotFoundException;
 import uz.karvon.common.infrastructure.I18nConfig;
+import uz.karvon.common.infrastructure.web.ProblemResponses;
+import uz.karvon.common.infrastructure.web.WebConfig;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @WebMvcTest(controllers = GlobalExceptionHandlerTest.FailingController.class)
-@Import({GlobalExceptionHandlerTest.FailingController.class, SecurityConfig.class, I18nConfig.class})
+// WebConfig and ProblemResponses: the request filters (picked up by the slice) need them.
+@Import({GlobalExceptionHandlerTest.FailingController.class, SecurityConfig.class, I18nConfig.class,
+        WebConfig.class, ProblemResponses.class})
 @WithMockUser
 class GlobalExceptionHandlerTest {
 

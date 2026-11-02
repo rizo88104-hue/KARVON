@@ -11,6 +11,18 @@ spring:
       hibernate:
         jdbc:
           time_zone: UTC
+        # Lazy collections (order items, user roles) of a page are loaded with one IN query instead of one per row.
+        default_batch_fetch_size: 50
+  datasource:
+    hikari:
+      maximum-pool-size: ${DB_POOL_MAX:20}
+      minimum-idle: ${DB_POOL_MIN_IDLE:5}
+      # Hikari timeouts are milliseconds.
+      connection-timeout: ${DB_POOL_CONNECTION_TIMEOUT_MS:5000}
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      # Logs a connection kept longer than this (a leak or a slow transaction).
+      leak-detection-threshold: ${DB_POOL_LEAK_DETECTION_MS:60000}
   flyway:
     enabled: true
     locations: classpath:db/migration
@@ -26,15 +38,46 @@ spring:
 server:
   error:
     include-stacktrace: never
+  # Behind nginx: client IP and https come from X-Forwarded-* (trusted only from private-network proxies).
+  forward-headers-strategy: native
+  max-http-request-header-size: 16KB
 
 management:
   endpoints:
     web:
       exposure:
-        include: health
+        # /actuator/prometheus needs Bearer METRICS_TOKEN (MetricsTokenFilter).
+        include: health,prometheus
   endpoint:
     health:
       show-details: never
+      probes:
+        enabled: true
+      group:
+        # /actuator/health/readiness: can the API serve requests (database, Redis, Taobao catalog)?
+        readiness:
+          include: readinessState,db,redis,taobao
+        # /actuator/health/dependencies: the same checks without the application state.
+        dependencies:
+          include: db,redis,taobao
+  metrics:
+    tags:
+      application: karvon-api
+
+logging:
+  pattern:
+    # Plain-text logs (dev, test) show the request id; production writes JSON logs with it (application-prod.yml).
+    level: "%5p [%X{requestId:-}]"
+
+sentry:
+  # Errors go to Sentry only when SENTRY_DSN is set.
+  dsn: ${SENTRY_DSN:}
+  environment: ${SENTRY_ENVIRONMENT:local}
+  send-default-pii: false
+  traces-sample-rate: 0.0
+  logging:
+    minimum-event-level: error
+    minimum-breadcrumb-level: info
 
 springdoc:
   api-docs:
@@ -58,6 +101,9 @@ karvon:
     cache:
       search-ttl: 30m
       product-ttl: 2h
+  settings:
+    # Active pricing settings in Redis; a change clears the key at once, this is only a safety net.
+    cache-ttl: 10m
   reports:
     # Days and months of the dashboard and reports are counted in this time zone.
     zone: Asia/Tashkent
@@ -78,6 +124,19 @@ karvon:
       secret-key: ${CLICK_SECRET_KEY:}
       service-id: ${CLICK_SERVICE_ID:}
       merchant-id: ${CLICK_MERCHANT_ID:}
+  security:
+    # Browser origins of the site, comma-separated (e.g. https://karvon.uz,https://www.karvon.uz).
+    cors-allowed-origins: ${CORS_ALLOWED_ORIGINS:}
+    # Payme / Click callback source IPs or CIDR ranges, comma-separated. Empty = any IP (dev and test only).
+    payme-allowed-ips: ${PAYME_ALLOWED_IPS:}
+    click-allowed-ips: ${CLICK_ALLOWED_IPS:}
+    max-json-body: 1MB
+    metrics-token: ${METRICS_TOKEN:}
+    rate-limit:
+      enabled: ${RATE_LIMIT_ENABLED:true}
+      auth: { capacity: 10, period: 1m }
+      catalog: { capacity: 120, period: 1m }
+      payments: { capacity: 300, period: 1m }
   files:
     # dev/test: local directory; prod: S3-compatible bucket (S3_*)
     local-dir: ${FILE_STORAGE_DIR:./data/files}
@@ -88,6 +147,7 @@ karvon:
       bucket: ${S3_BUCKET:}
       access-key: ${S3_ACCESS_KEY:}
       secret-key: ${S3_SECRET_KEY:}
+      link-ttl: ${S3_LINK_TTL:1h}
   admin:
     # Phone of the first ADMIN, created on startup if missing. Empty = skip.
     phone: ${ADMIN_PHONE:}

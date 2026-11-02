@@ -34,7 +34,9 @@ total      = goods + serviceFee + shipping
 - Java 21, Spring Boot 4.1.x, Maven (use ./mvnw)
 - Spring Web (REST), Spring Security (JWT), Spring Data JPA, Bean Validation
 - PostgreSQL 16 with Flyway migrations (never ddl-auto=update), Redis for cache and OTP codes
-- springdoc-openapi (Swagger UI at /swagger-ui), MapStruct, Lombok (only @Getter/@Setter/@Builder/@RequiredArgsConstructor)
+- springdoc-openapi (Swagger UI at /swagger-ui; off in prod), MapStruct, Lombok (only @Getter/@Setter/@Builder/@RequiredArgsConstructor)
+- Observability: Micrometer + Prometheus (/actuator/prometheus, Bearer METRICS_TOKEN), Sentry (SENTRY_DSN), JSON logs in prod
+  with requestId; rate limiting: Bucket4j on Redis (Lettuce). Request-level filters live in common/infrastructure/web.
 - JUnit 5, Mockito, AssertJ, Testcontainers
 - Docker Compose for local Postgres and Redis
 - Use Boot 4 starters (e.g. spring-boot-starter-flyway) and Boot 4 compatible library versions.

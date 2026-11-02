@@ -29,6 +29,9 @@ logging:
     uz.karvon: DEBUG
 
 karvon:
+  security:
+    # The site in dev (next dev).
+    cors-allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000}
   auth:
     # Dev-only fallback so the app starts without a .env file. Production has no default.
     jwt-secret: ${JWT_SECRET:dev-only-jwt-secret-change-me-0123456789}

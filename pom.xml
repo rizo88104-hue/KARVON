@@ -30,10 +30,35 @@
         <resilience4j.version>2.4.0</resilience4j.version>
         <awssdk.version>2.56.0</awssdk.version>
         <poi.version>5.5.1</poi.version>
+        <bucket4j.version>8.21.0</bucket4j.version>
+        <sentry.version>8.62.0</sentry.version>
     </properties>
 
     <!-- Dependencies -->
     <dependencies>
+
+        <!-- Observability: Prometheus metrics, Sentry errors -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.sentry</groupId>
+            <artifactId>sentry-spring-boot-4-starter</artifactId>
+            <version>${sentry.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.sentry</groupId>
+            <artifactId>sentry-logback</artifactId>
+            <version>${sentry.version}</version>
+        </dependency>
+
+        <!-- Rate limiting: token buckets shared in Redis (uses the Lettuce client of Spring Data Redis) -->
+        <dependency>
+            <groupId>com.bucket4j</groupId>
+            <artifactId>bucket4j_jdk17-lettuce</artifactId>
+            <version>${bucket4j.version}</version>
+        </dependency>
 
         <!-- Spring Web -->
         <dependency>

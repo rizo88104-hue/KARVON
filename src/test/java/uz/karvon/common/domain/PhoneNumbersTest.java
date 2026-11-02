@@ -20,4 +20,11 @@ class PhoneNumbersTest {
     void rejectsEverythingElse(String raw) {
         assertThat(PhoneNumbers.normalize(raw)).isEmpty();
     }
+
+    @org.junit.jupiter.api.Test
+    void maskKeepsOnlyOperatorCodeAndLastFourDigits() {
+        assertThat(PhoneNumbers.mask("+998901234567")).isEqualTo("+99890***4567");
+        assertThat(PhoneNumbers.mask("901234567")).as("not normalized").isEqualTo("***");
+        assertThat(PhoneNumbers.mask(null)).isEqualTo("***");
+    }
 }
