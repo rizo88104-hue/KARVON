@@ -54,6 +54,13 @@ public class PricingSettings {
     @Column(name = "price_change_threshold_percent", nullable = false, updatable = false)
     private BigDecimal priceChangeThresholdPercent;
 
+    /** Delivery time shown to customers, in days. */
+    @Column(name = "delivery_days_min", nullable = false, updatable = false)
+    private int deliveryDaysMin;
+
+    @Column(name = "delivery_days_max", nullable = false, updatable = false)
+    private int deliveryDaysMax;
+
     @Column(name = "effective_from", nullable = false, updatable = false)
     private Instant effectiveFrom;
 
@@ -68,7 +75,7 @@ public class PricingSettings {
     private PricingSettings(BigDecimal customerRate, BigDecimal feePercent, BigDecimal minServiceFee,
                             BigDecimal shippingCostPerKg, BigDecimal ourMarkupPerKg, BigDecimal minWeightKg,
                             BigDecimal defaultWeightKg, BigDecimal priceChangeThresholdPercent,
-                            Instant effectiveFrom, UUID changedBy) {
+                            int deliveryDaysMin, int deliveryDaysMax, Instant effectiveFrom, UUID changedBy) {
         this.customerRate = customerRate;
         this.feePercent = feePercent;
         this.minServiceFee = minServiceFee;
@@ -77,6 +84,8 @@ public class PricingSettings {
         this.minWeightKg = minWeightKg;
         this.defaultWeightKg = defaultWeightKg;
         this.priceChangeThresholdPercent = priceChangeThresholdPercent;
+        this.deliveryDaysMin = deliveryDaysMin;
+        this.deliveryDaysMax = deliveryDaysMax;
         this.effectiveFrom = effectiveFrom;
         this.changedBy = changedBy;
     }

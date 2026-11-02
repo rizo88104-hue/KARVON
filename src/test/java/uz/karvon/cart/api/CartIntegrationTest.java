@@ -258,7 +258,7 @@ class CartIntegrationTest extends AbstractIntegrationTest {
                 .toList();
         return new ProductDetail(product.externalId(), product.titleOriginal(), null, product.mainImageUrl(),
                 product.images(), product.priceCny(), product.salesCount(), product.shop(), product.attributes(), skus,
-                product.chinaShippingCny(), product.weightKg());
+                product.chinaShippingCny(), product.weightKg(), product.originalPriceCny());
     }
 
     private MvcTestResult add(String productId, String skuSuffix, int quantity, String comment) {

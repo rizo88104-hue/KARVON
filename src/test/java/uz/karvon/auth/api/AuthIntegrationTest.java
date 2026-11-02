@@ -41,7 +41,7 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
 
         String code = lastCode(mvc, phone);
         assertThat(sms.lastMessage(phone))
-                .hasValue("Karvon: tasdiqlash kodi " + code + ". Kodni hech kimga bermang.");
+                .hasValue("E-Market: tasdiqlash kodi " + code + ". Kodni hech kimga bermang.");
 
         MvcTestResult verified = verifyOtp(mvc, phone, code);
         assertThat(verified).hasStatusOk();

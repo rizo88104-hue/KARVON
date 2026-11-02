@@ -134,6 +134,9 @@ class CatalogIntegrationTest extends AbstractIntegrationTest {
         assertThat(result).bodyJson().extractingPath("$.price.totalUzs").isEqualTo(324600);
         assertThat(result).bodyJson().extractingPath("$.attributes[1].name").isEqualTo("Material");
         assertThat(result).bodyJson().extractingPath("$.weightEstimated").isEqualTo(false);
+        // Fake data: old price 168 CNY, priced like the current one: 299 000 + 29 900 + 72 000
+        assertThat(result).bodyJson().extractingPath("$.originalPriceCny").isEqualTo(168);
+        assertThat(result).bodyJson().extractingPath("$.originalPriceUzs").isEqualTo(400900);
     }
 
     @Test

@@ -43,7 +43,7 @@ class NotificationDeliveryTest {
 
         assertThat(delivery.deliver(ID)).isTrue();
 
-        verify(sms).send(PHONE, "Karvon: заказ KRV-000042 оплачен. Скоро выкупим его.");
+        verify(sms).send(PHONE, "E-Market: заказ KRV-000042 оплачен. Скоро выкупим его.");
         verify(outbox).markSent(ID);
     }
 
@@ -54,7 +54,7 @@ class NotificationDeliveryTest {
 
         assertThat(delivery.deliver(ID)).isTrue();
 
-        verify(telegram).sendMessage(777L, "Karvon: KRV-000042 buyurtmangiz to'landi. Tez orada sotib olamiz.");
+        verify(telegram).sendMessage(777L, "E-Market: KRV-000042 buyurtmangiz to'landi. Tez orada sotib olamiz.");
         verifyNoInteractions(sms);
     }
 

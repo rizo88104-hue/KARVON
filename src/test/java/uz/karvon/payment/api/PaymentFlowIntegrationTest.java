@@ -19,6 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static uz.karvon.TestLogins.newPhone;
 import static uz.karvon.TestLogins.read;
 import static uz.karvon.payment.PaymentTestSupport.ORDER_TOTAL;
+import static uz.karvon.payment.PaymentTestSupport.addToCart;
 import static uz.karvon.payment.PaymentTestSupport.as;
 import static uz.karvon.payment.PaymentTestSupport.newOrder;
 import static uz.karvon.payment.PaymentTestSupport.orderId;
@@ -97,6 +98,44 @@ class PaymentFlowIntegrationTest extends AbstractIntegrationTest {
     }
 
     @Test
+    void orderWithPaymentMethodWalletIsPaidWhenCreated() {
+        wallets.credit(customerId, new BigDecimal("300000"), WalletTransactionType.REFUND, null, null, "test money");
+        addToCart(mvc, customer);
+
+        MvcTestResult order = createOrder("WALLET");
+
+        assertThat(order).hasStatus(HttpStatus.CREATED);
+        assertThat(order).bodyJson().extractingPath("$.status").isEqualTo("PAID");
+        assertThat(order).bodyJson().extractingPath("$.paymentMethod").isEqualTo("WALLET");
+        assertThat(order).bodyJson().extractingPath("$.paidUzs").isEqualTo((int) ORDER_TOTAL);
+        assertThat(order).bodyJson().extractingPath("$.amountDueUzs").isEqualTo(0);
+        assertThat(wallets.balance(customerId)).isEqualByComparingTo("61800");
+        assertThat(as(mvc, customer, mvc.get().uri("/api/v1/me/wallet"))).bodyJson()
+                .extractingPath("$.transactions.content[0].type").isEqualTo("ORDER_PAYMENT");
+        assertThat(as(mvc, customer, mvc.get().uri("/api/v1/cart"))).bodyJson()
+                .extractingPath("$.itemCount").as("ordered lines leave the cart").isEqualTo(0);
+    }
+
+    @Test
+    void orderWithPaymentMethodWalletIsRefusedWhenTheBalanceIsTooSmall() {
+        wallets.credit(customerId, new BigDecimal("100000"), WalletTransactionType.REFUND, null, null, "test money");
+        addToCart(mvc, customer);
+
+        MvcTestResult order = createOrder("WALLET");
+
+        assertThat(order).hasStatus(HttpStatus.BAD_REQUEST);
+        assertThat(order).bodyJson().extractingPath("$.code").isEqualTo("WALLET_INSUFFICIENT");
+        assertThat(as(mvc, customer, mvc.get().uri("/api/v1/orders"))).bodyJson()
+                .extractingPath("$.totalElements").as("nothing is ordered").isEqualTo(0);
+        assertThat(as(mvc, customer, mvc.get().uri("/api/v1/cart"))).bodyJson()
+                .extractingPath("$.itemCount").as("the cart is kept").isEqualTo(1);
+        assertThat(wallets.balance(customerId)).isEqualByComparingTo("100000");
+
+        wallets.credit(customerId, new BigDecimal("200000"), WalletTransactionType.REFUND, null, null, "top up");
+        assertThat(createOrder("WALLET")).bodyJson().extractingPath("$.status").isEqualTo("PAID");
+    }
+
+    @Test
     void heavierParcelIsPaidWithPayShipping() {
         String number = newOrder(mvc, customer);
         String orderId = orderId(mvc, admin, number);
@@ -150,6 +189,11 @@ class PaymentFlowIntegrationTest extends AbstractIntegrationTest {
                 .contentType(MediaType.APPLICATION_JSON).content("{\"provider\":\"PAYME\"}")))
                 .hasStatus(HttpStatus.NOT_FOUND);
         assertThat(mvc.get().uri("/api/v1/dev/pay/{id}", UUID.randomUUID())).hasStatus(HttpStatus.NOT_FOUND);
+    }
+
+    private MvcTestResult createOrder(String paymentMethod) {
+        return as(mvc, customer, mvc.post().uri("/api/v1/orders").contentType(MediaType.APPLICATION_JSON)
+                .content("{\"deliveryMethod\":\"CARGO_PICKUP\",\"paymentMethod\":\"%s\"}".formatted(paymentMethod)));
     }
 
     private MvcTestResult pay(String number, String path, String provider) {

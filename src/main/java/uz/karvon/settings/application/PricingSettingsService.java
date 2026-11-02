@@ -6,6 +6,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import uz.karvon.common.api.PageResponse;
+import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.application.NotFoundException;
 import uz.karvon.settings.api.dto.PricingSettingsResponse;
 import uz.karvon.settings.api.dto.PublicPricingSettingsResponse;
@@ -53,8 +54,20 @@ public class PricingSettingsService {
                 .orElseThrow(() -> new NotFoundException("SETTINGS_NOT_FOUND", "error.settings.notFound"));
     }
 
+    /**
+     * Saves a new version. Delivery days left out keep their current values; the maximum may not be below the
+     * minimum (INVALID_DELIVERY_DAYS).
+     */
     @Transactional
     public PricingSettingsResponse update(UUID adminId, UpdatePricingSettingsRequest request) {
+        PricingSettings active = request.deliveryDaysMin() != null && request.deliveryDaysMax() != null ? null
+                : repository.findFirstByOrderByEffectiveFromDesc()
+                .orElseThrow(() -> new IllegalStateException("No pricing settings: the V3 migration seeds them"));
+        int deliveryDaysMin = request.deliveryDaysMin() != null ? request.deliveryDaysMin() : active.getDeliveryDaysMin();
+        int deliveryDaysMax = request.deliveryDaysMax() != null ? request.deliveryDaysMax() : active.getDeliveryDaysMax();
+        if (deliveryDaysMax < deliveryDaysMin) {
+            throw new BusinessException("INVALID_DELIVERY_DAYS", "error.settings.invalidDeliveryDays");
+        }
         PricingSettings saved = repository.save(PricingSettings.builder()
                 .customerRate(request.customerRate())
                 .feePercent(request.feePercent())
@@ -64,6 +77,8 @@ public class PricingSettingsService {
                 .minWeightKg(request.minWeightKg())
                 .defaultWeightKg(request.defaultWeightKg())
                 .priceChangeThresholdPercent(request.priceChangeThresholdPercent())
+                .deliveryDaysMin(deliveryDaysMin)
+                .deliveryDaysMax(deliveryDaysMax)
                 .effectiveFrom(Instant.now(clock))
                 .changedBy(adminId)
                 .build());

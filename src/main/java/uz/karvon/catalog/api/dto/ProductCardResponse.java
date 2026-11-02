@@ -4,7 +4,8 @@ import java.math.BigDecimal;
 
 /**
  * A search result card. {@code priceUzs} is the full price of one item (goods, service fee and shipping
- * with the default weight), from the price calculator.
+ * with the default weight), from the price calculator. {@code originalPriceCny}/{@code originalPriceUzs} are the old
+ * price before a discount, calculated the same way, or null when there is none.
  */
 public record ProductCardResponse(
         String externalId,
@@ -13,6 +14,8 @@ public record ProductCardResponse(
         String mainImageUrl,
         BigDecimal priceCny,
         BigDecimal priceUzs,
+        BigDecimal originalPriceCny,
+        BigDecimal originalPriceUzs,
         long salesCount,
         String shopName) {
 }

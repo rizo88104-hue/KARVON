@@ -82,6 +82,9 @@ class HttpTaobaoProviderTest {
         assertThat(result.page()).isZero();
         assertThat(result.items()).hasSize(2);
         assertThat(result.items().getFirst().priceCny()).isEqualByComparingTo("99.00");
+        assertThat(result.items().getFirst().originalPriceCny()).as("price before the promotion")
+                .isEqualByComparingTo("129.00");
+        assertThat(result.items().get(1).originalPriceCny()).as("no promotion, no old price").isNull();
         assertThat(result.items().getFirst().mainImageUrl()).isEqualTo("https://img.alicdn.com/a.jpg");
         assertThat(result.items().get(1).shopName()).isEqualTo("女鞋店");
         assertThat(result.items().get(1).salesCount()).isEqualTo(77);
@@ -95,6 +98,7 @@ class HttpTaobaoProviderTest {
         ProductDetail product = provider.getProduct("681234567890");
 
         assertThat(product.priceCny()).as("lowest SKU price").isEqualByComparingTo("119.00");
+        assertThat(product.originalPriceCny()).as("no promotion_price, so no old price").isNull();
         assertThat(product.chinaShippingCny()).isEqualByComparingTo("8.00");
         assertThat(product.weightKg()).isEqualByComparingTo("0.9");
         assertThat(product.salesCount()).isEqualTo(15230);

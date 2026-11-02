@@ -105,7 +105,8 @@ public class FakeTaobaoProvider implements TaobaoProvider {
 
     record FakeProduct(String externalId, String title, String mainImageUrl, List<String> images, BigDecimal priceCny,
                        long salesCount, FakeShop shop, BigDecimal chinaShippingCny, BigDecimal weightKg,
-                       List<String> keywords, List<FakePair> attributes, List<FakeSku> skus) {
+                       List<String> keywords, List<FakePair> attributes, List<FakeSku> skus,
+                       BigDecimal originalPriceCny) {
 
         String searchText() {
             StringBuilder text = new StringBuilder(title);
@@ -116,7 +117,8 @@ public class FakeTaobaoProvider implements TaobaoProvider {
         }
 
         ProductSummary summary() {
-            return new ProductSummary(externalId, title, null, mainImageUrl, priceCny, salesCount, shop.name());
+            return new ProductSummary(externalId, title, null, mainImageUrl, priceCny, salesCount, shop.name(),
+                    originalPriceCny);
         }
 
         ProductDetail detail() {
@@ -124,7 +126,7 @@ public class FakeTaobaoProvider implements TaobaoProvider {
                     new ShopInfo(shop.shopId(), shop.name()),
                     attributes.stream().map(FakePair::pair).toList(),
                     skus.stream().map(FakeSku::sku).toList(),
-                    chinaShippingCny, weightKg);
+                    chinaShippingCny, weightKg, originalPriceCny);
         }
     }
 

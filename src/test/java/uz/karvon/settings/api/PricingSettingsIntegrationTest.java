@@ -27,8 +27,8 @@ import static uz.karvon.TestLogins.read;
  */
 class PricingSettingsIntegrationTest extends AbstractIntegrationTest {
 
-    private static final String CACHE_KEY = "settings:pricing:current";
-    private static final String SEED = settings("1780", "10");
+    private static final String CACHE_KEY = "settings:pricing:current:v2";
+    private static final String SEED = withDeliveryDays(settings("1780", "10"), 12, 18);
 
     @Autowired
     private MockMvcTester mvc;
@@ -126,6 +126,38 @@ class PricingSettingsIntegrationTest extends AbstractIntegrationTest {
     }
 
     @Test
+    void deliveryDaysAreEditableAndShownToCustomers() {
+        MvcTestResult seed = mvc.get().uri("/api/v1/settings/pricing").exchange();
+        assertThat(seed).bodyJson().extractingPath("$.deliveryDaysMin").isEqualTo(12);
+        assertThat(seed).bodyJson().extractingPath("$.deliveryDaysMax").isEqualTo(18);
+
+        MvcTestResult changed = put(withDeliveryDays(settings("1780", "10"), 10, 20));
+        assertThat(changed).hasStatusOk();
+        assertThat(changed).bodyJson().extractingPath("$.deliveryDaysMin").isEqualTo(10);
+        assertThat(changed).bodyJson().extractingPath("$.deliveryDaysMax").isEqualTo(20);
+
+        MvcTestResult publicView = mvc.get().uri("/api/v1/settings/pricing").exchange();
+        assertThat(publicView).bodyJson().extractingPath("$.deliveryDaysMin").isEqualTo(10);
+        assertThat(publicView).bodyJson().extractingPath("$.deliveryDaysMax").isEqualTo(20);
+
+        MvcTestResult withoutDays = put(settings("1790", "10"));
+        assertThat(withoutDays).as("left out = kept").bodyJson().extractingPath("$.deliveryDaysMin").isEqualTo(10);
+        assertThat(withoutDays).bodyJson().extractingPath("$.deliveryDaysMax").isEqualTo(20);
+    }
+
+    @Test
+    void invalidDeliveryDaysAreRejected() {
+        MvcTestResult reversed = put(withDeliveryDays(settings("1780", "10"), 20, 10));
+        assertThat(reversed).hasStatus(HttpStatus.BAD_REQUEST);
+        assertThat(reversed).bodyJson().extractingPath("$.code").isEqualTo("INVALID_DELIVERY_DAYS");
+
+        MvcTestResult outOfRange = put(withDeliveryDays(settings("1780", "10"), 0, 400));
+        assertThat(outOfRange).hasStatus(HttpStatus.BAD_REQUEST);
+        assertThat(outOfRange).bodyJson().extractingPath("$.errors.deliveryDaysMin").isNotNull();
+        assertThat(outOfRange).bodyJson().extractingPath("$.errors.deliveryDaysMax").isNotNull();
+    }
+
+    @Test
     void invalidSettingsAreRejected() {
         MvcTestResult result = put(settings("1780", "150"));
 
@@ -175,6 +207,11 @@ class PricingSettingsIntegrationTest extends AbstractIntegrationTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(body)
                 .exchange();
+    }
+
+    private static String withDeliveryDays(String settings, int min, int max) {
+        return settings.substring(0, settings.lastIndexOf('}'))
+                + ",\"deliveryDaysMin\":%d,\"deliveryDaysMax\":%d}".formatted(min, max);
     }
 
     private static String settings(String rate, String feePercent) {

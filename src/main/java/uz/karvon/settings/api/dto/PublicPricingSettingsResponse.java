@@ -6,7 +6,7 @@ import java.util.UUID;
 
 /**
  * What customers may see. The shipping cost and our markup are shown only as their sum
- * ({@code shippingPricePerKg}), so our margin is not public.
+ * ({@code shippingPricePerKg}), so our margin is not public. Delivery takes {@code deliveryDaysMin}–{@code deliveryDaysMax} days.
  */
 public record PublicPricingSettingsResponse(
         UUID id,
@@ -16,5 +16,7 @@ public record PublicPricingSettingsResponse(
         BigDecimal shippingPricePerKg,
         BigDecimal minWeightKg,
         BigDecimal defaultWeightKg,
+        int deliveryDaysMin,
+        int deliveryDaysMax,
         Instant effectiveFrom) {
 }

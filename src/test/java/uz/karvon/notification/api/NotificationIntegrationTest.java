@@ -101,12 +101,12 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
                 .hasStatusOk();
 
         List<String> expected = List.of(
-                "Karvon: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number),
-                "Karvon: %s sotib olindi. Omborga kelgach xabar beramiz.".formatted(number),
-                "Karvon: %s omborga keldi, vazni 1.2 kg.".formatted(number),
-                "Karvon: %s uchun yetkazish farqi 32 000 so'm. Kabinetda to'lang.".formatted(number),
-                "Karvon: %s yo'lga chiqdi. Trek: CN777UZ.".formatted(number),
-                "Karvon: %s O'zbekistonga keldi. Chilonzor 9, kargo ofisi".formatted(number));
+                "E-Market: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number),
+                "E-Market: %s sotib olindi. Omborga kelgach xabar beramiz.".formatted(number),
+                "E-Market: %s omborga keldi, vazni 1.2 kg.".formatted(number),
+                "E-Market: %s uchun yetkazish farqi 32 000 so'm. Kabinetda to'lang.".formatted(number),
+                "E-Market: %s yo'lga chiqdi. Trek: CN777UZ.".formatted(number),
+                "E-Market: %s O'zbekistonga keldi. Chilonzor 9, kargo ofisi".formatted(number));
         await(() -> sms.messages(phone).containsAll(expected));
         await(() -> sentCount() == expected.size());
         assertThat(notifications.findByUserIdOrderByCreatedAtAsc(customerId))
@@ -125,7 +125,7 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
                 .isEqualTo("TELEGRAM_WEBHOOK_FORBIDDEN");
         assertThat(webhook(SECRET, chatId, start)).hasStatusOk();
         assertThat(telegram.messages(chatId)).containsExactly(
-                "Karvon: Telegram ulandi. Buyurtmalaringiz haqidagi xabarlar shu yerga keladi.");
+                "E-Market: Telegram ulandi. Buyurtmalaringiz haqidagi xabarlar shu yerga keladi.");
         assertThat(as(mvc, customer, mvc.get().uri("/api/v1/me/notification-settings")))
                 .bodyJson().extractingPath("$.telegramLinked").isEqualTo(true);
         // The link works once.
@@ -138,8 +138,8 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
         status(mvc, admin, id, "{\"toStatus\":\"PURCHASING\"}");
         status(mvc, admin, id, "{\"toStatus\":\"PURCHASED\"}");
 
-        String paid = "Karvon: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number);
-        String purchased = "Karvon: %s sotib olindi. Omborga kelgach xabar beramiz.".formatted(number);
+        String paid = "E-Market: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number);
+        String purchased = "E-Market: %s sotib olindi. Omborga kelgach xabar beramiz.".formatted(number);
         await(() -> telegram.messages(chatId).containsAll(List.of(paid, purchased)));
         await(() -> sentCount() == 3);
         // PAID is important: SMS too; PURCHASED is not.
@@ -154,7 +154,7 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
 
         status(mvc, admin, orderId(mvc, admin, number), "{\"toStatus\":\"PAID\"}");
 
-        await(() -> sms.messages(phone).contains("Karvon: заказ %s оплачен. Скоро выкупим его.".formatted(number)));
+        await(() -> sms.messages(phone).contains("E-Market: заказ %s оплачен. Скоро выкупим его.".formatted(number)));
     }
 
     @Test
@@ -196,7 +196,7 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
         assertThat(notifications.findById(failed).orElseThrow())
                 .satisfies(n -> assertThat(n.getStatus()).isEqualTo(NotificationStatus.SENT))
                 .satisfies(n -> assertThat(n.getAttempts()).isEqualTo(2));
-        assertThat(sms.messages(phone)).contains("Karvon: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number));
+        assertThat(sms.messages(phone)).contains("E-Market: %s buyurtmangiz to'landi. Tez orada sotib olamiz.".formatted(number));
 
         // Out of automatic retries: only the admin can send it again.
         sms.failNext(phone, 10);
@@ -247,7 +247,7 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
         assertThat(webhook(SECRET, chatId, "salom")).hasStatusOk();
 
         assertThat(telegram.messages(chatId)).containsExactly(
-                "Karvon: xabarnomalarni ulash uchun kabinetdagi Telegram havolasini oching.");
+                "E-Market: xabarnomalarni ulash uchun kabinetdagi Telegram havolasini oching.");
     }
 
     private OrderStatusChangedEvent paidEvent(String number) {

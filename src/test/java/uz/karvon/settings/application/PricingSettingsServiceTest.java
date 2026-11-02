@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 import org.mockito.ArgumentCaptor;
 import org.springframework.context.ApplicationEventPublisher;
+import uz.karvon.common.application.BusinessException;
 import uz.karvon.settings.api.dto.PricingSettingsResponse;
 import uz.karvon.settings.api.dto.PublicPricingSettingsResponse;
 import uz.karvon.settings.api.dto.UpdatePricingSettingsRequest;
@@ -19,6 +20,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
@@ -62,7 +64,7 @@ class PricingSettingsServiceTest {
         UUID adminId = UUID.randomUUID();
         when(repository.save(any(PricingSettings.class))).thenAnswer(call -> call.getArgument(0));
 
-        PricingSettingsResponse saved = service.update(adminId, request("1800"));
+        PricingSettingsResponse saved = service.update(adminId, request("1800", 12, 18));
 
         ArgumentCaptor<PricingSettings> inserted = ArgumentCaptor.forClass(PricingSettings.class);
         verify(repository).save(inserted.capture());
@@ -84,23 +86,57 @@ class PricingSettingsServiceTest {
         assertThat(view.feePercent()).isEqualByComparingTo("10");
     }
 
+    @Test
+    void deliveryDaysAreSavedAndShownToCustomers() {
+        when(repository.save(any(PricingSettings.class))).thenAnswer(call -> call.getArgument(0));
+
+        PricingSettingsResponse saved = service.update(UUID.randomUUID(), request("1800", 10, 15));
+
+        assertThat(saved.deliveryDaysMin()).isEqualTo(10);
+        assertThat(saved.deliveryDaysMax()).isEqualTo(15);
+        PublicPricingSettingsResponse view = Mappers.getMapper(SettingsMapper.class).toPublic(saved);
+        assertThat(view.deliveryDaysMin()).isEqualTo(10);
+        assertThat(view.deliveryDaysMax()).isEqualTo(15);
+    }
+
+    @Test
+    void missingDeliveryDaysKeepTheCurrentValues() {
+        when(repository.findFirstByOrderByEffectiveFromDesc()).thenReturn(Optional.of(row("1780")));
+        when(repository.save(any(PricingSettings.class))).thenAnswer(call -> call.getArgument(0));
+
+        PricingSettingsResponse saved = service.update(UUID.randomUUID(), request("1800", null, 20));
+
+        assertThat(saved.deliveryDaysMin()).as("kept from the active version").isEqualTo(12);
+        assertThat(saved.deliveryDaysMax()).isEqualTo(20);
+    }
+
+    @Test
+    void deliveryDaysMaximumBelowMinimumIsRefused() {
+        assertThatThrownBy(() -> service.update(UUID.randomUUID(), request("1800", 20, 10)))
+                .isInstanceOf(BusinessException.class)
+                .extracting("code").isEqualTo("INVALID_DELIVERY_DAYS");
+        verify(repository, never()).save(any());
+        verifyNoInteractions(events);
+    }
+
     private static PricingSettings row(String rate) {
         return PricingSettings.builder()
                 .customerRate(new BigDecimal(rate)).feePercent(BigDecimal.TEN).minServiceFee(new BigDecimal("15000"))
                 .shippingCostPerKg(new BigDecimal("70000")).ourMarkupPerKg(new BigDecimal("10000"))
                 .minWeightKg(new BigDecimal("0.5")).defaultWeightKg(new BigDecimal("0.5"))
-                .priceChangeThresholdPercent(new BigDecimal("3")).effectiveFrom(NOW).build();
+                .priceChangeThresholdPercent(new BigDecimal("3")).deliveryDaysMin(12).deliveryDaysMax(18)
+                .effectiveFrom(NOW).build();
     }
 
     private static PricingSettingsResponse response() {
         return new PricingSettingsResponse(UUID.randomUUID(), new BigDecimal("1780"), BigDecimal.TEN,
                 new BigDecimal("15000"), new BigDecimal("70000"), new BigDecimal("10000"), new BigDecimal("0.5"),
-                new BigDecimal("0.5"), new BigDecimal("3"), NOW, null);
+                new BigDecimal("0.5"), new BigDecimal("3"), 12, 18, NOW, null);
     }
 
-    private static UpdatePricingSettingsRequest request(String rate) {
+    private static UpdatePricingSettingsRequest request(String rate, Integer daysMin, Integer daysMax) {
         return new UpdatePricingSettingsRequest(new BigDecimal(rate), BigDecimal.TEN, new BigDecimal("15000"),
                 new BigDecimal("70000"), new BigDecimal("10000"), new BigDecimal("0.5"), new BigDecimal("0.5"),
-                new BigDecimal("3"));
+                new BigDecimal("3"), daysMin, daysMax);
     }
 }

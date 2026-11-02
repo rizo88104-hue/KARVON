@@ -4,12 +4,15 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.DecimalMax;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
 import java.math.BigDecimal;
 
 /**
- * The full new version of the settings; every field is required. UZS amounts are whole so'm.
+ * The full new version of the settings. Every field is required except the delivery days: when they are left out,
+ * the current values are kept. UZS amounts are whole so'm.
  */
 public record UpdatePricingSettingsRequest(
         @Schema(example = "1780") @NotNull @DecimalMin(value = "0", inclusive = false) @Digits(integer = 10, fraction = 2)
@@ -27,5 +30,9 @@ public record UpdatePricingSettingsRequest(
         @Schema(example = "0.5") @NotNull @DecimalMin(value = "0", inclusive = false) @Digits(integer = 5, fraction = 3)
         BigDecimal defaultWeightKg,
         @Schema(example = "3") @NotNull @DecimalMin("0") @DecimalMax("100") @Digits(integer = 3, fraction = 2)
-        BigDecimal priceChangeThresholdPercent) {
+        BigDecimal priceChangeThresholdPercent,
+        @Schema(example = "12") @Min(1) @Max(365)
+        Integer deliveryDaysMin,
+        @Schema(example = "18") @Min(1) @Max(365)
+        Integer deliveryDaysMax) {
 }

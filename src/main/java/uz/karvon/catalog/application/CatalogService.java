@@ -84,8 +84,11 @@ public class CatalogService {
                 continue;
             }
             BigDecimal priceUzs = quoter.price(item.priceCny(), null, 1, null).totalUzs();
+            BigDecimal originalPriceUzs = item.originalPriceCny() == null ? null
+                    : quoter.price(item.originalPriceCny(), null, 1, null).totalUzs();
             cards.add(new ProductCardResponse(item.externalId(), item.titleTranslated(), item.titleOriginal(),
-                    item.mainImageUrl(), item.priceCny(), priceUzs, item.salesCount(), item.shopName()));
+                    item.mainImageUrl(), item.priceCny(), priceUzs, item.originalPriceCny(), originalPriceUzs,
+                    item.salesCount(), item.shopName()));
         }
         int totalPages = result.pageSize() == 0 ? 0 : (int) Math.ceil((double) result.totalItems() / result.pageSize());
         return new PageResponse<>(cards, page, result.pageSize(), result.totalItems(), totalPages);
@@ -102,6 +105,9 @@ public class CatalogService {
         return new ProductDetailResponse(product.externalId(), product.titleTranslated(), product.titleOriginal(),
                 product.mainImageUrl(), product.images(), product.priceCny(),
                 quoter.price(product.priceCny(), product.chinaShippingCny(), 1, product.weightKg()),
+                product.originalPriceCny(),
+                product.originalPriceCny() == null ? null
+                        : quoter.price(product.originalPriceCny(), product.chinaShippingCny(), 1, product.weightKg()).totalUzs(),
                 product.salesCount(), product.shop(), product.attributes(), skus, product.chinaShippingCny(),
                 product.weightKg(), product.weightKg() == null);
     }

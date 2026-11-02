@@ -19,7 +19,8 @@ import java.util.Optional;
 @Component
 public class PricingSettingsCache {
 
-    static final String KEY = "settings:pricing:current";
+    // v2: delivery days were added; old cached JSON without them must not be read.
+    static final String KEY = "settings:pricing:current:v2";
     /** Safety net only; a change clears the key at once. */
     private static final Duration TTL = Duration.ofMinutes(10);
 

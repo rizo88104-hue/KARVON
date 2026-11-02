@@ -2,11 +2,13 @@ package uz.karvon.payment.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.application.NotFoundException;
 import uz.karvon.order.application.OrderPaymentService;
+import uz.karvon.order.application.OrderWalletPaymentRequestedEvent;
 import uz.karvon.order.application.PayableOrder;
 import uz.karvon.order.application.PaymentPurpose;
 import uz.karvon.order.application.PendingPaymentCheck;
@@ -72,6 +74,13 @@ public class PaymentService implements PendingPaymentCheck {
         }
         return new StartPaymentResponse(provider, order.amountDueUzs(),
                 gateway.checkoutUrl(provider, account, order.amountDueUzs(), pendingId), false, pendingId);
+    }
+
+    /** A new order with payment method WALLET is paid from the wallet right away (same transaction). */
+    @EventListener
+    @Transactional
+    public void onWalletPaymentRequested(OrderWalletPaymentRequestedEvent event) {
+        start(event.customerId(), event.number(), PaymentPurpose.ORDER, PaymentProvider.WALLET);
     }
 
     /** Dev and test: the fake checkout page was opened. Repeating it changes nothing. */

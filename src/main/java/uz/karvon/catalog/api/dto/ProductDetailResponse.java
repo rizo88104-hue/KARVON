@@ -10,6 +10,8 @@ import java.util.List;
 /**
  * A product page. {@code price} is for the cheapest SKU. {@code weightEstimated} is true when Taobao gave
  * no weight and the default weight was used; the real weight is known only at the warehouse.
+ * {@code originalPriceCny}/{@code originalPriceUzs} are the old price before a discount (the UZS value is the full
+ * price of one item, like {@code price.totalUzs}), or null when there is none.
  */
 public record ProductDetailResponse(
         String externalId,
@@ -19,6 +21,8 @@ public record ProductDetailResponse(
         List<String> images,
         BigDecimal priceCny,
         PriceBreakdown price,
+        BigDecimal originalPriceCny,
+        BigDecimal originalPriceUzs,
         long salesCount,
         ShopInfo shop,
         List<TranslatedPair> attributes,

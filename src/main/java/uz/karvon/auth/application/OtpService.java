@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class OtpService {
 
-    static final String SMS_TEXT = "Karvon: tasdiqlash kodi %s. Kodni hech kimga bermang.";
+    static final String SMS_TEXT = "E-Market: tasdiqlash kodi %s. Kodni hech kimga bermang.";
 
     private static final int CODE_BOUND = 100_000;
 

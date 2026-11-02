@@ -22,10 +22,15 @@ public final class PaymentTestSupport {
     }
 
     /** A new order waiting for payment; returns its number. */
-    public static String newOrder(MockMvcTester mvc, String customer) {
+    /** Puts the test product (one item, ORDER_TOTAL) into the cart. */
+    public static void addToCart(MockMvcTester mvc, String customer) {
         MvcTestResult cart = as(mvc, customer, mvc.post().uri("/api/v1/cart/items").contentType(MediaType.APPLICATION_JSON)
                 .content("{\"externalProductId\":\"%s\",\"skuId\":\"%s\"}".formatted(SKU.substring(0, 12), SKU)));
         assertThat(cart).hasStatus(HttpStatus.CREATED);
+    }
+
+    public static String newOrder(MockMvcTester mvc, String customer) {
+        addToCart(mvc, customer);
         MvcTestResult order = as(mvc, customer, mvc.post().uri("/api/v1/orders").contentType(MediaType.APPLICATION_JSON)
                 .content("{\"deliveryMethod\":\"CARGO_PICKUP\",\"paymentMethod\":\"PAYME\"}"));
         assertThat(order).hasStatus(HttpStatus.CREATED);

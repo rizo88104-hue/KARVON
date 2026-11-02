@@ -2,6 +2,7 @@ package uz.karvon.order.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -24,12 +25,14 @@ import uz.karvon.order.domain.OrderItem;
 import uz.karvon.order.domain.OrderItemStatus;
 import uz.karvon.order.domain.OrderStatus;
 import uz.karvon.order.domain.OrderTab;
+import uz.karvon.order.domain.PaymentMethod;
 import uz.karvon.order.infrastructure.OrderRepository;
 import uz.karvon.order.infrastructure.OrderStatusHistoryRepository;
 import uz.karvon.pricing.application.PromoCodeService;
 import uz.karvon.translation.domain.Lang;
 import uz.karvon.user.api.dto.AddressResponse;
 import uz.karvon.user.application.AddressService;
+import uz.karvon.wallet.application.WalletService;
 
 import java.math.BigDecimal;
 import java.time.Clock;
@@ -63,6 +66,8 @@ public class OrderService {
     private final PendingPaymentCheck pendingPayments;
     private final PriceDifferences priceDifferences;
     private final PromoCodeService promoCodes;
+    private final WalletService wallets;
+    private final ApplicationEventPublisher events;
     private final JsonMapper json;
     private final Clock clock;
 
@@ -72,7 +77,8 @@ public class OrderService {
     /**
      * Orders the selected cart lines. Prices are refreshed first; if a selected line changed (price, stock, blocked)
      * nothing is ordered and CART_CHANGED (409) lists the changes. The refreshed cart is kept, so ordering again
-     * goes through. Ordered lines leave the cart.
+     * goes through. Ordered lines leave the cart. With payment method WALLET the order is paid from the wallet at once;
+     * when the balance does not cover the total nothing is ordered and WALLET_INSUFFICIENT is answered.
      */
     @Transactional(noRollbackFor = CartChangedException.class)
     public OrderDetailResponse create(UUID customerId, CreateOrderRequest request, Lang lang) {
@@ -123,7 +129,21 @@ public class OrderService {
             order.setServiceFeeUzs(fee.subtract(promo.discountUzs()));
             order.setTotalUzs(goods.add(order.getServiceFeeUzs()).add(shipping));
         }
+        if (request.paymentMethod() == PaymentMethod.WALLET) {
+            requireWalletCovers(customerId, order.getTotalUzs());
+        }
         workflow.created(order, customerId);
+        if (request.paymentMethod() == PaymentMethod.WALLET) {
+            try {
+                events.publishEvent(new OrderWalletPaymentRequestedEvent(order.getId(), order.getNumber(), customerId));
+            } catch (BusinessException ex) {
+                // Another payment spent the balance meanwhile; the whole order is rolled back.
+                if ("INSUFFICIENT_FUNDS".equals(ex.getCode())) {
+                    requireWalletCovers(customerId, order.getTotalUzs());
+                }
+                throw ex;
+            }
+        }
         cart.removeItems(customerId, selectedBefore.stream().map(CartItemResponse::id).toList());
         return views.detail(order, history.findByOrderIdOrderByCreatedAtAsc(order.getId()), false);
     }
@@ -192,6 +212,13 @@ public class OrderService {
             workflow.finishPurchasingIfDone(order);
         }
         return views.detail(order, history.findByOrderIdOrderByCreatedAtAsc(order.getId()), false);
+    }
+
+    private void requireWalletCovers(UUID customerId, BigDecimal total) {
+        BigDecimal balance = wallets.balance(customerId);
+        if (balance.compareTo(total) < 0) {
+            throw new BusinessException("WALLET_INSUFFICIENT", "error.order.walletInsufficient", balance, total);
+        }
     }
 
     /** Orders still waiting for payment after the payment timeout (30 minutes). */

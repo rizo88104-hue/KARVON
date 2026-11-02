@@ -17,6 +17,8 @@ public record PricingSettingsResponse(
         BigDecimal minWeightKg,
         BigDecimal defaultWeightKg,
         BigDecimal priceChangeThresholdPercent,
+        int deliveryDaysMin,
+        int deliveryDaysMax,
         Instant effectiveFrom,
         UUID changedBy) {
 }

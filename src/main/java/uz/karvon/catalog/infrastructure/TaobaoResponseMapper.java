@@ -75,7 +75,8 @@ public class TaobaoResponseMapper {
                 continue;
             }
             products.add(new ProductSummary(id, text(item, "title"), null, image(text(item, "pic_url")),
-                    price(item), number(item, "sales", 0L), firstText(item, "seller_nick", "nick", "shop_title")));
+                    price(item), number(item, "sales", 0L), firstText(item, "seller_nick", "nick", "shop_title"),
+                    originalPrice(item, price(item))));
         }
         int pageSize = (int) number(items, "page_size", products.size());
         long total = number(items, "real_total_results", number(items, "total_results", products.size()));
@@ -115,7 +116,8 @@ public class TaobaoResponseMapper {
         return new ProductDetail(id, text(item, "title"), null, mainImage, images, lowest,
                 number(item, "total_sold", number(item, "sales", 0L)),
                 new ShopInfo(firstText(item, "shop_id", "seller_id"), firstText(item, "nick", "seller_nick", "shop_title")),
-                attributes, skus, decimal(item, "post_fee", decimal(item, "express_fee", BigDecimal.ZERO)), weight(item));
+                attributes, skus, decimal(item, "post_fee", decimal(item, "express_fee", BigDecimal.ZERO)), weight(item),
+                originalPrice(item, lowest));
     }
 
     private List<Sku> skus(JsonNode item, String itemId, BigDecimal itemPrice) {
@@ -189,6 +191,16 @@ public class TaobaoResponseMapper {
         }
         if (normal == null) {
             throw new IllegalStateException("Taobao item without a price");
+        }
+        return normal;
+    }
+
+    /** The normal price when a promotion price makes it an old price, i.e. higher than {@code selling}; otherwise null. */
+    private static BigDecimal originalPrice(JsonNode item, BigDecimal selling) {
+        BigDecimal promotion = decimal(item, "promotion_price", null);
+        BigDecimal normal = decimal(item, "price", null);
+        if (promotion == null || promotion.signum() <= 0 || normal == null || normal.compareTo(selling) <= 0) {
+            return null;
         }
         return normal;
     }
