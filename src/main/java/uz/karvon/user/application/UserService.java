@@ -71,8 +71,21 @@ public class UserService {
 
     /** Phone, language and Telegram chat for notifications. */
     public Optional<UserContact> contact(UUID id) {
-        return users.findById(id)
-                .map(user -> new UserContact(user.getId(), user.getPhone(), user.getLanguage(), user.getTelegramChatId()));
+        return users.findById(id).map(UserService::contactOf);
+    }
+
+    /** The same for login: the user with this (normalized) phone. */
+    public Optional<UserContact> contactByPhone(String phone) {
+        return users.findByPhone(phone).map(UserService::contactOf);
+    }
+
+    /** The user a Telegram chat is linked to (a chat belongs to one user only). */
+    public Optional<UserContact> contactByTelegramChat(long chatId) {
+        return users.findByTelegramChatId(chatId).stream().findFirst().map(UserService::contactOf);
+    }
+
+    private static UserContact contactOf(User user) {
+        return new UserContact(user.getId(), user.getPhone(), user.getLanguage(), user.getTelegramChatId());
     }
 
     /**

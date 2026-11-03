@@ -29,11 +29,7 @@ public class TelegramWebhookController {
     public ResponseEntity<Void> update(@RequestHeader(value = SECRET_HEADER, required = false) String secret,
                                        @RequestBody TelegramUpdate update) {
         telegram.requireWebhookSecret(secret);
-        TelegramUpdate.Message message = update.message();
-        if (message != null && message.chat() != null && message.chat().id() != null) {
-            telegram.onMessage(message.chat().id(), message.text(),
-                    message.from() == null ? null : message.from().languageCode());
-        }
+        telegram.onUpdate(update);
         return ResponseEntity.ok().build();
     }
 }

@@ -12,7 +12,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
  */
 @Configuration
 @EnableAsync
-@EnableConfigurationProperties({NotificationProperties.class, TelegramProperties.class})
+@EnableConfigurationProperties({NotificationProperties.class, TelegramProperties.class, SmsProperties.class})
 public class NotificationConfig {
 
     public static final String EXECUTOR = "notificationExecutor";

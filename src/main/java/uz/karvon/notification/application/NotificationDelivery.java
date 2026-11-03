@@ -38,6 +38,9 @@ public class NotificationDelivery {
                     .orElseThrow(() -> new IllegalStateException("User not found"));
             String text = renderer.render(outgoing.templateKey(), outgoing.params(), contact.language());
             switch (outgoing.channel()) {
+                // Saved as SENT, never claimed; nothing to deliver.
+                case IN_APP -> {
+                }
                 case SMS -> sms.send(contact.phone(), text);
                 case TELEGRAM -> {
                     if (!contact.telegramLinked()) {

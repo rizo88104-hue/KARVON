@@ -5,7 +5,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import uz.karvon.auth.infrastructure.AuthProperties;
 import uz.karvon.common.application.BusinessException;
-import uz.karvon.notification.application.SmsSender;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -16,6 +15,7 @@ import java.security.SecureRandom;
 import java.time.Duration;
 import java.util.HexFormat;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -28,38 +28,62 @@ import java.util.concurrent.TimeUnit;
  * </ul>
  * The code is hashed with HMAC-SHA256 keyed by JWT_SECRET: a plain hash of a 5-digit code could be reversed
  * by trying all 100 000 values.
+ * <p>
+ * This service only makes and checks codes; {@link AuthService} and {@link TelegramLoginService} deliver them
+ * (Telegram, or SMS while it is turned on).
  */
 @Service
 public class OtpService {
 
-    static final String SMS_TEXT = "E-Market: tasdiqlash kodi %s. Kodni hech kimga bermang.";
+    private static final String CODE_TEXT = "E-Market: tasdiqlash kodi %s. Kodni hech kimga bermang.";
 
     private static final int CODE_BOUND = 100_000;
 
     private final StringRedisTemplate redis;
-    private final SmsSender sms;
     private final AuthProperties.Otp settings;
     private final SecretKeySpec hmacKey;
+    private final Optional<DevOtpCodes> devCodes;
     private final SecureRandom random = new SecureRandom();
 
-    public OtpService(StringRedisTemplate redis, SmsSender sms, AuthProperties properties) {
+    public OtpService(StringRedisTemplate redis, AuthProperties properties, Optional<DevOtpCodes> devCodes) {
         this.redis = redis;
-        this.sms = sms;
         this.settings = properties.otp();
         this.hmacKey = new SecretKeySpec(properties.jwtSecret().getBytes(StandardCharsets.UTF_8), "HmacSHA256");
+        this.devCodes = devCodes;
     }
 
-    /** Generates and sends a code. Returns how many seconds it is valid. */
-    public long request(String phone) {
+    /** The message that carries a code (Telegram or SMS). */
+    public static String codeText(String code) {
+        return CODE_TEXT.formatted(code);
+    }
+
+    /**
+     * One request for a code (POST /auth/otp/request): refused while the phone is blocked or after
+     * {@code maxRequests} in {@code requestWindow}. The code itself is made by {@link #newCode}.
+     */
+    public void countRequest(String phone) {
         ensureNotBlocked(phone);
         long requests = incrementWithTtl(requestsKey(phone), settings.requestWindow());
         if (requests > settings.maxRequests()) {
             throw new BusinessException(HttpStatus.TOO_MANY_REQUESTS, "OTP_TOO_MANY_REQUESTS",
                     "error.otp.tooManyRequests", minutesLeft(requestsKey(phone)));
         }
+    }
+
+    /**
+     * A new code for the phone, replacing the previous one; the caller delivers it. Not counted as a request:
+     * after a Telegram link the code is made when the contact arrives, for the request counted then.
+     */
+    public String newCode(String phone) {
+        ensureNotBlocked(phone);
         String code = "%05d".formatted(random.nextInt(CODE_BOUND));
         redis.opsForValue().set(codeKey(phone), hash(phone, code), settings.codeTtl());
-        sms.send(phone, SMS_TEXT.formatted(code));
+        devCodes.ifPresent(codes -> codes.record(phone, code, codeText(code)));
+        return code;
+    }
+
+    /** How long a code is valid. */
+    public long codeTtlSeconds() {
         return settings.codeTtl().toSeconds();
     }
 

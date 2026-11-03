@@ -12,6 +12,7 @@ import tools.jackson.databind.json.JsonMapper;
 import uz.karvon.common.api.PageResponse;
 import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.application.NotFoundException;
+import uz.karvon.notification.api.dto.InAppNotificationResponse;
 import uz.karvon.notification.api.dto.NotificationResponse;
 import uz.karvon.notification.api.dto.NotificationSettingsResponse;
 import uz.karvon.notification.api.dto.UpdateNotificationSettingsRequest;
@@ -26,8 +27,10 @@ import uz.karvon.notification.domain.RetryBackoff;
 import uz.karvon.notification.infrastructure.NotificationProperties;
 import uz.karvon.notification.infrastructure.NotificationRepository;
 import uz.karvon.notification.infrastructure.NotificationSettingsRepository;
+import uz.karvon.notification.infrastructure.SmsProperties;
 import uz.karvon.user.application.UserContact;
 import uz.karvon.user.application.UserService;
+import uz.karvon.user.domain.Language;
 
 import java.time.Clock;
 import java.time.Instant;
@@ -56,11 +59,13 @@ public class NotificationService {
     private final JsonMapper json;
     private final Clock clock;
     private final NotificationProperties properties;
+    private final SmsProperties sms;
+    private final TemplateRenderer renderer;
     private final RetryBackoff backoff;
 
     public NotificationService(NotificationRepository notifications, NotificationSettingsRepository settings,
                                UserService users, ApplicationEventPublisher events, JsonMapper json, Clock clock,
-                               NotificationProperties properties) {
+                               NotificationProperties properties, SmsProperties sms, TemplateRenderer renderer) {
         this.notifications = notifications;
         this.settings = settings;
         this.users = users;
@@ -68,6 +73,8 @@ public class NotificationService {
         this.json = json;
         this.clock = clock;
         this.properties = properties;
+        this.sms = sms;
+        this.renderer = renderer;
         this.backoff = properties.backoff();
     }
 
@@ -77,6 +84,7 @@ public class NotificationService {
 
     /**
      * Writes PENDING rows for the channels chosen by {@link ChannelRule}; they are sent after this commits.
+     * An IN_APP row (nothing else reaches the user) is SENT at once and shown on the site.
      * Runs in its own transaction: it is called after the business transaction has committed.
      */
     @Transactional(propagation = Propagation.REQUIRES_NEW)
@@ -86,18 +94,50 @@ public class NotificationService {
             return List.of();
         }
         Set<NotificationChannel> channels = ChannelRule.channels(message.important(), contact.get().telegramLinked(),
-                preferences(message.userId()));
+                preferences(message.userId()), sms.enabled());
         Instant now = Instant.now(clock);
         String params = json.writeValueAsString(message.params());
         List<UUID> ids = new ArrayList<>();
+        List<UUID> toSend = new ArrayList<>();
         for (NotificationChannel channel : channels) {
-            ids.add(notifications.save(new Notification(message.userId(), message.orderId(), channel,
-                    message.templateKey(), params, now)).getId());
+            UUID id = notifications.save(new Notification(message.userId(), message.orderId(), channel,
+                    message.templateKey(), params, now)).getId();
+            ids.add(id);
+            if (channel != NotificationChannel.IN_APP) {
+                toSend.add(id);
+            }
         }
-        if (!ids.isEmpty()) {
-            events.publishEvent(new NotificationsQueuedEvent(ids));
+        if (!toSend.isEmpty()) {
+            events.publishEvent(new NotificationsQueuedEvent(toSend));
         }
         return ids;
+    }
+
+    // --- in-app notifications of the signed-in user (the bell on the site)
+
+    /** Newest first, the text in {@code language} (the site language). */
+    public PageResponse<InAppNotificationResponse> inApp(UUID userId, Language language, Pageable pageable) {
+        return PageResponse.of(notifications.findByUserIdAndChannel(userId, NotificationChannel.IN_APP, pageable),
+                n -> new InAppNotificationResponse(n.getId(), n.getOrderId(), n.getTemplateKey(),
+                        renderer.render(n.getTemplateKey(), json.readValue(n.getParams(), PARAMS), language),
+                        n.getReadAt() != null, n.getCreatedAt()));
+    }
+
+    public long unreadCount(UUID userId) {
+        return notifications.countByUserIdAndChannelAndReadAtIsNull(userId, NotificationChannel.IN_APP);
+    }
+
+    /** Only the user's own in-app notification; another id answers 404. */
+    @Transactional
+    public void markRead(UUID userId, UUID id) {
+        notifications.findByIdAndUserIdAndChannel(id, userId, NotificationChannel.IN_APP)
+                .orElseThrow(() -> new NotFoundException("NOTIFICATION_NOT_FOUND", "error.notification.notFound"))
+                .markRead(Instant.now(clock));
+    }
+
+    @Transactional
+    public void markAllRead(UUID userId) {
+        notifications.markAllRead(userId, NotificationChannel.IN_APP, Instant.now(clock));
     }
 
     /** Counts an attempt and returns the notification, or empty if it was sent already or is being sent. */
@@ -182,7 +222,7 @@ public class NotificationService {
 
     private NotificationSettingsResponse settingsResponse(UUID userId, NotificationPreferences preferences) {
         boolean linked = users.contact(userId).map(UserContact::telegramLinked).orElse(false);
-        return new NotificationSettingsResponse(preferences.sms(), preferences.telegram(), linked);
+        return new NotificationSettingsResponse(preferences.sms(), preferences.telegram(), linked, sms.enabled());
     }
 
     private NotificationResponse response(Notification n) {

@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.assertj.MvcTestResult;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -40,8 +41,11 @@ import static uz.karvon.payment.PaymentTestSupport.status;
 
 /**
  * Orders moved through their statuses by an admin; the fake SMS sender and Telegram bot record what was "sent".
+ * Runs with SMS turned on (karvon.sms.enabled=true), the setting for later; the current setting (SMS off) is covered
+ * by ChannelRuleTest, InAppNotificationIntegrationTest and the order tests.
  * The test order (89 CNY, 0.8 kg) weighed at 1.2 kg owes 32 000 UZS of shipping.
  */
+@TestPropertySource(properties = "karvon.sms.enabled=true")
 class NotificationIntegrationTest extends AbstractIntegrationTest {
 
     private static final String ORDERS = "/api/v1/admin/orders";
@@ -168,7 +172,9 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
 
         status(mvc, admin, orderId(mvc, admin, newOrder(mvc, customer)), "{\"toStatus\":\"PAID\"}");
 
-        assertThat(notifications.findByUserIdOrderByCreatedAtAsc(customerId)).isEmpty();
+        // Nothing can reach the customer: the message waits on the site (in-app) instead.
+        assertThat(notifications.findByUserIdOrderByCreatedAtAsc(customerId))
+                .extracting(Notification::getChannel).containsExactly(NotificationChannel.IN_APP);
     }
 
     @Test
@@ -247,7 +253,8 @@ class NotificationIntegrationTest extends AbstractIntegrationTest {
         assertThat(webhook(SECRET, chatId, "salom")).hasStatusOk();
 
         assertThat(telegram.messages(chatId)).containsExactly(
-                "E-Market: xabarnomalarni ulash uchun kabinetdagi Telegram havolasini oching.");
+                "E-Market: xush kelibsiz! Kirish uchun saytda telefon raqamingizni kiriting va \"Telegram orqali kod olish\" "
+                        + "tugmasini bosing. /buyurtmalarim - so'nggi buyurtmalaringiz.");
     }
 
     private OrderStatusChangedEvent paidEvent(String number) {

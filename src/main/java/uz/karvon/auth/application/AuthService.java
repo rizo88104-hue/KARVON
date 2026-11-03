@@ -8,17 +8,24 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import uz.karvon.auth.api.dto.AuthResponse;
+import uz.karvon.auth.api.dto.OtpRequestResponse;
+import uz.karvon.auth.api.dto.OtpRequestResponse.OtpChannel;
 import uz.karvon.auth.domain.RefreshToken;
 import uz.karvon.auth.infrastructure.RefreshTokenRepository;
 import uz.karvon.common.application.BusinessException;
 import uz.karvon.common.domain.PhoneNumbers;
+import uz.karvon.notification.application.SmsSender;
+import uz.karvon.notification.application.TelegramSendException;
+import uz.karvon.notification.infrastructure.SmsProperties;
 import uz.karvon.user.api.dto.UserResponse;
 import uz.karvon.user.application.UserBlockedEvent;
+import uz.karvon.user.application.UserContact;
 import uz.karvon.user.application.UserService;
 import uz.karvon.user.domain.UserStatus;
 
 import java.time.Clock;
 import java.time.Instant;
+import java.util.Optional;
 
 /**
  * Phone login and sessions. Refresh tokens are rotated: every refresh revokes the used token.
@@ -31,15 +38,38 @@ public class AuthService {
     private static final Logger log = LoggerFactory.getLogger(AuthService.class);
 
     private final OtpService otpService;
+    private final TelegramLoginService telegramLogin;
+    private final SmsSender sms;
+    private final SmsProperties smsSettings;
     private final TokenService tokenService;
     private final UserService userService;
     private final RefreshTokenRepository refreshTokens;
     private final Clock clock;
 
-    public long requestOtp(String rawPhone) {
+    /**
+     * Counts the request (limits), then: a linked Telegram chat gets the code (TELEGRAM); otherwise SMS while it is
+     * turned on (SMS); otherwise a one-time bot link (TELEGRAM_LINK), and the bot sends the code after the contact.
+     * A linked chat that cannot be reached (bot blocked, chat deleted) also gets the link, to start the bot again.
+     */
+    public OtpRequestResponse requestOtp(String rawPhone) {
         String phone = normalize(rawPhone);
         userService.findByPhone(phone).ifPresent(AuthService::ensureActive);
-        return otpService.request(phone);
+        otpService.countRequest(phone);
+        Optional<Long> chat = userService.contactByPhone(phone).map(UserContact::telegramChatId);
+        if (chat.isPresent()) {
+            try {
+                telegramLogin.sendCode(chat.get(), otpService.newCode(phone));
+                return new OtpRequestResponse(OtpChannel.TELEGRAM, otpService.codeTtlSeconds(), null);
+            } catch (TelegramSendException ex) {
+                log.warn("Login code not sent to the Telegram chat of {}; answering with a bot link",
+                        PhoneNumbers.mask(phone));
+            }
+        } else if (smsSettings.enabled()) {
+            sms.send(phone, OtpService.codeText(otpService.newCode(phone)));
+            return new OtpRequestResponse(OtpChannel.SMS, otpService.codeTtlSeconds(), null);
+        }
+        return new OtpRequestResponse(OtpChannel.TELEGRAM_LINK, telegramLogin.linkTtlSeconds(),
+                telegramLogin.createLink(phone));
     }
 
     @Transactional

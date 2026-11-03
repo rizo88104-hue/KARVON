@@ -106,9 +106,12 @@ class OrderLifecycleE2ETest extends AbstractIntegrationTest {
                 "order.paid", "order.purchased", "order.at_warehouse", "order.shipping_difference",
                 "payment.received", "order.in_transit", "order.arrived", "order.delivered");
         assertThat(jdbc.queryForObject("""
-                SELECT params FROM notifications WHERE order_id = ?::uuid AND channel = 'SMS'
+                SELECT params FROM notifications WHERE order_id = ?::uuid AND channel = 'TELEGRAM'
                 AND template_key = 'order.delivered'""", String.class, orderId))
                 .isEqualTo("[\"%s\",\"http://localhost:3000/account/orders/%s\"]".formatted(number, number));
+        // SMS is turned off: nothing at all goes by SMS, and Telegram reaches the customer (no in-app copies).
+        assertThat(jdbc.queryForObject("SELECT count(*) FROM notifications WHERE order_id = ?::uuid AND channel <> 'TELEGRAM'",
+                Long.class, orderId)).isZero();
         assertThat(audit(orderId)).containsExactly(
                 "BUYER PROCUREMENT_START", "BUYER ORDER_WEIGH", "OPERATOR ORDER_SHIP", "OPERATOR ORDER_ARRIVED",
                 "OPERATOR ORDER_DELIVERED");
@@ -185,10 +188,12 @@ class OrderLifecycleE2ETest extends AbstractIntegrationTest {
 
     // ---- the customer's steps
 
-    /** OTP login exactly as the site does it: request a code, read it (dev/test endpoint), verify. */
+    /**
+     * OTP login exactly as the site does it: request a code; a new phone gets a bot link, so press Start and share
+     * the contact in Telegram; read the code (dev/test endpoint) and verify.
+     */
     private String otpLogin(String phone) {
-        assertThat(TestLogins.requestOtp(mvc, phone)).hasStatusOk();
-        MvcTestResult verified = TestLogins.verifyOtp(mvc, phone, TestLogins.lastCode(mvc, phone));
+        MvcTestResult verified = TestLogins.verifyOtp(mvc, phone, TestLogins.requestCode(mvc, phone));
         assertThat(verified).hasStatusOk();
         return read(verified, "$.accessToken");
     }
@@ -256,10 +261,10 @@ class OrderLifecycleE2ETest extends AbstractIntegrationTest {
 
     // ---- checks on the side effects
 
-    /** Template keys of the notification outbox rows of the order, oldest first (SMS: no Telegram linked). */
+    /** Template keys of the order's Telegram notifications, oldest first (SMS is off; the login linked Telegram). */
     private List<String> outbox(String orderId) {
         return jdbc.queryForList("""
-                SELECT template_key FROM notifications WHERE order_id = ?::uuid AND channel = 'SMS'
+                SELECT template_key FROM notifications WHERE order_id = ?::uuid AND channel = 'TELEGRAM'
                 ORDER BY created_at, template_key""", String.class, orderId);
     }
 

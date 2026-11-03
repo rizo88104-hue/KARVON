@@ -2,6 +2,7 @@ package uz.karvon.notification.infrastructure;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import uz.karvon.notification.application.SmsSendException;
@@ -15,11 +16,13 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Dev and test: nothing is sent, the text is logged and every message per phone is kept in memory.
+ * Dev and test while SMS is turned on (karvon.sms.enabled=true): nothing is sent, the text is logged and every
+ * message per phone is kept in memory.
  * Tests can make the next sends to a phone fail with {@link #failNext}.
  */
 @Component
 @Profile({"dev", "test"})
+@ConditionalOnProperty(name = SmsProperties.ENABLED, havingValue = "true")
 public class FakeSmsSender implements SmsSender {
 
     private static final Logger log = LoggerFactory.getLogger(FakeSmsSender.class);

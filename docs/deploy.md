@@ -129,19 +129,27 @@ The `certbot` service renews it automatically; nginx reloads the new certificate
 
 ### 7. Connect the outside services
 
-* **Telegram webhook** (the API does not register it itself):
+* **Telegram webhook.** The API does not register it itself. It is **required**: SMS is off, so login codes come only
+  from the bot, and without the webhook nobody can log in.
   ```bash
   curl -fsS "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook" \
     --data-urlencode "url=https://$API_DOMAIN/api/v1/telegram/webhook" \
-    --data-urlencode "secret_token=$TELEGRAM_WEBHOOK_SECRET"
+    --data-urlencode "secret_token=$TELEGRAM_WEBHOOK_SECRET" \
+    --data-urlencode 'allowed_updates=["message"]'
+  curl -fsS "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getWebhookInfo"   # url set, no last_error_message
   ```
+  Optional: show the commands in the bot menu:
+  `curl -fsS "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setMyCommands" --data-urlencode 'commands=[{"command":"buyurtmalarim","description":"Buyurtmalarim"}]'`
 * **Payme** cabinet → endpoint URL: `https://API_DOMAIN/api/v1/payments/payme`
 * **Click** cabinet → Prepare URL `https://API_DOMAIN/api/v1/payments/click/prepare`,
   Complete URL `https://API_DOMAIN/api/v1/payments/click/complete`
 
 ### 8. Check
 
-* `https://SITE_DOMAIN` opens; log in with `ADMIN_PHONE` (SMS) and open `/admin`.
+* `https://SITE_DOMAIN` opens. Log in with `ADMIN_PHONE`:
+  1. Press "Telegram orqali kod olish".
+  2. Press Start in the bot and share your number.
+  3. Type the code the bot sends. Then open `/admin`.
 * Admin → Content → Pages: create `faq`, `delivery`, `returns`, `public-offer`.
 * `curl https://API_DOMAIN/actuator/health` → `{"status":"UP",...}`.
 * Next morning: `ls -l $BACKUP_DIR` shows `karvon-YYYYMMDD-030000.dump`; do the restore check below once.

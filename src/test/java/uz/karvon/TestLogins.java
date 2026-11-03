@@ -12,7 +12,8 @@ import java.util.concurrent.ThreadLocalRandom;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Logs in through the real OTP flow (request code, read it from the dev endpoint, verify) for integration tests.
+ * Logs in through the real OTP flow for integration tests: request a code, take the Telegram steps when the answer
+ * is a bot link, read the code from the dev endpoint, verify.
  */
 public final class TestLogins {
 
@@ -61,19 +62,75 @@ public final class TestLogins {
                 .exchange();
     }
 
-    /** The code the fake SMS sender got for this phone, read through GET /api/v1/dev/otp/{phone}. */
+    /** The last code made for this phone (any channel), read through GET /api/v1/dev/otp/{phone}. */
     public static String lastCode(MockMvcTester mvc, String phone) {
         MvcTestResult result = mvc.get().uri("/api/v1/dev/otp/{phone}", phone).exchange();
         assertThat(result).hasStatusOk();
         return read(result, "$.code");
     }
 
+    /**
+     * Requests a code exactly as a customer gets it: a linked chat receives it at once; without one the answer is a
+     * bot link (TELEGRAM_LINK), so the test plays the customer in Telegram (/start with the token, then their own
+     * contact) through the webhook. Returns the code.
+     */
+    public static String requestCode(MockMvcTester mvc, String phone) {
+        MvcTestResult requested = requestOtp(mvc, phone);
+        assertThat(requested).hasStatusOk();
+        if ("TELEGRAM_LINK".equals(read(requested, "$.channel"))) {
+            long chat = chatId(phone);
+            assertThat(telegramStart(mvc, chat, startToken(read(requested, "$.link")))).hasStatusOk();
+            assertThat(telegramContact(mvc, chat, chat, chat, phone.substring(1))).hasStatusOk();
+        }
+        return lastCode(mvc, phone);
+    }
+
     /** Full login; returns the verify response. */
     public static MvcTestResult login(MockMvcTester mvc, String phone) {
-        assertThat(requestOtp(mvc, phone)).hasStatusOk();
-        MvcTestResult result = verifyOtp(mvc, phone, lastCode(mvc, phone));
+        MvcTestResult result = verifyOtp(mvc, phone, requestCode(mvc, phone));
         assertThat(result).hasStatusOk();
         return result;
+    }
+
+    // --- the customer in Telegram (webhook calls as Telegram makes them)
+
+    public static final String TELEGRAM_SECRET = "test-telegram-secret";
+
+    /** The Telegram chat (and user id) tests use for a phone: its last 9 digits. */
+    public static long chatId(String phone) {
+        return Long.parseLong(phone.substring(phone.length() - 9));
+    }
+
+    /** The token of https://t.me/bot?start={token}. */
+    public static String startToken(String link) {
+        return link.substring(link.indexOf("?start=") + "?start=".length());
+    }
+
+    public static MvcTestResult telegramText(MockMvcTester mvc, long chatId, String text) {
+        return telegramUpdate(mvc, """
+                {"update_id":1,"message":{"chat":{"id":%d},"from":{"id":%d,"language_code":"uz"},"text":"%s"}}"""
+                .formatted(chatId, chatId, text));
+    }
+
+    public static MvcTestResult telegramStart(MockMvcTester mvc, long chatId, String token) {
+        return telegramText(mvc, chatId, "/start " + token);
+    }
+
+    /** A shared contact: {@code fromId} sent it, {@code contactUserId} is whose contact it is. */
+    public static MvcTestResult telegramContact(MockMvcTester mvc, long chatId, long fromId, Long contactUserId,
+                                                String phoneNumber) {
+        return telegramUpdate(mvc, """
+                {"update_id":2,"message":{"chat":{"id":%d},"from":{"id":%d},
+                 "contact":{"phone_number":"%s","user_id":%s}}}"""
+                .formatted(chatId, fromId, phoneNumber, contactUserId));
+    }
+
+    public static MvcTestResult telegramUpdate(MockMvcTester mvc, String json) {
+        return mvc.post().uri("/api/v1/telegram/webhook")
+                .header("X-Telegram-Bot-Api-Secret-Token", TELEGRAM_SECRET)
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json)
+                .exchange();
     }
 
     /** A new user who has only this staff role (given by the admin); returns the access token. */

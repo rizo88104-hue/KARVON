@@ -1,5 +1,6 @@
 package uz.karvon.notification.infrastructure;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,10 +10,12 @@ import org.springframework.web.client.RestClient;
 import uz.karvon.notification.application.SmsSender;
 
 /**
- * The real SMS sender for every profile except dev and test (those use {@link FakeSmsSender}).
+ * The real SMS sender for every profile except dev and test (those use {@link FakeSmsSender}), only while SMS is
+ * turned on (karvon.sms.enabled=true); otherwise {@link NoopSmsSender}.
  */
 @Configuration
 @Profile("!dev & !test")
+@ConditionalOnProperty(name = SmsProperties.ENABLED, havingValue = "true")
 @EnableConfigurationProperties(EskizProperties.class)
 public class SmsConfig {
 

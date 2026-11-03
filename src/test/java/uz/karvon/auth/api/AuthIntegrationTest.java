@@ -8,17 +8,19 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.assertj.MvcTestResult;
 import uz.karvon.AbstractIntegrationTest;
-import uz.karvon.notification.infrastructure.FakeSmsSender;
+import uz.karvon.notification.infrastructure.FakeTelegramBotClient;
 
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static uz.karvon.TestLogins.bearer;
+import static uz.karvon.TestLogins.chatId;
 import static uz.karvon.TestLogins.lastCode;
 import static uz.karvon.TestLogins.login;
 import static uz.karvon.TestLogins.newPhone;
 import static uz.karvon.TestLogins.read;
 import static uz.karvon.TestLogins.refresh;
+import static uz.karvon.TestLogins.requestCode;
 import static uz.karvon.TestLogins.requestOtp;
 import static uz.karvon.TestLogins.verifyOtp;
 import static uz.karvon.TestLogins.wrongCode;
@@ -29,19 +31,14 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
     private MockMvcTester mvc;
 
     @Autowired
-    private FakeSmsSender sms;
+    private FakeTelegramBotClient telegram;
 
     @Test
     void otpHappyPathCreatesCustomerAndReturnsTokens() {
         String phone = newPhone();
-
-        MvcTestResult requested = requestOtp(mvc, phone);
-        assertThat(requested).hasStatusOk();
-        assertThat(requested).bodyJson().extractingPath("$.expiresInSeconds").isEqualTo(120);
-
-        String code = lastCode(mvc, phone);
-        assertThat(sms.lastMessage(phone))
-                .hasValue("E-Market: tasdiqlash kodi " + code + ". Kodni hech kimga bermang.");
+        String code = requestCode(mvc, phone);
+        assertThat(telegram.messages(chatId(phone)))
+                .last().isEqualTo("E-Market: tasdiqlash kodi " + code + ". Kodni hech kimga bermang.");
 
         MvcTestResult verified = verifyOtp(mvc, phone, code);
         assertThat(verified).hasStatusOk();
@@ -71,7 +68,10 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
         String phone = newPhone();
         String written = phone.substring(1, 6) + " " + phone.substring(6, 9) + "-" + phone.substring(9);
 
-        assertThat(requestOtp(mvc, written)).hasStatusOk();
+        login(mvc, phone);
+        MvcTestResult again = requestOtp(mvc, written);
+        assertThat(again).hasStatusOk();
+        assertThat(again).bodyJson().extractingPath("$.channel").isEqualTo("TELEGRAM");
 
         assertThat(verifyOtp(mvc, phone, lastCode(mvc, phone))).hasStatusOk();
     }
@@ -87,8 +87,7 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
     @Test
     void wrongCodeIsRejectedAndTellsAttemptsLeft() {
         String phone = newPhone();
-        requestOtp(mvc, phone);
-        String code = lastCode(mvc, phone);
+        String code = requestCode(mvc, phone);
 
         MvcTestResult result = verifyOtp(mvc, phone, wrongCode(code));
 
@@ -102,8 +101,7 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
     @Test
     void codeCanBeUsedOnlyOnce() {
         String phone = newPhone();
-        requestOtp(mvc, phone);
-        String code = lastCode(mvc, phone);
+        String code = requestCode(mvc, phone);
         assertThat(verifyOtp(mvc, phone, code)).hasStatusOk();
 
         MvcTestResult again = verifyOtp(mvc, phone, code);
@@ -128,8 +126,7 @@ class AuthIntegrationTest extends AbstractIntegrationTest {
     @Test
     void fiveWrongCodesBlockThePhone() {
         String phone = newPhone();
-        requestOtp(mvc, phone);
-        String code = lastCode(mvc, phone);
+        String code = requestCode(mvc, phone);
 
         for (int i = 0; i < 4; i++) {
             assertThat(verifyOtp(mvc, phone, wrongCode(code))).hasStatus(HttpStatus.BAD_REQUEST);

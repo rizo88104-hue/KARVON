@@ -55,6 +55,10 @@ public class Notification extends BaseEntity {
     @Column(name = "next_attempt_at", nullable = false)
     private Instant nextAttemptAt;
 
+    /** In-app only: when the user read it; null = unread. */
+    @Column(name = "read_at")
+    private Instant readAt;
+
     protected Notification() {
     }
 
@@ -67,6 +71,18 @@ public class Notification extends BaseEntity {
         this.params = paramsJson;
         this.status = NotificationStatus.PENDING;
         this.nextAttemptAt = now;
+        if (channel == NotificationChannel.IN_APP) {
+            // Nothing to send: it is shown on the site at once.
+            this.status = NotificationStatus.SENT;
+            this.sentAt = now;
+        }
+    }
+
+    /** In-app only: the user opened it. */
+    public void markRead(Instant now) {
+        if (readAt == null) {
+            readAt = now;
+        }
     }
 
     public void sent(Instant now) {

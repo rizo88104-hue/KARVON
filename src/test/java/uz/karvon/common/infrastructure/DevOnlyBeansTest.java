@@ -21,29 +21,45 @@ class DevOnlyBeansTest {
     private static final Set<String> REAL = Set.of("TaobaoConfig", "SmsConfig", "TelegramConfig", "TranslationConfig",
             "CbuConfig", "ProviderCheckoutGateway");
 
-    private static final Set<String> DEV_ONLY = Set.of("DevOtpController", "DevPayController", "LocalFileController");
+    private static final Set<String> DEV_ONLY = Set.of("DevOtpController", "DevPayController", "LocalFileController",
+            "DevOtpCodes", "DevTelegramConfig");
+
+    private static final boolean SMS_ON = true;
 
     @Test
     void noFakeOrDevBeanInProduction() {
-        Set<String> prod = components("prod");
+        for (boolean sms : new boolean[]{true, false}) {
+            Set<String> prod = components("prod", sms);
 
-        assertThat(prod).as("components scanned with the prod profile").isNotEmpty();
-        assertThat(prod).filteredOn(name -> name.startsWith("Fake") || name.startsWith("Dev") || DEV_ONLY.contains(name))
-                .as("fake or dev-only beans in prod")
-                .isEmpty();
-        assertThat(prod).as("the real implementations are there").containsAll(REAL);
+            assertThat(prod).as("components scanned with the prod profile").isNotEmpty();
+            assertThat(prod).filteredOn(name -> name.startsWith("Fake") || name.startsWith("Dev") || DEV_ONLY.contains(name))
+                    .as("fake or dev-only beans in prod")
+                    .isEmpty();
+        }
+        assertThat(components("prod", SMS_ON)).as("the real implementations are there").containsAll(REAL);
+    }
+
+    @Test
+    void smsTurnedOffUsesOnlyTheNoopSenderInEveryProfile() {
+        for (String profile : new String[]{"prod", "dev", "test"}) {
+            Set<String> components = components(profile, false);
+            assertThat(components).as(profile).contains("NoopSmsSender").doesNotContain("SmsConfig", "FakeSmsSender");
+        }
+        assertThat(components("prod", SMS_ON)).contains("SmsConfig").doesNotContain("NoopSmsSender");
+        assertThat(components("dev", SMS_ON)).contains("FakeSmsSender").doesNotContain("NoopSmsSender", "SmsConfig");
     }
 
     @Test
     void theFakesExistInDev() {
-        assertThat(components("dev")).contains("FakeTaobaoProvider", "FakeSmsSender", "FakePaymentProvider",
-                "DevOtpController", "DevPayController", "LocalFileController");
-        assertThat(components("dev")).as("and the real providers are not").doesNotContainAnyElementsOf(REAL);
+        assertThat(components("dev", SMS_ON)).contains("FakeTaobaoProvider", "FakeSmsSender", "FakePaymentProvider",
+                "DevOtpController", "DevPayController", "LocalFileController", "DevOtpCodes", "DevTelegramConfig");
+        assertThat(components("dev", SMS_ON)).as("and the real providers are not").doesNotContainAnyElementsOf(REAL);
     }
 
-    private static Set<String> components(String profile) {
+    private static Set<String> components(String profile, boolean smsEnabled) {
         MockEnvironment environment = new MockEnvironment();
         environment.setActiveProfiles(profile);
+        environment.setProperty("karvon.sms.enabled", String.valueOf(smsEnabled));
         ClassPathScanningCandidateComponentProvider scanner = new ClassPathScanningCandidateComponentProvider(true, environment);
         return scanner.findCandidateComponents("uz.karvon").stream()
                 .map(BeanDefinition::getBeanClassName)

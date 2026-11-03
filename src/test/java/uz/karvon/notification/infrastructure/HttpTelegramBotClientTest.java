@@ -4,8 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.test.json.JsonCompareMode;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestClient;
+import uz.karvon.notification.application.TelegramBotClient;
 import uz.karvon.notification.application.TelegramSendException;
 
 import java.time.Duration;
@@ -21,7 +23,7 @@ class HttpTelegramBotClientTest {
 
     private static final String TOKEN = "123456:SECRET-TOKEN";
     private static final TelegramProperties PROPERTIES = new TelegramProperties("https://telegram.test", TOKEN,
-            "karvon_bot", "hook-secret", Duration.ofMinutes(15), Duration.ofSeconds(5));
+            "karvon_bot", "hook-secret", Duration.ofMinutes(15), Duration.ofSeconds(5), Duration.ofMinutes(10));
 
     private final RestClient.Builder builder = RestClient.builder();
     private final MockRestServiceServer server = MockRestServiceServer.bindTo(builder).build();
@@ -35,6 +37,24 @@ class HttpTelegramBotClientTest {
                 .andRespond(withSuccess("{\"ok\":true}", MediaType.APPLICATION_JSON));
 
         client.sendMessage(777L, "Karvon: salom");
+
+        server.verify();
+    }
+
+    @Test
+    void contactButtonAndKeyboardRemovalGoInReplyMarkup() {
+        server.expect(requestTo("https://telegram.test/bot" + TOKEN + "/sendMessage"))
+                .andExpect(content().json("""
+                        {"chat_id":777,"text":"Raqam?","reply_markup":{"keyboard":[[{"text":"Telefon raqamni yuborish",
+                        "request_contact":true}]],"resize_keyboard":true,"one_time_keyboard":true}}""", JsonCompareMode.STRICT))
+                .andRespond(withSuccess("{\"ok\":true}", MediaType.APPLICATION_JSON));
+        server.expect(requestTo("https://telegram.test/bot" + TOKEN + "/sendMessage"))
+                .andExpect(content().json("{\"chat_id\":777,\"text\":\"Kod\",\"reply_markup\":{\"remove_keyboard\":true}}",
+                        JsonCompareMode.STRICT))
+                .andRespond(withSuccess("{\"ok\":true}", MediaType.APPLICATION_JSON));
+
+        client.sendMessage(777L, "Raqam?", new TelegramBotClient.Keyboard.ShareContact("Telefon raqamni yuborish"));
+        client.sendMessage(777L, "Kod", TelegramBotClient.Keyboard.REMOVE);
 
         server.verify();
     }
@@ -55,7 +75,7 @@ class HttpTelegramBotClientTest {
     @Test
     void tokenIsRequired() {
         TelegramProperties noToken = new TelegramProperties("https://telegram.test", "", "karvon_bot", "",
-                Duration.ofMinutes(15), Duration.ofSeconds(5));
+                Duration.ofMinutes(15), Duration.ofSeconds(5), Duration.ofMinutes(10));
 
         assertThatThrownBy(() -> new HttpTelegramBotClient(RestClient.builder(), noToken))
                 .isInstanceOf(IllegalStateException.class)

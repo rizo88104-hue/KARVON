@@ -1,7 +1,7 @@
 # Local development. Start Postgres and Redis with "docker compose up -d".
 # Values may be overridden in a local .env file (see .env.example); the defaults match docker-compose.yml.
-# External services (Taobao, translation, SMS, Telegram, Payme, Click) use their Fake
-# implementations in this profile: they are registered with @Profile("dev").
+# External services (Taobao, translation, SMS, Payme, Click) use their Fake
+# implementations in this profile (@Profile("dev")). Telegram: the real bot when TELEGRAM_BOT_TOKEN is set, else a fake.
 spring:
   config:
     import: optional:file:.env[.properties]
@@ -36,7 +36,8 @@ karvon:
     # Dev-only fallback so the app starts without a .env file. Production has no default.
     jwt-secret: ${JWT_SECRET:dev-only-jwt-secret-change-me-0123456789}
   telegram:
-    # The fake bot only logs; these defaults let you try the link and the webhook with curl.
+    # Without TELEGRAM_BOT_TOKEN the fake bot only logs (POST /api/v1/dev/otp/{phone}/telegram-login stands in for
+    # it). With TELEGRAM_BOT_TOKEN and TELEGRAM_BOT_USERNAME in .env the real bot runs with long polling.
     bot-username: ${TELEGRAM_BOT_USERNAME:karvon_dev_bot}
     webhook-secret: ${TELEGRAM_WEBHOOK_SECRET:dev-telegram-secret}
   admin:

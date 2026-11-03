@@ -168,10 +168,17 @@ karvon:
     # ({number} = order number), otherwise to the order page {site-url}/account/orders/{number}.
     site-url: ${SITE_URL:http://localhost:3000}
     review-url: ${REVIEW_URL:}
+  sms:
+    # Off for now: no SMS is sent (NoopSmsSender only logs); login codes and notifications go to Telegram, otherwise
+    # in-app. true = Eskiz (prod) or the fake sender (dev/test) again.
+    enabled: ${SMS_ENABLED:false}
   telegram:
-    # Bot API token (used only outside dev/test), bot name without "@" (deep links), and the secret_token given to
-    # setWebhook; Telegram sends it in X-Telegram-Bot-Api-Secret-Token. An empty secret refuses every webhook call.
+    # Bot API token (prod; dev uses the real bot with long polling when it is set), bot name without "@" (deep links),
+    # and the secret_token given to setWebhook; Telegram sends it in X-Telegram-Bot-Api-Secret-Token. An empty secret
+    # refuses every webhook call. The token is never logged.
     bot-token: ${TELEGRAM_BOT_TOKEN:}
     bot-username: ${TELEGRAM_BOT_USERNAME:}
     webhook-secret: ${TELEGRAM_WEBHOOK_SECRET:}
+    # Cabinet link (a signed-in user links Telegram) and login link (POST /auth/otp/request without a linked chat).
     link-ttl: 15m
+    login-ttl: 10m

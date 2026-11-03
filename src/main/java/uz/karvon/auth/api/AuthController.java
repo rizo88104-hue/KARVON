@@ -26,7 +26,7 @@ public class AuthController {
 
     @PostMapping("/otp/request")
     public OtpRequestResponse requestOtp(@Valid @RequestBody OtpRequest request) {
-        return new OtpRequestResponse(authService.requestOtp(request.phone()));
+        return authService.requestOtp(request.phone());
     }
 
     /** Registers a new CUSTOMER on first login. */

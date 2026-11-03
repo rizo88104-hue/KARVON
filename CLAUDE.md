@@ -51,6 +51,9 @@ total      = goods + serviceFee + shipping
 - Controllers are thin and never return entities.
 - External services (Taobao API, translation, SMS, Telegram, Payme, Click) are behind interfaces,
   with a real implementation and a Fake implementation used by the "dev" profile.
+- SMS is turned off (`karvon.sms.enabled=false`, env SMS_ENABLED): keep the Eskiz code but never send. Login codes and
+  notifications go to Telegram (`TelegramLoginService`, `ChannelRule`), otherwise IN_APP. Dev uses the real bot with
+  long polling when TELEGRAM_BOT_TOKEN is set, else the fake bot. Never log the bot token.
 - Secrets only from environment variables. Never in code.
 
 ## API conventions

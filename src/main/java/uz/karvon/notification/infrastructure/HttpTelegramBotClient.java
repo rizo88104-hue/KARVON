@@ -9,7 +9,10 @@ import org.springframework.web.client.RestClientResponseException;
 import uz.karvon.notification.application.TelegramBotClient;
 import uz.karvon.notification.application.TelegramSendException;
 
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 /**
  * Telegram Bot API over HTTP: POST {apiUrl}/bot{token}/sendMessage. The token is part of the URL, so it is removed
@@ -32,11 +35,15 @@ public class HttpTelegramBotClient implements TelegramBotClient {
     }
 
     @Override
-    public void sendMessage(long chatId, String text) {
+    public void sendMessage(long chatId, String text, Keyboard keyboard) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("chat_id", chatId);
+        body.put("text", text);
+        replyMarkup(keyboard).ifPresent(markup -> body.put("reply_markup", markup));
         try {
             http.post().uri("/sendMessage")
                     .contentType(MediaType.APPLICATION_JSON)
-                    .body(Map.of("chat_id", chatId, "text", text))
+                    .body(body)
                     .retrieve()
                     .toBodilessEntity();
         } catch (RestClientResponseException ex) {
@@ -48,6 +55,17 @@ public class HttpTelegramBotClient implements TelegramBotClient {
             log.warn("Telegram did not send to chat {}: {}", chatId, error);
             throw new TelegramSendException(error);
         }
+    }
+
+    static Optional<Map<String, Object>> replyMarkup(Keyboard keyboard) {
+        return switch (keyboard) {
+            case Keyboard.Unchanged ignored -> Optional.empty();
+            case Keyboard.Remove ignored -> Optional.of(Map.of("remove_keyboard", true));
+            case Keyboard.ShareContact share -> Optional.of(Map.of(
+                    "keyboard", List.of(List.of(Map.of("text", share.buttonText(), "request_contact", true))),
+                    "resize_keyboard", true,
+                    "one_time_keyboard", true));
+        };
     }
 
     private String hideToken(String text) {
