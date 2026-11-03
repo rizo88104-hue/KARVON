@@ -36,6 +36,22 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/admin/ticker/{id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["tickerMessage"];
+        put: operations["updateTickerMessage"];
+        post?: never;
+        delete: operations["deleteTickerMessage"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/admin/settings/sla": {
         parameters: {
             query?: never;
@@ -500,6 +516,22 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/admin/ticker": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["tickerMessages"];
+        put?: never;
+        post: operations["createTickerMessage"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/admin/promo-codes": {
         parameters: {
             query?: never;
@@ -898,6 +930,22 @@ export interface paths {
         options?: never;
         head?: never;
         patch: operations["updateItem"];
+        trace?: never;
+    };
+    "/api/v1/ticker": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["ticker"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
         trace?: never;
     };
     "/api/v1/settings/pricing": {
@@ -1457,6 +1505,31 @@ export interface components {
             landmark?: string;
             phone?: string;
             isDefault?: boolean;
+        };
+        TickerMessageRequest: {
+            /** @example 11.11 — xizmat haqi 50% arzon */
+            textUz: string;
+            /** @example 11.11 — сервисный сбор на 50% меньше */
+            textRu: string;
+            /** @example /search?q=krossovka */
+            linkUrl?: string;
+            /** Format: int32 */
+            sortOrder?: number;
+            active?: boolean;
+        };
+        TickerMessageResponse: {
+            /** Format: uuid */
+            id?: string;
+            textUz?: string;
+            textRu?: string;
+            linkUrl?: string;
+            /** Format: int32 */
+            sortOrder?: number;
+            active?: boolean;
+            /** Format: date-time */
+            createdAt?: string;
+            /** Format: date-time */
+            updatedAt?: string;
         };
         UpdateSlaSettingsRequest: {
             /**
@@ -2196,6 +2269,10 @@ export interface components {
             taobaoOrderNumber?: string;
             chinaTrackingNumber?: string;
         };
+        PublicTickerMessageResponse: {
+            text?: string;
+            linkUrl?: string;
+        };
         PublicPricingSettingsResponse: {
             /** Format: uuid */
             id?: string;
@@ -2717,6 +2794,74 @@ export interface operations {
         };
     };
     delete: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    tickerMessage: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["TickerMessageResponse"];
+                };
+            };
+        };
+    };
+    updateTickerMessage: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TickerMessageRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["TickerMessageResponse"];
+                };
+            };
+        };
+    };
+    deleteTickerMessage: {
         parameters: {
             query?: never;
             header?: never;
@@ -3733,6 +3878,50 @@ export interface operations {
             };
         };
     };
+    tickerMessages: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["TickerMessageResponse"][];
+                };
+            };
+        };
+    };
+    createTickerMessage: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TickerMessageRequest"];
+            };
+        };
+        responses: {
+            /** @description Created */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["TickerMessageResponse"];
+                };
+            };
+        };
+    };
     list_2: {
         parameters: {
             query?: {
@@ -4524,6 +4713,26 @@ export interface operations {
                 };
                 content: {
                     "*/*": components["schemas"]["StaffOrderResponse"];
+                };
+            };
+        };
+    };
+    ticker: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["PublicTickerMessageResponse"][];
                 };
             };
         };

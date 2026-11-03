@@ -2,7 +2,7 @@ import "server-only";
 
 import { cache } from "react";
 import { serverApi } from "@/api/server";
-import type { Banner, Category, ContentPage, PricingSettings, ProductCard, ProductDetail } from "@/api/types";
+import type { Banner, Category, ContentPage, PricingSettings, ProductCard, ProductDetail, TickerItem } from "@/api/types";
 
 // Server-side reads used by pages and metadata. React `cache` dedupes calls within one request
 // (e.g. generateMetadata and the page both load the product). A backend outage never crashes the layout.
@@ -62,6 +62,16 @@ export const getCategoryProducts = cache(async (locale: string, keywordZh: strin
       params: { query: { q: keywordZh, sort: "SALES", page: 0 } },
     });
     return data?.content ?? [];
+  } catch {
+    return [];
+  }
+});
+
+/** Messages of the running line in the top bar, in the page language; empty when there are none or on failure. */
+export const getTicker = cache(async (locale: string): Promise<TickerItem[]> => {
+  try {
+    const { data } = await serverApi(locale).GET("/api/v1/ticker");
+    return data ?? [];
   } catch {
     return [];
   }

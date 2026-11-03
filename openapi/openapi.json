@@ -173,6 +173,113 @@
         ]
       }
     },
+    "/api/v1/admin/ticker/{id}": {
+      "get": {
+        "tags": [
+          "Admin: content"
+        ],
+        "operationId": "tickerMessage",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/TickerMessageResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Admin: content"
+        ],
+        "operationId": "updateTickerMessage",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TickerMessageRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/TickerMessageResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Admin: content"
+        ],
+        "operationId": "deleteTickerMessage",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/v1/admin/settings/sla": {
       "get": {
         "tags": [
@@ -1674,6 +1781,67 @@
         ]
       }
     },
+    "/api/v1/admin/ticker": {
+      "get": {
+        "tags": [
+          "Admin: content"
+        ],
+        "operationId": "tickerMessages",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TickerMessageResponse"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "Admin: content"
+        ],
+        "operationId": "createTickerMessage",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TickerMessageRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/TickerMessageResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/v1/admin/promo-codes": {
       "get": {
         "tags": [
@@ -3015,6 +3183,29 @@
             "bearerAuth": []
           }
         ]
+      }
+    },
+    "/api/v1/ticker": {
+      "get": {
+        "tags": [
+          "Content"
+        ],
+        "operationId": "ticker",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PublicTickerMessageResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/api/v1/settings/pricing": {
@@ -4511,6 +4702,74 @@
           },
           "isDefault": {
             "type": "boolean"
+          }
+        }
+      },
+      "TickerMessageRequest": {
+        "type": "object",
+        "properties": {
+          "textUz": {
+            "type": "string",
+            "example": "11.11 — xizmat haqi 50% arzon",
+            "maxLength": 200,
+            "minLength": 0
+          },
+          "textRu": {
+            "type": "string",
+            "example": "11.11 — сервисный сбор на 50% меньше",
+            "maxLength": 200,
+            "minLength": 0
+          },
+          "linkUrl": {
+            "type": "string",
+            "example": "/search?q=krossovka",
+            "maxLength": 1000,
+            "minLength": 0
+          },
+          "sortOrder": {
+            "type": "integer",
+            "format": "int32",
+            "minimum": 0
+          },
+          "active": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "textRu",
+          "textUz"
+        ]
+      },
+      "TickerMessageResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "textUz": {
+            "type": "string"
+          },
+          "textRu": {
+            "type": "string"
+          },
+          "linkUrl": {
+            "type": "string"
+          },
+          "sortOrder": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -6642,6 +6901,17 @@
             "type": "string",
             "maxLength": 100,
             "minLength": 0
+          }
+        }
+      },
+      "PublicTickerMessageResponse": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "linkUrl": {
+            "type": "string"
           }
         }
       },

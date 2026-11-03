@@ -42,7 +42,8 @@
     "tagline": "Taobao mahsulotlari — Xitoydan O'zbekistonga yetkazib berish",
     "language": "Til",
     "uz": "O'zbekcha",
-    "ru": "Русский"
+    "ru": "Русский",
+    "tickerLabel": "E'lonlar"
   },
   "header": {
     "home": "E-Market bosh sahifa",
@@ -828,6 +829,7 @@
     "content": {
       "tab": {
         "banners": "Bannerlar",
+        "ticker": "Yuguruvchi qator",
         "categories": "Kategoriyalar",
         "keywords": "Taqiqlangan so'zlar",
         "promo": "Promokodlar",
@@ -902,6 +904,15 @@
         "titleRu": "Sarlavha (ru)",
         "bodyUz": "Matn (uz, Markdown)",
         "bodyRu": "Matn (ru, Markdown)"
+      },
+      "ticker": {
+        "title": "Yuguruvchi qator xabari",
+        "textUz": "Matn (uz)",
+        "textRu": "Matn (ru)",
+        "link": "Havola",
+        "linkHint": "/pages/faq, /search?q=… yoki https://… (ixtiyoriy)",
+        "sortOrder": "Tartib",
+        "active": "Faol"
       }
     },
     "staff": {

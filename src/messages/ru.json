@@ -42,7 +42,8 @@
     "tagline": "Товары Taobao — доставка из Китая в Узбекистан",
     "language": "Язык",
     "uz": "O'zbekcha",
-    "ru": "Русский"
+    "ru": "Русский",
+    "tickerLabel": "Объявления"
   },
   "header": {
     "home": "E-Market — главная",
@@ -828,6 +829,7 @@
     "content": {
       "tab": {
         "banners": "Баннеры",
+        "ticker": "Бегущая строка",
         "categories": "Категории",
         "keywords": "Запрещённые слова",
         "promo": "Промокоды",
@@ -902,6 +904,15 @@
         "titleRu": "Заголовок (ru)",
         "bodyUz": "Текст (uz, Markdown)",
         "bodyRu": "Текст (ru, Markdown)"
+      },
+      "ticker": {
+        "title": "Сообщение бегущей строки",
+        "textUz": "Текст (uz)",
+        "textRu": "Текст (ru)",
+        "link": "Ссылка",
+        "linkHint": "/pages/faq, /search?q=… или https://… (необязательно)",
+        "sortOrder": "Порядок",
+        "active": "Активно"
       }
     },
     "staff": {

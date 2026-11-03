@@ -1,28 +1,31 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { Suspense } from "react";
 import { Link } from "@/i18n/navigation";
-import { getCategories } from "@/lib/server/data";
+import { getCategories, getTicker } from "@/lib/server/data";
 import { CatalogButton } from "./CatalogButton";
 import { categoryHref, categoryName } from "./categories";
 import { HeaderActions } from "./HeaderActions";
 import { LanguageSwitch } from "./LanguageSwitch";
 import { SearchForm } from "./SearchForm";
+import { TopbarTicker } from "./TopbarTicker";
 
-/** Top bar + header + category strip, as in e-market-design.html. */
+/** Top bar (running line of messages, language) + header + category strip, as in e-market-design.html. */
 export async function SiteHeader() {
   const locale = await getLocale();
   const t = await getTranslations("header");
   const tb = await getTranslations("topbar");
-  const categories = await getCategories(locale);
+  const [categories, ticker] = await Promise.all([getCategories(locale), getTicker(locale)]);
 
   return (
     <>
       <div className="bg-ink text-[12px] font-medium text-white min-[561px]:text-[13px]">
-        <div className="container-site flex min-h-[34px] flex-wrap items-center justify-between gap-3">
-          <span>{tb("tagline")}</span>
-          <Suspense>
-            <LanguageSwitch />
-          </Suspense>
+        <div className="container-site flex min-h-[34px] items-center justify-between gap-4">
+          <TopbarTicker items={ticker} label={tb("tickerLabel")} fallback={tb("tagline")} />
+          <div className="flex-none">
+            <Suspense>
+              <LanguageSwitch />
+            </Suspense>
+          </div>
         </div>
       </div>
 

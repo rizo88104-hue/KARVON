@@ -13,13 +13,14 @@ import type {
   BlockedKeywordRequest,
   PromoCode,
   PromoCodeRequest,
+  TickerMessage,
 } from "@/api/types";
 import { formatDateTime, formatDecimal } from "@/lib/format";
 import { CrudSection, fromLocalInput, num, str, toLocalInput, type FormValues } from "./CrudSection";
 import { AdminPageHeader } from "./ui";
 
-type Tab = "banners" | "categories" | "keywords" | "promo" | "pages";
-const TABS: Tab[] = ["banners", "categories", "keywords", "promo", "pages"];
+type Tab = "banners" | "ticker" | "categories" | "keywords" | "promo" | "pages";
+const TABS: Tab[] = ["banners", "ticker", "categories", "keywords", "promo", "pages"];
 
 export function ContentView() {
   const t = useTranslations("admin.content");
@@ -45,6 +46,7 @@ export function ContentView() {
         ))}
       </div>
       {tab === "banners" && <Banners />}
+      {tab === "ticker" && <Ticker />}
       {tab === "categories" && <Categories />}
       {tab === "keywords" && <Keywords />}
       {tab === "promo" && <PromoCodes />}
@@ -111,6 +113,55 @@ function Banners() {
           : unwrap(await api.POST("/api/v1/admin/banners", { body: body(v) }))
       }
       remove={async (id) => unwrap(await api.DELETE("/api/v1/admin/banners/{id}", { params: { path: { id } } }))}
+    />
+  );
+}
+
+/** Messages of the running line in the site's top bar. */
+function Ticker() {
+  const t = useTranslations("admin.content.ticker");
+  const body = (v: FormValues) => ({
+    textUz: String(v.textUz).trim(),
+    textRu: String(v.textRu).trim(),
+    linkUrl: str(v.linkUrl),
+    sortOrder: num(v.sortOrder),
+    active: !!v.active,
+  });
+  return (
+    <CrudSection<TickerMessage>
+      title={t("title")}
+      queryKey={["admin", "content", "ticker"]}
+      load={async () => ({ rows: unwrap(await api.GET("/api/v1/admin/ticker")), totalPages: 1 })}
+      rowId={(m) => m.id ?? ""}
+      rowLabel={(m) => m.textUz ?? ""}
+      headers={[t("textUz"), t("textRu"), t("link"), t("sortOrder"), t("active")]}
+      cells={(m) => [
+        <b key="u">{m.textUz}</b>,
+        <span key="r">{m.textRu}</span>,
+        <span key="l" className="text-muted">{m.linkUrl}</span>,
+        <span key="s" className="num">{m.sortOrder}</span>,
+        yesNo(m.active),
+      ]}
+      fields={[
+        { name: "textUz", label: t("textUz"), type: "text", required: true },
+        { name: "textRu", label: t("textRu"), type: "text", required: true },
+        { name: "linkUrl", label: t("link"), type: "text", hint: t("linkHint") },
+        { name: "sortOrder", label: t("sortOrder"), type: "number", half: true },
+        { name: "active", label: t("active"), type: "checkbox", half: true },
+      ]}
+      toForm={(m) => ({
+        textUz: m?.textUz ?? "",
+        textRu: m?.textRu ?? "",
+        linkUrl: m?.linkUrl ?? "",
+        sortOrder: m?.sortOrder != null ? String(m.sortOrder) : "0",
+        active: m?.active ?? true,
+      })}
+      save={async (v, id) =>
+        id
+          ? unwrap(await api.PUT("/api/v1/admin/ticker/{id}", { params: { path: { id } }, body: body(v) }))
+          : unwrap(await api.POST("/api/v1/admin/ticker", { body: body(v) }))
+      }
+      remove={async (id) => unwrap(await api.DELETE("/api/v1/admin/ticker/{id}", { params: { path: { id } } }))}
     />
   );
 }

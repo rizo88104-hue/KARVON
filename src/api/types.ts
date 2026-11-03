@@ -47,6 +47,8 @@ export type Problem = {
 };
 
 export type Banner = S["PublicBannerResponse"];
+export type TickerItem = S["PublicTickerMessageResponse"];
+export type TickerMessage = S["TickerMessageResponse"];
 export type ContentPage = S["PublicPageResponse"];
 
 // Staff panel (/admin)
