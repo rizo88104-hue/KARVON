@@ -95,6 +95,24 @@ class ContentIntegrationTest extends AbstractIntegrationTest {
         assertThat(as(mvc, admin, mvc.delete().uri("/api/v1/admin/pages/{id}", id))).hasStatus(HttpStatus.NO_CONTENT);
     }
 
+    /** V16 seeds the footer pages; the public offer is a template, so it stays hidden until ADMIN publishes it. */
+    @Test
+    void footerPagesAreSeededAndTheOfferWaitsForTheCompanyDetails() {
+        for (String slug : List.of("faq", "delivery", "returns")) {
+            MvcTestResult uz = mvc.get().uri("/api/v1/pages/{slug}", slug).exchange();
+            assertThat(uz).as(slug).hasStatusOk();
+            assertThat(uz).bodyJson().extractingPath("$.body").asString().as(slug).contains("## ").doesNotContain("[TO'LDIRING");
+            MvcTestResult ru = mvc.get().uri("/api/v1/pages/{slug}", slug).header(HttpHeaders.ACCEPT_LANGUAGE, "ru").exchange();
+            assertThat(ru).bodyJson().extractingPath("$.lang").isEqualTo("ru");
+        }
+        assertThat(mvc.get().uri("/api/v1/pages/faq").exchange()).bodyJson().extractingPath("$.title")
+                .isEqualTo("Ko'p beriladigan savollar");
+
+        assertThat(mvc.get().uri("/api/v1/pages/public-offer").exchange()).hasStatus(HttpStatus.NOT_FOUND);
+        MvcTestResult offers = as(mvc, admin, mvc.get().uri("/api/v1/admin/pages"));
+        assertThat(offers).bodyJson().extractingPath("$..[?(@.slug == 'public-offer')].published").asArray().containsExactly(false);
+    }
+
     @Test
     void categoriesCrud() {
         String parent = read(mvc.get().uri("/api/v1/catalog/categories").exchange(), "$[0].slug");
