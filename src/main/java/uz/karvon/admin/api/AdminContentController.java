@@ -19,7 +19,10 @@ import uz.karvon.admin.api.dto.BannerRequest;
 import uz.karvon.admin.api.dto.BannerResponse;
 import uz.karvon.admin.api.dto.ContentPageRequest;
 import uz.karvon.admin.api.dto.ContentPageResponse;
+import uz.karvon.admin.api.dto.TickerMessageRequest;
+import uz.karvon.admin.api.dto.TickerMessageResponse;
 import uz.karvon.admin.application.ContentService;
+import uz.karvon.admin.application.TickerService;
 import uz.karvon.common.api.Audited;
 
 import java.util.List;
@@ -34,6 +37,7 @@ import java.util.UUID;
 public class AdminContentController {
 
     private final ContentService content;
+    private final TickerService ticker;
 
     @GetMapping("/banners")
     public List<BannerResponse> banners() {
@@ -63,6 +67,36 @@ public class AdminContentController {
     @Audited(action = "BANNER_DELETE", entityType = "BANNER")
     public void deleteBanner(@PathVariable UUID id) {
         content.deleteBanner(id);
+    }
+
+    @GetMapping("/ticker")
+    public List<TickerMessageResponse> tickerMessages() {
+        return ticker.list();
+    }
+
+    @GetMapping("/ticker/{id}")
+    public TickerMessageResponse tickerMessage(@PathVariable UUID id) {
+        return ticker.get(id);
+    }
+
+    @PostMapping("/ticker")
+    @ResponseStatus(HttpStatus.CREATED)
+    @Audited(action = "TICKER_CREATE", entityType = "TICKER")
+    public TickerMessageResponse createTickerMessage(@Valid @RequestBody TickerMessageRequest request) {
+        return ticker.create(request);
+    }
+
+    @PutMapping("/ticker/{id}")
+    @Audited(action = "TICKER_UPDATE", entityType = "TICKER")
+    public TickerMessageResponse updateTickerMessage(@PathVariable UUID id, @Valid @RequestBody TickerMessageRequest request) {
+        return ticker.update(id, request);
+    }
+
+    @DeleteMapping("/ticker/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @Audited(action = "TICKER_DELETE", entityType = "TICKER")
+    public void deleteTickerMessage(@PathVariable UUID id) {
+        ticker.delete(id);
     }
 
     @GetMapping("/pages")

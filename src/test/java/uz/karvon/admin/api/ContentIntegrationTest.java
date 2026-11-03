@@ -95,6 +95,46 @@ class ContentIntegrationTest extends AbstractIntegrationTest {
         assertThat(as(mvc, admin, mvc.delete().uri("/api/v1/admin/pages/{id}", id))).hasStatus(HttpStatus.NO_CONTENT);
     }
 
+    /** V18 seeds the ticker; ADMIN adds, hides and removes messages; a link must be a site path or http(s). */
+    @Test
+    void tickerMessagesInUzbekAndRussian() {
+        MvcTestResult seeded = mvc.get().uri("/api/v1/ticker").exchange();
+        assertThat(seeded).hasStatusOk();
+        assertThat(seeded).bodyJson().extractingPath("$[0].text")
+                .isEqualTo("Taobao mahsulotlari — Xitoydan O'zbekistonga yetkazib berish");
+        assertThat(mvc.get().uri("/api/v1/ticker").header(HttpHeaders.ACCEPT_LANGUAGE, "ru").exchange())
+                .bodyJson().extractingPath("$[0].text").isEqualTo("Товары с Taobao — доставка из Китая в Узбекистан");
+
+        MvcTestResult unsafe = as(mvc, admin, mvc.post().uri("/api/v1/admin/ticker").contentType(MediaType.APPLICATION_JSON)
+                .content(ticker("javascript:alert(1)", true)));
+        assertThat(unsafe).hasStatus(HttpStatus.BAD_REQUEST);
+        assertThat(unsafe).bodyJson().extractingPath("$.code").isEqualTo("TICKER_LINK_INVALID");
+        assertThat(as(mvc, admin, mvc.post().uri("/api/v1/admin/ticker").contentType(MediaType.APPLICATION_JSON)
+                .content(ticker("//evil.example", true)))).bodyJson().extractingPath("$.code").isEqualTo("TICKER_LINK_INVALID");
+
+        MvcTestResult created = as(mvc, admin, mvc.post().uri("/api/v1/admin/ticker").contentType(MediaType.APPLICATION_JSON)
+                .content(ticker("/search?q=krossovka", false)));
+        assertThat(created).hasStatus(HttpStatus.CREATED);
+        String id = read(created, "$.id");
+        assertThat(mvc.get().uri("/api/v1/ticker").exchange()).bodyJson().extractingPath("$[*].text").asArray()
+                .doesNotContain("11.11 aksiya");
+
+        assertThat(as(mvc, admin, mvc.put().uri("/api/v1/admin/ticker/{id}", id).contentType(MediaType.APPLICATION_JSON)
+                .content(ticker("https://karvon.uz/aksiya", true)))).hasStatusOk();
+        MvcTestResult shown = mvc.get().uri("/api/v1/ticker").exchange();
+        assertThat(shown).bodyJson().extractingPath("$[0].text").isEqualTo("11.11 aksiya");
+        assertThat(shown).bodyJson().extractingPath("$[0].linkUrl").isEqualTo("https://karvon.uz/aksiya");
+
+        assertThat(as(mvc, admin, mvc.delete().uri("/api/v1/admin/ticker/{id}", id))).hasStatus(HttpStatus.NO_CONTENT);
+        assertThat(as(mvc, admin, mvc.get().uri("/api/v1/admin/ticker/{id}", id)))
+                .bodyJson().extractingPath("$.code").isEqualTo("TICKER_MESSAGE_NOT_FOUND");
+    }
+
+    private static String ticker(String link, boolean active) {
+        return "{\"textUz\":\"11.11 aksiya\",\"textRu\":\"Акция 11.11\",\"linkUrl\":\"%s\",\"sortOrder\":0,\"active\":%s}"
+                .formatted(link, active);
+    }
+
     /** V16 seeds the footer pages; the public offer is a template, so it stays hidden until ADMIN publishes it. */
     @Test
     void footerPagesAreSeededAndTheOfferWaitsForTheCompanyDetails() {
@@ -151,6 +191,7 @@ class ContentIntegrationTest extends AbstractIntegrationTest {
         assertThat(as(mvc, operator, mvc.get().uri("/api/v1/admin/pages"))).hasStatus(HttpStatus.FORBIDDEN);
         assertThat(as(mvc, operator, mvc.get().uri("/api/v1/admin/categories"))).hasStatus(HttpStatus.FORBIDDEN);
         assertThat(as(mvc, operator, mvc.get().uri("/api/v1/admin/promo-codes"))).hasStatus(HttpStatus.FORBIDDEN);
+        assertThat(as(mvc, operator, mvc.get().uri("/api/v1/admin/ticker"))).hasStatus(HttpStatus.FORBIDDEN);
     }
 
     private String banner(String json) {

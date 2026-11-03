@@ -51,8 +51,8 @@ public class SecurityConfig {
             "/api/v1/settings/pricing",
             "/api/v1/pricing/estimate",
             "/api/v1/catalog/**",
-            // Site content: home page banners and text pages.
-            "/api/v1/banners", "/api/v1/pages/**",
+            // Site content: home page banners, the top bar ticker and text pages.
+            "/api/v1/banners", "/api/v1/ticker", "/api/v1/pages/**",
             // Payme and Click call these; they check their own credentials (Basic auth / sign) and PaymentIpFilter.
             "/api/v1/payments/payme", "/api/v1/payments/click/**",
             // Telegram calls this; it checks the secret header itself.
