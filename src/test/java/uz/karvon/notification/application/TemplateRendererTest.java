@@ -38,6 +38,28 @@ class TemplateRendererTest {
     }
 
     @Test
+    void deliveredCancelledAndRefundTexts() {
+        String link = "https://karvon.uz/account/orders/KRV-000042";
+        assertThat(renderer.render("order.delivered", List.of("KRV-000042", link), Language.UZ))
+                .isEqualTo("E-Market: KRV-000042 buyurtmangiz topshirildi. Xaridingiz uchun rahmat! Baho qoldiring: " + link);
+        assertThat(renderer.render("order.cancelled", List.of("KRV-000042"), Language.UZ))
+                .isEqualTo("E-Market: KRV-000042 buyurtmangiz bekor qilindi.");
+        assertThat(renderer.render("order.cancelled_refunded", List.of("KRV-000042", "238 200"), Language.UZ))
+                .isEqualTo("E-Market: KRV-000042 buyurtmangiz bekor qilindi. 238 200 so'm balansingizga qaytarildi.");
+        assertThat(renderer.render("order.out_of_stock_refund", List.of("KRV-000042", "89 000"), Language.UZ))
+                .isEqualTo("E-Market: KRV-000042 buyurtmadagi tovar sotuvchida tugagan. 89 000 so'm balansingizga qaytarildi.");
+
+        assertThat(renderer.render("order.delivered", List.of("KRV-000042", link), Language.RU))
+                .isEqualTo("E-Market: заказ KRV-000042 вручён. Спасибо за покупку! Оставьте оценку: " + link);
+        assertThat(renderer.render("order.cancelled", List.of("KRV-000042"), Language.RU))
+                .isEqualTo("E-Market: заказ KRV-000042 отменён.");
+        assertThat(renderer.render("order.cancelled_refunded", List.of("KRV-000042", "238 200"), Language.RU))
+                .isEqualTo("E-Market: заказ KRV-000042 отменён. 238 200 сум возвращено на ваш баланс.");
+        assertThat(renderer.render("order.out_of_stock_refund", List.of("KRV-000042", "89 000"), Language.RU))
+                .isEqualTo("E-Market: товар из заказа KRV-000042 закончился у продавца. 89 000 сум возвращено на ваш баланс.");
+    }
+
+    @Test
     void emptyLastParameterLeavesNoTrailingSpace() {
         assertThat(renderer.render("order.arrived", List.of("KRV-000042", ""), Language.UZ))
                 .isEqualTo("E-Market: KRV-000042 O'zbekistonga keldi.");
@@ -47,7 +69,8 @@ class TemplateRendererTest {
     void everyTemplateExistsInBothLanguages() {
         List<String> keys = List.of("order.paid", "order.purchased", "order.at_warehouse", "order.shipping_difference",
                 "order.price_difference", "order.in_transit", "order.arrived", "order.out_of_stock",
-                "order.price_changed", "payment.received", "telegram.start", "telegram.linked", "telegram.link_invalid");
+                "order.price_changed", "order.delivered", "order.cancelled", "order.cancelled_refunded",
+                "order.out_of_stock_refund", "payment.received", "telegram.start", "telegram.linked", "telegram.link_invalid");
         for (String key : keys) {
             String uz = renderer.render(key, List.of("A", "B"), Language.UZ);
             String ru = renderer.render(key, List.of("A", "B"), Language.RU);

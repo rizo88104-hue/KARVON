@@ -20,6 +20,7 @@ import uz.karvon.TestLogins;
 import uz.karvon.catalog.domain.ProductDetail;
 import uz.karvon.catalog.domain.Sku;
 import uz.karvon.catalog.infrastructure.FakeTaobaoProvider;
+import uz.karvon.common.domain.Money;
 import uz.karvon.order.application.OrderRefundRequestedEvent;
 import uz.karvon.order.application.OrderStatusChangedEvent;
 import uz.karvon.order.application.RefundReason;
@@ -225,6 +226,7 @@ class OrderIntegrationTest extends AbstractIntegrationTest {
         assertThat(as(customer, mvc.post().uri("/api/v1/orders/{n}/cancel", unpaid)))
                 .bodyJson().extractingPath("$.status").isEqualTo("CANCELLED");
         assertThat(refunds(orderId(unpaid))).isEmpty();
+        assertThat(sms(orderId(unpaid))).containsExactly("order.cancelled [\"%s\"]".formatted(unpaid));
 
         String paid = orderOneItem();
         String paidId = orderId(paid);
@@ -233,6 +235,8 @@ class OrderIntegrationTest extends AbstractIntegrationTest {
                 .bodyJson().extractingPath("$.refundedUzs").isEqualTo(238200);
         assertThat(refunds(paidId)).singleElement()
                 .satisfies(e -> assertThat(e.reason()).isEqualTo(RefundReason.ORDER_CANCELLED));
+        assertThat(sms(paidId)).containsExactly("order.paid [\"%s\"]".formatted(paid),
+                "order.cancelled_refunded [\"%s\",\"%s\"]".formatted(paid, Money.formatUzsNumber(new BigDecimal("238200"))));
 
         String purchasing = orderOneItem();
         String purchasingId = orderId(purchasing);
@@ -267,6 +271,8 @@ class OrderIntegrationTest extends AbstractIntegrationTest {
         assertThat(refunds(id)).singleElement()
                 .satisfies(e -> assertThat(e.amountUzs()).isEqualByComparingTo("238200"))
                 .satisfies(e -> assertThat(e.reason()).isEqualTo(RefundReason.ITEMS_OUT_OF_STOCK));
+        assertThat(sms(id)).contains("order.out_of_stock_refund [\"%s\",\"%s\"]"
+                .formatted(number, Money.formatUzsNumber(new BigDecimal("238200"))));
 
         // Now a new price; the customer refuses and gets the rest back.
         String item = itemId(accepted, "$.items", SKU);
@@ -276,6 +282,9 @@ class OrderIntegrationTest extends AbstractIntegrationTest {
 
         assertThat(refused).bodyJson().extractingPath("$.status").isEqualTo("CANCELLED");
         assertThat(refused).bodyJson().extractingPath("$.refundedUzs").isEqualTo(476400);
+        // Cancelled from PRICE_CHANGED: the rest (the item still in the order) went back.
+        assertThat(sms(id)).last().isEqualTo("order.cancelled_refunded [\"%s\",\"%s\"]"
+                .formatted(number, Money.formatUzsNumber(new BigDecimal("238200"))));
         assertThat(decide(number, "ACCEPT")).bodyJson().extractingPath("$.code").isEqualTo("DECISION_NOT_EXPECTED");
     }
 
@@ -403,6 +412,13 @@ class OrderIntegrationTest extends AbstractIntegrationTest {
         } catch (UnsupportedEncodingException ex) {
             throw new IllegalStateException(ex);
         }
+    }
+
+    /** "template_key params" of the order's SMS notifications (no Telegram linked), oldest first. */
+    private List<String> sms(String orderId) {
+        return jdbc.queryForList("""
+                SELECT template_key || ' ' || params FROM notifications WHERE order_id = ?::uuid AND channel = 'SMS'
+                ORDER BY created_at, template_key""", String.class, orderId);
     }
 
     private List<OrderRefundRequestedEvent> refunds(String orderId) {

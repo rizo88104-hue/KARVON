@@ -55,6 +55,7 @@ public class OrderWorkflow {
         Actor actor = check(order, to, actors);
         Instant now = Instant.now(clock);
         OrderStatus from = order.getStatus();
+        BigDecimal refunded = null;
         switch (to) {
             case PAID -> {
                 order.setPaidUzs(order.getTotalUzs());
@@ -62,7 +63,8 @@ public class OrderWorkflow {
             }
             case DELIVERED -> order.setDeliveredAt(now);
             case CANCELLED -> {
-                refund(order, order.refundableUzs(), RefundReason.ORDER_CANCELLED);
+                refunded = order.refundableUzs();
+                refund(order, refunded, RefundReason.ORDER_CANCELLED);
                 if (order.getPromoCode() != null) {
                     promoCodes.release(order.getId());
                 }
@@ -75,7 +77,7 @@ public class OrderWorkflow {
                 blankToNull(comment), now));
         events.publishEvent(new OrderStatusChangedEvent(order.getId(), order.getNumber(), order.getCustomerId(), from, to,
                 actor, now, new OrderStatusChangedEvent.Details(order.getRealWeightKg(),
-                order.getInternationalTrackingNumber(), order.getPickupInfo())));
+                order.getInternationalTrackingNumber(), order.getPickupInfo(), refunded)));
     }
 
     /**

@@ -164,6 +164,10 @@ karvon:
     # Sending pool: threads and how many messages may wait for them
     threads: 2
     queue-capacity: 1000
+    # Customer site for links in messages. "Leave a rating" in the delivered message goes to review-url when set
+    # ({number} = order number), otherwise to the order page {site-url}/account/orders/{number}.
+    site-url: ${SITE_URL:http://localhost:3000}
+    review-url: ${REVIEW_URL:}
   telegram:
     # Bot API token (used only outside dev/test), bot name without "@" (deep links), and the secret_token given to
     # setWebhook; Telegram sends it in X-Telegram-Bot-Api-Secret-Token. An empty secret refuses every webhook call.

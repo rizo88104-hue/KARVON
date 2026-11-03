@@ -14,8 +14,16 @@ import java.util.UUID;
 public record OrderStatusChangedEvent(UUID orderId, String number, UUID customerId, OrderStatus from, OrderStatus to,
                                       Actor actor, Instant at, Details details) {
 
-    /** Parcel data the customer is told about; null when not known yet. */
-    public record Details(BigDecimal realWeightKg, String internationalTrackingNumber, String pickupInfo) {
+    /**
+     * Parcel data the customer is told about; null when not known yet. {@code refundedUzs} is the money this change
+     * returned to the wallet (a paid order cancelled), null when none.
+     */
+    public record Details(BigDecimal realWeightKg, String internationalTrackingNumber, String pickupInfo,
+                          BigDecimal refundedUzs) {
         public static final Details NONE = new Details(null, null, null);
+
+        public Details(BigDecimal realWeightKg, String internationalTrackingNumber, String pickupInfo) {
+            this(realWeightKg, internationalTrackingNumber, pickupInfo, null);
+        }
     }
 }

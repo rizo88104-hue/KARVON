@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.event.TransactionPhase;
 import org.springframework.transaction.event.TransactionalEventListener;
 import uz.karvon.notification.domain.NotificationMessage;
+import uz.karvon.notification.infrastructure.NotificationProperties;
+import uz.karvon.order.application.OrderRefundRequestedEvent;
 import uz.karvon.order.application.OrderStatusChangedEvent;
 import uz.karvon.order.application.PriceDifferenceDueEvent;
 import uz.karvon.order.application.ShippingDifferenceDueEvent;
@@ -28,10 +30,17 @@ public class NotificationEventListener {
 
     private final NotificationService outbox;
     private final NotificationDispatcher dispatcher;
+    private final NotificationProperties properties;
 
     @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)
     public void onStatusChanged(OrderStatusChangedEvent event) {
-        enqueue(NotificationRules.forStatus(event));
+        enqueue(NotificationRules.forStatus(event, properties::reviewLink));
+    }
+
+    /** The wallet is credited in the order transaction, so after commit the money is on the balance. */
+    @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)
+    public void onRefundRequested(OrderRefundRequestedEvent event) {
+        enqueue(NotificationRules.forRefund(event));
     }
 
     @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)

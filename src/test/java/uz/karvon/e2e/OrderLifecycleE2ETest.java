@@ -104,7 +104,11 @@ class OrderLifecycleE2ETest extends AbstractIntegrationTest {
 
         assertThat(outbox(orderId)).containsExactly(
                 "order.paid", "order.purchased", "order.at_warehouse", "order.shipping_difference",
-                "payment.received", "order.in_transit", "order.arrived");
+                "payment.received", "order.in_transit", "order.arrived", "order.delivered");
+        assertThat(jdbc.queryForObject("""
+                SELECT params FROM notifications WHERE order_id = ?::uuid AND channel = 'SMS'
+                AND template_key = 'order.delivered'""", String.class, orderId))
+                .isEqualTo("[\"%s\",\"http://localhost:3000/account/orders/%s\"]".formatted(number, number));
         assertThat(audit(orderId)).containsExactly(
                 "BUYER PROCUREMENT_START", "BUYER ORDER_WEIGH", "OPERATOR ORDER_SHIP", "OPERATOR ORDER_ARRIVED",
                 "OPERATOR ORDER_DELIVERED");
@@ -136,7 +140,7 @@ class OrderLifecycleE2ETest extends AbstractIntegrationTest {
         assertThat(field(wallet, "$.transactions.content[0].amountUzs")).isEqualTo(String.valueOf(ORDER_TOTAL));
         assertThat(field(wallet, "$.transactions.content[0].orderId")).isEqualTo(orderId);
 
-        assertThat(outbox(orderId)).containsExactly("order.paid", "order.out_of_stock");
+        assertThat(outbox(orderId)).containsExactly("order.paid", "order.out_of_stock", "order.out_of_stock_refund");
         assertThat(audit(orderId)).containsExactly("BUYER PROCUREMENT_START");
         assertThat(audit(itemId)).containsExactly("BUYER PROCUREMENT_ITEM_OUT_OF_STOCK");
     }
