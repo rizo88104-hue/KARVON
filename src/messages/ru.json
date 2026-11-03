@@ -105,7 +105,9 @@
     "addToCart": "В корзину",
     "noImage": "Фото товара",
     "sold": "Продано: {count}",
-    "discount": "-{percent}%"
+    "discount": "-{percent}%",
+    "deliveryDays": "{days} дн.",
+    "deliveryLabel": "Срок доставки"
   },
   "breakdown": {
     "title": "Из чего складывается цена",

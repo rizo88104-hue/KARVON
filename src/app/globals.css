@@ -35,6 +35,7 @@
   --color-danger: #b42318;
   --color-success: #1b7f4b;
   --color-heart: #e0245e; /* filled favorite heart */
+  --color-highlight: #ffeb3b; /* yellow chip on product cards (delivery days) */
   --font-sans: var(--font);
   --radius-sm: var(--radius-sm);
   --radius-md: var(--radius);
@@ -301,29 +302,17 @@
 }
 
 /*
- * Product cards (ProductCard): lift with a shadow and a slow photo zoom on hover/focus, and rise in when they scroll
- * into view. The rise-in uses `translate` and the hover `transform`, so the two never fight. Browsers without
- * scroll-driven animations show the cards as they are.
+ * Product cards (ProductCard, marketplace layout without a frame): the photo zooms slowly on hover or keyboard focus
+ * and the button presses in; cards rise in when they scroll into view. The rise-in uses `translate`, so it never
+ * fights a transform. Browsers without scroll-driven animations show the cards as they are.
  */
 @layer components {
-  .product-card {
-    transition:
-      transform 220ms ease,
-      box-shadow 220ms ease,
-      border-color 220ms ease;
-  }
   .product-card img {
     transition: transform 500ms ease;
   }
-  .product-card:hover,
-  .product-card:focus-within {
-    transform: translateY(-4px);
-    border-color: transparent;
-    box-shadow: 0 12px 28px rgba(17, 17, 17, 0.12);
-  }
   .product-card:hover img,
   .product-card:focus-within img {
-    transform: scale(1.06);
+    transform: scale(1.05);
   }
   .product-card .btn:active {
     transform: scale(0.97);

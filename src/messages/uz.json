@@ -105,7 +105,9 @@
     "addToCart": "Savatga",
     "noImage": "Mahsulot rasmi",
     "sold": "{count} ta sotilgan",
-    "discount": "-{percent}%"
+    "discount": "-{percent}%",
+    "deliveryDays": "{days} kun",
+    "deliveryLabel": "Yetkazish muddati"
   },
   "breakdown": {
     "title": "Narx tarkibi",
