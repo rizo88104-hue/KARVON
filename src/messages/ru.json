@@ -93,7 +93,9 @@
     "step3TextNoDays": "Напрямую из Китая",
     "popular": "Популярные товары",
     "seeAll": "Все",
-    "feedError": "Не удалось загрузить товары."
+    "feedError": "Не удалось загрузить товары.",
+    "categories": "Категории",
+    "categoryBannerText": "Товары категории «{name}» с Taobao — цены в сумах, доставка до двери"
   },
   "productCard": {
     "addToCart": "В корзину",

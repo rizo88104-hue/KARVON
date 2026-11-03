@@ -35,26 +35,6 @@ export const getProduct = cache(async (externalId: string, locale: string): Prom
   return data;
 });
 
-/**
- * Popular products for the home page. The catalog search needs a query, so this searches category names
- * (sorted by sales) and uses the first one with results. `products` is null when the backend is unreachable.
- */
-export const getPopularProducts = cache(
-  async (locale: string, queries: string[]): Promise<{ query: string | null; products: ProductCard[] | null }> => {
-    try {
-      for (const q of queries.slice(0, 4)) {
-        const { data } = await serverApi(locale).GET("/api/v1/catalog/search", {
-          params: { query: { q, sort: "SALES", page: 0 } },
-        });
-        if (data?.content?.length) return { query: q, products: data.content };
-      }
-      return { query: null, products: [] };
-    } catch {
-      return { query: null, products: null };
-    }
-  },
-);
-
 export const getBanners = cache(async (locale: string): Promise<Banner[]> => {
   try {
     const { data } = await serverApi(locale).GET("/api/v1/banners");
@@ -70,4 +50,19 @@ export const getContentPage = cache(async (slug: string, locale: string): Promis
   if (response.status >= 400 && response.status < 500) return null;
   if (!data) throw new Error(`Page ${slug}: HTTP ${response.status}`);
   return data;
+});
+
+/**
+ * Best-selling products of a category for its home page block, searched by its Chinese keyword.
+ * Empty when the category has none or the backend is unreachable (the block is then left out).
+ */
+export const getCategoryProducts = cache(async (locale: string, keywordZh: string): Promise<ProductCard[]> => {
+  try {
+    const { data } = await serverApi(locale).GET("/api/v1/catalog/search", {
+      params: { query: { q: keywordZh, sort: "SALES", page: 0 } },
+    });
+    return data?.content ?? [];
+  } catch {
+    return [];
+  }
 });

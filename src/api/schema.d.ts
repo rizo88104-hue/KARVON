@@ -2296,6 +2296,7 @@ export interface components {
             nameRu?: string;
             searchKeywordZh?: string;
             icon?: string;
+            imageUrl?: string;
             children?: components["schemas"]["CategoryResponse"][];
         };
         PublicBannerResponse: {

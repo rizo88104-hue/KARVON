@@ -93,7 +93,9 @@
     "step3TextNoDays": "Xitoydan to'g'ridan-to'g'ri",
     "popular": "Ommabop mahsulotlar",
     "seeAll": "Hammasi",
-    "feedError": "Mahsulotlarni yuklab bo'lmadi."
+    "feedError": "Mahsulotlarni yuklab bo'lmadi.",
+    "categories": "Kategoriyalar",
+    "categoryBannerText": "Taobao'dagi {name} mahsulotlari — narxi so'mda, uyingizgacha yetkazib beramiz"
   },
   "productCard": {
     "addToCart": "Savatga",

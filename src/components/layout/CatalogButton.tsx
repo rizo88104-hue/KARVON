@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import type { Category } from "@/api/types";
+import { CategoryIcon } from "@/components/CategoryIcon";
 import { Link, usePathname } from "@/i18n/navigation";
 import { categoryHref, categoryName } from "./categories";
 
@@ -72,7 +73,8 @@ export function CatalogButton({ categories }: { categories: Category[] }) {
         >
           {categories.map((c) => (
             <div key={c.slug} className="flex flex-col gap-1">
-              <Link href={categoryHref(c, locale)} className="font-bold hover:text-navy">
+              <Link href={categoryHref(c, locale)} className="flex items-center gap-2 font-bold hover:text-navy">
+                <CategoryIcon category={c} size={18} className="flex-none text-navy" />
                 {categoryName(c, locale)}
               </Link>
               {(c.children ?? []).map((child) => (
