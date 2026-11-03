@@ -17,6 +17,7 @@ import { discountPercent } from "@/lib/site";
 import { useCartMutation } from "@/lib/queries";
 import { useErrorMessage } from "@/lib/use-error-message";
 import { useSession } from "@/lib/use-session";
+import { FavoriteButton } from "@/components/FavoriteButton";
 import { ProductGallery } from "./ProductGallery";
 
 type Props = { product: ProductDetail; settings: PricingSettings | null; deliveryDays: string | null };
@@ -182,6 +183,21 @@ export function ProductView({ product, settings, deliveryDays }: Props) {
               {t("addToCart")}
             </button>
           </div>
+          <FavoriteButton
+            variant="inline"
+            card={{
+              externalId: product.externalId,
+              title: product.title,
+              titleOriginal: product.titleOriginal,
+              mainImageUrl: product.mainImageUrl,
+              priceCny: product.priceCny,
+              priceUzs: product.price?.totalUzs,
+              originalPriceCny: product.originalPriceCny,
+              originalPriceUzs: product.originalPriceUzs,
+              salesCount: product.salesCount,
+              shopName: product.shop?.name,
+            }}
+          />
 
           <div className="rounded-md border border-line p-4">
             <PriceBreakdown price={price} />

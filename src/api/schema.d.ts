@@ -4,6 +4,22 @@
  */
 
 export interface paths {
+    "/api/v1/me/favorites/{externalId}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put: operations["add"];
+        post?: never;
+        delete: operations["remove"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/me/addresses/{id}": {
         parameters: {
             query?: never;
@@ -292,6 +308,22 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/me/favorites/merge": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post: operations["merge"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/me/addresses": {
         parameters: {
             query?: never;
@@ -365,7 +397,7 @@ export interface paths {
         };
         get?: never;
         put?: never;
-        post: operations["add"];
+        post: operations["add_1"];
         delete: operations["deleteBySelected"];
         options?: never;
         head?: never;
@@ -988,6 +1020,38 @@ export interface paths {
             cookie?: never;
         };
         get: operations["unreadCount"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/me/favorites": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["list_5"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/me/favorites/ids": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["ids"];
         put?: never;
         post?: never;
         delete?: never;
@@ -1818,6 +1882,15 @@ export interface components {
         CancelOrderRequest: {
             reason?: string;
         };
+        MergeFavoritesRequest: {
+            /**
+             * @example [
+             *       "680000001117",
+             *       "680000002234"
+             *     ]
+             */
+            externalIds: string[];
+        };
         DevOtpResponse: {
             phone?: string;
             code?: string;
@@ -2224,6 +2297,19 @@ export interface components {
             /** Format: int64 */
             count?: number;
         };
+        ProductCardResponse: {
+            externalId?: string;
+            title?: string;
+            titleOriginal?: string;
+            mainImageUrl?: string;
+            priceCny?: number;
+            priceUzs?: number;
+            originalPriceCny?: number;
+            originalPriceUzs?: number;
+            /** Format: int64 */
+            salesCount?: number;
+            shopName?: string;
+        };
         DevPayResponse: {
             /** Format: uuid */
             transactionId?: string;
@@ -2244,19 +2330,6 @@ export interface components {
             totalElements?: number;
             /** Format: int32 */
             totalPages?: number;
-        };
-        ProductCardResponse: {
-            externalId?: string;
-            title?: string;
-            titleOriginal?: string;
-            mainImageUrl?: string;
-            priceCny?: number;
-            priceUzs?: number;
-            originalPriceCny?: number;
-            originalPriceUzs?: number;
-            /** Format: int64 */
-            salesCount?: number;
-            shopName?: string;
         };
         ProductDetailResponse: {
             externalId?: string;
@@ -2554,6 +2627,47 @@ export interface components {
 }
 export type $defs = Record<string, never>;
 export interface operations {
+    add: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                /** @example 680000001117 */
+                externalId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    remove: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                externalId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
     get: {
         parameters: {
             query?: never;
@@ -3293,6 +3407,30 @@ export interface operations {
             };
         };
     };
+    merge: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MergeFavoritesRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": string[];
+                };
+            };
+        };
+    };
     list_1: {
         parameters: {
             query?: never;
@@ -3403,7 +3541,7 @@ export interface operations {
             };
         };
     };
-    add: {
+    add_1: {
         parameters: {
             query?: never;
             header?: never;
@@ -4557,6 +4695,46 @@ export interface operations {
                 };
                 content: {
                     "*/*": components["schemas"]["UnreadCountResponse"];
+                };
+            };
+        };
+    };
+    list_5: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["ProductCardResponse"][];
+                };
+            };
+        };
+    };
+    ids: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": string[];
                 };
             };
         };

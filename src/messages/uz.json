@@ -14,7 +14,8 @@
     "wallet": "Balans",
     "addresses": "Manzillar",
     "settings": "Sozlamalar",
-    "notFound": "Sahifa topilmadi"
+    "notFound": "Sahifa topilmadi",
+    "favorites": "Sevimlilar"
   },
   "common": {
     "loading": "Yuklanmoqda…",
@@ -56,7 +57,9 @@
     "userNav": "Foydalanuvchi",
     "categories": "Kategoriyalar",
     "allInCategory": "Barchasi",
-    "closeCatalog": "Katalogni yopish"
+    "closeCatalog": "Katalogni yopish",
+    "favorites": "Sevimlilar",
+    "favoritesCount": "Sevimlilarda {count} ta mahsulot"
   },
   "footer": {
     "buyers": "Xaridorlarga",
@@ -953,5 +956,20 @@
     "markAllRead": "Hammasini o'qilgan deb belgilash",
     "error": "Bildirishnomalarni yuklab bo'lmadi",
     "unread": "O'qilmagan"
+  },
+  "favorites": {
+    "title": "Sevimlilar",
+    "add": "Sevimlilarga qo'shish",
+    "remove": "Sevimlilardan olib tashlash",
+    "inFavorites": "Sevimlilarda",
+    "added": "Sevimlilarga qo'shildi",
+    "removed": "Sevimlilardan olib tashlandi",
+    "count": "{count} ta mahsulot",
+    "loading": "Yuklanmoqda…",
+    "loadError": "Sevimlilarni yuklab bo'lmadi",
+    "emptyTitle": "Sevimlilar hozircha bo'sh",
+    "emptyText": "Yoqqan mahsulotdagi yurakchani bosing — u shu yerda saqlanadi.",
+    "emptyCta": "Mahsulotlarni ko'rish",
+    "guestNote": "Sevimlilar shu brauzerda saqlanmoqda. <login>Kirsangiz</login>, ular akkauntingizga o'tadi va barcha qurilmalaringizda ko'rinadi."
   }
 }

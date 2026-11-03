@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const dynamic = "force-dynamic";
 
 export default function robots(): MetadataRoute.Robots {
-  const privatePaths = ["/cart", "/login", "/account", "/search", "/admin"];
+  const privatePaths = ["/cart", "/favorites", "/login", "/account", "/search", "/admin"];
   return {
     rules: {
       userAgent: "*",

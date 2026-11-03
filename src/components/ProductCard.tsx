@@ -3,6 +3,7 @@ import type { ProductCard as ProductCardData } from "@/api/types";
 import { Link } from "@/i18n/navigation";
 import { discountPercent } from "@/lib/site";
 import { DiscountBadge } from "./DiscountBadge";
+import { FavoriteButton } from "./FavoriteButton";
 import { PriceTag } from "./PriceTag";
 import { ProductImage } from "./ProductImage";
 
@@ -15,7 +16,8 @@ export function ProductCard({ product }: { product: ProductCardData }) {
   const t = useTranslations("productCard");
   const href = `/product/${encodeURIComponent(product.externalId ?? "")}`;
   return (
-    <article className="card product-card flex flex-col overflow-hidden">
+    <article className="card product-card relative flex flex-col overflow-hidden">
+      <FavoriteButton card={product} className="absolute top-2 right-2 z-[2]" />
       <Link href={href} tabIndex={-1} aria-hidden="true" className="relative block">
         <DiscountBadge percent={discountPercent(product.priceUzs, product.originalPriceUzs)} />
         <ProductImage

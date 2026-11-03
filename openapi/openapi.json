@@ -11,6 +11,61 @@
     }
   ],
   "paths": {
+    "/api/v1/me/favorites/{externalId}": {
+      "put": {
+        "tags": [
+          "Favorites"
+        ],
+        "operationId": "add",
+        "parameters": [
+          {
+            "name": "externalId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": 680000001117
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Favorites"
+        ],
+        "operationId": "remove",
+        "parameters": [
+          {
+            "name": "externalId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/v1/me/addresses/{id}": {
       "get": {
         "tags": [
@@ -1162,6 +1217,44 @@
         ]
       }
     },
+    "/api/v1/me/favorites/merge": {
+      "post": {
+        "tags": [
+          "Favorites"
+        ],
+        "operationId": "merge",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MergeFavoritesRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/v1/me/addresses": {
       "get": {
         "tags": [
@@ -1313,7 +1406,7 @@
         "tags": [
           "Cart"
         ],
-        "operationId": "add",
+        "operationId": "add_1",
         "requestBody": {
           "content": {
             "application/json": {
@@ -3168,6 +3261,62 @@
               "*/*": {
                 "schema": {
                   "$ref": "#/components/schemas/UnreadCountResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/me/favorites": {
+      "get": {
+        "tags": [
+          "Favorites"
+        ],
+        "operationId": "list_5",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductCardResponse"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/me/favorites/ids": {
+      "get": {
+        "tags": [
+          "Favorites"
+        ],
+        "operationId": "ids",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               }
             }
@@ -5481,6 +5630,28 @@
           }
         }
       },
+      "MergeFavoritesRequest": {
+        "type": "object",
+        "properties": {
+          "externalIds": {
+            "type": "array",
+            "example": [
+              "680000001117",
+              "680000002234"
+            ],
+            "items": {
+              "type": "string",
+              "maxLength": 20,
+              "minLength": 0
+            },
+            "maxItems": 100,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "externalIds"
+        ]
+      },
       "DevOtpResponse": {
         "type": "object",
         "properties": {
@@ -6734,6 +6905,42 @@
           }
         }
       },
+      "ProductCardResponse": {
+        "type": "object",
+        "properties": {
+          "externalId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "titleOriginal": {
+            "type": "string"
+          },
+          "mainImageUrl": {
+            "type": "string"
+          },
+          "priceCny": {
+            "type": "number"
+          },
+          "priceUzs": {
+            "type": "number"
+          },
+          "originalPriceCny": {
+            "type": "number"
+          },
+          "originalPriceUzs": {
+            "type": "number"
+          },
+          "salesCount": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "shopName": {
+            "type": "string"
+          }
+        }
+      },
       "DevPayResponse": {
         "type": "object",
         "properties": {
@@ -6790,42 +6997,6 @@
           "totalPages": {
             "type": "integer",
             "format": "int32"
-          }
-        }
-      },
-      "ProductCardResponse": {
-        "type": "object",
-        "properties": {
-          "externalId": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "titleOriginal": {
-            "type": "string"
-          },
-          "mainImageUrl": {
-            "type": "string"
-          },
-          "priceCny": {
-            "type": "number"
-          },
-          "priceUzs": {
-            "type": "number"
-          },
-          "originalPriceCny": {
-            "type": "number"
-          },
-          "originalPriceUzs": {
-            "type": "number"
-          },
-          "salesCount": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "shopName": {
-            "type": "string"
           }
         }
       },
