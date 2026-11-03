@@ -246,11 +246,11 @@
   },
   "login": {
     "title": "Kirish",
-    "subtitle": "Telefon raqamingizga SMS kod yuboramiz.",
+    "subtitle": "Telefon raqamingizni kiriting — kirish kodini Telegram orqali yuboramiz.",
     "phone": "Telefon raqam",
     "phoneHint": "+998 90 123 45 67",
     "sendCode": "Kod olish",
-    "code": "SMS kod",
+    "code": "Tasdiqlash kodi",
     "codeSent": "{phone} raqamiga kod yuborildi",
     "verify": "Kirish",
     "changePhone": "Raqamni o'zgartirish",
@@ -258,7 +258,15 @@
     "resendIn": "Qayta yuborish: {seconds} s",
     "invalidPhone": "Raqamni +998 XX XXX XX XX ko'rinishida kiriting",
     "invalidCode": "Kod 4–6 ta raqamdan iborat",
-    "welcome": "Xush kelibsiz!"
+    "welcome": "Xush kelibsiz!",
+    "codeSentTelegram": "Kod Telegram'ga yuborildi",
+    "codeSentTelegramHint": "E-Market botidagi 5 xonali kodni kiriting.",
+    "linkTitle": "Kodni Telegram orqali oling",
+    "linkButton": "Telegram orqali kod olish",
+    "linkStep1": "Tugmani bosing — Telegram'da E-Market boti ochiladi.",
+    "linkStep2": "Botda «Start», so'ng «Telefon raqamni yuborish» tugmasini bosing.",
+    "linkStep3": "Bot yuborgan 5 xonali kodni pastga kiriting.",
+    "linkExpires": "Havola 10 daqiqa amal qiladi."
   },
   "account": {
     "title": "Kabinet",
@@ -273,7 +281,7 @@
   },
   "orders": {
     "title": "Buyurtmalarim",
-    "note": "Har bir o'zgarish haqida SMS va Telegram orqali xabar beramiz",
+    "note": "Har bir o'zgarish haqida Telegram orqali xabar beramiz",
     "tabALL": "Hammasi",
     "tabAWAITING_PAYMENT": "To'lov kutilmoqda",
     "tabIN_PROGRESS": "Xaridda",
@@ -934,5 +942,14 @@
       "before": "Oldin",
       "after": "Keyin"
     }
+  },
+  "inbox": {
+    "open": "Bildirishnomalar",
+    "openWithCount": "Bildirishnomalar, {count} ta o'qilmagan",
+    "title": "Bildirishnomalar",
+    "empty": "Hozircha bildirishnoma yo'q",
+    "markAllRead": "Hammasini o'qilgan deb belgilash",
+    "error": "Bildirishnomalarni yuklab bo'lmadi",
+    "unread": "O'qilmagan"
   }
 }

@@ -34,6 +34,8 @@ export type Wallet = S["WalletResponse"];
 export type WalletTransaction = S["WalletTransactionResponse"];
 export type WalletTransactionType = NonNullable<WalletTransaction["type"]>;
 export type NotificationSettings = S["NotificationSettingsResponse"];
+export type OtpChannel = S["OtpRequestResponse"]["channel"];
+export type InAppNotification = S["InAppNotificationResponse"];
 
 /** RFC 7807 body sent by the backend for every error. */
 export type Problem = {

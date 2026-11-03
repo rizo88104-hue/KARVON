@@ -260,6 +260,38 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/me/notifications/{id}/read": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post: operations["markRead"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/me/notifications/read": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post: operations["markAllRead"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/me/addresses": {
         parameters: {
             query?: never;
@@ -270,6 +302,22 @@ export interface paths {
         get: operations["list_1"];
         put?: never;
         post: operations["create_1"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/dev/otp/{phone}/telegram-login": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post: operations["telegramLogin"];
         delete?: never;
         options?: never;
         head?: never;
@@ -908,6 +956,38 @@ export interface paths {
             cookie?: never;
         };
         get: operations["telegramLink"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/me/notifications": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["notifications"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/me/notifications/unread-count": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get: operations["unreadCount"];
         put?: never;
         post?: never;
         delete?: never;
@@ -1563,13 +1643,21 @@ export interface components {
             /** Format: int64 */
             id?: number;
         };
+        Contact: {
+            phone_number?: string;
+            /** Format: int64 */
+            user_id?: number;
+        };
         From: {
+            /** Format: int64 */
+            id?: number;
             language_code?: string;
         };
         Message: {
             chat?: components["schemas"]["Chat"];
             from?: components["schemas"]["From"];
             text?: string;
+            contact?: components["schemas"]["Contact"];
         };
         TelegramUpdate: {
             /** Format: int64 */
@@ -1730,6 +1818,11 @@ export interface components {
         CancelOrderRequest: {
             reason?: string;
         };
+        DevOtpResponse: {
+            phone?: string;
+            code?: string;
+            text?: string;
+        };
         ResolveLinkRequest: {
             /** @example https://item.taobao.com/item.htm?id=680000001117 */
             url: string;
@@ -1829,8 +1922,15 @@ export interface components {
             phone: string;
         };
         OtpRequestResponse: {
+            /** @enum {string} */
+            channel: "TELEGRAM" | "TELEGRAM_LINK" | "SMS";
             /** Format: int64 */
-            expiresInSeconds?: number;
+            expiresInSeconds: number;
+            /**
+             * @description Only for TELEGRAM_LINK
+             * @example https://t.me/emarket_bot?start=AbC123
+             */
+            link?: string;
         };
         CardRefundRequest: {
             /** @example 238200 */
@@ -1972,7 +2072,7 @@ export interface components {
             /** Format: uuid */
             orderId?: string;
             /** @enum {string} */
-            channel?: "SMS" | "TELEGRAM";
+            channel?: "SMS" | "TELEGRAM" | "IN_APP";
             templateKey?: string;
             params?: string[];
             /** @enum {string} */
@@ -2000,6 +2100,7 @@ export interface components {
             sms?: boolean;
             telegram?: boolean;
             telegramLinked?: boolean;
+            smsAvailable?: boolean;
         };
         SelectAllRequest: {
             selected: boolean;
@@ -2097,6 +2198,32 @@ export interface components {
             /** Format: date-time */
             expiresAt?: string;
         };
+        InAppNotificationResponse: {
+            /** Format: uuid */
+            id?: string;
+            /** Format: uuid */
+            orderId?: string;
+            templateKey?: string;
+            text?: string;
+            read?: boolean;
+            /** Format: date-time */
+            createdAt?: string;
+        };
+        PageResponseInAppNotificationResponse: {
+            content?: components["schemas"]["InAppNotificationResponse"][];
+            /** Format: int32 */
+            page?: number;
+            /** Format: int32 */
+            size?: number;
+            /** Format: int64 */
+            totalElements?: number;
+            /** Format: int32 */
+            totalPages?: number;
+        };
+        UnreadCountResponse: {
+            /** Format: int64 */
+            count?: number;
+        };
         DevPayResponse: {
             /** Format: uuid */
             transactionId?: string;
@@ -2106,11 +2233,6 @@ export interface components {
             amountUzs?: number;
             /** @enum {string} */
             state?: "CREATED" | "PERFORMED" | "CANCELLED" | "CANCELLED_AFTER_PERFORM";
-        };
-        DevOtpResponse: {
-            phone?: string;
-            code?: string;
-            text?: string;
         };
         PageResponseProductCardResponse: {
             content?: components["schemas"]["ProductCardResponse"][];
@@ -3132,6 +3254,44 @@ export interface operations {
             };
         };
     };
+    markRead: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    markAllRead: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
     list_1: {
         parameters: {
             query?: never;
@@ -3172,6 +3332,28 @@ export interface operations {
                 };
                 content: {
                     "*/*": components["schemas"]["AddressResponse"];
+                };
+            };
+        };
+    };
+    telegramLogin: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                phone: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["DevOtpResponse"];
                 };
             };
         };
@@ -4331,6 +4513,49 @@ export interface operations {
                 };
                 content: {
                     "*/*": components["schemas"]["TelegramLinkResponse"];
+                };
+            };
+        };
+    };
+    notifications: {
+        parameters: {
+            query?: {
+                page?: number;
+                size?: number;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["PageResponseInAppNotificationResponse"];
+                };
+            };
+        };
+    };
+    unreadCount: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "*/*": components["schemas"]["UnreadCountResponse"];
                 };
             };
         };

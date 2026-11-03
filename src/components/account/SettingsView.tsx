@@ -161,21 +161,26 @@ function NotificationsCard({ settings }: { settings: NotificationSettings }) {
   return (
     <section className="card p-4 min-[561px]:p-5">
       <h2 className="mt-0 mb-1 text-[17px] font-bold">{t("notifications")}</h2>
-      <label className={toggle}>
-        <span>{t("sms")}</span>
-        <input
-          type="checkbox"
-          className="h-5 w-5 accent-navy"
-          checked={!!settings.sms}
-          disabled={update.isPending}
-          onChange={(e) => update.mutate({ sms: e.target.checked })}
-        />
-      </label>
+      {/* SMS is turned off for the whole shop for now: the switch appears only when the backend sends SMS. */}
+      {settings.smsAvailable && (
+        <label className={toggle}>
+          <span>{t("sms")}</span>
+          <input
+            type="checkbox"
+            className="h-5 w-5 accent-navy"
+            checked={!!settings.sms}
+            disabled={update.isPending}
+            onChange={(e) => update.mutate({ sms: e.target.checked })}
+          />
+        </label>
+      )}
       <label className={toggle}>
         <span>
           {t("telegram")}
-          <span className="block text-[13px] text-muted">
-            {settings.telegramLinked ? t("telegramLinked") : t("telegramNotLinked")}
+          <span
+            className={`block text-[13px] ${settings.telegramLinked ? "font-semibold text-success" : "text-muted"}`}
+          >
+            {settings.telegramLinked ? `✓ ${t("telegramLinked")}` : t("telegramNotLinked")}
           </span>
         </span>
         <input

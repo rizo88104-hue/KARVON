@@ -15,6 +15,8 @@ export const keys = {
   pricing: ["settings", "pricing"] as const,
   orders: (tab: string) => ["orders", tab] as const,
   order: (number: string) => ["order", number] as const,
+  inbox: (locale: string) => ["inbox", "list", locale] as const,
+  unread: ["inbox", "unread"] as const,
 };
 
 /** Queries that need a logged-in user wait until the session is known. */
@@ -81,5 +83,43 @@ export function usePricingSettings() {
     queryKey: keys.pricing,
     queryFn: async () => unwrap(await api.GET("/api/v1/settings/pricing")),
     staleTime: 5 * 60_000,
+  });
+}
+
+const INBOX_SIZE = 20;
+
+/** In-app notifications (the bell): what Telegram could not deliver. The text comes in the site language. */
+export function useInbox(locale: string, enabled: boolean) {
+  const authed = useAuthed();
+  return useQuery({
+    queryKey: keys.inbox(locale),
+    queryFn: async () =>
+      unwrap(await api.GET("/api/v1/me/notifications", { params: { query: { page: 0, size: INBOX_SIZE } } })),
+    enabled: authed && enabled,
+  });
+}
+
+/** Polled once a minute (and on window focus) so the badge stays current. */
+export function useUnreadCount() {
+  const authed = useAuthed();
+  return useQuery({
+    queryKey: keys.unread,
+    queryFn: async () => unwrap(await api.GET("/api/v1/me/notifications/unread-count")),
+    enabled: authed,
+    refetchInterval: 60_000,
+  });
+}
+
+/** Marks one notification (or all with no id) read, then refreshes the badge and the list. */
+export function useMarkRead() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: async (id?: string) => {
+      const res = id
+        ? await api.POST("/api/v1/me/notifications/{id}/read", { params: { path: { id } } })
+        : await api.POST("/api/v1/me/notifications/read");
+      unwrap(res);
+    },
+    onSettled: () => qc.invalidateQueries({ queryKey: ["inbox"] }),
   });
 }

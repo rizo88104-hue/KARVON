@@ -42,6 +42,9 @@ OpenAPI at `/v3/api-docs`). **Never change the backend.** Read it only when you 
   once and retries. Refreshes are single-flight because the backend rotates refresh tokens and treats reuse as theft.
 - Errors: backend ProblemDetail `{code, detail}`; show `detail` (already localized via Accept-Language), see
   `useErrorMessage()`.
+- Login codes come by Telegram (SMS is off in the backend): `POST /auth/otp/request` answers `channel` TELEGRAM (code
+  sent), TELEGRAM_LINK (show the bot `link` button and the 3 steps) or SMS (later). Never write that the code comes by
+  SMS. Messages Telegram cannot deliver are in-app: the header bell (`NotificationBell`, `/api/v1/me/notifications`).
 - Reusable components: ProductCard, PriceTag, PriceBreakdown, SkuSelector, QuantityInput, StatusTimeline,
   CartShopGroup, CheckoutModal, EmptyState, Toast (+ Modal, ProductImage).
 - Content pages come from `GET /api/v1/pages/{slug}`; the slugs are in `CONTENT_PAGES` (`faq`, `delivery`,

@@ -18,8 +18,14 @@ Next.js website for E-Market customers. Backend: `..\KARVON-PAY` (Spring Boot). 
    npm run dev
    ```
 
-With the backend's `dev` profile, the SMS code for login can be read from
-`http://localhost:8080/api/v1/dev/otp/{phone}` and payments are confirmed on the fake checkout page.
+Login codes come by Telegram (SMS is off). With the backend's `dev` profile:
+
+- **Real dev bot** (`TELEGRAM_BOT_TOKEN` in the backend `.env`): press "Telegram orqali kod olish", then Start in the
+  bot, and share the number.
+- **No bot**: after "Telegram orqali kod olish" call `POST http://localhost:8080/api/v1/dev/otp/{phone}/telegram-login`.
+
+Either way, the last code is also shown at `http://localhost:8080/api/v1/dev/otp/{phone}`.
+Payments are confirmed on the fake checkout page.
 
 ## Scripts
 

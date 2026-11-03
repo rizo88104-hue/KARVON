@@ -246,11 +246,11 @@
   },
   "login": {
     "title": "Вход",
-    "subtitle": "Отправим SMS-код на ваш номер.",
+    "subtitle": "Введите номер телефона — код для входа пришлём в Telegram.",
     "phone": "Номер телефона",
     "phoneHint": "+998 90 123 45 67",
     "sendCode": "Получить код",
-    "code": "SMS-код",
+    "code": "Код подтверждения",
     "codeSent": "Код отправлен на {phone}",
     "verify": "Войти",
     "changePhone": "Изменить номер",
@@ -258,7 +258,15 @@
     "resendIn": "Повторно через {seconds} с",
     "invalidPhone": "Введите номер в формате +998 XX XXX XX XX",
     "invalidCode": "Код состоит из 4–6 цифр",
-    "welcome": "Добро пожаловать!"
+    "welcome": "Добро пожаловать!",
+    "codeSentTelegram": "Код отправлен в Telegram",
+    "codeSentTelegramHint": "Введите 5-значный код из бота E-Market.",
+    "linkTitle": "Получите код через Telegram",
+    "linkButton": "Получить код через Telegram",
+    "linkStep1": "Нажмите кнопку — в Telegram откроется бот E-Market.",
+    "linkStep2": "В боте нажмите «Start», затем «Отправить номер телефона».",
+    "linkStep3": "Введите ниже 5-значный код, который пришлёт бот.",
+    "linkExpires": "Ссылка действует 10 минут."
   },
   "account": {
     "title": "Кабинет",
@@ -273,7 +281,7 @@
   },
   "orders": {
     "title": "Мои заказы",
-    "note": "О каждом изменении сообщим по SMS и в Telegram",
+    "note": "О каждом изменении сообщим в Telegram",
     "tabALL": "Все",
     "tabAWAITING_PAYMENT": "Ждут оплаты",
     "tabIN_PROGRESS": "Выкупаются",
@@ -934,5 +942,14 @@
       "before": "До",
       "after": "После"
     }
+  },
+  "inbox": {
+    "open": "Уведомления",
+    "openWithCount": "Уведомления, непрочитанных: {count}",
+    "title": "Уведомления",
+    "empty": "Пока нет уведомлений",
+    "markAllRead": "Отметить все как прочитанные",
+    "error": "Не удалось загрузить уведомления",
+    "unread": "Не прочитано"
   }
 }

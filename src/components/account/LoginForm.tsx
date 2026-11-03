@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { api } from "@/api/client";
 import { ApiError, unwrap } from "@/api/errors";
-import type { Problem } from "@/api/types";
+import type { OtpChannel, Problem } from "@/api/types";
 import { useToast } from "@/components/Toast";
 import { useRouter } from "@/i18n/navigation";
 import { verifyOtp } from "@/lib/session";
@@ -28,7 +28,7 @@ export function LoginForm() {
   const router = useRouter();
   const next = safeNext(useSearchParams().get("next"));
   const session = useSession();
-  const [phone, setPhone] = useState<string | null>(null);
+  const [sent, setSent] = useState<{ phone: string; channel: OtpChannel; link?: string } | null>(null);
   const [resendAt, setResendAt] = useState(0);
 
   useEffect(() => {
@@ -37,22 +37,32 @@ export function LoginForm() {
 
   async function requestCode(normalized: string) {
     const res = unwrap(await api.POST("/api/v1/auth/otp/request", { body: { phone: normalized } }));
-    setPhone(normalized);
+    setSent({ phone: normalized, channel: res.channel, link: res.link });
     setResendAt(Date.now() + Math.min(res.expiresInSeconds ?? 60, 120) * 1000);
   }
+
+  const subtitle = !sent
+    ? t("subtitle")
+    : sent.channel === "TELEGRAM"
+      ? t("codeSentTelegram")
+      : sent.channel === "SMS"
+        ? t("codeSent", { phone: sent.phone })
+        : t("linkTitle");
 
   return (
     <div className="card mx-auto flex w-full max-w-[420px] flex-col gap-4 p-5 min-[561px]:p-7">
       <div>
         <h1 className="m-0 text-[24px] font-bold">{t("title")}</h1>
-        <p className="m-0 mt-1 text-muted">{phone ? t("codeSent", { phone }) : t("subtitle")}</p>
+        <p className="m-0 mt-1 text-muted">{subtitle}</p>
+        {sent?.channel === "TELEGRAM" && <p className="m-0 mt-1 text-[14px] text-subtle">{t("codeSentTelegramHint")}</p>}
       </div>
-      {phone ? (
+      {sent?.channel === "TELEGRAM_LINK" && sent.link && <TelegramLinkStep link={sent.link} />}
+      {sent ? (
         <CodeStep
-          phone={phone}
+          phone={sent.phone}
           resendAt={resendAt}
-          onChangePhone={() => setPhone(null)}
-          onResend={() => requestCode(phone).catch((e) => toast(errorMessage(e)))}
+          onChangePhone={() => setSent(null)}
+          onResend={() => requestCode(sent.phone).catch((e) => toast(errorMessage(e)))}
           onDone={() => {
             toast(t("welcome"));
             router.replace(next);
@@ -61,6 +71,27 @@ export function LoginForm() {
       ) : (
         <PhoneStep onSubmit={requestCode} />
       )}
+    </div>
+  );
+}
+
+/** No Telegram chat is linked to the phone yet: open the bot, press Start and share the number; the bot sends the code. */
+function TelegramLinkStep({ link }: { link: string }) {
+  const t = useTranslations("login");
+  return (
+    <div className="flex flex-col gap-3">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-orange h-12 gap-2 text-[16px]">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.2-8.3c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.5 2.9c.9-.3 1.6.2 1.4 1.4Z" />
+        </svg>
+        {t("linkButton")}
+      </a>
+      <ol className="m-0 flex list-decimal flex-col gap-1.5 pl-5 text-[14px] text-subtle">
+        <li>{t("linkStep1")}</li>
+        <li>{t("linkStep2")}</li>
+        <li>{t("linkStep3")}</li>
+      </ol>
+      <p className="m-0 text-[13px] text-muted">{t("linkExpires")}</p>
     </div>
   );
 }

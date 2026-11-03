@@ -4,8 +4,9 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useCart } from "@/lib/queries";
 import { useSession } from "@/lib/use-session";
+import { NotificationBell } from "./NotificationBell";
 
-/** "Kirish"/"Kabinet" and "Savat" links (design: .head-actions). Labels hide below 560px. */
+/** "Kirish"/"Kabinet", the notification bell (signed in) and "Savat" (design: .head-actions). Labels hide below 560px. */
 export function HeaderActions() {
   const t = useTranslations("header");
   const session = useSession();
@@ -33,6 +34,7 @@ export function HeaderActions() {
         </svg>
         <span className="hidden min-[561px]:inline">{authed ? t("account") : t("login")}</span>
       </Link>
+      {authed && <NotificationBell />}
       <Link href="/cart" className={`${item} relative`} aria-label={count ? t("cartCount", { count }) : t("cart")}>
         <svg
           viewBox="0 0 24 24"
