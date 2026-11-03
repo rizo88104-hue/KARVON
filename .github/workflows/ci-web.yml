@@ -1,15 +1,16 @@
-name: CI
+name: CI site
 
-# Pull requests: lint, type-check and build the site, and build its Docker image.
+# Pull requests into the "web" branch: lint, type-check and build the site, and build its Docker image.
 on:
   pull_request:
+    branches: [web]
   workflow_call:
 
 permissions:
   contents: read
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: ci-web-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:

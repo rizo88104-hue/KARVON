@@ -73,11 +73,13 @@ OpenAPI at `/v3/api-docs`). **Never change the backend.** Read it only when you 
   private pages (cart, login, account, search) are `noindex`.
 - Work only inside this folder. Do not search or read outside it except `..\KARVON-PAY` for API details.
 - Before saying a task is done: `npm run lint` clean and `npm run build` passes.
-- Git: branch `main`.
+- Git: local branch `main` tracks the **`web`** branch of github.com/rizo88104-hue/KARVON (the API is on `main` of the
+  same repository). Push with `git push` (never to `main`: that is the API). A push to `web` deploys the site.
 
 ## Deployment
 - Docker image: `Dockerfile` (Next.js `output: "standalone"`, `npm ci --ignore-scripts`, non-root). CI and deploy:
-  `.github/workflows/`. The compose file, nginx and server docs live in ../KARVON-PAY (`docs/deploy.md`).
+  `.github/workflows/ci-web.yml` and `deploy-web.yml` (named apart from the API workflows on `main`). The compose
+  file, nginx and server docs live in ../KARVON-PAY (`docs/deploy.md`).
 - `BACKEND_URL` is fixed at build time (rewrites) = `http://api:8080` in Docker; `SITE_URL` is read at runtime on the
   server, so one image serves any domain. Only `NEXT_PUBLIC_*` values are baked into the browser bundle.
 - Sentry: `src/instrumentation.ts`, `src/instrumentation-client.ts`; privacy settings in `src/lib/sentry-privacy.ts`
