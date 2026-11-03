@@ -35,7 +35,7 @@ A second key for GitHub Actions (deploys) — create it on your laptop, never re
 ```bash
 ssh-keygen -t ed25519 -C "github-actions-deploy" -f emarket_deploy -N ""
 # emarket_deploy.pub  -> append to /home/deploy/.ssh/authorized_keys on the server
-# emarket_deploy      -> GitHub secret DEPLOY_SSH_KEY (both repositories), then delete the local copy
+# emarket_deploy      -> GitHub secret DEPLOY_SSH_KEY (the KARVON repository), then delete the local copy
 ```
 
 ## 2. SSH: keys only

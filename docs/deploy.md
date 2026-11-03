@@ -16,6 +16,18 @@
 Everything runs from `docker-compose.prod.yml` on one server ([server-setup.md](server-setup.md)). Only nginx
 publishes ports. The API and the site images are built by GitHub Actions and pulled from GHCR.
 
+Both projects live in **one** GitHub repository, [rizo88104-hue/KARVON](https://github.com/rizo88104-hue/KARVON):
+
+| Branch | Project (local folder) | Workflows | Deploys |
+|---|---|---|---|
+| `main` | API (KARVON-PAY) | `ci.yml`, `deploy.yml` ("Deploy API") | on push to `main` |
+| `web` | site (karvon-web) | `ci-web.yml`, `deploy-web.yml` ("Deploy site") | on push to `web` |
+
+GitHub tells workflows apart by file path, so the site's workflow files have their own names. Both deploys use the
+concurrency group `deploy-production`, so they never run on the server at the same time. In karvon-web the local
+branch `main` tracks `origin/web` (`push.default=upstream`): a plain `git push` there goes to `web`, never to
+the API's `main`.
+
 | Service | Image | Data |
 |---|---|---|
 | api | `ghcr.io/<owner>/karvon-api:<sha>` | Flyway migrates the database on startup |
@@ -64,7 +76,7 @@ Start with the **test** keys of Payme and Click (see the last section). `PAYME_A
 
 ### 4. GitHub
 
-In **both** repositories (KARVON-PAY and karvon-web), Settings → Secrets and variables → Actions:
+In the repository (one for both projects), Settings → Secrets and variables → Actions:
 
 | Kind | Name | Value |
 |---|---|---|
@@ -73,15 +85,16 @@ In **both** repositories (KARVON-PAY and karvon-web), Settings → Secrets and v
 | secret | `DEPLOY_SSH_KEY` | private key `emarket_deploy` (server-setup.md, step 1) |
 | secret | `DEPLOY_KNOWN_HOSTS` | output of `ssh-keyscan -t ed25519 SERVER` |
 | variable | `DEPLOY_PATH` | `/opt/emarket` |
-| variable | `API_DOMAIN` | e.g. `api.karvon.uz` (KARVON-PAY) |
-| variable | `SITE_DOMAIN` | e.g. `karvon.uz` (karvon-web) |
-| variable | `NEXT_PUBLIC_SENTRY_DSN` | browser DSN of the web Sentry project (karvon-web, optional) |
+| variable | `API_DOMAIN` | e.g. `api.karvon.uz` (Deploy API) |
+| variable | `SITE_DOMAIN` | e.g. `karvon.uz` (Deploy site; without it its health check fails) |
+| variable | `NEXT_PUBLIC_SENTRY_DSN` | browser DSN of the web Sentry project (Deploy site, optional) |
 
-Create the environment **production** (Settings → Environments) in both repositories; add yourself as a required
+Create the environment **production** (Settings → Environments); both deploys use it. Add yourself as a required
 reviewer if every deploy should wait for approval.
 
-Run the workflows once so both images exist in GHCR: push to `main` or Actions → "Deploy API" / "Deploy site" →
-Run workflow. On this first run the deploy steps may fail because the stack is not up yet — that is expected;
+Run the workflows once so both images exist in GHCR: push to `main` (API) and to `web` (site), or Actions →
+"Deploy API" → Run workflow. "Deploy site" is not in the Run workflow list (GitHub lists manual workflows only from
+the default branch `main`), so the site is deployed by a push to `web`. On this first run the deploy steps may fail because the stack is not up yet — that is expected;
 the images are pushed before the deploy job.
 
 ### Shell helpers (use them in every session on the server)
@@ -154,7 +167,7 @@ The `certbot` service renews it automatically; nginx reloads the new certificate
 * `curl https://API_DOMAIN/actuator/health` → `{"status":"UP",...}`.
 * Next morning: `ls -l $BACKUP_DIR` shows `karvon-YYYYMMDD-030000.dump`; do the restore check below once.
 
-From now on, every push to `main` deploys that project automatically.
+From now on, every push to `main` deploys the API and every push to `web` deploys the site.
 
 ## Monitoring
 
@@ -240,7 +253,7 @@ Edit `.env.prod`, then `compose up -d` — Compose recreates only the containers
 | `CLICK_SECRET_KEY` | the same in the Click cabinet | as Payme |
 | `ESKIZ_PASSWORD`, `TAOBAO_API_KEY`, `TRANSLATION_API_KEY` | change at the provider, `.env.prod`, `compose up -d api` | — |
 | `SENTRY_DSN_*` | new DSN in Sentry, `.env.prod`, `compose up -d api web`; browser DSN: GitHub variable + redeploy web | — |
-| Deploy SSH key | new key pair, add `.pub` to `authorized_keys`, update `DEPLOY_SSH_KEY` in both repos, remove the old line | — |
+| Deploy SSH key | new key pair, add `.pub` to `authorized_keys`, update the `DEPLOY_SSH_KEY` secret, remove the old line | — |
 
 `.env.prod` stays `chmod 600`, is never committed and is not copied anywhere except the encrypted password manager.
 
@@ -259,7 +272,8 @@ Edit `.env.prod`, then `compose up -d` — Compose recreates only the containers
 
 ## Local test of the production stack
 
-On a developer machine with Docker (KARVON-PAY and karvon-web side by side), with fake values:
+On a developer machine with Docker (KARVON-PAY and karvon-web side by side: branches `main` and `web`),
+with fake values:
 
 ```bash
 docker compose --env-file deploy/local-test.env -f docker-compose.prod.yml -f docker-compose.build.yml up -d --build

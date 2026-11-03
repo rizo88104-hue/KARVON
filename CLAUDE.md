@@ -74,7 +74,8 @@ total      = goods + serviceFee + shipping
 ## Deployment (Task 14)
 - Production runs from `docker-compose.prod.yml` (+ `docker-compose.build.yml` for local builds); docs in
   `docs/deploy.md`, `docs/server-setup.md`. Images: `ghcr.io/<owner>/karvon-api|karvon-web:<sha>` built by
-  `.github/workflows/deploy.yml`.
+  `.github/workflows/deploy.yml` (API, branch `main`) and `deploy-web.yml` (site, branch `web` of the same
+  GitHub repository; local folder karvon-web).
 - A new required env variable must be added to `.env.prod.example`, the `api` environment list in
   `docker-compose.prod.yml` and `deploy/local-test.env` (fake value), or the deployed API will not start.
 - Only nginx publishes ports. Never add `ports:` to other services (Docker bypasses ufw).
