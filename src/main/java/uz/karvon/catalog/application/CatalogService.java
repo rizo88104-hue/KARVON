@@ -1,6 +1,7 @@
 package uz.karvon.catalog.application;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import uz.karvon.catalog.api.dto.CategoryResponse;
@@ -52,6 +53,7 @@ public class CatalogService {
     private final BlockedGoodsService blockedGoods;
     private final PricingService pricing;
     private final CategoryRepository categories;
+    private final ObjectProvider<CategoryCovers> covers;
 
     /**
      * @param query     in the customer's language, or Chinese (e.g. a category keyword)
@@ -151,8 +153,13 @@ public class CatalogService {
         return byParent.getOrDefault(parentId, List.of()).stream()
                 .sorted(Comparator.comparingInt(Category::getSortOrder))
                 .map(c -> new CategoryResponse(c.getSlug(), c.getNameUz(), c.getNameRu(), c.getSearchKeywordZh(),
-                        c.getIcon(), tree(byParent, c.getId())))
+                        c.getIcon(), coverUrl(c.getSlug()), tree(byParent, c.getId())))
                 .toList();
+    }
+
+    private String coverUrl(String slug) {
+        CategoryCovers available = covers.getIfAvailable();
+        return available == null ? null : available.coverUrl(slug).orElse(null);
     }
 
     /** Title, attribute names/values and SKU property names/values in one batch. */

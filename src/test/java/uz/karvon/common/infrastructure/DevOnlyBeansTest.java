@@ -22,7 +22,7 @@ class DevOnlyBeansTest {
             "CbuConfig", "ProviderCheckoutGateway");
 
     private static final Set<String> DEV_ONLY = Set.of("DevOtpController", "DevPayController", "LocalFileController",
-            "DevOtpCodes", "DevTelegramConfig");
+            "DevOtpCodes", "DevTelegramConfig", "DevCatalogImages");
 
     private static final boolean SMS_ON = true;
 
@@ -52,7 +52,7 @@ class DevOnlyBeansTest {
     @Test
     void theFakesExistInDev() {
         assertThat(components("dev", SMS_ON)).contains("FakeTaobaoProvider", "FakeSmsSender", "FakePaymentProvider",
-                "DevOtpController", "DevPayController", "LocalFileController", "DevOtpCodes", "DevTelegramConfig");
+                "DevOtpController", "DevPayController", "LocalFileController", "DevOtpCodes", "DevTelegramConfig", "DevCatalogImages");
         assertThat(components("dev", SMS_ON)).as("and the real providers are not").doesNotContainAnyElementsOf(REAL);
     }
 

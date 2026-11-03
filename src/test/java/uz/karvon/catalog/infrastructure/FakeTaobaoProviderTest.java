@@ -6,11 +6,17 @@ import uz.karvon.catalog.application.ProductNotFoundException;
 import uz.karvon.catalog.domain.ProductDetail;
 import uz.karvon.catalog.domain.ProductSummary;
 import uz.karvon.catalog.domain.SearchResult;
+import uz.karvon.catalog.domain.Sku;
 import uz.karvon.catalog.domain.SortOrder;
 
+import java.io.IOException;
 import java.math.BigDecimal;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -27,6 +33,25 @@ class FakeTaobaoProviderTest {
             assertThat(product.skus()).as(id).isNotEmpty();
             assertThat(product.images()).as(id).isNotEmpty();
             assertThat(product.priceCny()).as(id).isPositive();
+        }
+    }
+
+    /** Photos are local files of dev-catalog/images, each listed in docs/image-credits.md. */
+    @Test
+    void everyPhotoIsALocalFreeLicensePhotoWithCredits() throws IOException {
+        Path images = Path.of("dev-catalog/images");
+        String credits = Files.readString(Path.of("docs/image-credits.md"));
+        for (String id : provider.productIds()) {
+            ProductDetail product = provider.getProduct(id);
+            assertThat(product.images()).as(id).hasSizeBetween(3, 5).contains(product.mainImageUrl());
+            List<String> urls = new ArrayList<>(product.images());
+            product.skus().stream().map(Sku::imageUrl).filter(Objects::nonNull).forEach(urls::add);
+            for (String url : urls) {
+                assertThat(url).as(id).startsWith(DevCatalogImages.URL_PREFIX);
+                String file = url.substring(DevCatalogImages.URL_PREFIX.length());
+                assertThat(images.resolve(file)).as(url).isRegularFile();
+                assertThat(credits).as("credit for " + file).contains("`" + file + "`");
+            }
         }
     }
 
@@ -49,13 +74,15 @@ class FakeTaobaoProviderTest {
 
     @Test
     void pagesHoldTwentyItems() {
+        int total = provider.productIds().size();
+        int lastPage = (total - 1) / FakeTaobaoProvider.PAGE_SIZE;
         SearchResult first = provider.search("", 0, SortOrder.RELEVANCE, null, null);
-        SearchResult third = provider.search("", 2, SortOrder.RELEVANCE, null, null);
+        SearchResult last = provider.search("", lastPage, SortOrder.RELEVANCE, null, null);
 
         assertThat(first.items()).hasSize(FakeTaobaoProvider.PAGE_SIZE);
-        assertThat(first.totalItems()).isEqualTo(provider.productIds().size());
-        assertThat(third.items()).hasSize(provider.productIds().size() - 2 * FakeTaobaoProvider.PAGE_SIZE);
-        assertThat(provider.search("", 5, SortOrder.RELEVANCE, null, null).items()).isEmpty();
+        assertThat(first.totalItems()).isEqualTo(total);
+        assertThat(last.items()).hasSize(total - lastPage * FakeTaobaoProvider.PAGE_SIZE);
+        assertThat(provider.search("", lastPage + 1, SortOrder.RELEVANCE, null, null).items()).isEmpty();
     }
 
     @Test

@@ -199,11 +199,24 @@ class CatalogIntegrationTest extends AbstractIntegrationTest {
         var result = mvc.get().uri("/api/v1/catalog/categories");
 
         assertThat(result).hasStatusOk();
-        assertThat(result).bodyJson().extractingPath("$.length()").isEqualTo(7);
+        assertThat(result).bodyJson().extractingPath("$.length()").isEqualTo(10);
         assertThat(result).bodyJson().extractingPath("$[1].slug").isEqualTo("poyabzal");
         assertThat(result).bodyJson().extractingPath("$[1].nameRu").isEqualTo("Обувь");
         assertThat(result).bodyJson().extractingPath("$[1].children[0].nameUz").isEqualTo("Krossovkalar");
         assertThat(result).bodyJson().extractingPath("$[1].children[0].searchKeywordZh").isEqualTo("运动鞋");
+    }
+
+    @Test
+    void devCatalogPhotosAreServedAndTopCategoriesHaveCovers() {
+        var result = mvc.get().uri("/api/v1/catalog/categories");
+
+        assertThat(result).bodyJson().extractingPath("$[3].imageUrl")
+                .isEqualTo("/api/v1/dev/images/categories/elektronika.webp");
+        assertThat(result).bodyJson().extractingPath("$[3].children[0].imageUrl").isNull();
+        assertThat(result).bodyJson().extractingPath("$[9].slug").isEqualTo("sport");
+        assertThat(mvc.get().uri("/api/v1/dev/images/categories/elektronika.webp")).hasStatusOk()
+                .hasContentType("image/webp");
+        assertThat(mvc.get().uri("/api/v1/dev/images/products/missing.webp")).hasStatus(HttpStatus.NOT_FOUND);
     }
 
     @Test

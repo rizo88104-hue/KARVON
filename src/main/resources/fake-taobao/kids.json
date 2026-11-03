@@ -2,12 +2,12 @@
   {
     "externalId": "680000040212",
     "title": "儿童益智积木玩具",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000040212-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000040212-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000040212-1/800/800",
-      "https://picsum.photos/seed/karvon-680000040212-2/800/800",
-      "https://picsum.photos/seed/karvon-680000040212-3/800/800",
-      "https://picsum.photos/seed/karvon-680000040212-4/800/800"
+      "/api/v1/dev/images/products/680000040212-1.webp",
+      "/api/v1/dev/images/products/680000040212-2.webp",
+      "/api/v1/dev/images/products/680000040212-3.webp",
+      "/api/v1/dev/images/products/680000040212-4.webp"
     ],
     "priceCny": 89,
     "originalPriceCny": 116,
@@ -54,7 +54,7 @@
         ],
         "priceCny": 89,
         "stock": 328,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000040212-1.webp"
       },
       {
         "skuId": "680000040212002",
@@ -66,19 +66,19 @@
         ],
         "priceCny": 129,
         "stock": 357,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000040212-1.webp"
       }
     ]
   },
   {
     "externalId": "680000041329",
     "title": "婴儿纯棉连体衣",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000041329-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000041329-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000041329-1/800/800",
-      "https://picsum.photos/seed/karvon-680000041329-2/800/800",
-      "https://picsum.photos/seed/karvon-680000041329-3/800/800",
-      "https://picsum.photos/seed/karvon-680000041329-4/800/800"
+      "/api/v1/dev/images/products/680000041329-1.webp",
+      "/api/v1/dev/images/products/680000041329-2.webp",
+      "/api/v1/dev/images/products/680000041329-3.webp",
+      "/api/v1/dev/images/products/680000041329-4.webp"
     ],
     "priceCny": 49,
     "salesCount": 14000,
@@ -128,7 +128,7 @@
         ],
         "priceCny": 49,
         "stock": 381,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-1.webp"
       },
       {
         "skuId": "680000041329002",
@@ -144,7 +144,7 @@
         ],
         "priceCny": 49,
         "stock": 410,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-1.webp"
       },
       {
         "skuId": "680000041329003",
@@ -160,7 +160,7 @@
         ],
         "priceCny": 49,
         "stock": 39,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-1.webp"
       },
       {
         "skuId": "680000041329004",
@@ -176,7 +176,7 @@
         ],
         "priceCny": 49,
         "stock": 68,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-1.webp"
       },
       {
         "skuId": "680000041329005",
@@ -192,7 +192,7 @@
         ],
         "priceCny": 49,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-2.webp"
       },
       {
         "skuId": "680000041329006",
@@ -208,7 +208,7 @@
         ],
         "priceCny": 49,
         "stock": 126,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-2.webp"
       },
       {
         "skuId": "680000041329007",
@@ -224,7 +224,7 @@
         ],
         "priceCny": 49,
         "stock": 155,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-2.webp"
       },
       {
         "skuId": "680000041329008",
@@ -240,19 +240,19 @@
         ],
         "priceCny": 49,
         "stock": 184,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000041329-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000041329-2.webp"
       }
     ]
   },
   {
     "externalId": "680000042446",
     "title": "儿童遥控汽车玩具",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000042446-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000042446-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000042446-1/800/800",
-      "https://picsum.photos/seed/karvon-680000042446-2/800/800",
-      "https://picsum.photos/seed/karvon-680000042446-3/800/800",
-      "https://picsum.photos/seed/karvon-680000042446-4/800/800"
+      "/api/v1/dev/images/products/680000042446-1.webp",
+      "/api/v1/dev/images/products/680000042446-2.webp",
+      "/api/v1/dev/images/products/680000042446-3.webp",
+      "/api/v1/dev/images/products/680000042446-4.webp"
     ],
     "priceCny": 129,
     "salesCount": 8700,
@@ -298,7 +298,7 @@
         ],
         "priceCny": 129,
         "stock": 34,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000042446-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000042446-1.webp"
       },
       {
         "skuId": "680000042446002",
@@ -310,19 +310,19 @@
         ],
         "priceCny": 129,
         "stock": 63,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000042446-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000042446-2.webp"
       }
     ]
   },
   {
     "externalId": "680000043563",
     "title": "童装女童连衣裙",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000043563-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000043563-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000043563-1/800/800",
-      "https://picsum.photos/seed/karvon-680000043563-2/800/800",
-      "https://picsum.photos/seed/karvon-680000043563-3/800/800",
-      "https://picsum.photos/seed/karvon-680000043563-4/800/800"
+      "/api/v1/dev/images/products/680000043563-1.webp",
+      "/api/v1/dev/images/products/680000043563-2.webp",
+      "/api/v1/dev/images/products/680000043563-3.webp",
+      "/api/v1/dev/images/products/680000043563-4.webp"
     ],
     "priceCny": 69,
     "salesCount": 10500,
@@ -372,7 +372,7 @@
         ],
         "priceCny": 69,
         "stock": 87,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-1.webp"
       },
       {
         "skuId": "680000043563002",
@@ -388,7 +388,7 @@
         ],
         "priceCny": 69,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-1.webp"
       },
       {
         "skuId": "680000043563003",
@@ -404,7 +404,7 @@
         ],
         "priceCny": 69,
         "stock": 145,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-1.webp"
       },
       {
         "skuId": "680000043563004",
@@ -420,7 +420,7 @@
         ],
         "priceCny": 69,
         "stock": 174,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-1.webp"
       },
       {
         "skuId": "680000043563005",
@@ -436,7 +436,7 @@
         ],
         "priceCny": 69,
         "stock": 203,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-2.webp"
       },
       {
         "skuId": "680000043563006",
@@ -452,7 +452,7 @@
         ],
         "priceCny": 69,
         "stock": 232,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-2.webp"
       },
       {
         "skuId": "680000043563007",
@@ -468,7 +468,7 @@
         ],
         "priceCny": 69,
         "stock": 261,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-2.webp"
       },
       {
         "skuId": "680000043563008",
@@ -484,19 +484,19 @@
         ],
         "priceCny": 69,
         "stock": 290,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000043563-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000043563-2.webp"
       }
     ]
   },
   {
     "externalId": "680000044680",
     "title": "毛绒玩具熊",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000044680-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000044680-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000044680-1/800/800",
-      "https://picsum.photos/seed/karvon-680000044680-2/800/800",
-      "https://picsum.photos/seed/karvon-680000044680-3/800/800",
-      "https://picsum.photos/seed/karvon-680000044680-4/800/800"
+      "/api/v1/dev/images/products/680000044680-1.webp",
+      "/api/v1/dev/images/products/680000044680-2.webp",
+      "/api/v1/dev/images/products/680000044680-3.webp",
+      "/api/v1/dev/images/products/680000044680-4.webp"
     ],
     "priceCny": 59,
     "salesCount": 16000,
@@ -542,7 +542,7 @@
         ],
         "priceCny": 59,
         "stock": 140,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000044680-1.webp"
       },
       {
         "skuId": "680000044680002",
@@ -554,7 +554,7 @@
         ],
         "priceCny": 89,
         "stock": 169,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000044680-1.webp"
       },
       {
         "skuId": "680000044680003",
@@ -566,19 +566,19 @@
         ],
         "priceCny": 119,
         "stock": 198,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000044680-1.webp"
       }
     ]
   },
   {
     "externalId": "680000045797",
     "title": "儿童护脊书包双肩包",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000045797-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000045797-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000045797-1/800/800",
-      "https://picsum.photos/seed/karvon-680000045797-2/800/800",
-      "https://picsum.photos/seed/karvon-680000045797-3/800/800",
-      "https://picsum.photos/seed/karvon-680000045797-4/800/800"
+      "/api/v1/dev/images/products/680000045797-1.webp",
+      "/api/v1/dev/images/products/680000045797-2.webp",
+      "/api/v1/dev/images/products/680000045797-3.webp",
+      "/api/v1/dev/images/products/680000045797-4.webp"
     ],
     "priceCny": 139,
     "salesCount": 7200,
@@ -624,7 +624,7 @@
         ],
         "priceCny": 139,
         "stock": 193,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000045797-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000045797-1.webp"
       },
       {
         "skuId": "680000045797002",
@@ -636,7 +636,222 @@
         ],
         "priceCny": 139,
         "stock": 222,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000045797-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000045797-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000067020",
+    "title": "儿童三轮滑板车闪光轮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000067020-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000067020-1.webp",
+      "/api/v1/dev/images/products/680000067020-2.webp",
+      "/api/v1/dev/images/products/680000067020-3.webp",
+      "/api/v1/dev/images/products/680000067020-4.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 199,
+    "salesCount": 39500,
+    "shop": {
+      "shopId": "100440",
+      "name": "童趣玩具店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3.2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000067020001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000067020-1.webp"
+      },
+      {
+        "skuId": "680000067020002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000067020-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000068137",
+    "title": "儿童绘画彩笔套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000068137-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000068137-1.webp",
+      "/api/v1/dev/images/products/680000068137-2.webp",
+      "/api/v1/dev/images/products/680000068137-3.webp",
+      "/api/v1/dev/images/products/680000068137-4.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 46500,
+    "shop": {
+      "shopId": "100441",
+      "name": "儿童文具店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "文具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000068137001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "86件"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 52,
+        "imageUrl": "/api/v1/dev/images/products/680000068137-1.webp"
+      },
+      {
+        "skuId": "680000068137002",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "150件"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 53,
+        "imageUrl": "/api/v1/dev/images/products/680000068137-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000069254",
+    "title": "婴儿安抚毛绒玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000069254-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000069254-1.webp",
+      "/api/v1/dev/images/products/680000069254-2.webp",
+      "/api/v1/dev/images/products/680000069254-3.webp",
+      "/api/v1/dev/images/products/680000069254-4.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 7600,
+    "shop": {
+      "shopId": "100440",
+      "name": "童趣玩具店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "婴儿",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "毛绒"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000069254001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 233,
+        "imageUrl": "/api/v1/dev/images/products/680000069254-1.webp"
+      },
+      {
+        "skuId": "680000069254002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 234,
+        "imageUrl": "/api/v1/dev/images/products/680000069254-2.webp"
+      },
+      {
+        "skuId": "680000069254003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 235,
+        "imageUrl": "/api/v1/dev/images/products/680000069254-3.webp"
       }
     ]
   }

@@ -2,12 +2,12 @@
   {
     "externalId": "680000033510",
     "title": "电热水壶不锈钢1.8L",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000033510-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000033510-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000033510-1/800/800",
-      "https://picsum.photos/seed/karvon-680000033510-2/800/800",
-      "https://picsum.photos/seed/karvon-680000033510-3/800/800",
-      "https://picsum.photos/seed/karvon-680000033510-4/800/800"
+      "/api/v1/dev/images/products/680000033510-1.webp",
+      "/api/v1/dev/images/products/680000033510-2.webp",
+      "/api/v1/dev/images/products/680000033510-3.webp",
+      "/api/v1/dev/images/products/680000033510-4.webp"
     ],
     "priceCny": 79,
     "originalPriceCny": 103,
@@ -54,7 +54,7 @@
         ],
         "priceCny": 79,
         "stock": 410,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000033510-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000033510-1.webp"
       },
       {
         "skuId": "680000033510002",
@@ -66,19 +66,19 @@
         ],
         "priceCny": 79,
         "stock": 39,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000033510-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000033510-2.webp"
       }
     ]
   },
   {
     "externalId": "680000034627",
     "title": "纯棉四件套床上用品",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000034627-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000034627-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000034627-1/800/800",
-      "https://picsum.photos/seed/karvon-680000034627-2/800/800",
-      "https://picsum.photos/seed/karvon-680000034627-3/800/800",
-      "https://picsum.photos/seed/karvon-680000034627-4/800/800"
+      "/api/v1/dev/images/products/680000034627-1.webp",
+      "/api/v1/dev/images/products/680000034627-2.webp",
+      "/api/v1/dev/images/products/680000034627-3.webp",
+      "/api/v1/dev/images/products/680000034627-4.webp"
     ],
     "priceCny": 199,
     "salesCount": 9800,
@@ -128,7 +128,7 @@
         ],
         "priceCny": 199,
         "stock": 63,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000034627-1.webp"
       },
       {
         "skuId": "680000034627002",
@@ -144,7 +144,7 @@
         ],
         "priceCny": 229,
         "stock": 92,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000034627-1.webp"
       },
       {
         "skuId": "680000034627003",
@@ -160,7 +160,7 @@
         ],
         "priceCny": 199,
         "stock": 121,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000034627-2.webp"
       },
       {
         "skuId": "680000034627004",
@@ -176,19 +176,19 @@
         ],
         "priceCny": 229,
         "stock": 150,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000034627-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000034627-2.webp"
       }
     ]
   },
   {
     "externalId": "680000035744",
     "title": "LED护眼台灯",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000035744-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000035744-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000035744-1/800/800",
-      "https://picsum.photos/seed/karvon-680000035744-2/800/800",
-      "https://picsum.photos/seed/karvon-680000035744-3/800/800",
-      "https://picsum.photos/seed/karvon-680000035744-4/800/800"
+      "/api/v1/dev/images/products/680000035744-1.webp",
+      "/api/v1/dev/images/products/680000035744-2.webp",
+      "/api/v1/dev/images/products/680000035744-3.webp",
+      "/api/v1/dev/images/products/680000035744-4.webp"
     ],
     "priceCny": 69,
     "salesCount": 15000,
@@ -234,7 +234,7 @@
         ],
         "priceCny": 69,
         "stock": 116,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000035744-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000035744-1.webp"
       },
       {
         "skuId": "680000035744002",
@@ -246,19 +246,19 @@
         ],
         "priceCny": 69,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000035744-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000035744-2.webp"
       }
     ]
   },
   {
     "externalId": "680000036861",
     "title": "陶瓷餐具套装家用",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000036861-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000036861-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000036861-1/800/800",
-      "https://picsum.photos/seed/karvon-680000036861-2/800/800",
-      "https://picsum.photos/seed/karvon-680000036861-3/800/800",
-      "https://picsum.photos/seed/karvon-680000036861-4/800/800"
+      "/api/v1/dev/images/products/680000036861-1.webp",
+      "/api/v1/dev/images/products/680000036861-2.webp",
+      "/api/v1/dev/images/products/680000036861-3.webp",
+      "/api/v1/dev/images/products/680000036861-4.webp"
     ],
     "priceCny": 159,
     "salesCount": 4800,
@@ -304,7 +304,7 @@
         ],
         "priceCny": 159,
         "stock": 169,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000036861-1.webp"
       },
       {
         "skuId": "680000036861002",
@@ -316,19 +316,19 @@
         ],
         "priceCny": 219,
         "stock": 198,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000036861-1.webp"
       }
     ]
   },
   {
     "externalId": "680000037978",
     "title": "抽屉式收纳盒",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000037978-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000037978-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000037978-1/800/800",
-      "https://picsum.photos/seed/karvon-680000037978-2/800/800",
-      "https://picsum.photos/seed/karvon-680000037978-3/800/800",
-      "https://picsum.photos/seed/karvon-680000037978-4/800/800"
+      "/api/v1/dev/images/products/680000037978-1.webp",
+      "/api/v1/dev/images/products/680000037978-2.webp",
+      "/api/v1/dev/images/products/680000037978-3.webp",
+      "/api/v1/dev/images/products/680000037978-4.webp"
     ],
     "priceCny": 45,
     "salesCount": 13000,
@@ -374,7 +374,7 @@
         ],
         "priceCny": 45,
         "stock": 222,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000037978-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000037978-1.webp"
       },
       {
         "skuId": "680000037978002",
@@ -386,19 +386,19 @@
         ],
         "priceCny": 45,
         "stock": 251,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000037978-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000037978-2.webp"
       }
     ]
   },
   {
     "externalId": "680000039095",
     "title": "不粘锅炒锅家用",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000039095-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000039095-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000039095-1/800/800",
-      "https://picsum.photos/seed/karvon-680000039095-2/800/800",
-      "https://picsum.photos/seed/karvon-680000039095-3/800/800",
-      "https://picsum.photos/seed/karvon-680000039095-4/800/800"
+      "/api/v1/dev/images/products/680000039095-1.webp",
+      "/api/v1/dev/images/products/680000039095-2.webp",
+      "/api/v1/dev/images/products/680000039095-3.webp",
+      "/api/v1/dev/images/products/680000039095-4.webp"
     ],
     "priceCny": 129,
     "salesCount": 11000,
@@ -444,7 +444,7 @@
         ],
         "priceCny": 129,
         "stock": 0,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000039095-1.webp"
       },
       {
         "skuId": "680000039095002",
@@ -456,7 +456,285 @@
         ],
         "priceCny": 149,
         "stock": 304,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000039095-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000063669",
+    "title": "北欧风陶瓷花瓶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000063669-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000063669-1.webp",
+      "/api/v1/dev/images/products/680000063669-2.webp",
+      "/api/v1/dev/images/products/680000063669-3.webp",
+      "/api/v1/dev/images/products/680000063669-4.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 41000,
+    "shop": {
+      "shopId": "100330",
+      "name": "北欧家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "花瓶"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000063669001",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "小号"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 487,
+        "imageUrl": "/api/v1/dev/images/products/680000063669-1.webp"
+      },
+      {
+        "skuId": "680000063669002",
+        "properties": [
+          {
+            "name": "尺寸",
+            "value": "大号"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 488,
+        "imageUrl": "/api/v1/dev/images/products/680000063669-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000064786",
+    "title": "加厚珊瑚绒毛毯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000064786-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000064786-1.webp",
+      "/api/v1/dev/images/products/680000064786-2.webp",
+      "/api/v1/dev/images/products/680000064786-3.webp",
+      "/api/v1/dev/images/products/680000064786-4.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 119,
+    "salesCount": 2100,
+    "shop": {
+      "shopId": "100331",
+      "name": "家纺旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "毛毯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "适用季节",
+        "value": "冬季"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000064786001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺寸",
+            "value": "150x200cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 208,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-1.webp"
+      },
+      {
+        "skuId": "680000064786002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺寸",
+            "value": "200x230cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 209,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-1.webp"
+      },
+      {
+        "skuId": "680000064786003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          },
+          {
+            "name": "尺寸",
+            "value": "150x200cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 210,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-2.webp"
+      },
+      {
+        "skuId": "680000064786004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          },
+          {
+            "name": "尺寸",
+            "value": "200x230cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 211,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-2.webp"
+      },
+      {
+        "skuId": "680000064786005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺寸",
+            "value": "150x200cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 212,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-3.webp"
+      },
+      {
+        "skuId": "680000064786006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺寸",
+            "value": "200x230cm"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 213,
+        "imageUrl": "/api/v1/dev/images/products/680000064786-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000065903",
+    "title": "香薰蜡烛礼盒",
+    "mainImageUrl": "/api/v1/dev/images/products/680000065903-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000065903-1.webp",
+      "/api/v1/dev/images/products/680000065903-2.webp",
+      "/api/v1/dev/images/products/680000065903-3.webp",
+      "/api/v1/dev/images/products/680000065903-4.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 28300,
+    "shop": {
+      "shopId": "100330",
+      "name": "北欧家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "蜡烛"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000065903001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 330,
+        "imageUrl": "/api/v1/dev/images/products/680000065903-1.webp"
+      },
+      {
+        "skuId": "680000065903002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 331,
+        "imageUrl": "/api/v1/dev/images/products/680000065903-2.webp"
       }
     ]
   }

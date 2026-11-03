@@ -2,12 +2,12 @@
   {
     "externalId": "680000016755",
     "title": "女士单肩包大容量通勤",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000016755-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000016755-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000016755-1/800/800",
-      "https://picsum.photos/seed/karvon-680000016755-2/800/800",
-      "https://picsum.photos/seed/karvon-680000016755-3/800/800",
-      "https://picsum.photos/seed/karvon-680000016755-4/800/800"
+      "/api/v1/dev/images/products/680000016755-1.webp",
+      "/api/v1/dev/images/products/680000016755-2.webp",
+      "/api/v1/dev/images/products/680000016755-3.webp",
+      "/api/v1/dev/images/products/680000016755-4.webp"
     ],
     "priceCny": 159,
     "originalPriceCny": 207,
@@ -54,7 +54,7 @@
         ],
         "priceCny": 159,
         "stock": 415,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000016755-1.webp"
       },
       {
         "skuId": "680000016755002",
@@ -66,7 +66,7 @@
         ],
         "priceCny": 159,
         "stock": 44,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000016755-2.webp"
       },
       {
         "skuId": "680000016755003",
@@ -78,19 +78,19 @@
         ],
         "priceCny": 159,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000016755-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000016755-3.webp"
       }
     ]
   },
   {
     "externalId": "680000017872",
     "title": "男士商务双肩包电脑包",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000017872-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000017872-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000017872-1/800/800",
-      "https://picsum.photos/seed/karvon-680000017872-2/800/800",
-      "https://picsum.photos/seed/karvon-680000017872-3/800/800",
-      "https://picsum.photos/seed/karvon-680000017872-4/800/800"
+      "/api/v1/dev/images/products/680000017872-1.webp",
+      "/api/v1/dev/images/products/680000017872-2.webp",
+      "/api/v1/dev/images/products/680000017872-3.webp",
+      "/api/v1/dev/images/products/680000017872-4.webp"
     ],
     "priceCny": 189,
     "salesCount": 11200,
@@ -136,7 +136,7 @@
         ],
         "priceCny": 189,
         "stock": 68,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000017872-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000017872-1.webp"
       },
       {
         "skuId": "680000017872002",
@@ -148,19 +148,19 @@
         ],
         "priceCny": 189,
         "stock": 97,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000017872-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000017872-2.webp"
       }
     ]
   },
   {
     "externalId": "680000018989",
     "title": "学生双肩包轻便",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000018989-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000018989-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000018989-1/800/800",
-      "https://picsum.photos/seed/karvon-680000018989-2/800/800",
-      "https://picsum.photos/seed/karvon-680000018989-3/800/800",
-      "https://picsum.photos/seed/karvon-680000018989-4/800/800"
+      "/api/v1/dev/images/products/680000018989-1.webp",
+      "/api/v1/dev/images/products/680000018989-2.webp",
+      "/api/v1/dev/images/products/680000018989-3.webp",
+      "/api/v1/dev/images/products/680000018989-4.webp"
     ],
     "priceCny": 79,
     "salesCount": 25000,
@@ -206,7 +206,7 @@
         ],
         "priceCny": 79,
         "stock": 121,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000018989-1.webp"
       },
       {
         "skuId": "680000018989002",
@@ -218,7 +218,7 @@
         ],
         "priceCny": 79,
         "stock": 150,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000018989-2.webp"
       },
       {
         "skuId": "680000018989003",
@@ -230,19 +230,19 @@
         ],
         "priceCny": 79,
         "stock": 179,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000018989-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000018989-3.webp"
       }
     ]
   },
   {
     "externalId": "680000020106",
     "title": "女士真皮钱包长款",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000020106-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000020106-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000020106-1/800/800",
-      "https://picsum.photos/seed/karvon-680000020106-2/800/800",
-      "https://picsum.photos/seed/karvon-680000020106-3/800/800",
-      "https://picsum.photos/seed/karvon-680000020106-4/800/800"
+      "/api/v1/dev/images/products/680000020106-1.webp",
+      "/api/v1/dev/images/products/680000020106-2.webp",
+      "/api/v1/dev/images/products/680000020106-3.webp",
+      "/api/v1/dev/images/products/680000020106-4.webp"
     ],
     "priceCny": 69,
     "salesCount": 9900,
@@ -288,7 +288,7 @@
         ],
         "priceCny": 69,
         "stock": 174,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000020106-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000020106-1.webp"
       },
       {
         "skuId": "680000020106002",
@@ -300,19 +300,19 @@
         ],
         "priceCny": 69,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000020106-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000020106-2.webp"
       }
     ]
   },
   {
     "externalId": "680000021223",
     "title": "旅行拉杆箱万向轮",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000021223-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000021223-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000021223-1/800/800",
-      "https://picsum.photos/seed/karvon-680000021223-2/800/800",
-      "https://picsum.photos/seed/karvon-680000021223-3/800/800",
-      "https://picsum.photos/seed/karvon-680000021223-4/800/800"
+      "/api/v1/dev/images/products/680000021223-1.webp",
+      "/api/v1/dev/images/products/680000021223-2.webp",
+      "/api/v1/dev/images/products/680000021223-3.webp",
+      "/api/v1/dev/images/products/680000021223-4.webp"
     ],
     "priceCny": 299,
     "salesCount": 3900,
@@ -362,7 +362,7 @@
         ],
         "priceCny": 299,
         "stock": 227,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000021223-1.webp"
       },
       {
         "skuId": "680000021223002",
@@ -378,7 +378,7 @@
         ],
         "priceCny": 379,
         "stock": 256,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000021223-1.webp"
       },
       {
         "skuId": "680000021223003",
@@ -394,7 +394,7 @@
         ],
         "priceCny": 299,
         "stock": 285,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000021223-2.webp"
       },
       {
         "skuId": "680000021223004",
@@ -410,19 +410,19 @@
         ],
         "priceCny": 379,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000021223-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000021223-2.webp"
       }
     ]
   },
   {
     "externalId": "680000022340",
     "title": "高仿名牌女包",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000022340-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000022340-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000022340-1/800/800",
-      "https://picsum.photos/seed/karvon-680000022340-2/800/800",
-      "https://picsum.photos/seed/karvon-680000022340-3/800/800",
-      "https://picsum.photos/seed/karvon-680000022340-4/800/800"
+      "/api/v1/dev/images/products/680000022340-1.webp",
+      "/api/v1/dev/images/products/680000022340-2.webp",
+      "/api/v1/dev/images/products/680000022340-3.webp",
+      "/api/v1/dev/images/products/680000022340-4.webp"
     ],
     "priceCny": 259,
     "salesCount": 2100,
@@ -468,19 +468,19 @@
         ],
         "priceCny": 259,
         "stock": 280,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000022340-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000022340-1.webp"
       }
     ]
   },
   {
     "externalId": "680000023457",
     "title": "男士斜挎包休闲",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000023457-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000023457-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000023457-1/800/800",
-      "https://picsum.photos/seed/karvon-680000023457-2/800/800",
-      "https://picsum.photos/seed/karvon-680000023457-3/800/800",
-      "https://picsum.photos/seed/karvon-680000023457-4/800/800"
+      "/api/v1/dev/images/products/680000023457-1.webp",
+      "/api/v1/dev/images/products/680000023457-2.webp",
+      "/api/v1/dev/images/products/680000023457-3.webp",
+      "/api/v1/dev/images/products/680000023457-4.webp"
     ],
     "priceCny": 99,
     "salesCount": 6700,
@@ -526,7 +526,7 @@
         ],
         "priceCny": 99,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000023457-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000023457-1.webp"
       },
       {
         "skuId": "680000023457002",
@@ -538,7 +538,162 @@
         ],
         "priceCny": 99,
         "stock": 362,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000023457-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000023457-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000059201",
+    "title": "女士迷你链条手提包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000059201-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000059201-1.webp",
+      "/api/v1/dev/images/products/680000059201-2.webp",
+      "/api/v1/dev/images/products/680000059201-3.webp",
+      "/api/v1/dev/images/products/680000059201-4.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 169,
+    "salesCount": 39700,
+    "shop": {
+      "shopId": "100210",
+      "name": "女包精品店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000059201001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000059201-1.webp"
+      },
+      {
+        "skuId": "680000059201002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 265,
+        "imageUrl": "/api/v1/dev/images/products/680000059201-2.webp"
+      },
+      {
+        "skuId": "680000059201003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 266,
+        "imageUrl": "/api/v1/dev/images/products/680000059201-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000060318",
+    "title": "男士真皮短款钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000060318-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000060318-1.webp",
+      "/api/v1/dev/images/products/680000060318-2.webp",
+      "/api/v1/dev/images/products/680000060318-3.webp",
+      "/api/v1/dev/images/products/680000060318-4.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 15800,
+    "shop": {
+      "shopId": "100211",
+      "name": "皮具专营店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000060318001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 135,
+        "imageUrl": "/api/v1/dev/images/products/680000060318-1.webp"
+      },
+      {
+        "skuId": "680000060318002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 136,
+        "imageUrl": "/api/v1/dev/images/products/680000060318-2.webp"
       }
     ]
   }

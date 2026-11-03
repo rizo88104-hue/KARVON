@@ -2,12 +2,12 @@
   {
     "externalId": "680000001117",
     "title": "男士运动鞋透气网面跑步鞋",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000001117-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000001117-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000001117-1/800/800",
-      "https://picsum.photos/seed/karvon-680000001117-2/800/800",
-      "https://picsum.photos/seed/karvon-680000001117-3/800/800",
-      "https://picsum.photos/seed/karvon-680000001117-4/800/800"
+      "/api/v1/dev/images/products/680000001117-1.webp",
+      "/api/v1/dev/images/products/680000001117-2.webp",
+      "/api/v1/dev/images/products/680000001117-3.webp",
+      "/api/v1/dev/images/products/680000001117-4.webp"
     ],
     "priceCny": 129,
     "originalPriceCny": 168,
@@ -58,7 +58,7 @@
         ],
         "priceCny": 129,
         "stock": 73,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117002",
@@ -74,7 +74,7 @@
         ],
         "priceCny": 129,
         "stock": 102,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117003",
@@ -90,7 +90,7 @@
         ],
         "priceCny": 129,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117004",
@@ -106,7 +106,7 @@
         ],
         "priceCny": 129,
         "stock": 160,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117005",
@@ -122,7 +122,7 @@
         ],
         "priceCny": 129,
         "stock": 189,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117006",
@@ -138,7 +138,7 @@
         ],
         "priceCny": 129,
         "stock": 218,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-1.webp"
       },
       {
         "skuId": "680000001117007",
@@ -154,7 +154,7 @@
         ],
         "priceCny": 129,
         "stock": 247,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117008",
@@ -170,7 +170,7 @@
         ],
         "priceCny": 129,
         "stock": 276,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117009",
@@ -186,7 +186,7 @@
         ],
         "priceCny": 129,
         "stock": 305,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117010",
@@ -202,7 +202,7 @@
         ],
         "priceCny": 129,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117011",
@@ -218,7 +218,7 @@
         ],
         "priceCny": 129,
         "stock": 363,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-20/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117012",
@@ -234,7 +234,7 @@
         ],
         "priceCny": 129,
         "stock": 392,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-21/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-2.webp"
       },
       {
         "skuId": "680000001117013",
@@ -250,7 +250,7 @@
         ],
         "priceCny": 129,
         "stock": 21,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-22/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       },
       {
         "skuId": "680000001117014",
@@ -266,7 +266,7 @@
         ],
         "priceCny": 129,
         "stock": 50,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-23/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       },
       {
         "skuId": "680000001117015",
@@ -282,7 +282,7 @@
         ],
         "priceCny": 129,
         "stock": 79,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-24/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       },
       {
         "skuId": "680000001117016",
@@ -298,7 +298,7 @@
         ],
         "priceCny": 129,
         "stock": 108,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-25/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       },
       {
         "skuId": "680000001117017",
@@ -314,7 +314,7 @@
         ],
         "priceCny": 129,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-26/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       },
       {
         "skuId": "680000001117018",
@@ -330,19 +330,19 @@
         ],
         "priceCny": 129,
         "stock": 166,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000001117-27/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000001117-3.webp"
       }
     ]
   },
   {
     "externalId": "680000002234",
     "title": "女士小白鞋百搭运动鞋",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000002234-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000002234-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000002234-1/800/800",
-      "https://picsum.photos/seed/karvon-680000002234-2/800/800",
-      "https://picsum.photos/seed/karvon-680000002234-3/800/800",
-      "https://picsum.photos/seed/karvon-680000002234-4/800/800"
+      "/api/v1/dev/images/products/680000002234-1.webp",
+      "/api/v1/dev/images/products/680000002234-2.webp",
+      "/api/v1/dev/images/products/680000002234-3.webp",
+      "/api/v1/dev/images/products/680000002234-4.webp"
     ],
     "priceCny": 89,
     "salesCount": 23400,
@@ -392,7 +392,7 @@
         ],
         "priceCny": 89,
         "stock": 126,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-1.webp"
       },
       {
         "skuId": "680000002234002",
@@ -408,7 +408,7 @@
         ],
         "priceCny": 89,
         "stock": 155,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-1.webp"
       },
       {
         "skuId": "680000002234003",
@@ -424,7 +424,7 @@
         ],
         "priceCny": 89,
         "stock": 184,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-1.webp"
       },
       {
         "skuId": "680000002234004",
@@ -440,7 +440,7 @@
         ],
         "priceCny": 89,
         "stock": 213,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-1.webp"
       },
       {
         "skuId": "680000002234005",
@@ -456,7 +456,7 @@
         ],
         "priceCny": 89,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-1.webp"
       },
       {
         "skuId": "680000002234006",
@@ -472,7 +472,7 @@
         ],
         "priceCny": 89,
         "stock": 271,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-2.webp"
       },
       {
         "skuId": "680000002234007",
@@ -488,7 +488,7 @@
         ],
         "priceCny": 89,
         "stock": 300,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-2.webp"
       },
       {
         "skuId": "680000002234008",
@@ -504,7 +504,7 @@
         ],
         "priceCny": 89,
         "stock": 329,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-2.webp"
       },
       {
         "skuId": "680000002234009",
@@ -520,7 +520,7 @@
         ],
         "priceCny": 89,
         "stock": 358,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-2.webp"
       },
       {
         "skuId": "680000002234010",
@@ -536,19 +536,19 @@
         ],
         "priceCny": 89,
         "stock": 387,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000002234-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000002234-2.webp"
       }
     ]
   },
   {
     "externalId": "680000003351",
     "title": "儿童运动鞋防滑软底",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000003351-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000003351-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000003351-1/800/800",
-      "https://picsum.photos/seed/karvon-680000003351-2/800/800",
-      "https://picsum.photos/seed/karvon-680000003351-3/800/800",
-      "https://picsum.photos/seed/karvon-680000003351-4/800/800"
+      "/api/v1/dev/images/products/680000003351-1.webp",
+      "/api/v1/dev/images/products/680000003351-2.webp",
+      "/api/v1/dev/images/products/680000003351-3.webp",
+      "/api/v1/dev/images/products/680000003351-4.webp"
     ],
     "priceCny": 69,
     "salesCount": 8800,
@@ -598,7 +598,7 @@
         ],
         "priceCny": 69,
         "stock": 179,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-1.webp"
       },
       {
         "skuId": "680000003351002",
@@ -614,7 +614,7 @@
         ],
         "priceCny": 69,
         "stock": 208,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-1.webp"
       },
       {
         "skuId": "680000003351003",
@@ -630,7 +630,7 @@
         ],
         "priceCny": 69,
         "stock": 237,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-1.webp"
       },
       {
         "skuId": "680000003351004",
@@ -646,7 +646,7 @@
         ],
         "priceCny": 69,
         "stock": 266,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-1.webp"
       },
       {
         "skuId": "680000003351005",
@@ -662,7 +662,7 @@
         ],
         "priceCny": 69,
         "stock": 295,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-2.webp"
       },
       {
         "skuId": "680000003351006",
@@ -678,7 +678,7 @@
         ],
         "priceCny": 69,
         "stock": 324,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-2.webp"
       },
       {
         "skuId": "680000003351007",
@@ -694,7 +694,7 @@
         ],
         "priceCny": 69,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-2.webp"
       },
       {
         "skuId": "680000003351008",
@@ -710,19 +710,19 @@
         ],
         "priceCny": 69,
         "stock": 382,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000003351-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000003351-2.webp"
       }
     ]
   },
   {
     "externalId": "680000004468",
     "title": "男士真皮商务皮鞋",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000004468-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000004468-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000004468-1/800/800",
-      "https://picsum.photos/seed/karvon-680000004468-2/800/800",
-      "https://picsum.photos/seed/karvon-680000004468-3/800/800",
-      "https://picsum.photos/seed/karvon-680000004468-4/800/800"
+      "/api/v1/dev/images/products/680000004468-1.webp",
+      "/api/v1/dev/images/products/680000004468-2.webp",
+      "/api/v1/dev/images/products/680000004468-3.webp",
+      "/api/v1/dev/images/products/680000004468-4.webp"
     ],
     "priceCny": 239,
     "salesCount": 4300,
@@ -772,7 +772,7 @@
         ],
         "priceCny": 239,
         "stock": 232,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468002",
@@ -788,7 +788,7 @@
         ],
         "priceCny": 239,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468003",
@@ -804,7 +804,7 @@
         ],
         "priceCny": 239,
         "stock": 290,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468004",
@@ -820,7 +820,7 @@
         ],
         "priceCny": 239,
         "stock": 319,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468005",
@@ -836,7 +836,7 @@
         ],
         "priceCny": 239,
         "stock": 348,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468006",
@@ -852,7 +852,7 @@
         ],
         "priceCny": 239,
         "stock": 377,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-1.webp"
       },
       {
         "skuId": "680000004468007",
@@ -868,7 +868,7 @@
         ],
         "priceCny": 239,
         "stock": 406,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       },
       {
         "skuId": "680000004468008",
@@ -884,7 +884,7 @@
         ],
         "priceCny": 239,
         "stock": 35,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       },
       {
         "skuId": "680000004468009",
@@ -900,7 +900,7 @@
         ],
         "priceCny": 239,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       },
       {
         "skuId": "680000004468010",
@@ -916,7 +916,7 @@
         ],
         "priceCny": 239,
         "stock": 93,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       },
       {
         "skuId": "680000004468011",
@@ -932,7 +932,7 @@
         ],
         "priceCny": 239,
         "stock": 122,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-20/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       },
       {
         "skuId": "680000004468012",
@@ -948,19 +948,19 @@
         ],
         "priceCny": 239,
         "stock": 151,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000004468-21/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000004468-2.webp"
       }
     ]
   },
   {
     "externalId": "680000005585",
     "title": "女士高跟鞋尖头细跟",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000005585-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000005585-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000005585-1/800/800",
-      "https://picsum.photos/seed/karvon-680000005585-2/800/800",
-      "https://picsum.photos/seed/karvon-680000005585-3/800/800",
-      "https://picsum.photos/seed/karvon-680000005585-4/800/800"
+      "/api/v1/dev/images/products/680000005585-1.webp",
+      "/api/v1/dev/images/products/680000005585-2.webp",
+      "/api/v1/dev/images/products/680000005585-3.webp",
+      "/api/v1/dev/images/products/680000005585-4.webp"
     ],
     "priceCny": 159,
     "salesCount": 6100,
@@ -1010,7 +1010,7 @@
         ],
         "priceCny": 159,
         "stock": 285,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-1.webp"
       },
       {
         "skuId": "680000005585002",
@@ -1026,7 +1026,7 @@
         ],
         "priceCny": 159,
         "stock": 314,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-1.webp"
       },
       {
         "skuId": "680000005585003",
@@ -1042,7 +1042,7 @@
         ],
         "priceCny": 159,
         "stock": 343,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-1.webp"
       },
       {
         "skuId": "680000005585004",
@@ -1058,7 +1058,7 @@
         ],
         "priceCny": 159,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-1.webp"
       },
       {
         "skuId": "680000005585005",
@@ -1074,7 +1074,7 @@
         ],
         "priceCny": 159,
         "stock": 401,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-1.webp"
       },
       {
         "skuId": "680000005585006",
@@ -1090,7 +1090,7 @@
         ],
         "priceCny": 159,
         "stock": 30,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-2.webp"
       },
       {
         "skuId": "680000005585007",
@@ -1106,7 +1106,7 @@
         ],
         "priceCny": 159,
         "stock": 59,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-2.webp"
       },
       {
         "skuId": "680000005585008",
@@ -1122,7 +1122,7 @@
         ],
         "priceCny": 159,
         "stock": 88,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-2.webp"
       },
       {
         "skuId": "680000005585009",
@@ -1138,7 +1138,7 @@
         ],
         "priceCny": 159,
         "stock": 117,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-2.webp"
       },
       {
         "skuId": "680000005585010",
@@ -1154,19 +1154,19 @@
         ],
         "priceCny": 159,
         "stock": 146,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000005585-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000005585-2.webp"
       }
     ]
   },
   {
     "externalId": "680000006702",
     "title": "冬季加绒雪地靴",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000006702-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000006702-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000006702-1/800/800",
-      "https://picsum.photos/seed/karvon-680000006702-2/800/800",
-      "https://picsum.photos/seed/karvon-680000006702-3/800/800",
-      "https://picsum.photos/seed/karvon-680000006702-4/800/800"
+      "/api/v1/dev/images/products/680000006702-1.webp",
+      "/api/v1/dev/images/products/680000006702-2.webp",
+      "/api/v1/dev/images/products/680000006702-3.webp",
+      "/api/v1/dev/images/products/680000006702-4.webp"
     ],
     "priceCny": 179,
     "salesCount": 9700,
@@ -1216,7 +1216,7 @@
         ],
         "priceCny": 179,
         "stock": 338,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-1.webp"
       },
       {
         "skuId": "680000006702002",
@@ -1232,7 +1232,7 @@
         ],
         "priceCny": 179,
         "stock": 367,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-1.webp"
       },
       {
         "skuId": "680000006702003",
@@ -1248,7 +1248,7 @@
         ],
         "priceCny": 179,
         "stock": 396,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-1.webp"
       },
       {
         "skuId": "680000006702004",
@@ -1264,7 +1264,7 @@
         ],
         "priceCny": 179,
         "stock": 25,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-1.webp"
       },
       {
         "skuId": "680000006702005",
@@ -1280,7 +1280,7 @@
         ],
         "priceCny": 179,
         "stock": 54,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-1.webp"
       },
       {
         "skuId": "680000006702006",
@@ -1296,7 +1296,7 @@
         ],
         "priceCny": 179,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-2.webp"
       },
       {
         "skuId": "680000006702007",
@@ -1312,7 +1312,7 @@
         ],
         "priceCny": 179,
         "stock": 112,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-2.webp"
       },
       {
         "skuId": "680000006702008",
@@ -1328,7 +1328,7 @@
         ],
         "priceCny": 179,
         "stock": 141,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-2.webp"
       },
       {
         "skuId": "680000006702009",
@@ -1344,7 +1344,7 @@
         ],
         "priceCny": 179,
         "stock": 170,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-2.webp"
       },
       {
         "skuId": "680000006702010",
@@ -1360,19 +1360,19 @@
         ],
         "priceCny": 179,
         "stock": 199,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000006702-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000006702-2.webp"
       }
     ]
   },
   {
     "externalId": "680000007819",
     "title": "夏季男士拖鞋防滑",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000007819-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000007819-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000007819-1/800/800",
-      "https://picsum.photos/seed/karvon-680000007819-2/800/800",
-      "https://picsum.photos/seed/karvon-680000007819-3/800/800",
-      "https://picsum.photos/seed/karvon-680000007819-4/800/800"
+      "/api/v1/dev/images/products/680000007819-1.webp",
+      "/api/v1/dev/images/products/680000007819-2.webp",
+      "/api/v1/dev/images/products/680000007819-3.webp",
+      "/api/v1/dev/images/products/680000007819-4.webp"
     ],
     "priceCny": 29.9,
     "salesCount": 52000,
@@ -1422,7 +1422,7 @@
         ],
         "priceCny": 29.9,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819002",
@@ -1438,7 +1438,7 @@
         ],
         "priceCny": 29.9,
         "stock": 20,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819003",
@@ -1454,7 +1454,7 @@
         ],
         "priceCny": 29.9,
         "stock": 49,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819004",
@@ -1470,7 +1470,7 @@
         ],
         "priceCny": 29.9,
         "stock": 78,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-13/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819005",
@@ -1486,7 +1486,7 @@
         ],
         "priceCny": 29.9,
         "stock": 107,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-14/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819006",
@@ -1502,7 +1502,7 @@
         ],
         "priceCny": 29.9,
         "stock": 136,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-15/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-1.webp"
       },
       {
         "skuId": "680000007819007",
@@ -1518,7 +1518,7 @@
         ],
         "priceCny": 29.9,
         "stock": 165,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-16/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
       },
       {
         "skuId": "680000007819008",
@@ -1534,7 +1534,7 @@
         ],
         "priceCny": 29.9,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-17/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
       },
       {
         "skuId": "680000007819009",
@@ -1550,7 +1550,7 @@
         ],
         "priceCny": 29.9,
         "stock": 223,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-18/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
       },
       {
         "skuId": "680000007819010",
@@ -1566,7 +1566,7 @@
         ],
         "priceCny": 29.9,
         "stock": 252,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-19/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
       },
       {
         "skuId": "680000007819011",
@@ -1582,7 +1582,7 @@
         ],
         "priceCny": 29.9,
         "stock": 281,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-20/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
       },
       {
         "skuId": "680000007819012",
@@ -1598,7 +1598,389 @@
         ],
         "priceCny": 29.9,
         "stock": 310,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000007819-21/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000007819-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000056967",
+    "title": "男士高帮帆布鞋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000056967-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000056967-1.webp",
+      "/api/v1/dev/images/products/680000056967-2.webp",
+      "/api/v1/dev/images/products/680000056967-3.webp",
+      "/api/v1/dev/images/products/680000056967-4.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 99,
+    "salesCount": 2300,
+    "shop": {
+      "shopId": "100001",
+      "name": "潮流鞋铺"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000056967001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-1.webp"
+      },
+      {
+        "skuId": "680000056967002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-1.webp"
+      },
+      {
+        "skuId": "680000056967003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-1.webp"
+      },
+      {
+        "skuId": "680000056967004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-1.webp"
+      },
+      {
+        "skuId": "680000056967005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "40"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-2.webp"
+      },
+      {
+        "skuId": "680000056967006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "41"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 415,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-2.webp"
+      },
+      {
+        "skuId": "680000056967007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "42"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 416,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-2.webp"
+      },
+      {
+        "skuId": "680000056967008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "鞋码",
+            "value": "43"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 417,
+        "imageUrl": "/api/v1/dev/images/products/680000056967-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000058084",
+    "title": "女士乐福鞋平底真皮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000058084-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000058084-1.webp",
+      "/api/v1/dev/images/products/680000058084-2.webp",
+      "/api/v1/dev/images/products/680000058084-3.webp",
+      "/api/v1/dev/images/products/680000058084-4.webp"
+    ],
+    "priceCny": 189,
+    "salesCount": 13500,
+    "shop": {
+      "shopId": "100002",
+      "name": "女鞋优品店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.7,
+    "keywords": [
+      "鞋",
+      "皮鞋"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "适用季节",
+        "value": "四季通用"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000058084001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 142,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-1.webp"
+      },
+      {
+        "skuId": "680000058084002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 143,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-1.webp"
+      },
+      {
+        "skuId": "680000058084003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 144,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-1.webp"
+      },
+      {
+        "skuId": "680000058084004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 145,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-1.webp"
+      },
+      {
+        "skuId": "680000058084005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 146,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-1.webp"
+      },
+      {
+        "skuId": "680000058084006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "35"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 147,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-2.webp"
+      },
+      {
+        "skuId": "680000058084007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "36"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 148,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-2.webp"
+      },
+      {
+        "skuId": "680000058084008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "37"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 149,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-2.webp"
+      },
+      {
+        "skuId": "680000058084009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "38"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 150,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-2.webp"
+      },
+      {
+        "skuId": "680000058084010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          },
+          {
+            "name": "鞋码",
+            "value": "39"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 151,
+        "imageUrl": "/api/v1/dev/images/products/680000058084-2.webp"
       }
     ]
   }

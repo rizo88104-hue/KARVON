@@ -2,12 +2,12 @@
   {
     "externalId": "680000024574",
     "title": "无线蓝牙耳机降噪",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000024574-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000024574-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000024574-1/800/800",
-      "https://picsum.photos/seed/karvon-680000024574-2/800/800",
-      "https://picsum.photos/seed/karvon-680000024574-3/800/800",
-      "https://picsum.photos/seed/karvon-680000024574-4/800/800"
+      "/api/v1/dev/images/products/680000024574-1.webp",
+      "/api/v1/dev/images/products/680000024574-2.webp",
+      "/api/v1/dev/images/products/680000024574-3.webp",
+      "/api/v1/dev/images/products/680000024574-4.webp"
     ],
     "priceCny": 159,
     "originalPriceCny": 207,
@@ -54,7 +54,7 @@
         ],
         "priceCny": 159,
         "stock": 386,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000024574-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000024574-1.webp"
       },
       {
         "skuId": "680000024574002",
@@ -66,19 +66,19 @@
         ],
         "priceCny": 159,
         "stock": 415,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000024574-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000024574-2.webp"
       }
     ]
   },
   {
     "externalId": "680000025691",
     "title": "智能手表运动心率监测",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000025691-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000025691-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000025691-1/800/800",
-      "https://picsum.photos/seed/karvon-680000025691-2/800/800",
-      "https://picsum.photos/seed/karvon-680000025691-3/800/800",
-      "https://picsum.photos/seed/karvon-680000025691-4/800/800"
+      "/api/v1/dev/images/products/680000025691-1.webp",
+      "/api/v1/dev/images/products/680000025691-2.webp",
+      "/api/v1/dev/images/products/680000025691-3.webp",
+      "/api/v1/dev/images/products/680000025691-4.webp"
     ],
     "priceCny": 199,
     "salesCount": 17000,
@@ -124,7 +124,7 @@
         ],
         "priceCny": 199,
         "stock": 39,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000025691-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000025691-1.webp"
       },
       {
         "skuId": "680000025691002",
@@ -136,19 +136,19 @@
         ],
         "priceCny": 199,
         "stock": 68,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000025691-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000025691-2.webp"
       }
     ]
   },
   {
     "externalId": "680000026808",
     "title": "快充充电器65W氮化镓",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000026808-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000026808-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000026808-1/800/800",
-      "https://picsum.photos/seed/karvon-680000026808-2/800/800",
-      "https://picsum.photos/seed/karvon-680000026808-3/800/800",
-      "https://picsum.photos/seed/karvon-680000026808-4/800/800"
+      "/api/v1/dev/images/products/680000026808-1.webp",
+      "/api/v1/dev/images/products/680000026808-2.webp",
+      "/api/v1/dev/images/products/680000026808-3.webp",
+      "/api/v1/dev/images/products/680000026808-4.webp"
     ],
     "priceCny": 89,
     "salesCount": 26000,
@@ -194,7 +194,7 @@
         ],
         "priceCny": 89,
         "stock": 92,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000026808-1.webp"
       },
       {
         "skuId": "680000026808002",
@@ -206,19 +206,19 @@
         ],
         "priceCny": 109,
         "stock": 121,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000026808-1.webp"
       }
     ]
   },
   {
     "externalId": "680000027925",
     "title": "充电宝10000毫安轻薄",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000027925-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000027925-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000027925-1/800/800",
-      "https://picsum.photos/seed/karvon-680000027925-2/800/800",
-      "https://picsum.photos/seed/karvon-680000027925-3/800/800",
-      "https://picsum.photos/seed/karvon-680000027925-4/800/800"
+      "/api/v1/dev/images/products/680000027925-1.webp",
+      "/api/v1/dev/images/products/680000027925-2.webp",
+      "/api/v1/dev/images/products/680000027925-3.webp",
+      "/api/v1/dev/images/products/680000027925-4.webp"
     ],
     "priceCny": 79,
     "salesCount": 33000,
@@ -264,7 +264,7 @@
         ],
         "priceCny": 79,
         "stock": 145,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000027925-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000027925-1.webp"
       },
       {
         "skuId": "680000027925002",
@@ -276,19 +276,19 @@
         ],
         "priceCny": 79,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000027925-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000027925-2.webp"
       }
     ]
   },
   {
     "externalId": "680000029042",
     "title": "大容量充电宝50000毫安",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000029042-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000029042-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000029042-1/800/800",
-      "https://picsum.photos/seed/karvon-680000029042-2/800/800",
-      "https://picsum.photos/seed/karvon-680000029042-3/800/800",
-      "https://picsum.photos/seed/karvon-680000029042-4/800/800"
+      "/api/v1/dev/images/products/680000029042-1.webp",
+      "/api/v1/dev/images/products/680000029042-2.webp",
+      "/api/v1/dev/images/products/680000029042-3.webp",
+      "/api/v1/dev/images/products/680000029042-4.webp"
     ],
     "priceCny": 199,
     "salesCount": 5200,
@@ -334,19 +334,19 @@
         ],
         "priceCny": 199,
         "stock": 198,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000029042-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000029042-1.webp"
       }
     ]
   },
   {
     "externalId": "680000030159",
     "title": "手机壳防摔透明",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000030159-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000030159-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000030159-1/800/800",
-      "https://picsum.photos/seed/karvon-680000030159-2/800/800",
-      "https://picsum.photos/seed/karvon-680000030159-3/800/800",
-      "https://picsum.photos/seed/karvon-680000030159-4/800/800"
+      "/api/v1/dev/images/products/680000030159-1.webp",
+      "/api/v1/dev/images/products/680000030159-2.webp",
+      "/api/v1/dev/images/products/680000030159-3.webp",
+      "/api/v1/dev/images/products/680000030159-4.webp"
     ],
     "priceCny": 15,
     "salesCount": 88000,
@@ -392,7 +392,7 @@
         ],
         "priceCny": 15,
         "stock": 251,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000030159-1.webp"
       },
       {
         "skuId": "680000030159002",
@@ -404,7 +404,7 @@
         ],
         "priceCny": 15,
         "stock": 280,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000030159-1.webp"
       },
       {
         "skuId": "680000030159003",
@@ -416,19 +416,19 @@
         ],
         "priceCny": 15,
         "stock": 309,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000030159-1.webp"
       }
     ]
   },
   {
     "externalId": "680000031276",
     "title": "机械键盘RGB背光",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000031276-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000031276-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000031276-1/800/800",
-      "https://picsum.photos/seed/karvon-680000031276-2/800/800",
-      "https://picsum.photos/seed/karvon-680000031276-3/800/800",
-      "https://picsum.photos/seed/karvon-680000031276-4/800/800"
+      "/api/v1/dev/images/products/680000031276-1.webp",
+      "/api/v1/dev/images/products/680000031276-2.webp",
+      "/api/v1/dev/images/products/680000031276-3.webp",
+      "/api/v1/dev/images/products/680000031276-4.webp"
     ],
     "priceCny": 229,
     "salesCount": 7300,
@@ -474,7 +474,7 @@
         ],
         "priceCny": 229,
         "stock": 0,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000031276-1.webp"
       },
       {
         "skuId": "680000031276002",
@@ -486,7 +486,7 @@
         ],
         "priceCny": 229,
         "stock": 333,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000031276-1.webp"
       },
       {
         "skuId": "680000031276003",
@@ -498,19 +498,19 @@
         ],
         "priceCny": 229,
         "stock": 362,
-        "imageUrl": null
+        "imageUrl": "/api/v1/dev/images/products/680000031276-1.webp"
       }
     ]
   },
   {
     "externalId": "680000032393",
     "title": "无线鼠标静音",
-    "mainImageUrl": "https://picsum.photos/seed/karvon-680000032393-1/800/800",
+    "mainImageUrl": "/api/v1/dev/images/products/680000032393-1.webp",
     "images": [
-      "https://picsum.photos/seed/karvon-680000032393-1/800/800",
-      "https://picsum.photos/seed/karvon-680000032393-2/800/800",
-      "https://picsum.photos/seed/karvon-680000032393-3/800/800",
-      "https://picsum.photos/seed/karvon-680000032393-4/800/800"
+      "/api/v1/dev/images/products/680000032393-1.webp",
+      "/api/v1/dev/images/products/680000032393-2.webp",
+      "/api/v1/dev/images/products/680000032393-3.webp",
+      "/api/v1/dev/images/products/680000032393-4.webp"
     ],
     "priceCny": 39,
     "salesCount": 41000,
@@ -556,7 +556,7 @@
         ],
         "priceCny": 39,
         "stock": 357,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-10/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000032393-1.webp"
       },
       {
         "skuId": "680000032393002",
@@ -568,7 +568,7 @@
         ],
         "priceCny": 39,
         "stock": 386,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-11/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000032393-2.webp"
       },
       {
         "skuId": "680000032393003",
@@ -580,7 +580,154 @@
         ],
         "priceCny": 39,
         "stock": 0,
-        "imageUrl": "https://picsum.photos/seed/karvon-680000032393-12/800/800"
+        "imageUrl": "/api/v1/dev/images/products/680000032393-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000061435",
+    "title": "便携蓝牙音箱防水",
+    "mainImageUrl": "/api/v1/dev/images/products/680000061435-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000061435-1.webp",
+      "/api/v1/dev/images/products/680000061435-2.webp",
+      "/api/v1/dev/images/products/680000061435-3.webp",
+      "/api/v1/dev/images/products/680000061435-4.webp"
+    ],
+    "priceCny": 119,
+    "originalPriceCny": 149,
+    "salesCount": 24900,
+    "shop": {
+      "shopId": "100777",
+      "name": "数码配件旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "数码",
+      "音箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000061435001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000061435-1.webp"
+      },
+      {
+        "skuId": "680000061435002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000061435-2.webp"
+      },
+      {
+        "skuId": "680000061435003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000061435-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000062552",
+    "title": "铝合金平板手机支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000062552-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000062552-1.webp",
+      "/api/v1/dev/images/products/680000062552-2.webp",
+      "/api/v1/dev/images/products/680000062552-3.webp",
+      "/api/v1/dev/images/products/680000062552-4.webp"
+    ],
+    "priceCny": 35,
+    "salesCount": 34000,
+    "shop": {
+      "shopId": "100778",
+      "name": "桌面好物店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "支架"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "商务"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000062552001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 35,
+        "stock": 497,
+        "imageUrl": "/api/v1/dev/images/products/680000062552-1.webp"
+      },
+      {
+        "skuId": "680000062552002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 35,
+        "stock": 498,
+        "imageUrl": "/api/v1/dev/images/products/680000062552-2.webp"
       }
     ]
   }
