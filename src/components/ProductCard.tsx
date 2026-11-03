@@ -10,8 +10,8 @@ import { PriceTag } from "./PriceTag";
 import { ProductImage } from "./ProductImage";
 
 /**
- * Product card in the marketplace layout: a tall photo with rounded corners (heart top-right, discount bottom-left),
- * then the price with the old one, the delivery days chip, the name (two lines), the Taobao sales count and a
+ * Product card in the marketplace layout: a square photo with rounded corners (Taobao photos are square, so nothing is
+ * cut off; heart top-right, discount bottom-left), then the price with room for the old one (so the rows line up), the delivery days chip, the name (two lines), the Taobao sales count and a
  * full-width "Savatga" button. The button opens the product page, because a variant (SKU) must be chosen before
  * adding to the cart. Photo zoom on hover and the rise-in on scroll: .product-card in globals.css.
  */
@@ -28,7 +28,7 @@ export function ProductCard({ product }: { product: ProductCardData }) {
             alt=""
             placeholder={t("noImage")}
             sizes="(max-width: 560px) 50vw, (max-width: 900px) 33vw, (max-width: 1100px) 25vw, 240px"
-            className="aspect-[3/4] w-full"
+            className="aspect-square w-full"
           />
         </Link>
         <FavoriteButton card={product} className="absolute top-2 right-2 z-[2]" />
@@ -38,7 +38,10 @@ export function ProductCard({ product }: { product: ProductCardData }) {
         />
       </div>
       <div className="flex flex-1 flex-col px-0.5 pt-2.5">
-        <PriceTag amount={product.priceUzs} old={product.originalPriceUzs} />
+        {/* The old price line is reserved on every card, so chips and names line up across a row. */}
+        <div className="min-h-[42px] min-[640px]:min-h-[46px]">
+          <PriceTag amount={product.priceUzs} old={product.originalPriceUzs} />
+        </div>
         <DeliveryChip />
         <Link href={href} className="mt-1.5 line-clamp-2 text-[13px] leading-snug text-body hover:text-navy">
           {product.title}
