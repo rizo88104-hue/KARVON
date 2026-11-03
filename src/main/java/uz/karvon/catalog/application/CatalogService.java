@@ -74,7 +74,21 @@ public class CatalogService {
                 String.valueOf(minCny), String.valueOf(maxCny)));
         SearchResult result = cache.search(key, () -> provider.search(chinese, page, sort, minCny, maxCny));
 
-        List<ProductSummary> visible = result.items().stream()
+        List<ProductCardResponse> cards = cards(result.items(), lang, quoter);
+        int totalPages = result.pageSize() == 0 ? 0 : (int) Math.ceil((double) result.totalItems() / result.pageSize());
+        return new PageResponse<>(cards, page, result.pageSize(), result.totalItems(), totalPages);
+    }
+
+    /**
+     * Cards of products in the customer's language with UZS prices from the current settings, in the same order.
+     * Blocked goods are left out. Used by the search and by other modules that keep product summaries (favorites).
+     */
+    public List<ProductCardResponse> cards(List<ProductSummary> items, Lang lang) {
+        return cards(items, lang, pricing.quoter());
+    }
+
+    private List<ProductCardResponse> cards(List<ProductSummary> items, Lang lang, PriceQuoter quoter) {
+        List<ProductSummary> visible = items.stream()
                 .filter(item -> !blockedGoods.isBlocked(item.titleOriginal()))
                 .toList();
         List<String> titles = translation.translateBatch(visible.stream().map(ProductSummary::titleOriginal).toList(),
@@ -92,8 +106,7 @@ public class CatalogService {
                     item.mainImageUrl(), item.priceCny(), priceUzs, item.originalPriceCny(), originalPriceUzs,
                     item.salesCount(), item.shopName()));
         }
-        int totalPages = result.pageSize() == 0 ? 0 : (int) Math.ceil((double) result.totalItems() / result.pageSize());
-        return new PageResponse<>(cards, page, result.pageSize(), result.totalItems(), totalPages);
+        return cards;
     }
 
     /** A product with translated texts and a price for every SKU. Blocked goods answer PRODUCT_BLOCKED. */
