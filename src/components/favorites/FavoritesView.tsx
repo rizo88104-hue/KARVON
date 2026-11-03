@@ -61,7 +61,16 @@ export function FavoritesView() {
       {cards.length === 0 ? (
         <EmptyState
           title={t("emptyTitle")}
-          text={t("emptyText")}
+          text={t.rich("emptyText", {
+            // The ♡ of the text, drawn like the product cards' heart; the glyph stays for screen readers.
+            heart: (chunks) => (
+              <span className="inline-flex translate-y-[3px] text-heart" role="img" aria-label={String(chunks)}>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M12 20.5s-7.5-4.6-9.3-9.2C1.4 8 3.4 4.5 7 4.5c2 0 3.5 1.1 5 3 1.5-1.9 3-3 5-3 3.6 0 5.6 3.5 4.3 6.8-1.8 4.6-9.3 9.2-9.3 9.2z" />
+                </svg>
+              </span>
+            ),
+          })}
           action={
             <Link href="/" className="btn btn-orange">
               {t("emptyCta")}

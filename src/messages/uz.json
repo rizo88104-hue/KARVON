@@ -978,8 +978,8 @@
     "count": "{count} ta mahsulot",
     "loading": "Yuklanmoqda…",
     "loadError": "Sevimlilarni yuklab bo'lmadi",
-    "emptyTitle": "Sevimlilar hozircha bo'sh",
-    "emptyText": "Yoqqan mahsulotdagi yurakchani bosing — u shu yerda saqlanadi.",
+    "emptyTitle": "Bu yerda sevimli tovarlaringizni saqlab qoʻyamiz",
+    "emptyText": "Odatda buyurtma qiladigan yoki keyinroq sotib olishni istagan tovarlarda <heart>♡</heart> belgisini bosing",
     "emptyCta": "Mahsulotlarni ko'rish",
     "guestNote": "Sevimlilar shu brauzerda saqlanmoqda. <login>Kirsangiz</login>, ular akkauntingizga o'tadi va barcha qurilmalaringizda ko'rinadi."
   }
