@@ -9,12 +9,13 @@ import { ProductImage } from "./ProductImage";
 /**
  * Product card from e-market-design.html (.card): image, price, name, navy "Savatga" button.
  * The button opens the product page, because a variant (SKU) must be chosen before adding to the cart.
+ * Hover lift, photo zoom and the rise-in on scroll: .product-card in globals.css.
  */
 export function ProductCard({ product }: { product: ProductCardData }) {
   const t = useTranslations("productCard");
   const href = `/product/${encodeURIComponent(product.externalId ?? "")}`;
   return (
-    <article className="card flex flex-col overflow-hidden">
+    <article className="card product-card flex flex-col overflow-hidden">
       <Link href={href} tabIndex={-1} aria-hidden="true" className="relative block">
         <DiscountBadge percent={discountPercent(product.priceUzs, product.originalPriceUzs)} />
         <ProductImage
