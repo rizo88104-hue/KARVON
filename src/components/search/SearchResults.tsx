@@ -1,20 +1,19 @@
 "use client";
 
-import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { api } from "@/api/client";
 import { unwrap } from "@/api/errors";
 import { EmptyState } from "@/components/EmptyState";
-import { ProductCard, ProductGrid } from "@/components/ProductCard";
+import { ProductFeed, useSearchFeed } from "@/components/ProductFeed";
 import { useRouter } from "@/i18n/navigation";
 import { looksLikeLink } from "@/lib/site";
 import { useErrorMessage } from "@/lib/use-error-message";
 
 const SORTS = ["RELEVANCE", "SALES", "PRICE_ASC", "PRICE_DESC"] as const;
 type Sort = (typeof SORTS)[number];
-const MAX_PAGE = 99; // backend limit
 
 function toNumber(v: string | null) {
   if (!v) return undefined;
@@ -82,20 +81,7 @@ function CatalogSearch({ q }: { q: string }) {
     router.replace(`/search?${next.toString()}`, { scroll: false });
   };
 
-  const results = useInfiniteQuery({
-    queryKey: ["search", q, sort, minPrice, maxPrice],
-    initialPageParam: 0,
-    queryFn: async ({ pageParam }) =>
-      unwrap(
-        await api.GET("/api/v1/catalog/search", {
-          params: { query: { q, sort, page: pageParam, minPrice, maxPrice } },
-        }),
-      ),
-    getNextPageParam: (last) => {
-      const page = last.page ?? 0;
-      return page + 1 < (last.totalPages ?? 0) && page + 1 <= MAX_PAGE ? page + 1 : undefined;
-    },
-  });
+  const results = useSearchFeed({ q, sort, minPrice, maxPrice });
 
   const items = results.data?.pages.flatMap((p) => p.content ?? []) ?? [];
   const total = results.data?.pages[0]?.totalElements ?? 0;
@@ -153,23 +139,8 @@ function CatalogSearch({ q }: { q: string }) {
           <p className="mt-0 mb-3 font-bold" role="status">
             {t("results", { count: total })}
           </p>
-          <ProductGrid>
-            {items.map((p) => (
-              <ProductCard key={p.externalId} product={p} />
-            ))}
-          </ProductGrid>
-          {results.hasNextPage && (
-            <div className="mt-6 flex justify-center">
-              <button
-                type="button"
-                className="btn btn-outline"
-                disabled={results.isFetchingNextPage}
-                onClick={() => results.fetchNextPage()}
-              >
-                {results.isFetchingNextPage ? tc("loading") : tc("loadMore")}
-              </button>
-            </div>
-          )}
+          {/* key: a new sort or price filter starts again from the first products. */}
+          <ProductFeed key={`${sort}-${minPrice}-${maxPrice}`} feed={results} />
         </>
       )}
     </>

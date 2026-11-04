@@ -4,6 +4,8 @@ import type { components } from "./schema";
 type S = components["schemas"];
 
 export type ProductCard = S["ProductCardResponse"];
+/** One page of the catalog search. */
+export type SearchPage = S["PageResponseProductCardResponse"];
 export type ProductDetail = S["ProductDetailResponse"];
 export type Sku = S["SkuResponse"];
 export type TranslatedPair = S["TranslatedPair"];

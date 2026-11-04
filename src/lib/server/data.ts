@@ -2,7 +2,7 @@ import "server-only";
 
 import { cache } from "react";
 import { serverApi } from "@/api/server";
-import type { Banner, Category, ContentPage, PricingSettings, ProductCard, ProductDetail, TickerItem } from "@/api/types";
+import type { Banner, Category, ContentPage, PricingSettings, ProductDetail, SearchPage, TickerItem } from "@/api/types";
 
 // Server-side reads used by pages and metadata. React `cache` dedupes calls within one request
 // (e.g. generateMetadata and the page both load the product). A backend outage never crashes the layout.
@@ -53,17 +53,17 @@ export const getContentPage = cache(async (slug: string, locale: string): Promis
 });
 
 /**
- * Best-selling products of a category for its home page block, searched by its Chinese keyword.
- * Empty when the category has none or the backend is unreachable (the block is then left out).
+ * First page of a category's best sellers for its home page block, searched by its Chinese keyword (the block
+ * loads more pages itself). null when the backend is unreachable; an empty page leaves the block out.
  */
-export const getCategoryProducts = cache(async (locale: string, keywordZh: string): Promise<ProductCard[]> => {
+export const getCategoryProducts = cache(async (locale: string, keywordZh: string): Promise<SearchPage | null> => {
   try {
     const { data } = await serverApi(locale).GET("/api/v1/catalog/search", {
       params: { query: { q: keywordZh, sort: "SALES", page: 0 } },
     });
-    return data?.content ?? [];
+    return data ?? null;
   } catch {
-    return [];
+    return null;
   }
 });
 
