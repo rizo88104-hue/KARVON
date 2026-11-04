@@ -57,18 +57,23 @@ class FakeTaobaoProviderTest {
 
     @Test
     void searchesByKeyword() {
-        SearchResult result = provider.search("运动鞋", 0, SortOrder.RELEVANCE, null, null);
+        SearchResult first = provider.search("运动鞋", 0, SortOrder.RELEVANCE, null, null);
+        List<ProductSummary> all = new ArrayList<>();
+        for (int page = 0; page * FakeTaobaoProvider.PAGE_SIZE < first.totalItems(); page++) {
+            all.addAll(provider.search("运动鞋", page, SortOrder.RELEVANCE, null, null).items());
+        }
 
-        assertThat(result.items()).isNotEmpty().allMatch(item -> item.titleOriginal().contains("运动鞋"));
-        assertThat(result.totalItems()).isEqualTo(result.items().size());
+        assertThat(all).isNotEmpty().hasSize((int) first.totalItems())
+                .allMatch(item -> item.titleOriginal().contains("运动鞋"));
     }
 
     @Test
     void everyPartOfTheQueryMustMatchIncludingSkuValues() {
-        List<ProductSummary> blackSneakers = provider.search("黑色 运动鞋", 0, SortOrder.RELEVANCE, null, null).items();
-        List<ProductSummary> sneakers = provider.search("运动鞋", 0, SortOrder.RELEVANCE, null, null).items();
+        SearchResult blackSneakers = provider.search("黑色 运动鞋", 0, SortOrder.RELEVANCE, null, null);
+        SearchResult sneakers = provider.search("运动鞋", 0, SortOrder.RELEVANCE, null, null);
 
-        assertThat(blackSneakers).isNotEmpty().hasSizeLessThan(sneakers.size());
+        assertThat(blackSneakers.items()).isNotEmpty();
+        assertThat(blackSneakers.totalItems()).isLessThan(sneakers.totalItems());
         assertThat(provider.search("运动鞋 不存在的词", 0, SortOrder.RELEVANCE, null, null).items()).isEmpty();
     }
 

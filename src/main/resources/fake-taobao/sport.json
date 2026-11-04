@@ -808,5 +808,8673 @@
         "imageUrl": "/api/v1/dev/images/products/680000101647-1.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000914823",
+    "title": "专业健身手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000914823-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000914823-1.webp",
+      "/api/v1/dev/images/products/680000914823-2.webp",
+      "/api/v1/dev/images/products/680000914823-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 29600,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000914823001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000914823-1.webp"
+      },
+      {
+        "skuId": "680000914823002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000914823-2.webp"
+      },
+      {
+        "skuId": "680000914823003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000914823-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000915940",
+    "title": "新款健身手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000915940-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000915940-1.webp",
+      "/api/v1/dev/images/products/680000915940-2.webp",
+      "/api/v1/dev/images/products/680000915940-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 26650,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000915940001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 483,
+        "imageUrl": "/api/v1/dev/images/products/680000915940-1.webp"
+      },
+      {
+        "skuId": "680000915940002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 484,
+        "imageUrl": "/api/v1/dev/images/products/680000915940-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000917057",
+    "title": "便携健身手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000917057-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000917057-1.webp",
+      "/api/v1/dev/images/products/680000917057-2.webp",
+      "/api/v1/dev/images/products/680000917057-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 11700,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000917057001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 424,
+        "imageUrl": "/api/v1/dev/images/products/680000917057-1.webp"
+      },
+      {
+        "skuId": "680000917057002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 425,
+        "imageUrl": "/api/v1/dev/images/products/680000917057-2.webp"
+      },
+      {
+        "skuId": "680000917057003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 426,
+        "imageUrl": "/api/v1/dev/images/products/680000917057-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000918174",
+    "title": "轻便健身手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000918174-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000918174-1.webp",
+      "/api/v1/dev/images/products/680000918174-2.webp",
+      "/api/v1/dev/images/products/680000918174-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 8750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000918174001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 365,
+        "imageUrl": "/api/v1/dev/images/products/680000918174-1.webp"
+      },
+      {
+        "skuId": "680000918174002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 366,
+        "imageUrl": "/api/v1/dev/images/products/680000918174-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000919291",
+    "title": "专业包胶壶铃",
+    "mainImageUrl": "/api/v1/dev/images/products/680000919291-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000919291-1.webp",
+      "/api/v1/dev/images/products/680000919291-2.webp",
+      "/api/v1/dev/images/products/680000919291-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 5800,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000919291001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 306,
+        "imageUrl": "/api/v1/dev/images/products/680000919291-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000920408",
+    "title": "新款包胶壶铃",
+    "mainImageUrl": "/api/v1/dev/images/products/680000920408-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000920408-1.webp",
+      "/api/v1/dev/images/products/680000920408-2.webp",
+      "/api/v1/dev/images/products/680000920408-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 26400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000920408001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 118,
+        "imageUrl": "/api/v1/dev/images/products/680000920408-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000921525",
+    "title": "便携包胶壶铃",
+    "mainImageUrl": "/api/v1/dev/images/products/680000921525-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000921525-1.webp",
+      "/api/v1/dev/images/products/680000921525-2.webp",
+      "/api/v1/dev/images/products/680000921525-3.webp"
+    ],
+    "priceCny": 149,
+    "originalPriceCny": 194,
+    "salesCount": 23450,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000921525001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000921525-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000922642",
+    "title": "轻便包胶壶铃",
+    "mainImageUrl": "/api/v1/dev/images/products/680000922642-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000922642-1.webp",
+      "/api/v1/dev/images/products/680000922642-2.webp",
+      "/api/v1/dev/images/products/680000922642-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 20500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000922642001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 480,
+        "imageUrl": "/api/v1/dev/images/products/680000922642-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000923759",
+    "title": "专业瑜伽砖",
+    "mainImageUrl": "/api/v1/dev/images/products/680000923759-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000923759-1.webp",
+      "/api/v1/dev/images/products/680000923759-2.webp",
+      "/api/v1/dev/images/products/680000923759-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 15000,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000923759001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000923759-1.webp"
+      },
+      {
+        "skuId": "680000923759002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000923759-2.webp"
+      },
+      {
+        "skuId": "680000923759003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000923759-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000924876",
+    "title": "新款瑜伽砖",
+    "mainImageUrl": "/api/v1/dev/images/products/680000924876-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000924876-1.webp",
+      "/api/v1/dev/images/products/680000924876-2.webp",
+      "/api/v1/dev/images/products/680000924876-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 12050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000924876001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 191,
+        "imageUrl": "/api/v1/dev/images/products/680000924876-1.webp"
+      },
+      {
+        "skuId": "680000924876002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000924876-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000925993",
+    "title": "便携瑜伽砖",
+    "mainImageUrl": "/api/v1/dev/images/products/680000925993-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000925993-1.webp",
+      "/api/v1/dev/images/products/680000925993-2.webp",
+      "/api/v1/dev/images/products/680000925993-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 9100,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000925993001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000925993-1.webp"
+      },
+      {
+        "skuId": "680000925993002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 133,
+        "imageUrl": "/api/v1/dev/images/products/680000925993-2.webp"
+      },
+      {
+        "skuId": "680000925993003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 134,
+        "imageUrl": "/api/v1/dev/images/products/680000925993-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000927110",
+    "title": "轻便瑜伽砖",
+    "mainImageUrl": "/api/v1/dev/images/products/680000927110-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000927110-1.webp",
+      "/api/v1/dev/images/products/680000927110-2.webp",
+      "/api/v1/dev/images/products/680000927110-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 15750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000927110001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 265,
+        "imageUrl": "/api/v1/dev/images/products/680000927110-1.webp"
+      },
+      {
+        "skuId": "680000927110002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 266,
+        "imageUrl": "/api/v1/dev/images/products/680000927110-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000928227",
+    "title": "专业肌肉放松泡沫轴",
+    "mainImageUrl": "/api/v1/dev/images/products/680000928227-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000928227-1.webp",
+      "/api/v1/dev/images/products/680000928227-2.webp",
+      "/api/v1/dev/images/products/680000928227-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 10250,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000928227001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000928227-1.webp"
+      },
+      {
+        "skuId": "680000928227002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000928227-2.webp"
+      },
+      {
+        "skuId": "680000928227003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000928227-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000929344",
+    "title": "新款肌肉放松泡沫轴",
+    "mainImageUrl": "/api/v1/dev/images/products/680000929344-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000929344-1.webp",
+      "/api/v1/dev/images/products/680000929344-2.webp",
+      "/api/v1/dev/images/products/680000929344-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 7300,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000929344001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 456,
+        "imageUrl": "/api/v1/dev/images/products/680000929344-1.webp"
+      },
+      {
+        "skuId": "680000929344002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 457,
+        "imageUrl": "/api/v1/dev/images/products/680000929344-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000930461",
+    "title": "便携肌肉放松泡沫轴",
+    "mainImageUrl": "/api/v1/dev/images/products/680000930461-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000930461-1.webp",
+      "/api/v1/dev/images/products/680000930461-2.webp",
+      "/api/v1/dev/images/products/680000930461-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 11400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000930461001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 418,
+        "imageUrl": "/api/v1/dev/images/products/680000930461-1.webp"
+      },
+      {
+        "skuId": "680000930461002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 419,
+        "imageUrl": "/api/v1/dev/images/products/680000930461-2.webp"
+      },
+      {
+        "skuId": "680000930461003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 420,
+        "imageUrl": "/api/v1/dev/images/products/680000930461-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000931578",
+    "title": "轻便肌肉放松泡沫轴",
+    "mainImageUrl": "/api/v1/dev/images/products/680000931578-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000931578-1.webp",
+      "/api/v1/dev/images/products/680000931578-2.webp",
+      "/api/v1/dev/images/products/680000931578-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 5900,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000931578001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000931578-1.webp"
+      },
+      {
+        "skuId": "680000931578002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000931578-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000932695",
+    "title": "专业俯卧撑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000932695-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000932695-1.webp",
+      "/api/v1/dev/images/products/680000932695-2.webp",
+      "/api/v1/dev/images/products/680000932695-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 2950,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000932695001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000932695-1.webp"
+      },
+      {
+        "skuId": "680000932695002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 130,
+        "imageUrl": "/api/v1/dev/images/products/680000932695-2.webp"
+      },
+      {
+        "skuId": "680000932695003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 131,
+        "imageUrl": "/api/v1/dev/images/products/680000932695-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000933812",
+    "title": "新款俯卧撑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000933812-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000933812-1.webp",
+      "/api/v1/dev/images/products/680000933812-2.webp",
+      "/api/v1/dev/images/products/680000933812-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 19050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000933812001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 91,
+        "imageUrl": "/api/v1/dev/images/products/680000933812-1.webp"
+      },
+      {
+        "skuId": "680000933812002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 92,
+        "imageUrl": "/api/v1/dev/images/products/680000933812-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000934929",
+    "title": "便携俯卧撑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000934929-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000934929-1.webp",
+      "/api/v1/dev/images/products/680000934929-2.webp",
+      "/api/v1/dev/images/products/680000934929-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 13550,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000934929001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 341,
+        "imageUrl": "/api/v1/dev/images/products/680000934929-1.webp"
+      },
+      {
+        "skuId": "680000934929002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 342,
+        "imageUrl": "/api/v1/dev/images/products/680000934929-2.webp"
+      },
+      {
+        "skuId": "680000934929003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 343,
+        "imageUrl": "/api/v1/dev/images/products/680000934929-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000936046",
+    "title": "轻便俯卧撑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000936046-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000936046-1.webp",
+      "/api/v1/dev/images/products/680000936046-2.webp",
+      "/api/v1/dev/images/products/680000936046-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 1150,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000936046001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 453,
+        "imageUrl": "/api/v1/dev/images/products/680000936046-1.webp"
+      },
+      {
+        "skuId": "680000936046002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 454,
+        "imageUrl": "/api/v1/dev/images/products/680000936046-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000937163",
+    "title": "专业健腹轮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000937163-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000937163-1.webp",
+      "/api/v1/dev/images/products/680000937163-2.webp",
+      "/api/v1/dev/images/products/680000937163-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 28200,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000937163001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 394,
+        "imageUrl": "/api/v1/dev/images/products/680000937163-1.webp"
+      },
+      {
+        "skuId": "680000937163002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 395,
+        "imageUrl": "/api/v1/dev/images/products/680000937163-2.webp"
+      },
+      {
+        "skuId": "680000937163003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 396,
+        "imageUrl": "/api/v1/dev/images/products/680000937163-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000938280",
+    "title": "新款健腹轮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000938280-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000938280-1.webp",
+      "/api/v1/dev/images/products/680000938280-2.webp",
+      "/api/v1/dev/images/products/680000938280-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 25250,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000938280001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 335,
+        "imageUrl": "/api/v1/dev/images/products/680000938280-1.webp"
+      },
+      {
+        "skuId": "680000938280002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 336,
+        "imageUrl": "/api/v1/dev/images/products/680000938280-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000939397",
+    "title": "便携健腹轮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000939397-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000939397-1.webp",
+      "/api/v1/dev/images/products/680000939397-2.webp",
+      "/api/v1/dev/images/products/680000939397-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 19750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000939397001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000939397-1.webp"
+      },
+      {
+        "skuId": "680000939397002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 106,
+        "imageUrl": "/api/v1/dev/images/products/680000939397-2.webp"
+      },
+      {
+        "skuId": "680000939397003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 107,
+        "imageUrl": "/api/v1/dev/images/products/680000939397-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000940514",
+    "title": "轻便健腹轮",
+    "mainImageUrl": "/api/v1/dev/images/products/680000940514-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000940514-1.webp",
+      "/api/v1/dev/images/products/680000940514-2.webp",
+      "/api/v1/dev/images/products/680000940514-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 12900,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "健身"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000940514001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 88,
+        "imageUrl": "/api/v1/dev/images/products/680000940514-1.webp"
+      },
+      {
+        "skuId": "680000940514002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 89,
+        "imageUrl": "/api/v1/dev/images/products/680000940514-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000941631",
+    "title": "专业男士速干运动短裤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000941631-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000941631-1.webp",
+      "/api/v1/dev/images/products/680000941631-2.webp",
+      "/api/v1/dev/images/products/680000941631-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 9950,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000941631001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-1.webp"
+      },
+      {
+        "skuId": "680000941631002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-1.webp"
+      },
+      {
+        "skuId": "680000941631003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-1.webp"
+      },
+      {
+        "skuId": "680000941631004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-1.webp"
+      },
+      {
+        "skuId": "680000941631005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-2.webp"
+      },
+      {
+        "skuId": "680000941631006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-2.webp"
+      },
+      {
+        "skuId": "680000941631007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-2.webp"
+      },
+      {
+        "skuId": "680000941631008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-2.webp"
+      },
+      {
+        "skuId": "680000941631009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-3.webp"
+      },
+      {
+        "skuId": "680000941631010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 38,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-3.webp"
+      },
+      {
+        "skuId": "680000941631011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-3.webp"
+      },
+      {
+        "skuId": "680000941631012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000941631-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000942748",
+    "title": "新款男士速干运动短裤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000942748-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000942748-1.webp",
+      "/api/v1/dev/images/products/680000942748-2.webp",
+      "/api/v1/dev/images/products/680000942748-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 4450,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000942748001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 279,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-1.webp"
+      },
+      {
+        "skuId": "680000942748002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-1.webp"
+      },
+      {
+        "skuId": "680000942748003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-1.webp"
+      },
+      {
+        "skuId": "680000942748004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 282,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-1.webp"
+      },
+      {
+        "skuId": "680000942748005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 283,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-2.webp"
+      },
+      {
+        "skuId": "680000942748006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-2.webp"
+      },
+      {
+        "skuId": "680000942748007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 285,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-2.webp"
+      },
+      {
+        "skuId": "680000942748008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-2.webp"
+      },
+      {
+        "skuId": "680000942748009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 287,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-3.webp"
+      },
+      {
+        "skuId": "680000942748010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 288,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-3.webp"
+      },
+      {
+        "skuId": "680000942748011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-3.webp"
+      },
+      {
+        "skuId": "680000942748012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000942748-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000943865",
+    "title": "便携男士速干运动短裤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000943865-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000943865-1.webp",
+      "/api/v1/dev/images/products/680000943865-2.webp",
+      "/api/v1/dev/images/products/680000943865-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 1500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000943865001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-1.webp"
+      },
+      {
+        "skuId": "680000943865002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-1.webp"
+      },
+      {
+        "skuId": "680000943865003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-1.webp"
+      },
+      {
+        "skuId": "680000943865004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-1.webp"
+      },
+      {
+        "skuId": "680000943865005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-2.webp"
+      },
+      {
+        "skuId": "680000943865006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-2.webp"
+      },
+      {
+        "skuId": "680000943865007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-2.webp"
+      },
+      {
+        "skuId": "680000943865008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-2.webp"
+      },
+      {
+        "skuId": "680000943865009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 228,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-3.webp"
+      },
+      {
+        "skuId": "680000943865010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 229,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-3.webp"
+      },
+      {
+        "skuId": "680000943865011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 155,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-3.webp"
+      },
+      {
+        "skuId": "680000943865012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 156,
+        "imageUrl": "/api/v1/dev/images/products/680000943865-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000944982",
+    "title": "轻便男士速干运动短裤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000944982-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000944982-1.webp",
+      "/api/v1/dev/images/products/680000944982-2.webp",
+      "/api/v1/dev/images/products/680000944982-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 28550,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000944982001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-1.webp"
+      },
+      {
+        "skuId": "680000944982002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-1.webp"
+      },
+      {
+        "skuId": "680000944982003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-1.webp"
+      },
+      {
+        "skuId": "680000944982004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-1.webp"
+      },
+      {
+        "skuId": "680000944982005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-2.webp"
+      },
+      {
+        "skuId": "680000944982006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-2.webp"
+      },
+      {
+        "skuId": "680000944982007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 167,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-2.webp"
+      },
+      {
+        "skuId": "680000944982008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 168,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-2.webp"
+      },
+      {
+        "skuId": "680000944982009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 169,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-3.webp"
+      },
+      {
+        "skuId": "680000944982010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 170,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-3.webp"
+      },
+      {
+        "skuId": "680000944982011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 246,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-3.webp"
+      },
+      {
+        "skuId": "680000944982012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 247,
+        "imageUrl": "/api/v1/dev/images/products/680000944982-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000946099",
+    "title": "专业女士运动内衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000946099-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000946099-1.webp",
+      "/api/v1/dev/images/products/680000946099-2.webp",
+      "/api/v1/dev/images/products/680000946099-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 13600,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000946099001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 102,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-1.webp"
+      },
+      {
+        "skuId": "680000946099002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 103,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-1.webp"
+      },
+      {
+        "skuId": "680000946099003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 104,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-1.webp"
+      },
+      {
+        "skuId": "680000946099004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-2.webp"
+      },
+      {
+        "skuId": "680000946099005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 106,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-2.webp"
+      },
+      {
+        "skuId": "680000946099006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 107,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-2.webp"
+      },
+      {
+        "skuId": "680000946099007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 108,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-3.webp"
+      },
+      {
+        "skuId": "680000946099008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 109,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-3.webp"
+      },
+      {
+        "skuId": "680000946099009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 110,
+        "imageUrl": "/api/v1/dev/images/products/680000946099-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000947216",
+    "title": "新款女士运动内衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000947216-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000947216-1.webp",
+      "/api/v1/dev/images/products/680000947216-2.webp",
+      "/api/v1/dev/images/products/680000947216-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 29700,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000947216001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-1.webp"
+      },
+      {
+        "skuId": "680000947216002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-1.webp"
+      },
+      {
+        "skuId": "680000947216003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 66,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-1.webp"
+      },
+      {
+        "skuId": "680000947216004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 67,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-2.webp"
+      },
+      {
+        "skuId": "680000947216005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 68,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-2.webp"
+      },
+      {
+        "skuId": "680000947216006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 69,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-2.webp"
+      },
+      {
+        "skuId": "680000947216007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 70,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-3.webp"
+      },
+      {
+        "skuId": "680000947216008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 71,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-3.webp"
+      },
+      {
+        "skuId": "680000947216009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 72,
+        "imageUrl": "/api/v1/dev/images/products/680000947216-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000948333",
+    "title": "便携女士运动内衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000948333-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000948333-1.webp",
+      "/api/v1/dev/images/products/680000948333-2.webp",
+      "/api/v1/dev/images/products/680000948333-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 26750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000948333001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 485,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-1.webp"
+      },
+      {
+        "skuId": "680000948333002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 486,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-1.webp"
+      },
+      {
+        "skuId": "680000948333003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 487,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-1.webp"
+      },
+      {
+        "skuId": "680000948333004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 488,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-2.webp"
+      },
+      {
+        "skuId": "680000948333005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 489,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-2.webp"
+      },
+      {
+        "skuId": "680000948333006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 490,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-2.webp"
+      },
+      {
+        "skuId": "680000948333007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 491,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-3.webp"
+      },
+      {
+        "skuId": "680000948333008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 492,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-3.webp"
+      },
+      {
+        "skuId": "680000948333009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 493,
+        "imageUrl": "/api/v1/dev/images/products/680000948333-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000949450",
+    "title": "轻便女士运动内衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000949450-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000949450-1.webp",
+      "/api/v1/dev/images/products/680000949450-2.webp",
+      "/api/v1/dev/images/products/680000949450-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 23800,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000949450001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 426,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-1.webp"
+      },
+      {
+        "skuId": "680000949450002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 427,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-1.webp"
+      },
+      {
+        "skuId": "680000949450003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 428,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-1.webp"
+      },
+      {
+        "skuId": "680000949450004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 429,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-2.webp"
+      },
+      {
+        "skuId": "680000949450005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 430,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-2.webp"
+      },
+      {
+        "skuId": "680000949450006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 431,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-2.webp"
+      },
+      {
+        "skuId": "680000949450007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "S"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 432,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-3.webp"
+      },
+      {
+        "skuId": "680000949450008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 433,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-3.webp"
+      },
+      {
+        "skuId": "680000949450009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 434,
+        "imageUrl": "/api/v1/dev/images/products/680000949450-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000950567",
+    "title": "专业防风运动外套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000950567-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000950567-1.webp",
+      "/api/v1/dev/images/products/680000950567-2.webp",
+      "/api/v1/dev/images/products/680000950567-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 25350,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000950567001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 217,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-1.webp"
+      },
+      {
+        "skuId": "680000950567002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 218,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-1.webp"
+      },
+      {
+        "skuId": "680000950567003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-1.webp"
+      },
+      {
+        "skuId": "680000950567004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-1.webp"
+      },
+      {
+        "skuId": "680000950567005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-2.webp"
+      },
+      {
+        "skuId": "680000950567006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-2.webp"
+      },
+      {
+        "skuId": "680000950567007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-2.webp"
+      },
+      {
+        "skuId": "680000950567008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-2.webp"
+      },
+      {
+        "skuId": "680000950567009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-3.webp"
+      },
+      {
+        "skuId": "680000950567010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-3.webp"
+      },
+      {
+        "skuId": "680000950567011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-3.webp"
+      },
+      {
+        "skuId": "680000950567012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000950567-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000951684",
+    "title": "新款防风运动外套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000951684-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000951684-1.webp",
+      "/api/v1/dev/images/products/680000951684-2.webp",
+      "/api/v1/dev/images/products/680000951684-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 22400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000951684001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-1.webp"
+      },
+      {
+        "skuId": "680000951684002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-1.webp"
+      },
+      {
+        "skuId": "680000951684003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-1.webp"
+      },
+      {
+        "skuId": "680000951684004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-1.webp"
+      },
+      {
+        "skuId": "680000951684005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-2.webp"
+      },
+      {
+        "skuId": "680000951684006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-2.webp"
+      },
+      {
+        "skuId": "680000951684007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-2.webp"
+      },
+      {
+        "skuId": "680000951684008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-2.webp"
+      },
+      {
+        "skuId": "680000951684009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-3.webp"
+      },
+      {
+        "skuId": "680000951684010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 167,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-3.webp"
+      },
+      {
+        "skuId": "680000951684011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 153,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-3.webp"
+      },
+      {
+        "skuId": "680000951684012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 154,
+        "imageUrl": "/api/v1/dev/images/products/680000951684-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000952801",
+    "title": "便携防风运动外套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000952801-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000952801-1.webp",
+      "/api/v1/dev/images/products/680000952801-2.webp",
+      "/api/v1/dev/images/products/680000952801-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 8500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000952801001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-1.webp"
+      },
+      {
+        "skuId": "680000952801002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-1.webp"
+      },
+      {
+        "skuId": "680000952801003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-1.webp"
+      },
+      {
+        "skuId": "680000952801004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-1.webp"
+      },
+      {
+        "skuId": "680000952801005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 124,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-2.webp"
+      },
+      {
+        "skuId": "680000952801006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 125,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-2.webp"
+      },
+      {
+        "skuId": "680000952801007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 126,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-2.webp"
+      },
+      {
+        "skuId": "680000952801008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 127,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-2.webp"
+      },
+      {
+        "skuId": "680000952801009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 128,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-3.webp"
+      },
+      {
+        "skuId": "680000952801010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-3.webp"
+      },
+      {
+        "skuId": "680000952801011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 415,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-3.webp"
+      },
+      {
+        "skuId": "680000952801012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 416,
+        "imageUrl": "/api/v1/dev/images/products/680000952801-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000953918",
+    "title": "轻便防风运动外套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000953918-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000953918-1.webp",
+      "/api/v1/dev/images/products/680000953918-2.webp",
+      "/api/v1/dev/images/products/680000953918-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 3000,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000953918001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 370,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-1.webp"
+      },
+      {
+        "skuId": "680000953918002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 371,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-1.webp"
+      },
+      {
+        "skuId": "680000953918003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 372,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-1.webp"
+      },
+      {
+        "skuId": "680000953918004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 373,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-1.webp"
+      },
+      {
+        "skuId": "680000953918005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 374,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-2.webp"
+      },
+      {
+        "skuId": "680000953918006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 375,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-2.webp"
+      },
+      {
+        "skuId": "680000953918007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 376,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-2.webp"
+      },
+      {
+        "skuId": "680000953918008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-2.webp"
+      },
+      {
+        "skuId": "680000953918009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-3.webp"
+      },
+      {
+        "skuId": "680000953918010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-3.webp"
+      },
+      {
+        "skuId": "680000953918011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 485,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-3.webp"
+      },
+      {
+        "skuId": "680000953918012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 486,
+        "imageUrl": "/api/v1/dev/images/products/680000953918-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000955035",
+    "title": "专业运动袜套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000955035-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000955035-1.webp",
+      "/api/v1/dev/images/products/680000955035-2.webp",
+      "/api/v1/dev/images/products/680000955035-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 20600,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000955035001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 482,
+        "imageUrl": "/api/v1/dev/images/products/680000955035-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000956152",
+    "title": "新款运动袜套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000956152-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000956152-1.webp",
+      "/api/v1/dev/images/products/680000956152-2.webp",
+      "/api/v1/dev/images/products/680000956152-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 17650,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000956152001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 423,
+        "imageUrl": "/api/v1/dev/images/products/680000956152-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000957269",
+    "title": "便携运动袜套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000957269-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000957269-1.webp",
+      "/api/v1/dev/images/products/680000957269-2.webp",
+      "/api/v1/dev/images/products/680000957269-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 12150,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000957269001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000957269-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000958386",
+    "title": "轻便运动袜套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000958386-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000958386-1.webp",
+      "/api/v1/dev/images/products/680000958386-2.webp",
+      "/api/v1/dev/images/products/680000958386-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 9200,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "运动户外",
+      "运动服"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000958386001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 134,
+        "imageUrl": "/api/v1/dev/images/products/680000958386-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000959503",
+    "title": "专业骑行手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000959503-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000959503-1.webp",
+      "/api/v1/dev/images/products/680000959503-2.webp",
+      "/api/v1/dev/images/products/680000959503-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 25300,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000959503001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 96,
+        "imageUrl": "/api/v1/dev/images/products/680000959503-1.webp"
+      },
+      {
+        "skuId": "680000959503002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 97,
+        "imageUrl": "/api/v1/dev/images/products/680000959503-2.webp"
+      },
+      {
+        "skuId": "680000959503003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 98,
+        "imageUrl": "/api/v1/dev/images/products/680000959503-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000960620",
+    "title": "新款骑行手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000960620-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000960620-1.webp",
+      "/api/v1/dev/images/products/680000960620-2.webp",
+      "/api/v1/dev/images/products/680000960620-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 29400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000960620001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 58,
+        "imageUrl": "/api/v1/dev/images/products/680000960620-1.webp"
+      },
+      {
+        "skuId": "680000960620002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000960620-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000961737",
+    "title": "便携骑行手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000961737-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000961737-1.webp",
+      "/api/v1/dev/images/products/680000961737-2.webp",
+      "/api/v1/dev/images/products/680000961737-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 23900,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000961737001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 308,
+        "imageUrl": "/api/v1/dev/images/products/680000961737-1.webp"
+      },
+      {
+        "skuId": "680000961737002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 309,
+        "imageUrl": "/api/v1/dev/images/products/680000961737-2.webp"
+      },
+      {
+        "skuId": "680000961737003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000961737-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000962854",
+    "title": "轻便骑行手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000962854-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000962854-1.webp",
+      "/api/v1/dev/images/products/680000962854-2.webp",
+      "/api/v1/dev/images/products/680000962854-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 20950,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000962854001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 249,
+        "imageUrl": "/api/v1/dev/images/products/680000962854-1.webp"
+      },
+      {
+        "skuId": "680000962854002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000962854-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000963971",
+    "title": "专业自行车前灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000963971-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000963971-1.webp",
+      "/api/v1/dev/images/products/680000963971-2.webp",
+      "/api/v1/dev/images/products/680000963971-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 18000,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000963971001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000963971-1.webp"
+      },
+      {
+        "skuId": "680000963971002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 191,
+        "imageUrl": "/api/v1/dev/images/products/680000963971-2.webp"
+      },
+      {
+        "skuId": "680000963971003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000963971-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000965088",
+    "title": "新款自行车前灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000965088-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000965088-1.webp",
+      "/api/v1/dev/images/products/680000965088-2.webp",
+      "/api/v1/dev/images/products/680000965088-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 3050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000965088001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 131,
+        "imageUrl": "/api/v1/dev/images/products/680000965088-1.webp"
+      },
+      {
+        "skuId": "680000965088002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000965088-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000966205",
+    "title": "便携自行车前灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000966205-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000966205-1.webp",
+      "/api/v1/dev/images/products/680000966205-2.webp",
+      "/api/v1/dev/images/products/680000966205-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 19150,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000966205001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000966205-1.webp"
+      },
+      {
+        "skuId": "680000966205002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 94,
+        "imageUrl": "/api/v1/dev/images/products/680000966205-2.webp"
+      },
+      {
+        "skuId": "680000966205003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 95,
+        "imageUrl": "/api/v1/dev/images/products/680000966205-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000967322",
+    "title": "轻便自行车前灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000967322-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000967322-1.webp",
+      "/api/v1/dev/images/products/680000967322-2.webp",
+      "/api/v1/dev/images/products/680000967322-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 16200,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000967322001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000967322-1.webp"
+      },
+      {
+        "skuId": "680000967322002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000967322-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000968439",
+    "title": "专业自行车密码锁",
+    "mainImageUrl": "/api/v1/dev/images/products/680000968439-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000968439-1.webp",
+      "/api/v1/dev/images/products/680000968439-2.webp",
+      "/api/v1/dev/images/products/680000968439-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 10700,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000968439001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000968439-1.webp"
+      },
+      {
+        "skuId": "680000968439002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 285,
+        "imageUrl": "/api/v1/dev/images/products/680000968439-2.webp"
+      },
+      {
+        "skuId": "680000968439003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000968439-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000969556",
+    "title": "新款自行车密码锁",
+    "mainImageUrl": "/api/v1/dev/images/products/680000969556-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000969556-1.webp",
+      "/api/v1/dev/images/products/680000969556-2.webp",
+      "/api/v1/dev/images/products/680000969556-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 7750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000969556001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000969556-1.webp"
+      },
+      {
+        "skuId": "680000969556002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000969556-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000970673",
+    "title": "便携自行车密码锁",
+    "mainImageUrl": "/api/v1/dev/images/products/680000970673-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000970673-1.webp",
+      "/api/v1/dev/images/products/680000970673-2.webp",
+      "/api/v1/dev/images/products/680000970673-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 11850,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000970673001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 187,
+        "imageUrl": "/api/v1/dev/images/products/680000970673-1.webp"
+      },
+      {
+        "skuId": "680000970673002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000970673-2.webp"
+      },
+      {
+        "skuId": "680000970673003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000970673-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000971790",
+    "title": "轻便自行车密码锁",
+    "mainImageUrl": "/api/v1/dev/images/products/680000971790-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000971790-1.webp",
+      "/api/v1/dev/images/products/680000971790-2.webp",
+      "/api/v1/dev/images/products/680000971790-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 8900,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000971790001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 128,
+        "imageUrl": "/api/v1/dev/images/products/680000971790-1.webp"
+      },
+      {
+        "skuId": "680000971790002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000971790-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000972907",
+    "title": "专业骑行服套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000972907-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000972907-1.webp",
+      "/api/v1/dev/images/products/680000972907-2.webp",
+      "/api/v1/dev/images/products/680000972907-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 22450,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000972907001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 399,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-1.webp"
+      },
+      {
+        "skuId": "680000972907002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 400,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-1.webp"
+      },
+      {
+        "skuId": "680000972907003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 401,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-1.webp"
+      },
+      {
+        "skuId": "680000972907004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 402,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-1.webp"
+      },
+      {
+        "skuId": "680000972907005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 403,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-2.webp"
+      },
+      {
+        "skuId": "680000972907006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 404,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-2.webp"
+      },
+      {
+        "skuId": "680000972907007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 405,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-2.webp"
+      },
+      {
+        "skuId": "680000972907008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 406,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-2.webp"
+      },
+      {
+        "skuId": "680000972907009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-3.webp"
+      },
+      {
+        "skuId": "680000972907010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-3.webp"
+      },
+      {
+        "skuId": "680000972907011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 168,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-3.webp"
+      },
+      {
+        "skuId": "680000972907012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 169,
+        "imageUrl": "/api/v1/dev/images/products/680000972907-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000974024",
+    "title": "新款骑行服套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000974024-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000974024-1.webp",
+      "/api/v1/dev/images/products/680000974024-2.webp",
+      "/api/v1/dev/images/products/680000974024-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 10050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000974024001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-1.webp"
+      },
+      {
+        "skuId": "680000974024002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-1.webp"
+      },
+      {
+        "skuId": "680000974024003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-1.webp"
+      },
+      {
+        "skuId": "680000974024004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-1.webp"
+      },
+      {
+        "skuId": "680000974024005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-2.webp"
+      },
+      {
+        "skuId": "680000974024006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-2.webp"
+      },
+      {
+        "skuId": "680000974024007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-2.webp"
+      },
+      {
+        "skuId": "680000974024008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 38,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-2.webp"
+      },
+      {
+        "skuId": "680000974024009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 39,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-3.webp"
+      },
+      {
+        "skuId": "680000974024010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 40,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-3.webp"
+      },
+      {
+        "skuId": "680000974024011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-3.webp"
+      },
+      {
+        "skuId": "680000974024012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000974024-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000975141",
+    "title": "便携骑行服套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000975141-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000975141-1.webp",
+      "/api/v1/dev/images/products/680000975141-2.webp",
+      "/api/v1/dev/images/products/680000975141-3.webp"
+    ],
+    "priceCny": 229,
+    "originalPriceCny": 298,
+    "salesCount": 7100,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000975141001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 452,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-1.webp"
+      },
+      {
+        "skuId": "680000975141002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 453,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-1.webp"
+      },
+      {
+        "skuId": "680000975141003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 454,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-1.webp"
+      },
+      {
+        "skuId": "680000975141004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 455,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-1.webp"
+      },
+      {
+        "skuId": "680000975141005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 456,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-2.webp"
+      },
+      {
+        "skuId": "680000975141006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 457,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-2.webp"
+      },
+      {
+        "skuId": "680000975141007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 458,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-2.webp"
+      },
+      {
+        "skuId": "680000975141008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 459,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-2.webp"
+      },
+      {
+        "skuId": "680000975141009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 460,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-3.webp"
+      },
+      {
+        "skuId": "680000975141010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 461,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-3.webp"
+      },
+      {
+        "skuId": "680000975141011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 371,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-3.webp"
+      },
+      {
+        "skuId": "680000975141012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 372,
+        "imageUrl": "/api/v1/dev/images/products/680000975141-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000976258",
+    "title": "轻便骑行服套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000976258-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000976258-1.webp",
+      "/api/v1/dev/images/products/680000976258-2.webp",
+      "/api/v1/dev/images/products/680000976258-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 1600,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000976258001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-1.webp"
+      },
+      {
+        "skuId": "680000976258002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-1.webp"
+      },
+      {
+        "skuId": "680000976258003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-1.webp"
+      },
+      {
+        "skuId": "680000976258004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-1.webp"
+      },
+      {
+        "skuId": "680000976258005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-2.webp"
+      },
+      {
+        "skuId": "680000976258006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-2.webp"
+      },
+      {
+        "skuId": "680000976258007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 228,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-2.webp"
+      },
+      {
+        "skuId": "680000976258008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 229,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-2.webp"
+      },
+      {
+        "skuId": "680000976258009",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "M"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 230,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-3.webp"
+      },
+      {
+        "skuId": "680000976258010",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "L"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 231,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-3.webp"
+      },
+      {
+        "skuId": "680000976258011",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-3.webp"
+      },
+      {
+        "skuId": "680000976258012",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          },
+          {
+            "name": "尺码",
+            "value": "XXL"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000976258-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000977375",
+    "title": "专业骑行眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000977375-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000977375-1.webp",
+      "/api/v1/dev/images/products/680000977375-2.webp",
+      "/api/v1/dev/images/products/680000977375-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 28650,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000977375001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000977375-1.webp"
+      },
+      {
+        "skuId": "680000977375002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000977375-2.webp"
+      },
+      {
+        "skuId": "680000977375003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000977375-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000978492",
+    "title": "新款骑行眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000978492-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000978492-1.webp",
+      "/api/v1/dev/images/products/680000978492-2.webp",
+      "/api/v1/dev/images/products/680000978492-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 25700,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000978492001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 104,
+        "imageUrl": "/api/v1/dev/images/products/680000978492-1.webp"
+      },
+      {
+        "skuId": "680000978492002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000978492-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000979609",
+    "title": "便携骑行眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000979609-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000979609-1.webp",
+      "/api/v1/dev/images/products/680000979609-2.webp",
+      "/api/v1/dev/images/products/680000979609-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 9250,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000979609001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 375,
+        "imageUrl": "/api/v1/dev/images/products/680000979609-1.webp"
+      },
+      {
+        "skuId": "680000979609002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 376,
+        "imageUrl": "/api/v1/dev/images/products/680000979609-2.webp"
+      },
+      {
+        "skuId": "680000979609003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000979609-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000980726",
+    "title": "轻便骑行眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000980726-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000980726-1.webp",
+      "/api/v1/dev/images/products/680000980726-2.webp",
+      "/api/v1/dev/images/products/680000980726-3.webp"
+    ],
+    "priceCny": 64,
+    "salesCount": 13350,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "运动户外",
+      "骑行"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000980726001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 337,
+        "imageUrl": "/api/v1/dev/images/products/680000980726-1.webp"
+      },
+      {
+        "skuId": "680000980726002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 338,
+        "imageUrl": "/api/v1/dev/images/products/680000980726-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000981843",
+    "title": "专业折叠露营椅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000981843-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000981843-1.webp",
+      "/api/v1/dev/images/products/680000981843-2.webp",
+      "/api/v1/dev/images/products/680000981843-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 10400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000981843001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 278,
+        "imageUrl": "/api/v1/dev/images/products/680000981843-1.webp"
+      },
+      {
+        "skuId": "680000981843002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 279,
+        "imageUrl": "/api/v1/dev/images/products/680000981843-2.webp"
+      },
+      {
+        "skuId": "680000981843003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000981843-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000982960",
+    "title": "新款折叠露营椅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000982960-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000982960-1.webp",
+      "/api/v1/dev/images/products/680000982960-2.webp",
+      "/api/v1/dev/images/products/680000982960-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 7450,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000982960001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000982960-1.webp"
+      },
+      {
+        "skuId": "680000982960002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000982960-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000984077",
+    "title": "便携折叠露营椅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000984077-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000984077-1.webp",
+      "/api/v1/dev/images/products/680000984077-2.webp",
+      "/api/v1/dev/images/products/680000984077-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 22500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000984077001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000984077-1.webp"
+      },
+      {
+        "skuId": "680000984077002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000984077-2.webp"
+      },
+      {
+        "skuId": "680000984077003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000984077-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000985194",
+    "title": "轻便折叠露营椅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000985194-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000985194-1.webp",
+      "/api/v1/dev/images/products/680000985194-2.webp",
+      "/api/v1/dev/images/products/680000985194-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 19550,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000985194001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 101,
+        "imageUrl": "/api/v1/dev/images/products/680000985194-1.webp"
+      },
+      {
+        "skuId": "680000985194002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 102,
+        "imageUrl": "/api/v1/dev/images/products/680000985194-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000986311",
+    "title": "专业露营睡袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000986311-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000986311-1.webp",
+      "/api/v1/dev/images/products/680000986311-2.webp",
+      "/api/v1/dev/images/products/680000986311-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 5650,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000986311001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000986311-1.webp"
+      },
+      {
+        "skuId": "680000986311002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000986311-2.webp"
+      },
+      {
+        "skuId": "680000986311003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000986311-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000987428",
+    "title": "新款露营睡袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000987428-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000987428-1.webp",
+      "/api/v1/dev/images/products/680000987428-2.webp",
+      "/api/v1/dev/images/products/680000987428-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 150,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000987428001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000987428-1.webp"
+      },
+      {
+        "skuId": "680000987428002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000987428-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000988545",
+    "title": "便携露营睡袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000988545-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000988545-1.webp",
+      "/api/v1/dev/images/products/680000988545-2.webp",
+      "/api/v1/dev/images/products/680000988545-3.webp"
+    ],
+    "priceCny": 229,
+    "originalPriceCny": 298,
+    "salesCount": 27200,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000988545001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 254,
+        "imageUrl": "/api/v1/dev/images/products/680000988545-1.webp"
+      },
+      {
+        "skuId": "680000988545002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000988545-2.webp"
+      },
+      {
+        "skuId": "680000988545003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000988545-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000989662",
+    "title": "轻便露营睡袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000989662-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000989662-1.webp",
+      "/api/v1/dev/images/products/680000989662-2.webp",
+      "/api/v1/dev/images/products/680000989662-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 24250,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000989662001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000989662-1.webp"
+      },
+      {
+        "skuId": "680000989662002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 196,
+        "imageUrl": "/api/v1/dev/images/products/680000989662-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000990779",
+    "title": "专业露营灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000990779-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000990779-1.webp",
+      "/api/v1/dev/images/products/680000990779-2.webp",
+      "/api/v1/dev/images/products/680000990779-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 25800,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000990779001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 466,
+        "imageUrl": "/api/v1/dev/images/products/680000990779-1.webp"
+      },
+      {
+        "skuId": "680000990779002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000990779-2.webp"
+      },
+      {
+        "skuId": "680000990779003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000990779-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000991896",
+    "title": "新款露营灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000991896-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000991896-1.webp",
+      "/api/v1/dev/images/products/680000991896-2.webp",
+      "/api/v1/dev/images/products/680000991896-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 22850,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000991896001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000991896-1.webp"
+      },
+      {
+        "skuId": "680000991896002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000991896-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000993013",
+    "title": "便携露营灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000993013-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000993013-1.webp",
+      "/api/v1/dev/images/products/680000993013-2.webp",
+      "/api/v1/dev/images/products/680000993013-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 29500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000993013001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 60,
+        "imageUrl": "/api/v1/dev/images/products/680000993013-1.webp"
+      },
+      {
+        "skuId": "680000993013002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 61,
+        "imageUrl": "/api/v1/dev/images/products/680000993013-2.webp"
+      },
+      {
+        "skuId": "680000993013003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000993013-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000994130",
+    "title": "轻便露营灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000994130-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000994130-1.webp",
+      "/api/v1/dev/images/products/680000994130-2.webp",
+      "/api/v1/dev/images/products/680000994130-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 26550,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000994130001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 481,
+        "imageUrl": "/api/v1/dev/images/products/680000994130-1.webp"
+      },
+      {
+        "skuId": "680000994130002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 482,
+        "imageUrl": "/api/v1/dev/images/products/680000994130-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000995247",
+    "title": "专业露营折叠桌",
+    "mainImageUrl": "/api/v1/dev/images/products/680000995247-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000995247-1.webp",
+      "/api/v1/dev/images/products/680000995247-2.webp",
+      "/api/v1/dev/images/products/680000995247-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 21050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3.5,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000995247001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000995247-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000996364",
+    "title": "新款露营折叠桌",
+    "mainImageUrl": "/api/v1/dev/images/products/680000996364-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000996364-1.webp",
+      "/api/v1/dev/images/products/680000996364-2.webp",
+      "/api/v1/dev/images/products/680000996364-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 18100,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3.5,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000996364001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000996364-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000997481",
+    "title": "便携露营折叠桌",
+    "mainImageUrl": "/api/v1/dev/images/products/680000997481-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000997481-1.webp",
+      "/api/v1/dev/images/products/680000997481-2.webp",
+      "/api/v1/dev/images/products/680000997481-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 15150,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3.5,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000997481001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 133,
+        "imageUrl": "/api/v1/dev/images/products/680000997481-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000998598",
+    "title": "轻便露营折叠桌",
+    "mainImageUrl": "/api/v1/dev/images/products/680000998598-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000998598-1.webp",
+      "/api/v1/dev/images/products/680000998598-2.webp",
+      "/api/v1/dev/images/products/680000998598-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 9650,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3.5,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000998598001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000998598-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000999715",
+    "title": "专业露营野餐垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680000999715-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000999715-1.webp",
+      "/api/v1/dev/images/products/680000999715-2.webp",
+      "/api/v1/dev/images/products/680000999715-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 25750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000999715001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 345,
+        "imageUrl": "/api/v1/dev/images/products/680000999715-1.webp"
+      },
+      {
+        "skuId": "680000999715002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000999715-2.webp"
+      },
+      {
+        "skuId": "680000999715003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000999715-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001000832",
+    "title": "新款露营野餐垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680001000832-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001000832-1.webp",
+      "/api/v1/dev/images/products/680001000832-2.webp",
+      "/api/v1/dev/images/products/680001000832-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 24250,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001000832001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 435,
+        "imageUrl": "/api/v1/dev/images/products/680001000832-1.webp"
+      },
+      {
+        "skuId": "680001000832002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 436,
+        "imageUrl": "/api/v1/dev/images/products/680001000832-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001001949",
+    "title": "便携露营野餐垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680001001949-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001001949-1.webp",
+      "/api/v1/dev/images/products/680001001949-2.webp",
+      "/api/v1/dev/images/products/680001001949-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 18750,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001001949001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 205,
+        "imageUrl": "/api/v1/dev/images/products/680001001949-1.webp"
+      },
+      {
+        "skuId": "680001001949002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 206,
+        "imageUrl": "/api/v1/dev/images/products/680001001949-2.webp"
+      },
+      {
+        "skuId": "680001001949003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 207,
+        "imageUrl": "/api/v1/dev/images/products/680001001949-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001003066",
+    "title": "专业露营登山杖",
+    "mainImageUrl": "/api/v1/dev/images/products/680001003066-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001003066-1.webp",
+      "/api/v1/dev/images/products/680001003066-2.webp",
+      "/api/v1/dev/images/products/680001003066-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 6350,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001003066001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680001003066-1.webp"
+      },
+      {
+        "skuId": "680001003066002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680001003066-2.webp"
+      },
+      {
+        "skuId": "680001003066003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680001003066-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001004183",
+    "title": "新款露营登山杖",
+    "mainImageUrl": "/api/v1/dev/images/products/680001004183-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001004183-1.webp",
+      "/api/v1/dev/images/products/680001004183-2.webp",
+      "/api/v1/dev/images/products/680001004183-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 3400,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001004183001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 258,
+        "imageUrl": "/api/v1/dev/images/products/680001004183-1.webp"
+      },
+      {
+        "skuId": "680001004183002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 259,
+        "imageUrl": "/api/v1/dev/images/products/680001004183-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001005300",
+    "title": "便携露营登山杖",
+    "mainImageUrl": "/api/v1/dev/images/products/680001005300-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001005300-1.webp",
+      "/api/v1/dev/images/products/680001005300-2.webp",
+      "/api/v1/dev/images/products/680001005300-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 19500,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "运动户外",
+      "露营"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001005300001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680001005300-1.webp"
+      },
+      {
+        "skuId": "680001005300002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680001005300-2.webp"
+      },
+      {
+        "skuId": "680001005300003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680001005300-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001006417",
+    "title": "专业羽毛球拍套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680001006417-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001006417-1.webp",
+      "/api/v1/dev/images/products/680001006417-2.webp",
+      "/api/v1/dev/images/products/680001006417-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 14000,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001006417001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680001006417-1.webp"
+      },
+      {
+        "skuId": "680001006417002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680001006417-2.webp"
+      },
+      {
+        "skuId": "680001006417003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680001006417-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001007534",
+    "title": "新款羽毛球拍套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680001007534-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001007534-1.webp",
+      "/api/v1/dev/images/products/680001007534-2.webp",
+      "/api/v1/dev/images/products/680001007534-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 11050,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001007534001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680001007534-1.webp"
+      },
+      {
+        "skuId": "680001007534002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680001007534-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001008651",
+    "title": "便携羽毛球拍套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680001008651-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001008651-1.webp",
+      "/api/v1/dev/images/products/680001008651-2.webp",
+      "/api/v1/dev/images/products/680001008651-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 8100,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001008651001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680001008651-1.webp"
+      },
+      {
+        "skuId": "680001008651002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680001008651-2.webp"
+      },
+      {
+        "skuId": "680001008651003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680001008651-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001009768",
+    "title": "专业5号足球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001009768-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001009768-1.webp",
+      "/api/v1/dev/images/products/680001009768-2.webp",
+      "/api/v1/dev/images/products/680001009768-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 2600,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001009768001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680001009768-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001010885",
+    "title": "新款5号足球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001010885-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001010885-1.webp",
+      "/api/v1/dev/images/products/680001010885-2.webp",
+      "/api/v1/dev/images/products/680001010885-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 6700,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001010885001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 84,
+        "imageUrl": "/api/v1/dev/images/products/680001010885-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001012002",
+    "title": "便携5号足球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001012002-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001012002-1.webp",
+      "/api/v1/dev/images/products/680001012002-2.webp",
+      "/api/v1/dev/images/products/680001012002-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 13350,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001012002001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 217,
+        "imageUrl": "/api/v1/dev/images/products/680001012002-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001013119",
+    "title": "专业7号篮球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001013119-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001013119-1.webp",
+      "/api/v1/dev/images/products/680001013119-2.webp",
+      "/api/v1/dev/images/products/680001013119-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 7850,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.7,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001013119001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680001013119-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001014236",
+    "title": "新款7号篮球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001014236-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001014236-1.webp",
+      "/api/v1/dev/images/products/680001014236-2.webp",
+      "/api/v1/dev/images/products/680001014236-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 4900,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.7,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001014236001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680001014236-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680001015353",
+    "title": "便携7号篮球",
+    "mainImageUrl": "/api/v1/dev/images/products/680001015353-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680001015353-1.webp",
+      "/api/v1/dev/images/products/680001015353-2.webp",
+      "/api/v1/dev/images/products/680001015353-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 1950,
+    "shop": {
+      "shopId": "101104",
+      "name": "户外运动装备旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.7,
+    "keywords": [
+      "运动户外"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "运动优选"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "运动"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680001015353001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680001015353-1.webp"
+      }
+    ]
   }
 ]

@@ -854,5 +854,7898 @@
         "imageUrl": "/api/v1/dev/images/products/680000069254-3.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000609882",
+    "title": "卡通儿童拼图玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000609882-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000609882-1.webp",
+      "/api/v1/dev/images/products/680000609882-2.webp",
+      "/api/v1/dev/images/products/680000609882-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 21700,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000609882001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000609882-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000610999",
+    "title": "新款儿童拼图玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000610999-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000610999-1.webp",
+      "/api/v1/dev/images/products/680000610999-2.webp",
+      "/api/v1/dev/images/products/680000610999-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 23250,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000610999001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 55,
+        "imageUrl": "/api/v1/dev/images/products/680000610999-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000612116",
+    "title": "可爱儿童拼图玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000612116-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000612116-1.webp",
+      "/api/v1/dev/images/products/680000612116-2.webp",
+      "/api/v1/dev/images/products/680000612116-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 29900,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000612116001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000612116-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000613233",
+    "title": "安全材质儿童拼图玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000613233-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000613233-1.webp",
+      "/api/v1/dev/images/products/680000613233-2.webp",
+      "/api/v1/dev/images/products/680000613233-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 26950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000613233001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000613233-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000614350",
+    "title": "卡通儿童木制玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000614350-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000614350-1.webp",
+      "/api/v1/dev/images/products/680000614350-2.webp",
+      "/api/v1/dev/images/products/680000614350-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 24000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000614350001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 70,
+        "imageUrl": "/api/v1/dev/images/products/680000614350-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000615467",
+    "title": "新款儿童木制玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000615467-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000615467-1.webp",
+      "/api/v1/dev/images/products/680000615467-2.webp",
+      "/api/v1/dev/images/products/680000615467-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 18500,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000615467001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000615467-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000616584",
+    "title": "可爱儿童木制玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000616584-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000616584-1.webp",
+      "/api/v1/dev/images/products/680000616584-2.webp",
+      "/api/v1/dev/images/products/680000616584-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 15550,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000616584001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 261,
+        "imageUrl": "/api/v1/dev/images/products/680000616584-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000617701",
+    "title": "安全材质儿童木制玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000617701-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000617701-1.webp",
+      "/api/v1/dev/images/products/680000617701-2.webp",
+      "/api/v1/dev/images/products/680000617701-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 1650,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000617701001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000617701-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000618818",
+    "title": "卡通儿童磁力片玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000618818-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000618818-1.webp",
+      "/api/v1/dev/images/products/680000618818-2.webp",
+      "/api/v1/dev/images/products/680000618818-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 26150,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000618818001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000618818-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000619935",
+    "title": "新款儿童磁力片玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000619935-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000619935-1.webp",
+      "/api/v1/dev/images/products/680000619935-2.webp",
+      "/api/v1/dev/images/products/680000619935-3.webp"
+    ],
+    "priceCny": 119,
+    "originalPriceCny": 155,
+    "salesCount": 23200,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000619935001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000619935-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000621052",
+    "title": "可爱儿童磁力片玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000621052-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000621052-1.webp",
+      "/api/v1/dev/images/products/680000621052-2.webp",
+      "/api/v1/dev/images/products/680000621052-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 17850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000621052001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 67,
+        "imageUrl": "/api/v1/dev/images/products/680000621052-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000622169",
+    "title": "安全材质儿童磁力片玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000622169-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000622169-1.webp",
+      "/api/v1/dev/images/products/680000622169-2.webp",
+      "/api/v1/dev/images/products/680000622169-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 12350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000622169001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000622169-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000623286",
+    "title": "卡通儿童厨房玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000623286-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000623286-1.webp",
+      "/api/v1/dev/images/products/680000623286-2.webp",
+      "/api/v1/dev/images/products/680000623286-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 9400,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000623286001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 258,
+        "imageUrl": "/api/v1/dev/images/products/680000623286-1.webp"
+      },
+      {
+        "skuId": "680000623286002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 259,
+        "imageUrl": "/api/v1/dev/images/products/680000623286-2.webp"
+      },
+      {
+        "skuId": "680000623286003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 260,
+        "imageUrl": "/api/v1/dev/images/products/680000623286-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000624403",
+    "title": "新款儿童厨房玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000624403-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000624403-1.webp",
+      "/api/v1/dev/images/products/680000624403-2.webp",
+      "/api/v1/dev/images/products/680000624403-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 25500,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000624403001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000624403-1.webp"
+      },
+      {
+        "skuId": "680000624403002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000624403-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000625520",
+    "title": "可爱儿童厨房玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000625520-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000625520-1.webp",
+      "/api/v1/dev/images/products/680000625520-2.webp",
+      "/api/v1/dev/images/products/680000625520-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 22550,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000625520001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000625520-1.webp"
+      },
+      {
+        "skuId": "680000625520002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000625520-2.webp"
+      },
+      {
+        "skuId": "680000625520003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000625520-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000626637",
+    "title": "安全材质儿童厨房玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000626637-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000626637-1.webp",
+      "/api/v1/dev/images/products/680000626637-2.webp",
+      "/api/v1/dev/images/products/680000626637-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 17050,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000626637001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000626637-1.webp"
+      },
+      {
+        "skuId": "680000626637002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000626637-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000627754",
+    "title": "卡通儿童遥控无人机玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000627754-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000627754-1.webp",
+      "/api/v1/dev/images/products/680000627754-2.webp",
+      "/api/v1/dev/images/products/680000627754-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 14100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000627754001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000627754-1.webp"
+      },
+      {
+        "skuId": "680000627754002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000627754-2.webp"
+      },
+      {
+        "skuId": "680000627754003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000627754-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000628871",
+    "title": "新款儿童遥控无人机玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000628871-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000628871-1.webp",
+      "/api/v1/dev/images/products/680000628871-2.webp",
+      "/api/v1/dev/images/products/680000628871-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 11150,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000628871001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 293,
+        "imageUrl": "/api/v1/dev/images/products/680000628871-1.webp"
+      },
+      {
+        "skuId": "680000628871002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 294,
+        "imageUrl": "/api/v1/dev/images/products/680000628871-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000629988",
+    "title": "可爱儿童遥控无人机玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000629988-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000629988-1.webp",
+      "/api/v1/dev/images/products/680000629988-2.webp",
+      "/api/v1/dev/images/products/680000629988-3.webp"
+    ],
+    "priceCny": 229,
+    "originalPriceCny": 298,
+    "salesCount": 5650,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000629988001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000629988-1.webp"
+      },
+      {
+        "skuId": "680000629988002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000629988-2.webp"
+      },
+      {
+        "skuId": "680000629988003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000629988-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000631105",
+    "title": "安全材质儿童遥控无人机玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000631105-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000631105-1.webp",
+      "/api/v1/dev/images/products/680000631105-2.webp",
+      "/api/v1/dev/images/products/680000631105-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 19350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000631105001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 217,
+        "imageUrl": "/api/v1/dev/images/products/680000631105-1.webp"
+      },
+      {
+        "skuId": "680000631105002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 218,
+        "imageUrl": "/api/v1/dev/images/products/680000631105-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000632222",
+    "title": "卡通洋娃娃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000632222-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000632222-1.webp",
+      "/api/v1/dev/images/products/680000632222-2.webp",
+      "/api/v1/dev/images/products/680000632222-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 16400,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000632222001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000632222-1.webp"
+      },
+      {
+        "skuId": "680000632222002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000632222-2.webp"
+      },
+      {
+        "skuId": "680000632222003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000632222-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000633339",
+    "title": "新款洋娃娃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000633339-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000633339-1.webp",
+      "/api/v1/dev/images/products/680000633339-2.webp",
+      "/api/v1/dev/images/products/680000633339-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 10900,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000633339001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000633339-1.webp"
+      },
+      {
+        "skuId": "680000633339002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000633339-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000634456",
+    "title": "可爱洋娃娃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000634456-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000634456-1.webp",
+      "/api/v1/dev/images/products/680000634456-2.webp",
+      "/api/v1/dev/images/products/680000634456-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 7950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000634456001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000634456-1.webp"
+      },
+      {
+        "skuId": "680000634456002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000634456-2.webp"
+      },
+      {
+        "skuId": "680000634456003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000634456-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000635573",
+    "title": "安全材质洋娃娃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000635573-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000635573-1.webp",
+      "/api/v1/dev/images/products/680000635573-2.webp",
+      "/api/v1/dev/images/products/680000635573-3.webp"
+    ],
+    "priceCny": 64,
+    "salesCount": 5000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000635573001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000635573-1.webp"
+      },
+      {
+        "skuId": "680000635573002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 291,
+        "imageUrl": "/api/v1/dev/images/products/680000635573-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000636690",
+    "title": "卡通儿童橡皮泥玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000636690-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000636690-1.webp",
+      "/api/v1/dev/images/products/680000636690-2.webp",
+      "/api/v1/dev/images/products/680000636690-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 2050,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000636690001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 231,
+        "imageUrl": "/api/v1/dev/images/products/680000636690-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000637807",
+    "title": "新款儿童橡皮泥玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000637807-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000637807-1.webp",
+      "/api/v1/dev/images/products/680000637807-2.webp",
+      "/api/v1/dev/images/products/680000637807-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 15600,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000637807001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000637807-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000638924",
+    "title": "可爱儿童橡皮泥玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000638924-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000638924-1.webp",
+      "/api/v1/dev/images/products/680000638924-2.webp",
+      "/api/v1/dev/images/products/680000638924-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 12650,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000638924001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000638924-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000640041",
+    "title": "安全材质儿童橡皮泥玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000640041-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000640041-1.webp",
+      "/api/v1/dev/images/products/680000640041-2.webp",
+      "/api/v1/dev/images/products/680000640041-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 7300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000640041001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 96,
+        "imageUrl": "/api/v1/dev/images/products/680000640041-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000641158",
+    "title": "卡通儿童自行车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000641158-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000641158-1.webp",
+      "/api/v1/dev/images/products/680000641158-2.webp",
+      "/api/v1/dev/images/products/680000641158-3.webp"
+    ],
+    "priceCny": 399,
+    "salesCount": 1800,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 9,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000641158001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000641158-1.webp"
+      },
+      {
+        "skuId": "680000641158002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000641158-2.webp"
+      },
+      {
+        "skuId": "680000641158003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 399,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000641158-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000642275",
+    "title": "新款儿童自行车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000642275-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000642275-1.webp",
+      "/api/v1/dev/images/products/680000642275-2.webp",
+      "/api/v1/dev/images/products/680000642275-3.webp"
+    ],
+    "priceCny": 359,
+    "salesCount": 28850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 9,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000642275001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 359,
+        "stock": 287,
+        "imageUrl": "/api/v1/dev/images/products/680000642275-1.webp"
+      },
+      {
+        "skuId": "680000642275002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 359,
+        "stock": 288,
+        "imageUrl": "/api/v1/dev/images/products/680000642275-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000643392",
+    "title": "可爱儿童自行车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000643392-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000643392-1.webp",
+      "/api/v1/dev/images/products/680000643392-2.webp",
+      "/api/v1/dev/images/products/680000643392-3.webp"
+    ],
+    "priceCny": 459,
+    "originalPriceCny": 597,
+    "salesCount": 25900,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 9,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000643392001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 228,
+        "imageUrl": "/api/v1/dev/images/products/680000643392-1.webp"
+      },
+      {
+        "skuId": "680000643392002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 229,
+        "imageUrl": "/api/v1/dev/images/products/680000643392-2.webp"
+      },
+      {
+        "skuId": "680000643392003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 230,
+        "imageUrl": "/api/v1/dev/images/products/680000643392-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000644509",
+    "title": "安全材质儿童自行车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000644509-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000644509-1.webp",
+      "/api/v1/dev/images/products/680000644509-2.webp",
+      "/api/v1/dev/images/products/680000644509-3.webp"
+    ],
+    "priceCny": 339,
+    "salesCount": 9450,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 9,
+    "keywords": [
+      "儿童",
+      "玩具"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000644509001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 499,
+        "imageUrl": "/api/v1/dev/images/products/680000644509-1.webp"
+      },
+      {
+        "skuId": "680000644509002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 20,
+        "imageUrl": "/api/v1/dev/images/products/680000644509-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000645626",
+    "title": "卡通儿童绘本套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000645626-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000645626-1.webp",
+      "/api/v1/dev/images/products/680000645626-2.webp",
+      "/api/v1/dev/images/products/680000645626-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 6500,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000645626001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000645626-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000646743",
+    "title": "新款儿童绘本套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000646743-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000646743-1.webp",
+      "/api/v1/dev/images/products/680000646743-2.webp",
+      "/api/v1/dev/images/products/680000646743-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 3550,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000646743001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000646743-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000647860",
+    "title": "可爱儿童绘本套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000647860-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000647860-1.webp",
+      "/api/v1/dev/images/products/680000647860-2.webp",
+      "/api/v1/dev/images/products/680000647860-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 600,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000647860001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000647860-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000648977",
+    "title": "安全材质儿童绘本套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000648977-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000648977-1.webp",
+      "/api/v1/dev/images/products/680000648977-2.webp",
+      "/api/v1/dev/images/products/680000648977-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 25100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000648977001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 92,
+        "imageUrl": "/api/v1/dev/images/products/680000648977-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000650094",
+    "title": "卡通儿童气球派对套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000650094-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000650094-1.webp",
+      "/api/v1/dev/images/products/680000650094-2.webp",
+      "/api/v1/dev/images/products/680000650094-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 19750,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000650094001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000650094-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000651211",
+    "title": "新款儿童气球派对套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000651211-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000651211-1.webp",
+      "/api/v1/dev/images/products/680000651211-2.webp",
+      "/api/v1/dev/images/products/680000651211-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 5850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000651211001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 187,
+        "imageUrl": "/api/v1/dev/images/products/680000651211-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000652328",
+    "title": "可爱儿童气球派对套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000652328-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000652328-1.webp",
+      "/api/v1/dev/images/products/680000652328-2.webp",
+      "/api/v1/dev/images/products/680000652328-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000652328001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000652328-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000653445",
+    "title": "安全材质儿童气球派对套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000653445-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000653445-1.webp",
+      "/api/v1/dev/images/products/680000653445-2.webp",
+      "/api/v1/dev/images/products/680000653445-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 27400,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000653445001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000653445-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000654562",
+    "title": "卡通童装男童T恤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000654562-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000654562-1.webp",
+      "/api/v1/dev/images/products/680000654562-2.webp",
+      "/api/v1/dev/images/products/680000654562-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 24450,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000654562001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-1.webp"
+      },
+      {
+        "skuId": "680000654562002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-1.webp"
+      },
+      {
+        "skuId": "680000654562003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-1.webp"
+      },
+      {
+        "skuId": "680000654562004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-1.webp"
+      },
+      {
+        "skuId": "680000654562005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-2.webp"
+      },
+      {
+        "skuId": "680000654562006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-2.webp"
+      },
+      {
+        "skuId": "680000654562007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 325,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-2.webp"
+      },
+      {
+        "skuId": "680000654562008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 326,
+        "imageUrl": "/api/v1/dev/images/products/680000654562-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000655679",
+    "title": "新款童装男童T恤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000655679-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000655679-1.webp",
+      "/api/v1/dev/images/products/680000655679-2.webp",
+      "/api/v1/dev/images/products/680000655679-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 18950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000655679001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 89,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-1.webp"
+      },
+      {
+        "skuId": "680000655679002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 90,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-1.webp"
+      },
+      {
+        "skuId": "680000655679003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 91,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-1.webp"
+      },
+      {
+        "skuId": "680000655679004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 92,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-1.webp"
+      },
+      {
+        "skuId": "680000655679005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-2.webp"
+      },
+      {
+        "skuId": "680000655679006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 94,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-2.webp"
+      },
+      {
+        "skuId": "680000655679007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 95,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-2.webp"
+      },
+      {
+        "skuId": "680000655679008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 96,
+        "imageUrl": "/api/v1/dev/images/products/680000655679-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000656796",
+    "title": "可爱童装男童T恤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000656796-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000656796-1.webp",
+      "/api/v1/dev/images/products/680000656796-2.webp",
+      "/api/v1/dev/images/products/680000656796-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 16000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000656796001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-1.webp"
+      },
+      {
+        "skuId": "680000656796002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-1.webp"
+      },
+      {
+        "skuId": "680000656796003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-1.webp"
+      },
+      {
+        "skuId": "680000656796004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-1.webp"
+      },
+      {
+        "skuId": "680000656796005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-2.webp"
+      },
+      {
+        "skuId": "680000656796006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-2.webp"
+      },
+      {
+        "skuId": "680000656796007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-2.webp"
+      },
+      {
+        "skuId": "680000656796008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000656796-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000657913",
+    "title": "安全材质童装男童T恤",
+    "mainImageUrl": "/api/v1/dev/images/products/680000657913-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000657913-1.webp",
+      "/api/v1/dev/images/products/680000657913-2.webp",
+      "/api/v1/dev/images/products/680000657913-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 2100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000657913001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-1.webp"
+      },
+      {
+        "skuId": "680000657913002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-1.webp"
+      },
+      {
+        "skuId": "680000657913003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-1.webp"
+      },
+      {
+        "skuId": "680000657913004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-1.webp"
+      },
+      {
+        "skuId": "680000657913005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 476,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-2.webp"
+      },
+      {
+        "skuId": "680000657913006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 477,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-2.webp"
+      },
+      {
+        "skuId": "680000657913007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 478,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-2.webp"
+      },
+      {
+        "skuId": "680000657913008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 479,
+        "imageUrl": "/api/v1/dev/images/products/680000657913-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000659030",
+    "title": "卡通童装女童半身裙",
+    "mainImageUrl": "/api/v1/dev/images/products/680000659030-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000659030-1.webp",
+      "/api/v1/dev/images/products/680000659030-2.webp",
+      "/api/v1/dev/images/products/680000659030-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 19700,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000659030001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 104,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-1.webp"
+      },
+      {
+        "skuId": "680000659030002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-1.webp"
+      },
+      {
+        "skuId": "680000659030003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 106,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-1.webp"
+      },
+      {
+        "skuId": "680000659030004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 107,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-1.webp"
+      },
+      {
+        "skuId": "680000659030005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 108,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-2.webp"
+      },
+      {
+        "skuId": "680000659030006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 109,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-2.webp"
+      },
+      {
+        "skuId": "680000659030007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 110,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-2.webp"
+      },
+      {
+        "skuId": "680000659030008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 111,
+        "imageUrl": "/api/v1/dev/images/products/680000659030-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000660147",
+    "title": "新款童装女童半身裙",
+    "mainImageUrl": "/api/v1/dev/images/products/680000660147-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000660147-1.webp",
+      "/api/v1/dev/images/products/680000660147-2.webp",
+      "/api/v1/dev/images/products/680000660147-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 21250,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000660147001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 375,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-1.webp"
+      },
+      {
+        "skuId": "680000660147002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 376,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-1.webp"
+      },
+      {
+        "skuId": "680000660147003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-1.webp"
+      },
+      {
+        "skuId": "680000660147004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-1.webp"
+      },
+      {
+        "skuId": "680000660147005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-2.webp"
+      },
+      {
+        "skuId": "680000660147006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-2.webp"
+      },
+      {
+        "skuId": "680000660147007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-2.webp"
+      },
+      {
+        "skuId": "680000660147008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000660147-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000661264",
+    "title": "可爱童装女童半身裙",
+    "mainImageUrl": "/api/v1/dev/images/products/680000661264-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000661264-1.webp",
+      "/api/v1/dev/images/products/680000661264-2.webp",
+      "/api/v1/dev/images/products/680000661264-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 18300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000661264001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-1.webp"
+      },
+      {
+        "skuId": "680000661264002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-1.webp"
+      },
+      {
+        "skuId": "680000661264003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-1.webp"
+      },
+      {
+        "skuId": "680000661264004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-1.webp"
+      },
+      {
+        "skuId": "680000661264005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-2.webp"
+      },
+      {
+        "skuId": "680000661264006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-2.webp"
+      },
+      {
+        "skuId": "680000661264007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-2.webp"
+      },
+      {
+        "skuId": "680000661264008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000661264-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000662381",
+    "title": "安全材质童装女童半身裙",
+    "mainImageUrl": "/api/v1/dev/images/products/680000662381-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000662381-1.webp",
+      "/api/v1/dev/images/products/680000662381-2.webp",
+      "/api/v1/dev/images/products/680000662381-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 15350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000662381001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 257,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-1.webp"
+      },
+      {
+        "skuId": "680000662381002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 258,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-1.webp"
+      },
+      {
+        "skuId": "680000662381003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 259,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-1.webp"
+      },
+      {
+        "skuId": "680000662381004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 260,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-1.webp"
+      },
+      {
+        "skuId": "680000662381005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 261,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-2.webp"
+      },
+      {
+        "skuId": "680000662381006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 262,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-2.webp"
+      },
+      {
+        "skuId": "680000662381007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 263,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-2.webp"
+      },
+      {
+        "skuId": "680000662381008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000662381-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000663498",
+    "title": "卡通儿童羽绒服",
+    "mainImageUrl": "/api/v1/dev/images/products/680000663498-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000663498-1.webp",
+      "/api/v1/dev/images/products/680000663498-2.webp",
+      "/api/v1/dev/images/products/680000663498-3.webp"
+    ],
+    "priceCny": 199,
+    "originalPriceCny": 259,
+    "salesCount": 9850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "羽绒"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000663498001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 27,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-1.webp"
+      },
+      {
+        "skuId": "680000663498002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 28,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-1.webp"
+      },
+      {
+        "skuId": "680000663498003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-1.webp"
+      },
+      {
+        "skuId": "680000663498004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-1.webp"
+      },
+      {
+        "skuId": "680000663498005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-2.webp"
+      },
+      {
+        "skuId": "680000663498006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-2.webp"
+      },
+      {
+        "skuId": "680000663498007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-2.webp"
+      },
+      {
+        "skuId": "680000663498008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000663498-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000664615",
+    "title": "新款儿童羽绒服",
+    "mainImageUrl": "/api/v1/dev/images/products/680000664615-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000664615-1.webp",
+      "/api/v1/dev/images/products/680000664615-2.webp",
+      "/api/v1/dev/images/products/680000664615-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 25950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "羽绒"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000664615001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-1.webp"
+      },
+      {
+        "skuId": "680000664615002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-1.webp"
+      },
+      {
+        "skuId": "680000664615003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-1.webp"
+      },
+      {
+        "skuId": "680000664615004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-1.webp"
+      },
+      {
+        "skuId": "680000664615005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-2.webp"
+      },
+      {
+        "skuId": "680000664615006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-2.webp"
+      },
+      {
+        "skuId": "680000664615007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-2.webp"
+      },
+      {
+        "skuId": "680000664615008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 476,
+        "imageUrl": "/api/v1/dev/images/products/680000664615-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000665732",
+    "title": "可爱儿童羽绒服",
+    "mainImageUrl": "/api/v1/dev/images/products/680000665732-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000665732-1.webp",
+      "/api/v1/dev/images/products/680000665732-2.webp",
+      "/api/v1/dev/images/products/680000665732-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 23000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "羽绒"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000665732001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-1.webp"
+      },
+      {
+        "skuId": "680000665732002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-1.webp"
+      },
+      {
+        "skuId": "680000665732003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-1.webp"
+      },
+      {
+        "skuId": "680000665732004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-1.webp"
+      },
+      {
+        "skuId": "680000665732005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-2.webp"
+      },
+      {
+        "skuId": "680000665732006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 415,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-2.webp"
+      },
+      {
+        "skuId": "680000665732007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 416,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-2.webp"
+      },
+      {
+        "skuId": "680000665732008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 417,
+        "imageUrl": "/api/v1/dev/images/products/680000665732-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000666849",
+    "title": "安全材质儿童羽绒服",
+    "mainImageUrl": "/api/v1/dev/images/products/680000666849-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000666849-1.webp",
+      "/api/v1/dev/images/products/680000666849-2.webp",
+      "/api/v1/dev/images/products/680000666849-3.webp"
+    ],
+    "priceCny": 169,
+    "originalPriceCny": 220,
+    "salesCount": 17500,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "羽绒"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000666849001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 180,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-1.webp"
+      },
+      {
+        "skuId": "680000666849002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 181,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-1.webp"
+      },
+      {
+        "skuId": "680000666849003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 182,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-1.webp"
+      },
+      {
+        "skuId": "680000666849004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 183,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-1.webp"
+      },
+      {
+        "skuId": "680000666849005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 184,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-2.webp"
+      },
+      {
+        "skuId": "680000666849006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 185,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-2.webp"
+      },
+      {
+        "skuId": "680000666849007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 186,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-2.webp"
+      },
+      {
+        "skuId": "680000666849008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 187,
+        "imageUrl": "/api/v1/dev/images/products/680000666849-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000667966",
+    "title": "卡通儿童睡衣套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000667966-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000667966-1.webp",
+      "/api/v1/dev/images/products/680000667966-2.webp",
+      "/api/v1/dev/images/products/680000667966-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 14550,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000667966001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-1.webp"
+      },
+      {
+        "skuId": "680000667966002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-1.webp"
+      },
+      {
+        "skuId": "680000667966003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-1.webp"
+      },
+      {
+        "skuId": "680000667966004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 124,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-1.webp"
+      },
+      {
+        "skuId": "680000667966005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 125,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-2.webp"
+      },
+      {
+        "skuId": "680000667966006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 126,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-2.webp"
+      },
+      {
+        "skuId": "680000667966007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 127,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-2.webp"
+      },
+      {
+        "skuId": "680000667966008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 128,
+        "imageUrl": "/api/v1/dev/images/products/680000667966-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000669083",
+    "title": "新款儿童睡衣套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000669083-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000669083-1.webp",
+      "/api/v1/dev/images/products/680000669083-2.webp",
+      "/api/v1/dev/images/products/680000669083-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 2150,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000669083001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 233,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-1.webp"
+      },
+      {
+        "skuId": "680000669083002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 234,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-1.webp"
+      },
+      {
+        "skuId": "680000669083003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 235,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-1.webp"
+      },
+      {
+        "skuId": "680000669083004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 236,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-1.webp"
+      },
+      {
+        "skuId": "680000669083005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 237,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-2.webp"
+      },
+      {
+        "skuId": "680000669083006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 238,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-2.webp"
+      },
+      {
+        "skuId": "680000669083007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 239,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-2.webp"
+      },
+      {
+        "skuId": "680000669083008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 240,
+        "imageUrl": "/api/v1/dev/images/products/680000669083-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000670200",
+    "title": "可爱儿童睡衣套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000670200-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000670200-1.webp",
+      "/api/v1/dev/images/products/680000670200-2.webp",
+      "/api/v1/dev/images/products/680000670200-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 25300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000670200001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 216,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-1.webp"
+      },
+      {
+        "skuId": "680000670200002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 217,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-1.webp"
+      },
+      {
+        "skuId": "680000670200003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 218,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-1.webp"
+      },
+      {
+        "skuId": "680000670200004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-1.webp"
+      },
+      {
+        "skuId": "680000670200005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-2.webp"
+      },
+      {
+        "skuId": "680000670200006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-2.webp"
+      },
+      {
+        "skuId": "680000670200007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-2.webp"
+      },
+      {
+        "skuId": "680000670200008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000670200-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000671317",
+    "title": "安全材质儿童睡衣套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000671317-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000671317-1.webp",
+      "/api/v1/dev/images/products/680000671317-2.webp",
+      "/api/v1/dev/images/products/680000671317-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 19800,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000671317001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 466,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-1.webp"
+      },
+      {
+        "skuId": "680000671317002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-1.webp"
+      },
+      {
+        "skuId": "680000671317003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-1.webp"
+      },
+      {
+        "skuId": "680000671317004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-1.webp"
+      },
+      {
+        "skuId": "680000671317005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-2.webp"
+      },
+      {
+        "skuId": "680000671317006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-2.webp"
+      },
+      {
+        "skuId": "680000671317007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-2.webp"
+      },
+      {
+        "skuId": "680000671317008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000671317-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000672434",
+    "title": "卡通儿童针织帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000672434-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000672434-1.webp",
+      "/api/v1/dev/images/products/680000672434-2.webp",
+      "/api/v1/dev/images/products/680000672434-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 16850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000672434001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000672434-1.webp"
+      },
+      {
+        "skuId": "680000672434002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000672434-2.webp"
+      },
+      {
+        "skuId": "680000672434003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000672434-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000673551",
+    "title": "新款儿童针织帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000673551-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000673551-1.webp",
+      "/api/v1/dev/images/products/680000673551-2.webp",
+      "/api/v1/dev/images/products/680000673551-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 13900,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000673551001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000673551-1.webp"
+      },
+      {
+        "skuId": "680000673551002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000673551-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000674668",
+    "title": "可爱儿童针织帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000674668-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000674668-1.webp",
+      "/api/v1/dev/images/products/680000674668-2.webp",
+      "/api/v1/dev/images/products/680000674668-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 8400,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000674668001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 118,
+        "imageUrl": "/api/v1/dev/images/products/680000674668-1.webp"
+      },
+      {
+        "skuId": "680000674668002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 119,
+        "imageUrl": "/api/v1/dev/images/products/680000674668-2.webp"
+      },
+      {
+        "skuId": "680000674668003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000674668-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000675785",
+    "title": "安全材质儿童针织帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000675785-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000675785-1.webp",
+      "/api/v1/dev/images/products/680000675785-2.webp",
+      "/api/v1/dev/images/products/680000675785-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 5450,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000675785001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000675785-1.webp"
+      },
+      {
+        "skuId": "680000675785002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 60,
+        "imageUrl": "/api/v1/dev/images/products/680000675785-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000676902",
+    "title": "卡通儿童雨衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000676902-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000676902-1.webp",
+      "/api/v1/dev/images/products/680000676902-2.webp",
+      "/api/v1/dev/images/products/680000676902-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 21550,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000676902001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 21,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-1.webp"
+      },
+      {
+        "skuId": "680000676902002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-1.webp"
+      },
+      {
+        "skuId": "680000676902003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 23,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-1.webp"
+      },
+      {
+        "skuId": "680000676902004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-1.webp"
+      },
+      {
+        "skuId": "680000676902005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-2.webp"
+      },
+      {
+        "skuId": "680000676902006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 26,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-2.webp"
+      },
+      {
+        "skuId": "680000676902007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 27,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-2.webp"
+      },
+      {
+        "skuId": "680000676902008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 28,
+        "imageUrl": "/api/v1/dev/images/products/680000676902-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000678019",
+    "title": "新款儿童雨衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000678019-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000678019-1.webp",
+      "/api/v1/dev/images/products/680000678019-2.webp",
+      "/api/v1/dev/images/products/680000678019-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 6600,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000678019001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-1.webp"
+      },
+      {
+        "skuId": "680000678019002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-1.webp"
+      },
+      {
+        "skuId": "680000678019003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-1.webp"
+      },
+      {
+        "skuId": "680000678019004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 445,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-1.webp"
+      },
+      {
+        "skuId": "680000678019005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 446,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-2.webp"
+      },
+      {
+        "skuId": "680000678019006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 447,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-2.webp"
+      },
+      {
+        "skuId": "680000678019007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 448,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-2.webp"
+      },
+      {
+        "skuId": "680000678019008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 449,
+        "imageUrl": "/api/v1/dev/images/products/680000678019-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000679136",
+    "title": "可爱儿童雨衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000679136-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000679136-1.webp",
+      "/api/v1/dev/images/products/680000679136-2.webp",
+      "/api/v1/dev/images/products/680000679136-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 3650,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000679136001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-1.webp"
+      },
+      {
+        "skuId": "680000679136002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-1.webp"
+      },
+      {
+        "skuId": "680000679136003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 385,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-1.webp"
+      },
+      {
+        "skuId": "680000679136004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 386,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-1.webp"
+      },
+      {
+        "skuId": "680000679136005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 387,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-2.webp"
+      },
+      {
+        "skuId": "680000679136006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 388,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-2.webp"
+      },
+      {
+        "skuId": "680000679136007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 389,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-2.webp"
+      },
+      {
+        "skuId": "680000679136008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 390,
+        "imageUrl": "/api/v1/dev/images/products/680000679136-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000680253",
+    "title": "安全材质儿童雨衣",
+    "mainImageUrl": "/api/v1/dev/images/products/680000680253-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000680253-1.webp",
+      "/api/v1/dev/images/products/680000680253-2.webp",
+      "/api/v1/dev/images/products/680000680253-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 7750,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "儿童",
+      "童装"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000680253001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 345,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-1.webp"
+      },
+      {
+        "skuId": "680000680253002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-1.webp"
+      },
+      {
+        "skuId": "680000680253003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-1.webp"
+      },
+      {
+        "skuId": "680000680253004",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-1.webp"
+      },
+      {
+        "skuId": "680000680253005",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "100"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-2.webp"
+      },
+      {
+        "skuId": "680000680253006",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "110"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-2.webp"
+      },
+      {
+        "skuId": "680000680253007",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "120"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-2.webp"
+      },
+      {
+        "skuId": "680000680253008",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          },
+          {
+            "name": "尺码",
+            "value": "130"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000680253-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000681370",
+    "title": "卡通婴儿奶瓶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000681370-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000681370-1.webp",
+      "/api/v1/dev/images/products/680000681370-2.webp",
+      "/api/v1/dev/images/products/680000681370-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 4800,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000681370001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000681370-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000682487",
+    "title": "新款婴儿奶瓶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000682487-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000682487-1.webp",
+      "/api/v1/dev/images/products/680000682487-2.webp",
+      "/api/v1/dev/images/products/680000682487-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 29300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000682487001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 56,
+        "imageUrl": "/api/v1/dev/images/products/680000682487-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000683604",
+    "title": "可爱婴儿奶瓶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000683604-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000683604-1.webp",
+      "/api/v1/dev/images/products/680000683604-2.webp",
+      "/api/v1/dev/images/products/680000683604-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 15400,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000683604001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 498,
+        "imageUrl": "/api/v1/dev/images/products/680000683604-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000684721",
+    "title": "安全材质婴儿奶瓶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000684721-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000684721-1.webp",
+      "/api/v1/dev/images/products/680000684721-2.webp",
+      "/api/v1/dev/images/products/680000684721-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 12450,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000684721001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000684721-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000685838",
+    "title": "卡通婴儿推车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000685838-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000685838-1.webp",
+      "/api/v1/dev/images/products/680000685838-2.webp",
+      "/api/v1/dev/images/products/680000685838-3.webp"
+    ],
+    "priceCny": 699,
+    "salesCount": 6950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000685838001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 699,
+        "stock": 209,
+        "imageUrl": "/api/v1/dev/images/products/680000685838-1.webp"
+      },
+      {
+        "skuId": "680000685838002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 699,
+        "stock": 210,
+        "imageUrl": "/api/v1/dev/images/products/680000685838-2.webp"
+      },
+      {
+        "skuId": "680000685838003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 699,
+        "stock": 211,
+        "imageUrl": "/api/v1/dev/images/products/680000685838-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000686955",
+    "title": "新款婴儿推车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000686955-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000686955-1.webp",
+      "/api/v1/dev/images/products/680000686955-2.webp",
+      "/api/v1/dev/images/products/680000686955-3.webp"
+    ],
+    "priceCny": 629,
+    "originalPriceCny": 818,
+    "salesCount": 4000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000686955001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 629,
+        "stock": 150,
+        "imageUrl": "/api/v1/dev/images/products/680000686955-1.webp"
+      },
+      {
+        "skuId": "680000686955002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 629,
+        "stock": 151,
+        "imageUrl": "/api/v1/dev/images/products/680000686955-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000688072",
+    "title": "可爱婴儿推车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000688072-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000688072-1.webp",
+      "/api/v1/dev/images/products/680000688072-2.webp",
+      "/api/v1/dev/images/products/680000688072-3.webp"
+    ],
+    "priceCny": 799,
+    "salesCount": 21600,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000688072001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 799,
+        "stock": 262,
+        "imageUrl": "/api/v1/dev/images/products/680000688072-1.webp"
+      },
+      {
+        "skuId": "680000688072002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 799,
+        "stock": 263,
+        "imageUrl": "/api/v1/dev/images/products/680000688072-2.webp"
+      },
+      {
+        "skuId": "680000688072003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 799,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000688072-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000689189",
+    "title": "安全材质婴儿推车",
+    "mainImageUrl": "/api/v1/dev/images/products/680000689189-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000689189-1.webp",
+      "/api/v1/dev/images/products/680000689189-2.webp",
+      "/api/v1/dev/images/products/680000689189-3.webp"
+    ],
+    "priceCny": 589,
+    "salesCount": 16100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000689189001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 589,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000689189-1.webp"
+      },
+      {
+        "skuId": "680000689189002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 589,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000689189-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000690306",
+    "title": "卡通婴儿摇铃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000690306-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000690306-1.webp",
+      "/api/v1/dev/images/products/680000690306-2.webp",
+      "/api/v1/dev/images/products/680000690306-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 9250,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000690306001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 495,
+        "imageUrl": "/api/v1/dev/images/products/680000690306-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000691423",
+    "title": "新款婴儿摇铃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000691423-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000691423-1.webp",
+      "/api/v1/dev/images/products/680000691423-2.webp",
+      "/api/v1/dev/images/products/680000691423-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 6300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000691423001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 436,
+        "imageUrl": "/api/v1/dev/images/products/680000691423-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000692540",
+    "title": "可爱婴儿摇铃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000692540-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000692540-1.webp",
+      "/api/v1/dev/images/products/680000692540-2.webp",
+      "/api/v1/dev/images/products/680000692540-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 3350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000692540001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000692540-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000693657",
+    "title": "安全材质婴儿摇铃玩具",
+    "mainImageUrl": "/api/v1/dev/images/products/680000693657-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000693657-1.webp",
+      "/api/v1/dev/images/products/680000693657-2.webp",
+      "/api/v1/dev/images/products/680000693657-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 27850,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000693657001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 147,
+        "imageUrl": "/api/v1/dev/images/products/680000693657-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000694774",
+    "title": "卡通婴儿口水巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000694774-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000694774-1.webp",
+      "/api/v1/dev/images/products/680000694774-2.webp",
+      "/api/v1/dev/images/products/680000694774-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 24900,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000694774001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 88,
+        "imageUrl": "/api/v1/dev/images/products/680000694774-1.webp"
+      },
+      {
+        "skuId": "680000694774002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 89,
+        "imageUrl": "/api/v1/dev/images/products/680000694774-2.webp"
+      },
+      {
+        "skuId": "680000694774003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 90,
+        "imageUrl": "/api/v1/dev/images/products/680000694774-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000695891",
+    "title": "新款婴儿口水巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000695891-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000695891-1.webp",
+      "/api/v1/dev/images/products/680000695891-2.webp",
+      "/api/v1/dev/images/products/680000695891-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 21950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000695891001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000695891-1.webp"
+      },
+      {
+        "skuId": "680000695891002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000695891-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000697008",
+    "title": "可爱婴儿口水巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000697008-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000697008-1.webp",
+      "/api/v1/dev/images/products/680000697008-2.webp",
+      "/api/v1/dev/images/products/680000697008-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 26050,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000697008001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000697008-1.webp"
+      },
+      {
+        "skuId": "680000697008002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000697008-2.webp"
+      },
+      {
+        "skuId": "680000697008003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000697008-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000698125",
+    "title": "安全材质婴儿口水巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000698125-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000698125-1.webp",
+      "/api/v1/dev/images/products/680000698125-2.webp",
+      "/api/v1/dev/images/products/680000698125-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 23100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000698125001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000698125-1.webp"
+      },
+      {
+        "skuId": "680000698125002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000698125-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000699242",
+    "title": "卡通婴儿袜子套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000699242-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000699242-1.webp",
+      "/api/v1/dev/images/products/680000699242-2.webp",
+      "/api/v1/dev/images/products/680000699242-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 20150,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000699242001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000699242-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000700359",
+    "title": "新款婴儿袜子套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000700359-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000700359-1.webp",
+      "/api/v1/dev/images/products/680000700359-2.webp",
+      "/api/v1/dev/images/products/680000700359-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 250,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000700359001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 315,
+        "imageUrl": "/api/v1/dev/images/products/680000700359-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000701476",
+    "title": "可爱婴儿袜子套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000701476-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000701476-1.webp",
+      "/api/v1/dev/images/products/680000701476-2.webp",
+      "/api/v1/dev/images/products/680000701476-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 27300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000701476001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000701476-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000702593",
+    "title": "安全材质婴儿袜子套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000702593-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000702593-1.webp",
+      "/api/v1/dev/images/products/680000702593-2.webp",
+      "/api/v1/dev/images/products/680000702593-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 24350,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000702593001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 197,
+        "imageUrl": "/api/v1/dev/images/products/680000702593-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000703710",
+    "title": "卡通婴儿背带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000703710-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000703710-1.webp",
+      "/api/v1/dev/images/products/680000703710-2.webp",
+      "/api/v1/dev/images/products/680000703710-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 10450,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000703710001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000703710-1.webp"
+      },
+      {
+        "skuId": "680000703710002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000703710-2.webp"
+      },
+      {
+        "skuId": "680000703710003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000703710-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000704827",
+    "title": "新款婴儿背带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000704827-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000704827-1.webp",
+      "/api/v1/dev/images/products/680000704827-2.webp",
+      "/api/v1/dev/images/products/680000704827-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 4950,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000704827001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000704827-1.webp"
+      },
+      {
+        "skuId": "680000704827002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000704827-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000705944",
+    "title": "可爱婴儿背带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000705944-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000705944-1.webp",
+      "/api/v1/dev/images/products/680000705944-2.webp",
+      "/api/v1/dev/images/products/680000705944-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 2000,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000705944001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000705944-1.webp"
+      },
+      {
+        "skuId": "680000705944002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000705944-2.webp"
+      },
+      {
+        "skuId": "680000705944003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000705944-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000707061",
+    "title": "安全材质婴儿背带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000707061-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000707061-1.webp",
+      "/api/v1/dev/images/products/680000707061-2.webp",
+      "/api/v1/dev/images/products/680000707061-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 19600,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000707061001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 462,
+        "imageUrl": "/api/v1/dev/images/products/680000707061-1.webp"
+      },
+      {
+        "skuId": "680000707061002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 463,
+        "imageUrl": "/api/v1/dev/images/products/680000707061-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000708178",
+    "title": "卡通儿童餐具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000708178-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000708178-1.webp",
+      "/api/v1/dev/images/products/680000708178-2.webp",
+      "/api/v1/dev/images/products/680000708178-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 14100,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000708178001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 232,
+        "imageUrl": "/api/v1/dev/images/products/680000708178-1.webp"
+      },
+      {
+        "skuId": "680000708178002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 233,
+        "imageUrl": "/api/v1/dev/images/products/680000708178-2.webp"
+      },
+      {
+        "skuId": "680000708178003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 234,
+        "imageUrl": "/api/v1/dev/images/products/680000708178-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000709295",
+    "title": "新款儿童餐具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000709295-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000709295-1.webp",
+      "/api/v1/dev/images/products/680000709295-2.webp",
+      "/api/v1/dev/images/products/680000709295-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 11150,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000709295001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 173,
+        "imageUrl": "/api/v1/dev/images/products/680000709295-1.webp"
+      },
+      {
+        "skuId": "680000709295002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 174,
+        "imageUrl": "/api/v1/dev/images/products/680000709295-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000710412",
+    "title": "可爱儿童餐具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000710412-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000710412-1.webp",
+      "/api/v1/dev/images/products/680000710412-2.webp",
+      "/api/v1/dev/images/products/680000710412-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 4300,
+    "shop": {
+      "shopId": "100442",
+      "name": "母婴童装旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "儿童",
+      "婴儿"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "童趣"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "休闲"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000710412001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 156,
+        "imageUrl": "/api/v1/dev/images/products/680000710412-1.webp"
+      },
+      {
+        "skuId": "680000710412002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 157,
+        "imageUrl": "/api/v1/dev/images/products/680000710412-2.webp"
+      },
+      {
+        "skuId": "680000710412003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黄色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000710412-3.webp"
+      }
+    ]
   }
 ]

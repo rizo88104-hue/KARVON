@@ -600,5 +600,5957 @@
         "imageUrl": "/api/v1/dev/images/products/680000081541-2.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000813176",
+    "title": "新款气垫粉饼",
+    "mainImageUrl": "/api/v1/dev/images/products/680000813176-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000813176-1.webp",
+      "/api/v1/dev/images/products/680000813176-2.webp",
+      "/api/v1/dev/images/products/680000813176-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 17550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000813176001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 421,
+        "imageUrl": "/api/v1/dev/images/products/680000813176-1.webp"
+      },
+      {
+        "skuId": "680000813176002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 422,
+        "imageUrl": "/api/v1/dev/images/products/680000813176-2.webp"
+      },
+      {
+        "skuId": "680000813176003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 423,
+        "imageUrl": "/api/v1/dev/images/products/680000813176-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000814293",
+    "title": "便携气垫粉饼",
+    "mainImageUrl": "/api/v1/dev/images/products/680000814293-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000814293-1.webp",
+      "/api/v1/dev/images/products/680000814293-2.webp",
+      "/api/v1/dev/images/products/680000814293-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 14600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000814293001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 362,
+        "imageUrl": "/api/v1/dev/images/products/680000814293-1.webp"
+      },
+      {
+        "skuId": "680000814293002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 363,
+        "imageUrl": "/api/v1/dev/images/products/680000814293-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000815410",
+    "title": "礼盒装气垫粉饼",
+    "mainImageUrl": "/api/v1/dev/images/products/680000815410-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000815410-1.webp",
+      "/api/v1/dev/images/products/680000815410-2.webp",
+      "/api/v1/dev/images/products/680000815410-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 700,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000815410001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000815410-1.webp"
+      },
+      {
+        "skuId": "680000815410002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 325,
+        "imageUrl": "/api/v1/dev/images/products/680000815410-2.webp"
+      },
+      {
+        "skuId": "680000815410003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 326,
+        "imageUrl": "/api/v1/dev/images/products/680000815410-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000816527",
+    "title": "专业气垫粉饼",
+    "mainImageUrl": "/api/v1/dev/images/products/680000816527-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000816527-1.webp",
+      "/api/v1/dev/images/products/680000816527-2.webp",
+      "/api/v1/dev/images/products/680000816527-3.webp"
+    ],
+    "priceCny": 74,
+    "salesCount": 25200,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000816527001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 94,
+        "imageUrl": "/api/v1/dev/images/products/680000816527-1.webp"
+      },
+      {
+        "skuId": "680000816527002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 95,
+        "imageUrl": "/api/v1/dev/images/products/680000816527-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000817644",
+    "title": "新款遮瑕膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000817644-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000817644-1.webp",
+      "/api/v1/dev/images/products/680000817644-2.webp",
+      "/api/v1/dev/images/products/680000817644-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 22250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000817644001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000817644-1.webp"
+      },
+      {
+        "skuId": "680000817644002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000817644-2.webp"
+      },
+      {
+        "skuId": "680000817644003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000817644-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000818761",
+    "title": "便携遮瑕膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000818761-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000818761-1.webp",
+      "/api/v1/dev/images/products/680000818761-2.webp",
+      "/api/v1/dev/images/products/680000818761-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 19300,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000818761001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 456,
+        "imageUrl": "/api/v1/dev/images/products/680000818761-1.webp"
+      },
+      {
+        "skuId": "680000818761002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 457,
+        "imageUrl": "/api/v1/dev/images/products/680000818761-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000819878",
+    "title": "礼盒装遮瑕膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000819878-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000819878-1.webp",
+      "/api/v1/dev/images/products/680000819878-2.webp",
+      "/api/v1/dev/images/products/680000819878-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 13800,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000819878001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000819878-1.webp"
+      },
+      {
+        "skuId": "680000819878002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000819878-2.webp"
+      },
+      {
+        "skuId": "680000819878003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 228,
+        "imageUrl": "/api/v1/dev/images/products/680000819878-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000820995",
+    "title": "专业遮瑕膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000820995-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000820995-1.webp",
+      "/api/v1/dev/images/products/680000820995-2.webp",
+      "/api/v1/dev/images/products/680000820995-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 17900,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000820995001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000820995-1.webp"
+      },
+      {
+        "skuId": "680000820995002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000820995-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000822112",
+    "title": "新款纤长睫毛膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000822112-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000822112-1.webp",
+      "/api/v1/dev/images/products/680000822112-2.webp",
+      "/api/v1/dev/images/products/680000822112-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 24550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000822112001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000822112-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000823229",
+    "title": "便携纤长睫毛膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000823229-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000823229-1.webp",
+      "/api/v1/dev/images/products/680000823229-2.webp",
+      "/api/v1/dev/images/products/680000823229-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 19050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000823229001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 91,
+        "imageUrl": "/api/v1/dev/images/products/680000823229-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000824346",
+    "title": "礼盒装纤长睫毛膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000824346-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000824346-1.webp",
+      "/api/v1/dev/images/products/680000824346-2.webp",
+      "/api/v1/dev/images/products/680000824346-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 16100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000824346001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000824346-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000825463",
+    "title": "专业纤长睫毛膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000825463-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000825463-1.webp",
+      "/api/v1/dev/images/products/680000825463-2.webp",
+      "/api/v1/dev/images/products/680000825463-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 13150,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000825463001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 453,
+        "imageUrl": "/api/v1/dev/images/products/680000825463-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000826580",
+    "title": "新款防水眉笔",
+    "mainImageUrl": "/api/v1/dev/images/products/680000826580-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000826580-1.webp",
+      "/api/v1/dev/images/products/680000826580-2.webp",
+      "/api/v1/dev/images/products/680000826580-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 10200,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000826580001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 394,
+        "imageUrl": "/api/v1/dev/images/products/680000826580-1.webp"
+      },
+      {
+        "skuId": "680000826580002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 395,
+        "imageUrl": "/api/v1/dev/images/products/680000826580-2.webp"
+      },
+      {
+        "skuId": "680000826580003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 396,
+        "imageUrl": "/api/v1/dev/images/products/680000826580-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000827697",
+    "title": "便携防水眉笔",
+    "mainImageUrl": "/api/v1/dev/images/products/680000827697-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000827697-1.webp",
+      "/api/v1/dev/images/products/680000827697-2.webp",
+      "/api/v1/dev/images/products/680000827697-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 4700,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000827697001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000827697-1.webp"
+      },
+      {
+        "skuId": "680000827697002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000827697-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000828814",
+    "title": "礼盒装防水眉笔",
+    "mainImageUrl": "/api/v1/dev/images/products/680000828814-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000828814-1.webp",
+      "/api/v1/dev/images/products/680000828814-2.webp",
+      "/api/v1/dev/images/products/680000828814-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 20800,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000828814001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 126,
+        "imageUrl": "/api/v1/dev/images/products/680000828814-1.webp"
+      },
+      {
+        "skuId": "680000828814002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 127,
+        "imageUrl": "/api/v1/dev/images/products/680000828814-2.webp"
+      },
+      {
+        "skuId": "680000828814003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 128,
+        "imageUrl": "/api/v1/dev/images/products/680000828814-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000829931",
+    "title": "专业防水眉笔",
+    "mainImageUrl": "/api/v1/dev/images/products/680000829931-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000829931-1.webp",
+      "/api/v1/dev/images/products/680000829931-2.webp",
+      "/api/v1/dev/images/products/680000829931-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 17850,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000829931001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 67,
+        "imageUrl": "/api/v1/dev/images/products/680000829931-1.webp"
+      },
+      {
+        "skuId": "680000829931002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 68,
+        "imageUrl": "/api/v1/dev/images/products/680000829931-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000831048",
+    "title": "新款腮红盘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000831048-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000831048-1.webp",
+      "/api/v1/dev/images/products/680000831048-2.webp",
+      "/api/v1/dev/images/products/680000831048-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 9950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000831048001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000831048-1.webp"
+      },
+      {
+        "skuId": "680000831048002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000831048-2.webp"
+      },
+      {
+        "skuId": "680000831048003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000831048-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000832165",
+    "title": "便携腮红盘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000832165-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000832165-1.webp",
+      "/api/v1/dev/images/products/680000832165-2.webp",
+      "/api/v1/dev/images/products/680000832165-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 7000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000832165001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 450,
+        "imageUrl": "/api/v1/dev/images/products/680000832165-1.webp"
+      },
+      {
+        "skuId": "680000832165002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 451,
+        "imageUrl": "/api/v1/dev/images/products/680000832165-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000833282",
+    "title": "礼盒装腮红盘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000833282-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000833282-1.webp",
+      "/api/v1/dev/images/products/680000833282-2.webp",
+      "/api/v1/dev/images/products/680000833282-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 4050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000833282001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 391,
+        "imageUrl": "/api/v1/dev/images/products/680000833282-1.webp"
+      },
+      {
+        "skuId": "680000833282002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 392,
+        "imageUrl": "/api/v1/dev/images/products/680000833282-2.webp"
+      },
+      {
+        "skuId": "680000833282003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 393,
+        "imageUrl": "/api/v1/dev/images/products/680000833282-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000834399",
+    "title": "专业腮红盘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000834399-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000834399-1.webp",
+      "/api/v1/dev/images/products/680000834399-2.webp",
+      "/api/v1/dev/images/products/680000834399-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 28550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000834399001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000834399-1.webp"
+      },
+      {
+        "skuId": "680000834399002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000834399-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000835516",
+    "title": "新款定妆散粉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000835516-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000835516-1.webp",
+      "/api/v1/dev/images/products/680000835516-2.webp",
+      "/api/v1/dev/images/products/680000835516-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 14650,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000835516001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000835516-1.webp"
+      },
+      {
+        "skuId": "680000835516002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 124,
+        "imageUrl": "/api/v1/dev/images/products/680000835516-2.webp"
+      },
+      {
+        "skuId": "680000835516003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 125,
+        "imageUrl": "/api/v1/dev/images/products/680000835516-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000836633",
+    "title": "便携定妆散粉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000836633-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000836633-1.webp",
+      "/api/v1/dev/images/products/680000836633-2.webp",
+      "/api/v1/dev/images/products/680000836633-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 11700,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000836633001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000836633-1.webp"
+      },
+      {
+        "skuId": "680000836633002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000836633-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000837750",
+    "title": "礼盒装定妆散粉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000837750-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000837750-1.webp",
+      "/api/v1/dev/images/products/680000837750-2.webp",
+      "/api/v1/dev/images/products/680000837750-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 8750,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000837750001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 485,
+        "imageUrl": "/api/v1/dev/images/products/680000837750-1.webp"
+      },
+      {
+        "skuId": "680000837750002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 486,
+        "imageUrl": "/api/v1/dev/images/products/680000837750-2.webp"
+      },
+      {
+        "skuId": "680000837750003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 487,
+        "imageUrl": "/api/v1/dev/images/products/680000837750-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000838867",
+    "title": "专业定妆散粉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000838867-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000838867-1.webp",
+      "/api/v1/dev/images/products/680000838867-2.webp",
+      "/api/v1/dev/images/products/680000838867-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 3250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000838867001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000838867-1.webp"
+      },
+      {
+        "skuId": "680000838867002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000838867-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000839984",
+    "title": "新款美妆蛋套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000839984-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000839984-1.webp",
+      "/api/v1/dev/images/products/680000839984-2.webp",
+      "/api/v1/dev/images/products/680000839984-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 300,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000839984001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 196,
+        "imageUrl": "/api/v1/dev/images/products/680000839984-1.webp"
+      },
+      {
+        "skuId": "680000839984002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 197,
+        "imageUrl": "/api/v1/dev/images/products/680000839984-2.webp"
+      },
+      {
+        "skuId": "680000839984003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 198,
+        "imageUrl": "/api/v1/dev/images/products/680000839984-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000841101",
+    "title": "便携美妆蛋套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000841101-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000841101-1.webp",
+      "/api/v1/dev/images/products/680000841101-2.webp",
+      "/api/v1/dev/images/products/680000841101-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 14000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000841101001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000841101-1.webp"
+      },
+      {
+        "skuId": "680000841101002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000841101-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000842218",
+    "title": "礼盒装美妆蛋套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000842218-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000842218-1.webp",
+      "/api/v1/dev/images/products/680000842218-2.webp",
+      "/api/v1/dev/images/products/680000842218-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 8500,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000842218001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000842218-1.webp"
+      },
+      {
+        "skuId": "680000842218002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000842218-2.webp"
+      },
+      {
+        "skuId": "680000842218003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000842218-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000843335",
+    "title": "专业美妆蛋套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000843335-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000843335-1.webp",
+      "/api/v1/dev/images/products/680000843335-2.webp",
+      "/api/v1/dev/images/products/680000843335-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 5550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000843335001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 61,
+        "imageUrl": "/api/v1/dev/images/products/680000843335-1.webp"
+      },
+      {
+        "skuId": "680000843335002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000843335-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000844452",
+    "title": "新款化妆品收纳盒",
+    "mainImageUrl": "/api/v1/dev/images/products/680000844452-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000844452-1.webp",
+      "/api/v1/dev/images/products/680000844452-2.webp",
+      "/api/v1/dev/images/products/680000844452-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 2600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000844452001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 482,
+        "imageUrl": "/api/v1/dev/images/products/680000844452-1.webp"
+      },
+      {
+        "skuId": "680000844452002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 483,
+        "imageUrl": "/api/v1/dev/images/products/680000844452-2.webp"
+      },
+      {
+        "skuId": "680000844452003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 484,
+        "imageUrl": "/api/v1/dev/images/products/680000844452-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000845569",
+    "title": "便携化妆品收纳盒",
+    "mainImageUrl": "/api/v1/dev/images/products/680000845569-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000845569-1.webp",
+      "/api/v1/dev/images/products/680000845569-2.webp",
+      "/api/v1/dev/images/products/680000845569-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 27100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000845569001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000845569-1.webp"
+      },
+      {
+        "skuId": "680000845569002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 253,
+        "imageUrl": "/api/v1/dev/images/products/680000845569-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000846686",
+    "title": "礼盒装化妆品收纳盒",
+    "mainImageUrl": "/api/v1/dev/images/products/680000846686-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000846686-1.webp",
+      "/api/v1/dev/images/products/680000846686-2.webp",
+      "/api/v1/dev/images/products/680000846686-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 24150,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000846686001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000846686-1.webp"
+      },
+      {
+        "skuId": "680000846686002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 194,
+        "imageUrl": "/api/v1/dev/images/products/680000846686-2.webp"
+      },
+      {
+        "skuId": "680000846686003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000846686-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000847803",
+    "title": "专业化妆品收纳盒",
+    "mainImageUrl": "/api/v1/dev/images/products/680000847803-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000847803-1.webp",
+      "/api/v1/dev/images/products/680000847803-2.webp",
+      "/api/v1/dev/images/products/680000847803-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 10250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "美妆",
+      "彩妆"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000847803001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 155,
+        "imageUrl": "/api/v1/dev/images/products/680000847803-1.webp"
+      },
+      {
+        "skuId": "680000847803002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 156,
+        "imageUrl": "/api/v1/dev/images/products/680000847803-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000848920",
+    "title": "新款润唇膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000848920-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000848920-1.webp",
+      "/api/v1/dev/images/products/680000848920-2.webp",
+      "/api/v1/dev/images/products/680000848920-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 7300,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000848920001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 96,
+        "imageUrl": "/api/v1/dev/images/products/680000848920-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000850037",
+    "title": "便携润唇膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000850037-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000850037-1.webp",
+      "/api/v1/dev/images/products/680000850037-2.webp",
+      "/api/v1/dev/images/products/680000850037-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 29400,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000850037001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 58,
+        "imageUrl": "/api/v1/dev/images/products/680000850037-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000851154",
+    "title": "礼盒装润唇膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000851154-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000851154-1.webp",
+      "/api/v1/dev/images/products/680000851154-2.webp",
+      "/api/v1/dev/images/products/680000851154-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 26450,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000851154001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 479,
+        "imageUrl": "/api/v1/dev/images/products/680000851154-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000852271",
+    "title": "专业润唇膏",
+    "mainImageUrl": "/api/v1/dev/images/products/680000852271-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000852271-1.webp",
+      "/api/v1/dev/images/products/680000852271-2.webp",
+      "/api/v1/dev/images/products/680000852271-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 23500,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000852271001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 420,
+        "imageUrl": "/api/v1/dev/images/products/680000852271-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000853388",
+    "title": "新款氨基酸洗面奶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000853388-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000853388-1.webp",
+      "/api/v1/dev/images/products/680000853388-2.webp",
+      "/api/v1/dev/images/products/680000853388-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 18000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000853388001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000853388-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000854505",
+    "title": "便携氨基酸洗面奶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000854505-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000854505-1.webp",
+      "/api/v1/dev/images/products/680000854505-2.webp",
+      "/api/v1/dev/images/products/680000854505-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 4100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000854505001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 152,
+        "imageUrl": "/api/v1/dev/images/products/680000854505-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000855622",
+    "title": "礼盒装氨基酸洗面奶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000855622-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000855622-1.webp",
+      "/api/v1/dev/images/products/680000855622-2.webp",
+      "/api/v1/dev/images/products/680000855622-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 1150,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000855622001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000855622-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000856739",
+    "title": "专业氨基酸洗面奶",
+    "mainImageUrl": "/api/v1/dev/images/products/680000856739-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000856739-1.webp",
+      "/api/v1/dev/images/products/680000856739-2.webp",
+      "/api/v1/dev/images/products/680000856739-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 25650,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000856739001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 343,
+        "imageUrl": "/api/v1/dev/images/products/680000856739-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000857856",
+    "title": "新款保湿眼霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000857856-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000857856-1.webp",
+      "/api/v1/dev/images/products/680000857856-2.webp",
+      "/api/v1/dev/images/products/680000857856-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 22700,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000857856001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000857856-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000858973",
+    "title": "便携保湿眼霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000858973-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000858973-1.webp",
+      "/api/v1/dev/images/products/680000858973-2.webp",
+      "/api/v1/dev/images/products/680000858973-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 19750,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000858973001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000858973-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000860090",
+    "title": "礼盒装保湿眼霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000860090-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000860090-1.webp",
+      "/api/v1/dev/images/products/680000860090-2.webp",
+      "/api/v1/dev/images/products/680000860090-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 14400,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000860090001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 358,
+        "imageUrl": "/api/v1/dev/images/products/680000860090-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000861207",
+    "title": "专业保湿眼霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000861207-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000861207-1.webp",
+      "/api/v1/dev/images/products/680000861207-2.webp",
+      "/api/v1/dev/images/products/680000861207-3.webp"
+    ],
+    "priceCny": 84,
+    "originalPriceCny": 109,
+    "salesCount": 27950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000861207001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 149,
+        "imageUrl": "/api/v1/dev/images/products/680000861207-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000862324",
+    "title": "新款清爽防晒霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000862324-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000862324-1.webp",
+      "/api/v1/dev/images/products/680000862324-2.webp",
+      "/api/v1/dev/images/products/680000862324-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 25000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000862324001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 90,
+        "imageUrl": "/api/v1/dev/images/products/680000862324-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000863441",
+    "title": "便携清爽防晒霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000863441-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000863441-1.webp",
+      "/api/v1/dev/images/products/680000863441-2.webp",
+      "/api/v1/dev/images/products/680000863441-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 22050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000863441001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000863441-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000864558",
+    "title": "礼盒装清爽防晒霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000864558-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000864558-1.webp",
+      "/api/v1/dev/images/products/680000864558-2.webp",
+      "/api/v1/dev/images/products/680000864558-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 16550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000864558001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000864558-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000865675",
+    "title": "专业清爽防晒霜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000865675-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000865675-1.webp",
+      "/api/v1/dev/images/products/680000865675-2.webp",
+      "/api/v1/dev/images/products/680000865675-3.webp"
+    ],
+    "priceCny": 64,
+    "salesCount": 13600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000865675001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000865675-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000866792",
+    "title": "新款滋润身体乳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000866792-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000866792-1.webp",
+      "/api/v1/dev/images/products/680000866792-2.webp",
+      "/api/v1/dev/images/products/680000866792-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 10650,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.35,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000866792001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000866792-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000867909",
+    "title": "便携滋润身体乳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000867909-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000867909-1.webp",
+      "/api/v1/dev/images/products/680000867909-2.webp",
+      "/api/v1/dev/images/products/680000867909-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 24200,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.35,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000867909001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 434,
+        "imageUrl": "/api/v1/dev/images/products/680000867909-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000869026",
+    "title": "礼盒装滋润身体乳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000869026-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000869026-1.webp",
+      "/api/v1/dev/images/products/680000869026-2.webp",
+      "/api/v1/dev/images/products/680000869026-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 11800,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.35,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000869026001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 66,
+        "imageUrl": "/api/v1/dev/images/products/680000869026-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000870143",
+    "title": "专业滋润身体乳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000870143-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000870143-1.webp",
+      "/api/v1/dev/images/products/680000870143-2.webp",
+      "/api/v1/dev/images/products/680000870143-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 15900,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.35,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000870143001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 28,
+        "imageUrl": "/api/v1/dev/images/products/680000870143-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000871260",
+    "title": "新款电动洁面仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000871260-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000871260-1.webp",
+      "/api/v1/dev/images/products/680000871260-2.webp",
+      "/api/v1/dev/images/products/680000871260-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 12950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000871260001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 449,
+        "imageUrl": "/api/v1/dev/images/products/680000871260-1.webp"
+      },
+      {
+        "skuId": "680000871260002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 450,
+        "imageUrl": "/api/v1/dev/images/products/680000871260-2.webp"
+      },
+      {
+        "skuId": "680000871260003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 451,
+        "imageUrl": "/api/v1/dev/images/products/680000871260-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000872377",
+    "title": "便携电动洁面仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000872377-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000872377-1.webp",
+      "/api/v1/dev/images/products/680000872377-2.webp",
+      "/api/v1/dev/images/products/680000872377-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 7450,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000872377001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000872377-1.webp"
+      },
+      {
+        "skuId": "680000872377002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000872377-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000873494",
+    "title": "礼盒装电动洁面仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000873494-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000873494-1.webp",
+      "/api/v1/dev/images/products/680000873494-2.webp",
+      "/api/v1/dev/images/products/680000873494-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 4500,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000873494001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000873494-1.webp"
+      },
+      {
+        "skuId": "680000873494002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000873494-2.webp"
+      },
+      {
+        "skuId": "680000873494003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000873494-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000874611",
+    "title": "专业电动洁面仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000874611-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000874611-1.webp",
+      "/api/v1/dev/images/products/680000874611-2.webp",
+      "/api/v1/dev/images/products/680000874611-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 20600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000874611001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000874611-1.webp"
+      },
+      {
+        "skuId": "680000874611002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000874611-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000875728",
+    "title": "新款电动牙刷",
+    "mainImageUrl": "/api/v1/dev/images/products/680000875728-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000875728-1.webp",
+      "/api/v1/dev/images/products/680000875728-2.webp",
+      "/api/v1/dev/images/products/680000875728-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 15100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000875728001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 372,
+        "imageUrl": "/api/v1/dev/images/products/680000875728-1.webp"
+      },
+      {
+        "skuId": "680000875728002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 373,
+        "imageUrl": "/api/v1/dev/images/products/680000875728-2.webp"
+      },
+      {
+        "skuId": "680000875728003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 374,
+        "imageUrl": "/api/v1/dev/images/products/680000875728-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000876845",
+    "title": "便携电动牙刷",
+    "mainImageUrl": "/api/v1/dev/images/products/680000876845-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000876845-1.webp",
+      "/api/v1/dev/images/products/680000876845-2.webp",
+      "/api/v1/dev/images/products/680000876845-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 12150,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000876845001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000876845-1.webp"
+      },
+      {
+        "skuId": "680000876845002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000876845-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000877962",
+    "title": "礼盒装电动牙刷",
+    "mainImageUrl": "/api/v1/dev/images/products/680000877962-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000877962-1.webp",
+      "/api/v1/dev/images/products/680000877962-2.webp",
+      "/api/v1/dev/images/products/680000877962-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 9200,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000877962001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 254,
+        "imageUrl": "/api/v1/dev/images/products/680000877962-1.webp"
+      },
+      {
+        "skuId": "680000877962002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000877962-2.webp"
+      },
+      {
+        "skuId": "680000877962003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000877962-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000879079",
+    "title": "专业电动牙刷",
+    "mainImageUrl": "/api/v1/dev/images/products/680000879079-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000879079-1.webp",
+      "/api/v1/dev/images/products/680000879079-2.webp",
+      "/api/v1/dev/images/products/680000879079-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 24250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000879079001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000879079-1.webp"
+      },
+      {
+        "skuId": "680000879079002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 196,
+        "imageUrl": "/api/v1/dev/images/products/680000879079-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000880196",
+    "title": "新款男士电动剃须刀",
+    "mainImageUrl": "/api/v1/dev/images/products/680000880196-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000880196-1.webp",
+      "/api/v1/dev/images/products/680000880196-2.webp",
+      "/api/v1/dev/images/products/680000880196-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 28350,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000880196001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 157,
+        "imageUrl": "/api/v1/dev/images/products/680000880196-1.webp"
+      },
+      {
+        "skuId": "680000880196002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000880196-2.webp"
+      },
+      {
+        "skuId": "680000880196003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000880196-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000881313",
+    "title": "便携男士电动剃须刀",
+    "mainImageUrl": "/api/v1/dev/images/products/680000881313-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000881313-1.webp",
+      "/api/v1/dev/images/products/680000881313-2.webp",
+      "/api/v1/dev/images/products/680000881313-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 14450,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000881313001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 119,
+        "imageUrl": "/api/v1/dev/images/products/680000881313-1.webp"
+      },
+      {
+        "skuId": "680000881313002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000881313-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000882430",
+    "title": "礼盒装男士电动剃须刀",
+    "mainImageUrl": "/api/v1/dev/images/products/680000882430-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000882430-1.webp",
+      "/api/v1/dev/images/products/680000882430-2.webp",
+      "/api/v1/dev/images/products/680000882430-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 11500,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000882430001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 60,
+        "imageUrl": "/api/v1/dev/images/products/680000882430-1.webp"
+      },
+      {
+        "skuId": "680000882430002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 61,
+        "imageUrl": "/api/v1/dev/images/products/680000882430-2.webp"
+      },
+      {
+        "skuId": "680000882430003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000882430-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000883547",
+    "title": "专业男士电动剃须刀",
+    "mainImageUrl": "/api/v1/dev/images/products/680000883547-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000883547-1.webp",
+      "/api/v1/dev/images/products/680000883547-2.webp",
+      "/api/v1/dev/images/products/680000883547-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 6000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "美妆",
+      "护肤"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000883547001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000883547-1.webp"
+      },
+      {
+        "skuId": "680000883547002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 311,
+        "imageUrl": "/api/v1/dev/images/products/680000883547-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000884664",
+    "title": "新款直发夹板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000884664-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000884664-1.webp",
+      "/api/v1/dev/images/products/680000884664-2.webp",
+      "/api/v1/dev/images/products/680000884664-3.webp"
+    ],
+    "priceCny": 149,
+    "originalPriceCny": 194,
+    "salesCount": 3050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000884664001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000884664-1.webp"
+      },
+      {
+        "skuId": "680000884664002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000884664-2.webp"
+      },
+      {
+        "skuId": "680000884664003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 253,
+        "imageUrl": "/api/v1/dev/images/products/680000884664-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000885781",
+    "title": "便携直发夹板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000885781-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000885781-1.webp",
+      "/api/v1/dev/images/products/680000885781-2.webp",
+      "/api/v1/dev/images/products/680000885781-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 30100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000885781001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000885781-1.webp"
+      },
+      {
+        "skuId": "680000885781002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000885781-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000886898",
+    "title": "礼盒装直发夹板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000886898-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000886898-1.webp",
+      "/api/v1/dev/images/products/680000886898-2.webp",
+      "/api/v1/dev/images/products/680000886898-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 24600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000886898001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000886898-1.webp"
+      },
+      {
+        "skuId": "680000886898002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000886898-2.webp"
+      },
+      {
+        "skuId": "680000886898003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000886898-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000888015",
+    "title": "专业直发夹板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000888015-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000888015-1.webp",
+      "/api/v1/dev/images/products/680000888015-2.webp",
+      "/api/v1/dev/images/products/680000888015-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 1250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000888015001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 95,
+        "imageUrl": "/api/v1/dev/images/products/680000888015-1.webp"
+      },
+      {
+        "skuId": "680000888015002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 96,
+        "imageUrl": "/api/v1/dev/images/products/680000888015-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000889132",
+    "title": "新款气垫按摩梳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000889132-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000889132-1.webp",
+      "/api/v1/dev/images/products/680000889132-2.webp",
+      "/api/v1/dev/images/products/680000889132-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 28300,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000889132001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 36,
+        "imageUrl": "/api/v1/dev/images/products/680000889132-1.webp"
+      },
+      {
+        "skuId": "680000889132002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 37,
+        "imageUrl": "/api/v1/dev/images/products/680000889132-2.webp"
+      },
+      {
+        "skuId": "680000889132003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 38,
+        "imageUrl": "/api/v1/dev/images/products/680000889132-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000890249",
+    "title": "便携气垫按摩梳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000890249-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000890249-1.webp",
+      "/api/v1/dev/images/products/680000890249-2.webp",
+      "/api/v1/dev/images/products/680000890249-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 29850,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000890249001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 307,
+        "imageUrl": "/api/v1/dev/images/products/680000890249-1.webp"
+      },
+      {
+        "skuId": "680000890249002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 308,
+        "imageUrl": "/api/v1/dev/images/products/680000890249-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000891366",
+    "title": "礼盒装气垫按摩梳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000891366-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000891366-1.webp",
+      "/api/v1/dev/images/products/680000891366-2.webp",
+      "/api/v1/dev/images/products/680000891366-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 26900,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000891366001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 248,
+        "imageUrl": "/api/v1/dev/images/products/680000891366-1.webp"
+      },
+      {
+        "skuId": "680000891366002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 249,
+        "imageUrl": "/api/v1/dev/images/products/680000891366-2.webp"
+      },
+      {
+        "skuId": "680000891366003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000891366-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000892483",
+    "title": "专业气垫按摩梳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000892483-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000892483-1.webp",
+      "/api/v1/dev/images/products/680000892483-2.webp",
+      "/api/v1/dev/images/products/680000892483-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 23950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000892483001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000892483-1.webp"
+      },
+      {
+        "skuId": "680000892483002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000892483-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000893600",
+    "title": "新款发圈套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000893600-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000893600-1.webp",
+      "/api/v1/dev/images/products/680000893600-2.webp",
+      "/api/v1/dev/images/products/680000893600-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 10050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000893600001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 151,
+        "imageUrl": "/api/v1/dev/images/products/680000893600-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000894717",
+    "title": "便携发圈套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000894717-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000894717-1.webp",
+      "/api/v1/dev/images/products/680000894717-2.webp",
+      "/api/v1/dev/images/products/680000894717-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 4550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000894717001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 401,
+        "imageUrl": "/api/v1/dev/images/products/680000894717-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000895834",
+    "title": "礼盒装发圈套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000895834-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000895834-1.webp",
+      "/api/v1/dev/images/products/680000895834-2.webp",
+      "/api/v1/dev/images/products/680000895834-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 1600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000895834001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 342,
+        "imageUrl": "/api/v1/dev/images/products/680000895834-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000896951",
+    "title": "专业发圈套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000896951-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000896951-1.webp",
+      "/api/v1/dev/images/products/680000896951-2.webp",
+      "/api/v1/dev/images/products/680000896951-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 28650,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000896951001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 283,
+        "imageUrl": "/api/v1/dev/images/products/680000896951-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000898068",
+    "title": "新款卷发筒套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000898068-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000898068-1.webp",
+      "/api/v1/dev/images/products/680000898068-2.webp",
+      "/api/v1/dev/images/products/680000898068-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 13700,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000898068001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000898068-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000899185",
+    "title": "便携卷发筒套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000899185-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000899185-1.webp",
+      "/api/v1/dev/images/products/680000899185-2.webp",
+      "/api/v1/dev/images/products/680000899185-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 10750,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000899185001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000899185-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000900302",
+    "title": "礼盒装卷发筒套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000900302-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000900302-1.webp",
+      "/api/v1/dev/images/products/680000900302-2.webp",
+      "/api/v1/dev/images/products/680000900302-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 12450,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000900302001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000900302-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000901419",
+    "title": "专业卷发筒套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000901419-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000901419-1.webp",
+      "/api/v1/dev/images/products/680000901419-2.webp",
+      "/api/v1/dev/images/products/680000901419-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 6950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "美妆",
+      "美发"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000901419001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 89,
+        "imageUrl": "/api/v1/dev/images/products/680000901419-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000902536",
+    "title": "新款美甲光疗灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000902536-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000902536-1.webp",
+      "/api/v1/dev/images/products/680000902536-2.webp",
+      "/api/v1/dev/images/products/680000902536-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 4000,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000902536001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000902536-1.webp"
+      },
+      {
+        "skuId": "680000902536002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000902536-2.webp"
+      },
+      {
+        "skuId": "680000902536003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000902536-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000903653",
+    "title": "便携美甲光疗灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000903653-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000903653-1.webp",
+      "/api/v1/dev/images/products/680000903653-2.webp",
+      "/api/v1/dev/images/products/680000903653-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 1050,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000903653001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 451,
+        "imageUrl": "/api/v1/dev/images/products/680000903653-1.webp"
+      },
+      {
+        "skuId": "680000903653002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 452,
+        "imageUrl": "/api/v1/dev/images/products/680000903653-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000904770",
+    "title": "礼盒装美甲光疗灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000904770-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000904770-1.webp",
+      "/api/v1/dev/images/products/680000904770-2.webp",
+      "/api/v1/dev/images/products/680000904770-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 28100,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000904770001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 392,
+        "imageUrl": "/api/v1/dev/images/products/680000904770-1.webp"
+      },
+      {
+        "skuId": "680000904770002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 393,
+        "imageUrl": "/api/v1/dev/images/products/680000904770-2.webp"
+      },
+      {
+        "skuId": "680000904770003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 394,
+        "imageUrl": "/api/v1/dev/images/products/680000904770-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000905887",
+    "title": "专业美甲光疗灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000905887-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000905887-1.webp",
+      "/api/v1/dev/images/products/680000905887-2.webp",
+      "/api/v1/dev/images/products/680000905887-3.webp"
+    ],
+    "priceCny": 74,
+    "salesCount": 22600,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000905887001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000905887-1.webp"
+      },
+      {
+        "skuId": "680000905887002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000905887-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000907004",
+    "title": "新款指甲剪套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000907004-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000907004-1.webp",
+      "/api/v1/dev/images/products/680000907004-2.webp",
+      "/api/v1/dev/images/products/680000907004-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 29250,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000907004001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 295,
+        "imageUrl": "/api/v1/dev/images/products/680000907004-1.webp"
+      },
+      {
+        "skuId": "680000907004002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 296,
+        "imageUrl": "/api/v1/dev/images/products/680000907004-2.webp"
+      },
+      {
+        "skuId": "680000907004003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 297,
+        "imageUrl": "/api/v1/dev/images/products/680000907004-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000908121",
+    "title": "便携指甲剪套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000908121-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000908121-1.webp",
+      "/api/v1/dev/images/products/680000908121-2.webp",
+      "/api/v1/dev/images/products/680000908121-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 26300,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000908121001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 236,
+        "imageUrl": "/api/v1/dev/images/products/680000908121-1.webp"
+      },
+      {
+        "skuId": "680000908121002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 237,
+        "imageUrl": "/api/v1/dev/images/products/680000908121-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000909238",
+    "title": "礼盒装指甲剪套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000909238-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000909238-1.webp",
+      "/api/v1/dev/images/products/680000909238-2.webp",
+      "/api/v1/dev/images/products/680000909238-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 20800,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000909238001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "紫色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 486,
+        "imageUrl": "/api/v1/dev/images/products/680000909238-1.webp"
+      },
+      {
+        "skuId": "680000909238002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 487,
+        "imageUrl": "/api/v1/dev/images/products/680000909238-2.webp"
+      },
+      {
+        "skuId": "680000909238003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 488,
+        "imageUrl": "/api/v1/dev/images/products/680000909238-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000910355",
+    "title": "专业指甲剪套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000910355-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000910355-1.webp",
+      "/api/v1/dev/images/products/680000910355-2.webp",
+      "/api/v1/dev/images/products/680000910355-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 24900,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000910355001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 448,
+        "imageUrl": "/api/v1/dev/images/products/680000910355-1.webp"
+      },
+      {
+        "skuId": "680000910355002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 449,
+        "imageUrl": "/api/v1/dev/images/products/680000910355-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000911472",
+    "title": "新款美甲贴纸",
+    "mainImageUrl": "/api/v1/dev/images/products/680000911472-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000911472-1.webp",
+      "/api/v1/dev/images/products/680000911472-2.webp",
+      "/api/v1/dev/images/products/680000911472-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 21950,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000911472001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 389,
+        "imageUrl": "/api/v1/dev/images/products/680000911472-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000912589",
+    "title": "便携美甲贴纸",
+    "mainImageUrl": "/api/v1/dev/images/products/680000912589-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000912589-1.webp",
+      "/api/v1/dev/images/products/680000912589-2.webp",
+      "/api/v1/dev/images/products/680000912589-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 16450,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000912589001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000912589-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000913706",
+    "title": "礼盒装美甲贴纸",
+    "mainImageUrl": "/api/v1/dev/images/products/680000913706-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000913706-1.webp",
+      "/api/v1/dev/images/products/680000913706-2.webp",
+      "/api/v1/dev/images/products/680000913706-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 2550,
+    "shop": {
+      "shopId": "100905",
+      "name": "美妆个护旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "美妆",
+      "美甲"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "美妆优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000913706001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000913706-1.webp"
+      }
+    ]
   }
 ]

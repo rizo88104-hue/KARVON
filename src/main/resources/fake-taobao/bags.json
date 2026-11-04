@@ -696,5 +696,6445 @@
         "imageUrl": "/api/v1/dev/images/products/680000060318-2.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000306058",
+    "title": "新款女士托特包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000306058-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000306058-1.webp",
+      "/api/v1/dev/images/products/680000306058-2.webp",
+      "/api/v1/dev/images/products/680000306058-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 150,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000306058001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000306058-1.webp"
+      },
+      {
+        "skuId": "680000306058002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 194,
+        "imageUrl": "/api/v1/dev/images/products/680000306058-2.webp"
+      },
+      {
+        "skuId": "680000306058003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000306058-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000307175",
+    "title": "大容量女士托特包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000307175-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000307175-1.webp",
+      "/api/v1/dev/images/products/680000307175-2.webp",
+      "/api/v1/dev/images/products/680000307175-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 27200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000307175001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 134,
+        "imageUrl": "/api/v1/dev/images/products/680000307175-1.webp"
+      },
+      {
+        "skuId": "680000307175002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 135,
+        "imageUrl": "/api/v1/dev/images/products/680000307175-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000308292",
+    "title": "防水女士托特包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000308292-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000308292-1.webp",
+      "/api/v1/dev/images/products/680000308292-2.webp",
+      "/api/v1/dev/images/products/680000308292-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 24250,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000308292001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 75,
+        "imageUrl": "/api/v1/dev/images/products/680000308292-1.webp"
+      },
+      {
+        "skuId": "680000308292002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 76,
+        "imageUrl": "/api/v1/dev/images/products/680000308292-2.webp"
+      },
+      {
+        "skuId": "680000308292003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 77,
+        "imageUrl": "/api/v1/dev/images/products/680000308292-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000309409",
+    "title": "简约女士托特包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000309409-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000309409-1.webp",
+      "/api/v1/dev/images/products/680000309409-2.webp",
+      "/api/v1/dev/images/products/680000309409-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 7800,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000309409001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000309409-1.webp"
+      },
+      {
+        "skuId": "680000309409002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000309409-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000310526",
+    "title": "新款女士帆布单肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000310526-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000310526-1.webp",
+      "/api/v1/dev/images/products/680000310526-2.webp",
+      "/api/v1/dev/images/products/680000310526-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 11900,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000310526001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 308,
+        "imageUrl": "/api/v1/dev/images/products/680000310526-1.webp"
+      },
+      {
+        "skuId": "680000310526002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 309,
+        "imageUrl": "/api/v1/dev/images/products/680000310526-2.webp"
+      },
+      {
+        "skuId": "680000310526003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000310526-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000312760",
+    "title": "防水女士帆布单肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000312760-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000312760-1.webp",
+      "/api/v1/dev/images/products/680000312760-2.webp",
+      "/api/v1/dev/images/products/680000312760-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 6000,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000312760001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000312760-1.webp"
+      },
+      {
+        "skuId": "680000312760002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 191,
+        "imageUrl": "/api/v1/dev/images/products/680000312760-2.webp"
+      },
+      {
+        "skuId": "680000312760003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000312760-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000313877",
+    "title": "简约女士帆布单肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000313877-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000313877-1.webp",
+      "/api/v1/dev/images/products/680000313877-2.webp",
+      "/api/v1/dev/images/products/680000313877-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000313877001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000313877-1.webp"
+      },
+      {
+        "skuId": "680000313877002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000313877-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000314994",
+    "title": "新款女士腋下包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000314994-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000314994-1.webp",
+      "/api/v1/dev/images/products/680000314994-2.webp",
+      "/api/v1/dev/images/products/680000314994-3.webp"
+    ],
+    "priceCny": 169,
+    "originalPriceCny": 220,
+    "salesCount": 27550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000314994001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000314994-1.webp"
+      },
+      {
+        "skuId": "680000314994002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000314994-2.webp"
+      },
+      {
+        "skuId": "680000314994003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000314994-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000316111",
+    "title": "大容量女士腋下包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000316111-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000316111-1.webp",
+      "/api/v1/dev/images/products/680000316111-2.webp",
+      "/api/v1/dev/images/products/680000316111-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 4200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000316111001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 34,
+        "imageUrl": "/api/v1/dev/images/products/680000316111-1.webp"
+      },
+      {
+        "skuId": "680000316111002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 35,
+        "imageUrl": "/api/v1/dev/images/products/680000316111-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000317228",
+    "title": "防水女士腋下包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000317228-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000317228-1.webp",
+      "/api/v1/dev/images/products/680000317228-2.webp",
+      "/api/v1/dev/images/products/680000317228-3.webp"
+    ],
+    "priceCny": 189,
+    "salesCount": 28700,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000317228001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000317228-1.webp"
+      },
+      {
+        "skuId": "680000317228002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 285,
+        "imageUrl": "/api/v1/dev/images/products/680000317228-2.webp"
+      },
+      {
+        "skuId": "680000317228003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 189,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000317228-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000318345",
+    "title": "简约女士腋下包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000318345-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000318345-1.webp",
+      "/api/v1/dev/images/products/680000318345-2.webp",
+      "/api/v1/dev/images/products/680000318345-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 25750,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000318345001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000318345-1.webp"
+      },
+      {
+        "skuId": "680000318345002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000318345-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000319462",
+    "title": "新款女士水桶包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000319462-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000319462-1.webp",
+      "/api/v1/dev/images/products/680000319462-2.webp",
+      "/api/v1/dev/images/products/680000319462-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 22800,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000319462001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000319462-1.webp"
+      },
+      {
+        "skuId": "680000319462002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 167,
+        "imageUrl": "/api/v1/dev/images/products/680000319462-2.webp"
+      },
+      {
+        "skuId": "680000319462003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 168,
+        "imageUrl": "/api/v1/dev/images/products/680000319462-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000320579",
+    "title": "大容量女士水桶包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000320579-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000320579-1.webp",
+      "/api/v1/dev/images/products/680000320579-2.webp",
+      "/api/v1/dev/images/products/680000320579-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 24350,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000320579001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000320579-1.webp"
+      },
+      {
+        "skuId": "680000320579002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000320579-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000321696",
+    "title": "防水女士水桶包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000321696-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000321696-1.webp",
+      "/api/v1/dev/images/products/680000321696-2.webp",
+      "/api/v1/dev/images/products/680000321696-3.webp"
+    ],
+    "priceCny": 169,
+    "originalPriceCny": 220,
+    "salesCount": 21400,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000321696001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000321696-1.webp"
+      },
+      {
+        "skuId": "680000321696002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000321696-2.webp"
+      },
+      {
+        "skuId": "680000321696003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000321696-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000322813",
+    "title": "简约女士水桶包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000322813-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000322813-1.webp",
+      "/api/v1/dev/images/products/680000322813-2.webp",
+      "/api/v1/dev/images/products/680000322813-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 7500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000322813001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 340,
+        "imageUrl": "/api/v1/dev/images/products/680000322813-1.webp"
+      },
+      {
+        "skuId": "680000322813002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 341,
+        "imageUrl": "/api/v1/dev/images/products/680000322813-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000323930",
+    "title": "新款女士手拿包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000323930-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000323930-1.webp",
+      "/api/v1/dev/images/products/680000323930-2.webp",
+      "/api/v1/dev/images/products/680000323930-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 4550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000323930001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000323930-1.webp"
+      },
+      {
+        "skuId": "680000323930002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 282,
+        "imageUrl": "/api/v1/dev/images/products/680000323930-2.webp"
+      },
+      {
+        "skuId": "680000323930003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 283,
+        "imageUrl": "/api/v1/dev/images/products/680000323930-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000325047",
+    "title": "大容量女士手拿包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000325047-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000325047-1.webp",
+      "/api/v1/dev/images/products/680000325047-2.webp",
+      "/api/v1/dev/images/products/680000325047-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 19600,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000325047001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000325047-1.webp"
+      },
+      {
+        "skuId": "680000325047002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000325047-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000326164",
+    "title": "防水女士手拿包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000326164-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000326164-1.webp",
+      "/api/v1/dev/images/products/680000326164-2.webp",
+      "/api/v1/dev/images/products/680000326164-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 16650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000326164001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000326164-1.webp"
+      },
+      {
+        "skuId": "680000326164002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000326164-2.webp"
+      },
+      {
+        "skuId": "680000326164003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000326164-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000327281",
+    "title": "简约女士手拿包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000327281-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000327281-1.webp",
+      "/api/v1/dev/images/products/680000327281-2.webp",
+      "/api/v1/dev/images/products/680000327281-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 13700,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000327281001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 104,
+        "imageUrl": "/api/v1/dev/images/products/680000327281-1.webp"
+      },
+      {
+        "skuId": "680000327281002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000327281-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000328398",
+    "title": "新款女士马鞍包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000328398-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000328398-1.webp",
+      "/api/v1/dev/images/products/680000328398-2.webp",
+      "/api/v1/dev/images/products/680000328398-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 8200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000328398001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000328398-1.webp"
+      },
+      {
+        "skuId": "680000328398002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 355,
+        "imageUrl": "/api/v1/dev/images/products/680000328398-2.webp"
+      },
+      {
+        "skuId": "680000328398003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 356,
+        "imageUrl": "/api/v1/dev/images/products/680000328398-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000329515",
+    "title": "大容量女士马鞍包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000329515-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000329515-1.webp",
+      "/api/v1/dev/images/products/680000329515-2.webp",
+      "/api/v1/dev/images/products/680000329515-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 24300,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000329515001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000329515-1.webp"
+      },
+      {
+        "skuId": "680000329515002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000329515-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000330632",
+    "title": "防水女士马鞍包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000330632-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000330632-1.webp",
+      "/api/v1/dev/images/products/680000330632-2.webp",
+      "/api/v1/dev/images/products/680000330632-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 28400,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000330632001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 278,
+        "imageUrl": "/api/v1/dev/images/products/680000330632-1.webp"
+      },
+      {
+        "skuId": "680000330632002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 279,
+        "imageUrl": "/api/v1/dev/images/products/680000330632-2.webp"
+      },
+      {
+        "skuId": "680000330632003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000330632-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000331749",
+    "title": "简约女士马鞍包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000331749-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000331749-1.webp",
+      "/api/v1/dev/images/products/680000331749-2.webp",
+      "/api/v1/dev/images/products/680000331749-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 22900,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000331749001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 48,
+        "imageUrl": "/api/v1/dev/images/products/680000331749-1.webp"
+      },
+      {
+        "skuId": "680000331749002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 49,
+        "imageUrl": "/api/v1/dev/images/products/680000331749-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000332866",
+    "title": "新款男士公文包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000332866-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000332866-1.webp",
+      "/api/v1/dev/images/products/680000332866-2.webp",
+      "/api/v1/dev/images/products/680000332866-3.webp"
+    ],
+    "priceCny": 299,
+    "salesCount": 19950,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000332866001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000332866-1.webp"
+      },
+      {
+        "skuId": "680000332866002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000332866-2.webp"
+      },
+      {
+        "skuId": "680000332866003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000332866-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000333983",
+    "title": "大容量男士公文包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000333983-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000333983-1.webp",
+      "/api/v1/dev/images/products/680000333983-2.webp",
+      "/api/v1/dev/images/products/680000333983-3.webp"
+    ],
+    "priceCny": 269,
+    "salesCount": 17000,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000333983001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000333983-1.webp"
+      },
+      {
+        "skuId": "680000333983002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000333983-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000335100",
+    "title": "防水男士公文包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000335100-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000335100-1.webp",
+      "/api/v1/dev/images/products/680000335100-2.webp",
+      "/api/v1/dev/images/products/680000335100-3.webp"
+    ],
+    "priceCny": 339,
+    "originalPriceCny": 441,
+    "salesCount": 23650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000335100001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000335100-1.webp"
+      },
+      {
+        "skuId": "680000335100002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 64,
+        "imageUrl": "/api/v1/dev/images/products/680000335100-2.webp"
+      },
+      {
+        "skuId": "680000335100003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 65,
+        "imageUrl": "/api/v1/dev/images/products/680000335100-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000336217",
+    "title": "简约男士公文包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000336217-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000336217-1.webp",
+      "/api/v1/dev/images/products/680000336217-2.webp",
+      "/api/v1/dev/images/products/680000336217-3.webp"
+    ],
+    "priceCny": 249,
+    "salesCount": 18150,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000336217001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 249,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000336217-1.webp"
+      },
+      {
+        "skuId": "680000336217002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 249,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000336217-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000337334",
+    "title": "新款男士腰包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000337334-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000337334-1.webp",
+      "/api/v1/dev/images/products/680000337334-2.webp",
+      "/api/v1/dev/images/products/680000337334-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 15200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000337334001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 254,
+        "imageUrl": "/api/v1/dev/images/products/680000337334-1.webp"
+      },
+      {
+        "skuId": "680000337334002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000337334-2.webp"
+      },
+      {
+        "skuId": "680000337334003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000337334-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000338451",
+    "title": "大容量男士腰包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000338451-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000338451-1.webp",
+      "/api/v1/dev/images/products/680000338451-2.webp",
+      "/api/v1/dev/images/products/680000338451-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 12250,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000338451001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000338451-1.webp"
+      },
+      {
+        "skuId": "680000338451002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 196,
+        "imageUrl": "/api/v1/dev/images/products/680000338451-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000339568",
+    "title": "防水男士腰包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000339568-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000339568-1.webp",
+      "/api/v1/dev/images/products/680000339568-2.webp",
+      "/api/v1/dev/images/products/680000339568-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 6750,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000339568001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 445,
+        "imageUrl": "/api/v1/dev/images/products/680000339568-1.webp"
+      },
+      {
+        "skuId": "680000339568002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 446,
+        "imageUrl": "/api/v1/dev/images/products/680000339568-2.webp"
+      },
+      {
+        "skuId": "680000339568003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 447,
+        "imageUrl": "/api/v1/dev/images/products/680000339568-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000340685",
+    "title": "简约男士腰包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000340685-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000340685-1.webp",
+      "/api/v1/dev/images/products/680000340685-2.webp",
+      "/api/v1/dev/images/products/680000340685-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 10850,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000340685001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000340685-1.webp"
+      },
+      {
+        "skuId": "680000340685002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000340685-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000341802",
+    "title": "新款笔记本电脑包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000341802-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000341802-1.webp",
+      "/api/v1/dev/images/products/680000341802-2.webp",
+      "/api/v1/dev/images/products/680000341802-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 26950,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000341802001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 369,
+        "imageUrl": "/api/v1/dev/images/products/680000341802-1.webp"
+      },
+      {
+        "skuId": "680000341802002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 370,
+        "imageUrl": "/api/v1/dev/images/products/680000341802-2.webp"
+      },
+      {
+        "skuId": "680000341802003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 371,
+        "imageUrl": "/api/v1/dev/images/products/680000341802-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000342919",
+    "title": "大容量笔记本电脑包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000342919-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000342919-1.webp",
+      "/api/v1/dev/images/products/680000342919-2.webp",
+      "/api/v1/dev/images/products/680000342919-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 21450,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000342919001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 139,
+        "imageUrl": "/api/v1/dev/images/products/680000342919-1.webp"
+      },
+      {
+        "skuId": "680000342919002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 140,
+        "imageUrl": "/api/v1/dev/images/products/680000342919-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000344036",
+    "title": "防水笔记本电脑包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000344036-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000344036-1.webp",
+      "/api/v1/dev/images/products/680000344036-2.webp",
+      "/api/v1/dev/images/products/680000344036-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 9050,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000344036001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000344036-1.webp"
+      },
+      {
+        "skuId": "680000344036002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000344036-2.webp"
+      },
+      {
+        "skuId": "680000344036003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 253,
+        "imageUrl": "/api/v1/dev/images/products/680000344036-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000345153",
+    "title": "简约笔记本电脑包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000345153-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000345153-1.webp",
+      "/api/v1/dev/images/products/680000345153-2.webp",
+      "/api/v1/dev/images/products/680000345153-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 6100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "箱包",
+      "单肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000345153001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000345153-1.webp"
+      },
+      {
+        "skuId": "680000345153002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000345153-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000346270",
+    "title": "新款旅行双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000346270-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000346270-1.webp",
+      "/api/v1/dev/images/products/680000346270-2.webp",
+      "/api/v1/dev/images/products/680000346270-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 3150,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000346270001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 133,
+        "imageUrl": "/api/v1/dev/images/products/680000346270-1.webp"
+      },
+      {
+        "skuId": "680000346270002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 134,
+        "imageUrl": "/api/v1/dev/images/products/680000346270-2.webp"
+      },
+      {
+        "skuId": "680000346270003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 135,
+        "imageUrl": "/api/v1/dev/images/products/680000346270-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000347387",
+    "title": "大容量旅行双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000347387-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000347387-1.webp",
+      "/api/v1/dev/images/products/680000347387-2.webp",
+      "/api/v1/dev/images/products/680000347387-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 27650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000347387001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000347387-1.webp"
+      },
+      {
+        "skuId": "680000347387002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000347387-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000348504",
+    "title": "防水旅行双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000348504-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000348504-1.webp",
+      "/api/v1/dev/images/products/680000348504-2.webp",
+      "/api/v1/dev/images/products/680000348504-3.webp"
+    ],
+    "priceCny": 229,
+    "originalPriceCny": 298,
+    "salesCount": 13750,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000348504001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 345,
+        "imageUrl": "/api/v1/dev/images/products/680000348504-1.webp"
+      },
+      {
+        "skuId": "680000348504002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000348504-2.webp"
+      },
+      {
+        "skuId": "680000348504003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000348504-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000349621",
+    "title": "简约旅行双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000349621-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000349621-1.webp",
+      "/api/v1/dev/images/products/680000349621-2.webp",
+      "/api/v1/dev/images/products/680000349621-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 10800,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.1,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000349621001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000349621-1.webp"
+      },
+      {
+        "skuId": "680000349621002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 287,
+        "imageUrl": "/api/v1/dev/images/products/680000349621-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000350738",
+    "title": "新款女士迷你双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000350738-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000350738-1.webp",
+      "/api/v1/dev/images/products/680000350738-2.webp",
+      "/api/v1/dev/images/products/680000350738-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 12350,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000350738001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 77,
+        "imageUrl": "/api/v1/dev/images/products/680000350738-1.webp"
+      },
+      {
+        "skuId": "680000350738002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 78,
+        "imageUrl": "/api/v1/dev/images/products/680000350738-2.webp"
+      },
+      {
+        "skuId": "680000350738003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 79,
+        "imageUrl": "/api/v1/dev/images/products/680000350738-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000351855",
+    "title": "大容量女士迷你双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000351855-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000351855-1.webp",
+      "/api/v1/dev/images/products/680000351855-2.webp",
+      "/api/v1/dev/images/products/680000351855-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 9400,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000351855001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 498,
+        "imageUrl": "/api/v1/dev/images/products/680000351855-1.webp"
+      },
+      {
+        "skuId": "680000351855002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 499,
+        "imageUrl": "/api/v1/dev/images/products/680000351855-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000352972",
+    "title": "防水女士迷你双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000352972-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000352972-1.webp",
+      "/api/v1/dev/images/products/680000352972-2.webp",
+      "/api/v1/dev/images/products/680000352972-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 6450,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000352972001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000352972-1.webp"
+      },
+      {
+        "skuId": "680000352972002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000352972-2.webp"
+      },
+      {
+        "skuId": "680000352972003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000352972-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000354089",
+    "title": "简约女士迷你双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000354089-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000354089-1.webp",
+      "/api/v1/dev/images/products/680000354089-2.webp",
+      "/api/v1/dev/images/products/680000354089-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 21500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000354089001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000354089-1.webp"
+      },
+      {
+        "skuId": "680000354089002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000354089-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000355206",
+    "title": "新款登山双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000355206-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000355206-1.webp",
+      "/api/v1/dev/images/products/680000355206-2.webp",
+      "/api/v1/dev/images/products/680000355206-3.webp"
+    ],
+    "priceCny": 239,
+    "originalPriceCny": 311,
+    "salesCount": 7600,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.3,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000355206001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 342,
+        "imageUrl": "/api/v1/dev/images/products/680000355206-1.webp"
+      },
+      {
+        "skuId": "680000355206002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 343,
+        "imageUrl": "/api/v1/dev/images/products/680000355206-2.webp"
+      },
+      {
+        "skuId": "680000355206003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 239,
+        "stock": 344,
+        "imageUrl": "/api/v1/dev/images/products/680000355206-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000356323",
+    "title": "大容量登山双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000356323-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000356323-1.webp",
+      "/api/v1/dev/images/products/680000356323-2.webp",
+      "/api/v1/dev/images/products/680000356323-3.webp"
+    ],
+    "priceCny": 219,
+    "salesCount": 4650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.3,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000356323001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 219,
+        "stock": 283,
+        "imageUrl": "/api/v1/dev/images/products/680000356323-1.webp"
+      },
+      {
+        "skuId": "680000356323002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 219,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000356323-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000357440",
+    "title": "防水登山双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000357440-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000357440-1.webp",
+      "/api/v1/dev/images/products/680000357440-2.webp",
+      "/api/v1/dev/images/products/680000357440-3.webp"
+    ],
+    "priceCny": 269,
+    "salesCount": 1700,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.3,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000357440001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000357440-1.webp"
+      },
+      {
+        "skuId": "680000357440002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000357440-2.webp"
+      },
+      {
+        "skuId": "680000357440003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000357440-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000358557",
+    "title": "简约登山双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000358557-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000358557-1.webp",
+      "/api/v1/dev/images/products/680000358557-2.webp",
+      "/api/v1/dev/images/products/680000358557-3.webp"
+    ],
+    "priceCny": 199,
+    "originalPriceCny": 259,
+    "salesCount": 26200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.3,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000358557001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000358557-1.webp"
+      },
+      {
+        "skuId": "680000358557002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000358557-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000359674",
+    "title": "新款城市通勤双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000359674-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000359674-1.webp",
+      "/api/v1/dev/images/products/680000359674-2.webp",
+      "/api/v1/dev/images/products/680000359674-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 23250,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000359674001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 415,
+        "imageUrl": "/api/v1/dev/images/products/680000359674-1.webp"
+      },
+      {
+        "skuId": "680000359674002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 416,
+        "imageUrl": "/api/v1/dev/images/products/680000359674-2.webp"
+      },
+      {
+        "skuId": "680000359674003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 417,
+        "imageUrl": "/api/v1/dev/images/products/680000359674-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000360791",
+    "title": "大容量城市通勤双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000360791-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000360791-1.webp",
+      "/api/v1/dev/images/products/680000360791-2.webp",
+      "/api/v1/dev/images/products/680000360791-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 27350,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000360791001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000360791-1.webp"
+      },
+      {
+        "skuId": "680000360791002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000360791-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000361908",
+    "title": "防水城市通勤双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000361908-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000361908-1.webp",
+      "/api/v1/dev/images/products/680000361908-2.webp",
+      "/api/v1/dev/images/products/680000361908-3.webp"
+    ],
+    "priceCny": 179,
+    "originalPriceCny": 233,
+    "salesCount": 10900,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000361908001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 168,
+        "imageUrl": "/api/v1/dev/images/products/680000361908-1.webp"
+      },
+      {
+        "skuId": "680000361908002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 169,
+        "imageUrl": "/api/v1/dev/images/products/680000361908-2.webp"
+      },
+      {
+        "skuId": "680000361908003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 170,
+        "imageUrl": "/api/v1/dev/images/products/680000361908-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000363025",
+    "title": "简约城市通勤双肩包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000363025-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000363025-1.webp",
+      "/api/v1/dev/images/products/680000363025-2.webp",
+      "/api/v1/dev/images/products/680000363025-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 28500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包",
+      "双肩包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000363025001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000363025-1.webp"
+      },
+      {
+        "skuId": "680000363025002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000363025-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000364142",
+    "title": "新款男士卡包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000364142-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000364142-1.webp",
+      "/api/v1/dev/images/products/680000364142-2.webp",
+      "/api/v1/dev/images/products/680000364142-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 25550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000364142001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000364142-1.webp"
+      },
+      {
+        "skuId": "680000364142002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000364142-2.webp"
+      },
+      {
+        "skuId": "680000364142003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000364142-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000365259",
+    "title": "大容量男士卡包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000365259-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000365259-1.webp",
+      "/api/v1/dev/images/products/680000365259-2.webp",
+      "/api/v1/dev/images/products/680000365259-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 20050,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000365259001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000365259-1.webp"
+      },
+      {
+        "skuId": "680000365259002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000365259-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000366376",
+    "title": "防水男士卡包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000366376-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000366376-1.webp",
+      "/api/v1/dev/images/products/680000366376-2.webp",
+      "/api/v1/dev/images/products/680000366376-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 17100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000366376001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000366376-1.webp"
+      },
+      {
+        "skuId": "680000366376002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000366376-2.webp"
+      },
+      {
+        "skuId": "680000366376003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000366376-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000367493",
+    "title": "简约男士卡包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000367493-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000367493-1.webp",
+      "/api/v1/dev/images/products/680000367493-2.webp",
+      "/api/v1/dev/images/products/680000367493-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 14150,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000367493001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000367493-1.webp"
+      },
+      {
+        "skuId": "680000367493002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000367493-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000368610",
+    "title": "新款女士零钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000368610-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000368610-1.webp",
+      "/api/v1/dev/images/products/680000368610-2.webp",
+      "/api/v1/dev/images/products/680000368610-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 250,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000368610001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 315,
+        "imageUrl": "/api/v1/dev/images/products/680000368610-1.webp"
+      },
+      {
+        "skuId": "680000368610002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000368610-2.webp"
+      },
+      {
+        "skuId": "680000368610003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000368610-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000369727",
+    "title": "大容量女士零钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000369727-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000369727-1.webp",
+      "/api/v1/dev/images/products/680000369727-2.webp",
+      "/api/v1/dev/images/products/680000369727-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 24750,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000369727001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 85,
+        "imageUrl": "/api/v1/dev/images/products/680000369727-1.webp"
+      },
+      {
+        "skuId": "680000369727002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 86,
+        "imageUrl": "/api/v1/dev/images/products/680000369727-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000370844",
+    "title": "防水女士零钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000370844-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000370844-1.webp",
+      "/api/v1/dev/images/products/680000370844-2.webp",
+      "/api/v1/dev/images/products/680000370844-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 28850,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000370844001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 47,
+        "imageUrl": "/api/v1/dev/images/products/680000370844-1.webp"
+      },
+      {
+        "skuId": "680000370844002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 48,
+        "imageUrl": "/api/v1/dev/images/products/680000370844-2.webp"
+      },
+      {
+        "skuId": "680000370844003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 49,
+        "imageUrl": "/api/v1/dev/images/products/680000370844-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000371961",
+    "title": "简约女士零钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000371961-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000371961-1.webp",
+      "/api/v1/dev/images/products/680000371961-2.webp",
+      "/api/v1/dev/images/products/680000371961-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 25900,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000371961001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000371961-1.webp"
+      },
+      {
+        "skuId": "680000371961002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000371961-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000373078",
+    "title": "新款女士短款钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000373078-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000373078-1.webp",
+      "/api/v1/dev/images/products/680000373078-2.webp",
+      "/api/v1/dev/images/products/680000373078-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 10950,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000373078001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000373078-1.webp"
+      },
+      {
+        "skuId": "680000373078002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000373078-2.webp"
+      },
+      {
+        "skuId": "680000373078003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000373078-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000374195",
+    "title": "大容量女士短款钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000374195-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000374195-1.webp",
+      "/api/v1/dev/images/products/680000374195-2.webp",
+      "/api/v1/dev/images/products/680000374195-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 8000,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000374195001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000374195-1.webp"
+      },
+      {
+        "skuId": "680000374195002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000374195-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000375312",
+    "title": "防水女士短款钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000375312-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000375312-1.webp",
+      "/api/v1/dev/images/products/680000375312-2.webp",
+      "/api/v1/dev/images/products/680000375312-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 24100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000375312001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 312,
+        "imageUrl": "/api/v1/dev/images/products/680000375312-1.webp"
+      },
+      {
+        "skuId": "680000375312002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000375312-2.webp"
+      },
+      {
+        "skuId": "680000375312003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000375312-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000376429",
+    "title": "简约女士短款钱包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000376429-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000376429-1.webp",
+      "/api/v1/dev/images/products/680000376429-2.webp",
+      "/api/v1/dev/images/products/680000376429-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 18600,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000376429001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 82,
+        "imageUrl": "/api/v1/dev/images/products/680000376429-1.webp"
+      },
+      {
+        "skuId": "680000376429002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 83,
+        "imageUrl": "/api/v1/dev/images/products/680000376429-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000377546",
+    "title": "新款护照保护套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000377546-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000377546-1.webp",
+      "/api/v1/dev/images/products/680000377546-2.webp",
+      "/api/v1/dev/images/products/680000377546-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 15650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000377546001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 23,
+        "imageUrl": "/api/v1/dev/images/products/680000377546-1.webp"
+      },
+      {
+        "skuId": "680000377546002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000377546-2.webp"
+      },
+      {
+        "skuId": "680000377546003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000377546-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000378663",
+    "title": "大容量护照保护套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000378663-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000378663-1.webp",
+      "/api/v1/dev/images/products/680000378663-2.webp",
+      "/api/v1/dev/images/products/680000378663-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 12700,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000378663001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000378663-1.webp"
+      },
+      {
+        "skuId": "680000378663002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 445,
+        "imageUrl": "/api/v1/dev/images/products/680000378663-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000379780",
+    "title": "防水护照保护套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000379780-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000379780-1.webp",
+      "/api/v1/dev/images/products/680000379780-2.webp",
+      "/api/v1/dev/images/products/680000379780-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 9750,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000379780001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 385,
+        "imageUrl": "/api/v1/dev/images/products/680000379780-1.webp"
+      },
+      {
+        "skuId": "680000379780002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 386,
+        "imageUrl": "/api/v1/dev/images/products/680000379780-2.webp"
+      },
+      {
+        "skuId": "680000379780003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 387,
+        "imageUrl": "/api/v1/dev/images/products/680000379780-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000380897",
+    "title": "简约护照保护套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000380897-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000380897-1.webp",
+      "/api/v1/dev/images/products/680000380897-2.webp",
+      "/api/v1/dev/images/products/680000380897-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 11300,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "箱包",
+      "钱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000380897001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 176,
+        "imageUrl": "/api/v1/dev/images/products/680000380897-1.webp"
+      },
+      {
+        "skuId": "680000380897002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 177,
+        "imageUrl": "/api/v1/dev/images/products/680000380897-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000382014",
+    "title": "新款铝框拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000382014-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000382014-1.webp",
+      "/api/v1/dev/images/products/680000382014-2.webp",
+      "/api/v1/dev/images/products/680000382014-3.webp"
+    ],
+    "priceCny": 459,
+    "originalPriceCny": 597,
+    "salesCount": 17950,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 4.2,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000382014001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 309,
+        "imageUrl": "/api/v1/dev/images/products/680000382014-1.webp"
+      },
+      {
+        "skuId": "680000382014002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000382014-2.webp"
+      },
+      {
+        "skuId": "680000382014003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 459,
+        "stock": 311,
+        "imageUrl": "/api/v1/dev/images/products/680000382014-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000383131",
+    "title": "大容量铝框拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000383131-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000383131-1.webp",
+      "/api/v1/dev/images/products/680000383131-2.webp",
+      "/api/v1/dev/images/products/680000383131-3.webp"
+    ],
+    "priceCny": 409,
+    "salesCount": 15000,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 4.2,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000383131001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 409,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000383131-1.webp"
+      },
+      {
+        "skuId": "680000383131002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 409,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000383131-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000384248",
+    "title": "防水铝框拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000384248-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000384248-1.webp",
+      "/api/v1/dev/images/products/680000384248-2.webp",
+      "/api/v1/dev/images/products/680000384248-3.webp"
+    ],
+    "priceCny": 529,
+    "salesCount": 9500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 4.2,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000384248001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 529,
+        "stock": 20,
+        "imageUrl": "/api/v1/dev/images/products/680000384248-1.webp"
+      },
+      {
+        "skuId": "680000384248002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 529,
+        "stock": 21,
+        "imageUrl": "/api/v1/dev/images/products/680000384248-2.webp"
+      },
+      {
+        "skuId": "680000384248003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 529,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000384248-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000385365",
+    "title": "简约铝框拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000385365-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000385365-1.webp",
+      "/api/v1/dev/images/products/680000385365-2.webp",
+      "/api/v1/dev/images/products/680000385365-3.webp"
+    ],
+    "priceCny": 389,
+    "originalPriceCny": 506,
+    "salesCount": 6550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 4.2,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000385365001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 389,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000385365-1.webp"
+      },
+      {
+        "skuId": "680000385365002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 389,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000385365-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000386482",
+    "title": "新款20寸登机拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000386482-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000386482-1.webp",
+      "/api/v1/dev/images/products/680000386482-2.webp",
+      "/api/v1/dev/images/products/680000386482-3.webp"
+    ],
+    "priceCny": 259,
+    "salesCount": 3600,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000386482001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000386482-1.webp"
+      },
+      {
+        "skuId": "680000386482002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000386482-2.webp"
+      },
+      {
+        "skuId": "680000386482003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000386482-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000387599",
+    "title": "大容量20寸登机拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000387599-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000387599-1.webp",
+      "/api/v1/dev/images/products/680000387599-2.webp",
+      "/api/v1/dev/images/products/680000387599-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 28100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000387599001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 152,
+        "imageUrl": "/api/v1/dev/images/products/680000387599-1.webp"
+      },
+      {
+        "skuId": "680000387599002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 153,
+        "imageUrl": "/api/v1/dev/images/products/680000387599-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000388716",
+    "title": "防水20寸登机拉杆箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000388716-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000388716-1.webp",
+      "/api/v1/dev/images/products/680000388716-2.webp",
+      "/api/v1/dev/images/products/680000388716-3.webp"
+    ],
+    "priceCny": 299,
+    "originalPriceCny": 389,
+    "salesCount": 14200,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "箱包",
+      "拉杆箱"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "ABS"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000388716001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 114,
+        "imageUrl": "/api/v1/dev/images/products/680000388716-1.webp"
+      },
+      {
+        "skuId": "680000388716002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 115,
+        "imageUrl": "/api/v1/dev/images/products/680000388716-2.webp"
+      },
+      {
+        "skuId": "680000388716003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 116,
+        "imageUrl": "/api/v1/dev/images/products/680000388716-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000390950",
+    "title": "新款旅行手提包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000390950-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000390950-1.webp",
+      "/api/v1/dev/images/products/680000390950-2.webp",
+      "/api/v1/dev/images/products/680000390950-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 15350,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000390950001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 497,
+        "imageUrl": "/api/v1/dev/images/products/680000390950-1.webp"
+      },
+      {
+        "skuId": "680000390950002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 498,
+        "imageUrl": "/api/v1/dev/images/products/680000390950-2.webp"
+      },
+      {
+        "skuId": "680000390950003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 499,
+        "imageUrl": "/api/v1/dev/images/products/680000390950-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000392067",
+    "title": "大容量旅行手提包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000392067-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000392067-1.webp",
+      "/api/v1/dev/images/products/680000392067-2.webp",
+      "/api/v1/dev/images/products/680000392067-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 400,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000392067001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000392067-1.webp"
+      },
+      {
+        "skuId": "680000392067002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000392067-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000393184",
+    "title": "防水旅行手提包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000393184-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000393184-1.webp",
+      "/api/v1/dev/images/products/680000393184-2.webp",
+      "/api/v1/dev/images/products/680000393184-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 27450,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000393184001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000393184-1.webp"
+      },
+      {
+        "skuId": "680000393184002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000393184-2.webp"
+      },
+      {
+        "skuId": "680000393184003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000393184-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000394301",
+    "title": "简约旅行手提包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000394301-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000394301-1.webp",
+      "/api/v1/dev/images/products/680000394301-2.webp",
+      "/api/v1/dev/images/products/680000394301-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 13550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000394301001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 341,
+        "imageUrl": "/api/v1/dev/images/products/680000394301-1.webp"
+      },
+      {
+        "skuId": "680000394301002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 342,
+        "imageUrl": "/api/v1/dev/images/products/680000394301-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000395418",
+    "title": "新款旅行收纳包套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000395418-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000395418-1.webp",
+      "/api/v1/dev/images/products/680000395418-2.webp",
+      "/api/v1/dev/images/products/680000395418-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 8050,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000395418001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 111,
+        "imageUrl": "/api/v1/dev/images/products/680000395418-1.webp"
+      },
+      {
+        "skuId": "680000395418002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 112,
+        "imageUrl": "/api/v1/dev/images/products/680000395418-2.webp"
+      },
+      {
+        "skuId": "680000395418003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 113,
+        "imageUrl": "/api/v1/dev/images/products/680000395418-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000396535",
+    "title": "大容量旅行收纳包套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000396535-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000396535-1.webp",
+      "/api/v1/dev/images/products/680000396535-2.webp",
+      "/api/v1/dev/images/products/680000396535-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 5100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000396535001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 52,
+        "imageUrl": "/api/v1/dev/images/products/680000396535-1.webp"
+      },
+      {
+        "skuId": "680000396535002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 53,
+        "imageUrl": "/api/v1/dev/images/products/680000396535-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000397652",
+    "title": "防水旅行收纳包套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000397652-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000397652-1.webp",
+      "/api/v1/dev/images/products/680000397652-2.webp",
+      "/api/v1/dev/images/products/680000397652-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 2150,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000397652001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000397652-1.webp"
+      },
+      {
+        "skuId": "680000397652002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000397652-2.webp"
+      },
+      {
+        "skuId": "680000397652003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000397652-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000398769",
+    "title": "简约旅行收纳包套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000398769-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000398769-1.webp",
+      "/api/v1/dev/images/products/680000398769-2.webp",
+      "/api/v1/dev/images/products/680000398769-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 26650,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000398769001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 243,
+        "imageUrl": "/api/v1/dev/images/products/680000398769-1.webp"
+      },
+      {
+        "skuId": "680000398769002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 244,
+        "imageUrl": "/api/v1/dev/images/products/680000398769-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000399886",
+    "title": "新款洗漱化妆包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000399886-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000399886-1.webp",
+      "/api/v1/dev/images/products/680000399886-2.webp",
+      "/api/v1/dev/images/products/680000399886-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 23700,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000399886001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "卡其色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 184,
+        "imageUrl": "/api/v1/dev/images/products/680000399886-1.webp"
+      },
+      {
+        "skuId": "680000399886002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 185,
+        "imageUrl": "/api/v1/dev/images/products/680000399886-2.webp"
+      },
+      {
+        "skuId": "680000399886003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 186,
+        "imageUrl": "/api/v1/dev/images/products/680000399886-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000401003",
+    "title": "大容量洗漱化妆包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000401003-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000401003-1.webp",
+      "/api/v1/dev/images/products/680000401003-2.webp",
+      "/api/v1/dev/images/products/680000401003-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 15950,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000401003001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000401003-1.webp"
+      },
+      {
+        "skuId": "680000401003002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000401003-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000402120",
+    "title": "防水洗漱化妆包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000402120-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000402120-1.webp",
+      "/api/v1/dev/images/products/680000402120-2.webp",
+      "/api/v1/dev/images/products/680000402120-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 13000,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000402120001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 450,
+        "imageUrl": "/api/v1/dev/images/products/680000402120-1.webp"
+      },
+      {
+        "skuId": "680000402120002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 451,
+        "imageUrl": "/api/v1/dev/images/products/680000402120-2.webp"
+      },
+      {
+        "skuId": "680000402120003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 452,
+        "imageUrl": "/api/v1/dev/images/products/680000402120-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000403237",
+    "title": "简约洗漱化妆包",
+    "mainImageUrl": "/api/v1/dev/images/products/680000403237-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000403237-1.webp",
+      "/api/v1/dev/images/products/680000403237-2.webp",
+      "/api/v1/dev/images/products/680000403237-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 7500,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000403237001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000403237-1.webp"
+      },
+      {
+        "skuId": "680000403237002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 221,
+        "imageUrl": "/api/v1/dev/images/products/680000403237-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000404354",
+    "title": "新款帆布购物袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000404354-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000404354-1.webp",
+      "/api/v1/dev/images/products/680000404354-2.webp",
+      "/api/v1/dev/images/products/680000404354-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 4550,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000404354001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000404354-1.webp"
+      },
+      {
+        "skuId": "680000404354002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000404354-2.webp"
+      },
+      {
+        "skuId": "680000404354003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000404354-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000405471",
+    "title": "大容量帆布购物袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000405471-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000405471-1.webp",
+      "/api/v1/dev/images/products/680000405471-2.webp",
+      "/api/v1/dev/images/products/680000405471-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 1600,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000405471001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 102,
+        "imageUrl": "/api/v1/dev/images/products/680000405471-1.webp"
+      },
+      {
+        "skuId": "680000405471002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 103,
+        "imageUrl": "/api/v1/dev/images/products/680000405471-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000406588",
+    "title": "防水帆布购物袋",
+    "mainImageUrl": "/api/v1/dev/images/products/680000406588-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000406588-1.webp",
+      "/api/v1/dev/images/products/680000406588-2.webp",
+      "/api/v1/dev/images/products/680000406588-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 26100,
+    "shop": {
+      "shopId": "100212",
+      "name": "箱包皮具旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "箱包"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "时尚女包"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000406588001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000406588-1.webp"
+      },
+      {
+        "skuId": "680000406588002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000406588-2.webp"
+      },
+      {
+        "skuId": "680000406588003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000406588-3.webp"
+      }
+    ]
   }
 ]

@@ -11,6 +11,7 @@ import org.springframework.test.context.bean.override.mockito.MockitoSpyBean;
 import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.assertj.MvcTestResult;
 import uz.karvon.AbstractIntegrationTest;
+import uz.karvon.catalog.domain.SortOrder;
 import uz.karvon.catalog.infrastructure.FakeTaobaoProvider;
 import uz.karvon.translation.application.TranslationService;
 import uz.karvon.translation.domain.Lang;
@@ -59,7 +60,9 @@ class CatalogIntegrationTest extends AbstractIntegrationTest {
         MvcTestResult result = mvc.get().uri("/api/v1/catalog/search?q=krossovka").exchange();
 
         assertThat(result).hasStatusOk();
-        assertThat(result).bodyJson().extractingPath("$.content.length()").isEqualTo(3);
+        long sneakers = provider.search("运动鞋", 0, SortOrder.RELEVANCE, null, null).totalItems();
+        assertThat(result).bodyJson().extractingPath("$.content.length()")
+                .isEqualTo((int) Math.min(sneakers, FakeTaobaoProvider.PAGE_SIZE));
         assertThat(result).bodyJson().extractingPath("$.content[0].externalId").isEqualTo(SNEAKERS);
         assertThat(result).bodyJson().extractingPath("$.content[0].titleOriginal").isEqualTo("男士运动鞋透气网面跑步鞋");
         assertThat(result).bodyJson().extractingPath("$.content[0].title")
@@ -67,7 +70,7 @@ class CatalogIntegrationTest extends AbstractIntegrationTest {
         // 129 CNY, no China shipping, default weight 0.5 kg: 229 600 + 23 000 + 40 000
         assertThat(result).bodyJson().extractingPath("$.content[0].priceUzs").isEqualTo(292600);
         assertThat(result).bodyJson().extractingPath("$.size").isEqualTo(FakeTaobaoProvider.PAGE_SIZE);
-        assertThat(result).bodyJson().extractingPath("$.totalElements").isEqualTo(3);
+        assertThat(result).bodyJson().extractingPath("$.totalElements").isEqualTo((int) sneakers);
     }
 
     @Test
@@ -77,7 +80,7 @@ class CatalogIntegrationTest extends AbstractIntegrationTest {
                 .isEqualTo("Мужские спортивные кроссовки, дышащая сетка");
 
         var chinese = mvc.get().uri("/api/v1/catalog/search?q=运动鞋");
-        assertThat(chinese).bodyJson().extractingPath("$.content.length()").isEqualTo(3);
+        assertThat(chinese).bodyJson().extractingPath("$.content[0].externalId").isEqualTo(SNEAKERS);
     }
 
     @Test

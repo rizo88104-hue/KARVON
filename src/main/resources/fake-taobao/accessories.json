@@ -660,5 +660,6354 @@
         "imageUrl": "/api/v1/dev/images/products/680000071488-2.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000711529",
+    "title": "新款女士腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000711529-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000711529-1.webp",
+      "/api/v1/dev/images/products/680000711529-2.webp",
+      "/api/v1/dev/images/products/680000711529-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 28800,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000711529001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 406,
+        "imageUrl": "/api/v1/dev/images/products/680000711529-1.webp"
+      },
+      {
+        "skuId": "680000711529002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000711529-2.webp"
+      },
+      {
+        "skuId": "680000711529003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000711529-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000712646",
+    "title": "简约女士腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000712646-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000712646-1.webp",
+      "/api/v1/dev/images/products/680000712646-2.webp",
+      "/api/v1/dev/images/products/680000712646-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 25850,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000712646001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000712646-1.webp"
+      },
+      {
+        "skuId": "680000712646002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000712646-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000713763",
+    "title": "时尚女士腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000713763-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000713763-1.webp",
+      "/api/v1/dev/images/products/680000713763-2.webp",
+      "/api/v1/dev/images/products/680000713763-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 22900,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000713763001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 288,
+        "imageUrl": "/api/v1/dev/images/products/680000713763-1.webp"
+      },
+      {
+        "skuId": "680000713763002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 289,
+        "imageUrl": "/api/v1/dev/images/products/680000713763-2.webp"
+      },
+      {
+        "skuId": "680000713763003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000713763-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000714880",
+    "title": "礼盒装女士腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000714880-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000714880-1.webp",
+      "/api/v1/dev/images/products/680000714880-2.webp",
+      "/api/v1/dev/images/products/680000714880-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 19950,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "PU"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000714880001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 229,
+        "imageUrl": "/api/v1/dev/images/products/680000714880-1.webp"
+      },
+      {
+        "skuId": "680000714880002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 230,
+        "imageUrl": "/api/v1/dev/images/products/680000714880-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000715997",
+    "title": "新款男士帆布腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000715997-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000715997-1.webp",
+      "/api/v1/dev/images/products/680000715997-2.webp",
+      "/api/v1/dev/images/products/680000715997-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 14450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000715997001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 479,
+        "imageUrl": "/api/v1/dev/images/products/680000715997-1.webp"
+      },
+      {
+        "skuId": "680000715997002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 480,
+        "imageUrl": "/api/v1/dev/images/products/680000715997-2.webp"
+      },
+      {
+        "skuId": "680000715997003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 481,
+        "imageUrl": "/api/v1/dev/images/products/680000715997-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000717114",
+    "title": "简约男士帆布腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000717114-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000717114-1.webp",
+      "/api/v1/dev/images/products/680000717114-2.webp",
+      "/api/v1/dev/images/products/680000717114-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 21100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000717114001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000717114-1.webp"
+      },
+      {
+        "skuId": "680000717114002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 133,
+        "imageUrl": "/api/v1/dev/images/products/680000717114-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000718231",
+    "title": "时尚男士帆布腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000718231-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000718231-1.webp",
+      "/api/v1/dev/images/products/680000718231-2.webp",
+      "/api/v1/dev/images/products/680000718231-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 18150,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000718231001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 73,
+        "imageUrl": "/api/v1/dev/images/products/680000718231-1.webp"
+      },
+      {
+        "skuId": "680000718231002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 74,
+        "imageUrl": "/api/v1/dev/images/products/680000718231-2.webp"
+      },
+      {
+        "skuId": "680000718231003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 75,
+        "imageUrl": "/api/v1/dev/images/products/680000718231-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000719348",
+    "title": "礼盒装男士帆布腰带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000719348-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000719348-1.webp",
+      "/api/v1/dev/images/products/680000719348-2.webp",
+      "/api/v1/dev/images/products/680000719348-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 12650,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "腰带"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "帆布"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000719348001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000719348-1.webp"
+      },
+      {
+        "skuId": "680000719348002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000719348-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000720465",
+    "title": "新款防蓝光眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000720465-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000720465-1.webp",
+      "/api/v1/dev/images/products/680000720465-2.webp",
+      "/api/v1/dev/images/products/680000720465-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 16750,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000720465001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 285,
+        "imageUrl": "/api/v1/dev/images/products/680000720465-1.webp"
+      },
+      {
+        "skuId": "680000720465002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000720465-2.webp"
+      },
+      {
+        "skuId": "680000720465003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 287,
+        "imageUrl": "/api/v1/dev/images/products/680000720465-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000721582",
+    "title": "简约防蓝光眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000721582-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000721582-1.webp",
+      "/api/v1/dev/images/products/680000721582-2.webp",
+      "/api/v1/dev/images/products/680000721582-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 13800,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000721582001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000721582-1.webp"
+      },
+      {
+        "skuId": "680000721582002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000721582-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000722699",
+    "title": "时尚防蓝光眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000722699-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000722699-1.webp",
+      "/api/v1/dev/images/products/680000722699-2.webp",
+      "/api/v1/dev/images/products/680000722699-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 8300,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000722699001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 476,
+        "imageUrl": "/api/v1/dev/images/products/680000722699-1.webp"
+      },
+      {
+        "skuId": "680000722699002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 477,
+        "imageUrl": "/api/v1/dev/images/products/680000722699-2.webp"
+      },
+      {
+        "skuId": "680000722699003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 478,
+        "imageUrl": "/api/v1/dev/images/products/680000722699-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000723816",
+    "title": "礼盒装防蓝光眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000723816-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000723816-1.webp",
+      "/api/v1/dev/images/products/680000723816-2.webp",
+      "/api/v1/dev/images/products/680000723816-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 24400,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000723816001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000723816-1.webp"
+      },
+      {
+        "skuId": "680000723816002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000723816-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000724933",
+    "title": "新款男士偏光太阳镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000724933-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000724933-1.webp",
+      "/api/v1/dev/images/products/680000724933-2.webp",
+      "/api/v1/dev/images/products/680000724933-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 21450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000724933001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000724933-1.webp"
+      },
+      {
+        "skuId": "680000724933002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000724933-2.webp"
+      },
+      {
+        "skuId": "680000724933003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000724933-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000726050",
+    "title": "简约男士偏光太阳镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000726050-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000726050-1.webp",
+      "/api/v1/dev/images/products/680000726050-2.webp",
+      "/api/v1/dev/images/products/680000726050-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 9050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000726050001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 491,
+        "imageUrl": "/api/v1/dev/images/products/680000726050-1.webp"
+      },
+      {
+        "skuId": "680000726050002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 492,
+        "imageUrl": "/api/v1/dev/images/products/680000726050-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000727167",
+    "title": "时尚男士偏光太阳镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000727167-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000727167-1.webp",
+      "/api/v1/dev/images/products/680000727167-2.webp",
+      "/api/v1/dev/images/products/680000727167-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 3550,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000727167001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 261,
+        "imageUrl": "/api/v1/dev/images/products/680000727167-1.webp"
+      },
+      {
+        "skuId": "680000727167002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 262,
+        "imageUrl": "/api/v1/dev/images/products/680000727167-2.webp"
+      },
+      {
+        "skuId": "680000727167003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 263,
+        "imageUrl": "/api/v1/dev/images/products/680000727167-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000728284",
+    "title": "礼盒装男士偏光太阳镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000728284-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000728284-1.webp",
+      "/api/v1/dev/images/products/680000728284-2.webp",
+      "/api/v1/dev/images/products/680000728284-3.webp"
+    ],
+    "priceCny": 64,
+    "salesCount": 600,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000728284001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 202,
+        "imageUrl": "/api/v1/dev/images/products/680000728284-1.webp"
+      },
+      {
+        "skuId": "680000728284002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 203,
+        "imageUrl": "/api/v1/dev/images/products/680000728284-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000729401",
+    "title": "新款复古圆框眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000729401-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000729401-1.webp",
+      "/api/v1/dev/images/products/680000729401-2.webp",
+      "/api/v1/dev/images/products/680000729401-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 16700,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000729401001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000729401-1.webp"
+      },
+      {
+        "skuId": "680000729401002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000729401-2.webp"
+      },
+      {
+        "skuId": "680000729401003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000729401-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000730518",
+    "title": "简约复古圆框眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000730518-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000730518-1.webp",
+      "/api/v1/dev/images/products/680000730518-2.webp",
+      "/api/v1/dev/images/products/680000730518-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 18250,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000730518001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 435,
+        "imageUrl": "/api/v1/dev/images/products/680000730518-1.webp"
+      },
+      {
+        "skuId": "680000730518002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 436,
+        "imageUrl": "/api/v1/dev/images/products/680000730518-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000731635",
+    "title": "时尚复古圆框眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000731635-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000731635-1.webp",
+      "/api/v1/dev/images/products/680000731635-2.webp",
+      "/api/v1/dev/images/products/680000731635-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 15300,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000731635001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 376,
+        "imageUrl": "/api/v1/dev/images/products/680000731635-1.webp"
+      },
+      {
+        "skuId": "680000731635002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000731635-2.webp"
+      },
+      {
+        "skuId": "680000731635003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000731635-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000732752",
+    "title": "礼盒装复古圆框眼镜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000732752-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000732752-1.webp",
+      "/api/v1/dev/images/products/680000732752-2.webp",
+      "/api/v1/dev/images/products/680000732752-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 12350,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "眼镜"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000732752001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000732752-1.webp"
+      },
+      {
+        "skuId": "680000732752002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000732752-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000733869",
+    "title": "新款渔夫帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000733869-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000733869-1.webp",
+      "/api/v1/dev/images/products/680000733869-2.webp",
+      "/api/v1/dev/images/products/680000733869-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 6850,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000733869001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 87,
+        "imageUrl": "/api/v1/dev/images/products/680000733869-1.webp"
+      },
+      {
+        "skuId": "680000733869002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 88,
+        "imageUrl": "/api/v1/dev/images/products/680000733869-2.webp"
+      },
+      {
+        "skuId": "680000733869003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 89,
+        "imageUrl": "/api/v1/dev/images/products/680000733869-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000734986",
+    "title": "简约渔夫帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000734986-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000734986-1.webp",
+      "/api/v1/dev/images/products/680000734986-2.webp",
+      "/api/v1/dev/images/products/680000734986-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 3900,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000734986001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 28,
+        "imageUrl": "/api/v1/dev/images/products/680000734986-1.webp"
+      },
+      {
+        "skuId": "680000734986002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 29,
+        "imageUrl": "/api/v1/dev/images/products/680000734986-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000736103",
+    "title": "时尚渔夫帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000736103-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000736103-1.webp",
+      "/api/v1/dev/images/products/680000736103-2.webp",
+      "/api/v1/dev/images/products/680000736103-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 10550,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000736103001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000736103-1.webp"
+      },
+      {
+        "skuId": "680000736103002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 162,
+        "imageUrl": "/api/v1/dev/images/products/680000736103-2.webp"
+      },
+      {
+        "skuId": "680000736103003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000736103-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000737220",
+    "title": "礼盒装渔夫帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000737220-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000737220-1.webp",
+      "/api/v1/dev/images/products/680000737220-2.webp",
+      "/api/v1/dev/images/products/680000737220-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 7600,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000737220001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 102,
+        "imageUrl": "/api/v1/dev/images/products/680000737220-1.webp"
+      },
+      {
+        "skuId": "680000737220002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 103,
+        "imageUrl": "/api/v1/dev/images/products/680000737220-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000738337",
+    "title": "新款针织毛线帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000738337-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000738337-1.webp",
+      "/api/v1/dev/images/products/680000738337-2.webp",
+      "/api/v1/dev/images/products/680000738337-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 2100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000738337001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000738337-1.webp"
+      },
+      {
+        "skuId": "680000738337002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000738337-2.webp"
+      },
+      {
+        "skuId": "680000738337003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000738337-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000739454",
+    "title": "简约针织毛线帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000739454-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000739454-1.webp",
+      "/api/v1/dev/images/products/680000739454-2.webp",
+      "/api/v1/dev/images/products/680000739454-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 29150,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000739454001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 293,
+        "imageUrl": "/api/v1/dev/images/products/680000739454-1.webp"
+      },
+      {
+        "skuId": "680000739454002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 294,
+        "imageUrl": "/api/v1/dev/images/products/680000739454-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000740571",
+    "title": "时尚针织毛线帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000740571-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000740571-1.webp",
+      "/api/v1/dev/images/products/680000740571-2.webp",
+      "/api/v1/dev/images/products/680000740571-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 3250,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000740571001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000740571-1.webp"
+      },
+      {
+        "skuId": "680000740571002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000740571-2.webp"
+      },
+      {
+        "skuId": "680000740571003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 257,
+        "imageUrl": "/api/v1/dev/images/products/680000740571-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000741688",
+    "title": "礼盒装针织毛线帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000741688-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000741688-1.webp",
+      "/api/v1/dev/images/products/680000741688-2.webp",
+      "/api/v1/dev/images/products/680000741688-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 27750,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000741688001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000741688-1.webp"
+      },
+      {
+        "skuId": "680000741688002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 26,
+        "imageUrl": "/api/v1/dev/images/products/680000741688-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000742805",
+    "title": "新款遮阳草帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000742805-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000742805-1.webp",
+      "/api/v1/dev/images/products/680000742805-2.webp",
+      "/api/v1/dev/images/products/680000742805-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 13850,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000742805001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000742805-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000743922",
+    "title": "简约遮阳草帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000743922-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000743922-1.webp",
+      "/api/v1/dev/images/products/680000743922-2.webp",
+      "/api/v1/dev/images/products/680000743922-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 10900,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000743922001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000743922-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000745039",
+    "title": "时尚遮阳草帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000745039-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000745039-1.webp",
+      "/api/v1/dev/images/products/680000745039-2.webp",
+      "/api/v1/dev/images/products/680000745039-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 25950,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000745039001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000745039-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000746156",
+    "title": "礼盒装遮阳草帽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000746156-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000746156-1.webp",
+      "/api/v1/dev/images/products/680000746156-2.webp",
+      "/api/v1/dev/images/products/680000746156-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 23000,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "帽"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000746156001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000746156-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000747273",
+    "title": "新款电子手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000747273-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000747273-1.webp",
+      "/api/v1/dev/images/products/680000747273-2.webp",
+      "/api/v1/dev/images/products/680000747273-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 20050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000747273001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 231,
+        "imageUrl": "/api/v1/dev/images/products/680000747273-1.webp"
+      },
+      {
+        "skuId": "680000747273002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 232,
+        "imageUrl": "/api/v1/dev/images/products/680000747273-2.webp"
+      },
+      {
+        "skuId": "680000747273003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 233,
+        "imageUrl": "/api/v1/dev/images/products/680000747273-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000748390",
+    "title": "简约电子手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000748390-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000748390-1.webp",
+      "/api/v1/dev/images/products/680000748390-2.webp",
+      "/api/v1/dev/images/products/680000748390-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 17100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000748390001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 172,
+        "imageUrl": "/api/v1/dev/images/products/680000748390-1.webp"
+      },
+      {
+        "skuId": "680000748390002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 173,
+        "imageUrl": "/api/v1/dev/images/products/680000748390-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000749507",
+    "title": "时尚电子手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000749507-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000749507-1.webp",
+      "/api/v1/dev/images/products/680000749507-2.webp",
+      "/api/v1/dev/images/products/680000749507-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 650,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000749507001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000749507-1.webp"
+      },
+      {
+        "skuId": "680000749507002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000749507-2.webp"
+      },
+      {
+        "skuId": "680000749507003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 445,
+        "imageUrl": "/api/v1/dev/images/products/680000749507-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000750624",
+    "title": "礼盒装电子手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000750624-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000750624-1.webp",
+      "/api/v1/dev/images/products/680000750624-2.webp",
+      "/api/v1/dev/images/products/680000750624-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 4750,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000750624001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 405,
+        "imageUrl": "/api/v1/dev/images/products/680000750624-1.webp"
+      },
+      {
+        "skuId": "680000750624002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 406,
+        "imageUrl": "/api/v1/dev/images/products/680000750624-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000751741",
+    "title": "新款女士手链手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000751741-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000751741-1.webp",
+      "/api/v1/dev/images/products/680000751741-2.webp",
+      "/api/v1/dev/images/products/680000751741-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 1800,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000751741001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000751741-1.webp"
+      },
+      {
+        "skuId": "680000751741002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000751741-2.webp"
+      },
+      {
+        "skuId": "680000751741003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000751741-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000752858",
+    "title": "简约女士手链手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000752858-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000752858-1.webp",
+      "/api/v1/dev/images/products/680000752858-2.webp",
+      "/api/v1/dev/images/products/680000752858-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 26300,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000752858001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 116,
+        "imageUrl": "/api/v1/dev/images/products/680000752858-1.webp"
+      },
+      {
+        "skuId": "680000752858002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 117,
+        "imageUrl": "/api/v1/dev/images/products/680000752858-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000753975",
+    "title": "时尚女士手链手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000753975-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000753975-1.webp",
+      "/api/v1/dev/images/products/680000753975-2.webp",
+      "/api/v1/dev/images/products/680000753975-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 23350,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000753975001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 57,
+        "imageUrl": "/api/v1/dev/images/products/680000753975-1.webp"
+      },
+      {
+        "skuId": "680000753975002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 58,
+        "imageUrl": "/api/v1/dev/images/products/680000753975-2.webp"
+      },
+      {
+        "skuId": "680000753975003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000753975-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000755092",
+    "title": "礼盒装女士手链手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000755092-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000755092-1.webp",
+      "/api/v1/dev/images/products/680000755092-2.webp",
+      "/api/v1/dev/images/products/680000755092-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 10950,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000755092001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 169,
+        "imageUrl": "/api/v1/dev/images/products/680000755092-1.webp"
+      },
+      {
+        "skuId": "680000755092002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 170,
+        "imageUrl": "/api/v1/dev/images/products/680000755092-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000756209",
+    "title": "新款男士皮带手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000756209-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000756209-1.webp",
+      "/api/v1/dev/images/products/680000756209-2.webp",
+      "/api/v1/dev/images/products/680000756209-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 24500,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000756209001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000756209-1.webp"
+      },
+      {
+        "skuId": "680000756209002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000756209-2.webp"
+      },
+      {
+        "skuId": "680000756209003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000756209-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000757326",
+    "title": "简约男士皮带手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000757326-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000757326-1.webp",
+      "/api/v1/dev/images/products/680000757326-2.webp",
+      "/api/v1/dev/images/products/680000757326-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 21550,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000757326001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000757326-1.webp"
+      },
+      {
+        "skuId": "680000757326002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000757326-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000758443",
+    "title": "时尚男士皮带手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000758443-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000758443-1.webp",
+      "/api/v1/dev/images/products/680000758443-2.webp",
+      "/api/v1/dev/images/products/680000758443-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 18600,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000758443001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000758443-1.webp"
+      },
+      {
+        "skuId": "680000758443002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000758443-2.webp"
+      },
+      {
+        "skuId": "680000758443003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000758443-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000759560",
+    "title": "礼盒装男士皮带手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000759560-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000759560-1.webp",
+      "/api/v1/dev/images/products/680000759560-2.webp",
+      "/api/v1/dev/images/products/680000759560-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 15650,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰",
+      "手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "真皮"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000759560001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 263,
+        "imageUrl": "/api/v1/dev/images/products/680000759560-1.webp"
+      },
+      {
+        "skuId": "680000759560002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000759560-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000760677",
+    "title": "新款女士吊坠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000760677-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000760677-1.webp",
+      "/api/v1/dev/images/products/680000760677-2.webp",
+      "/api/v1/dev/images/products/680000760677-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 17200,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000760677001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 54,
+        "imageUrl": "/api/v1/dev/images/products/680000760677-1.webp"
+      },
+      {
+        "skuId": "680000760677002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 55,
+        "imageUrl": "/api/v1/dev/images/products/680000760677-2.webp"
+      },
+      {
+        "skuId": "680000760677003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 56,
+        "imageUrl": "/api/v1/dev/images/products/680000760677-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000761794",
+    "title": "简约女士吊坠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000761794-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000761794-1.webp",
+      "/api/v1/dev/images/products/680000761794-2.webp",
+      "/api/v1/dev/images/products/680000761794-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 14250,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000761794001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000761794-1.webp"
+      },
+      {
+        "skuId": "680000761794002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 476,
+        "imageUrl": "/api/v1/dev/images/products/680000761794-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000762911",
+    "title": "时尚女士吊坠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000762911-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000762911-1.webp",
+      "/api/v1/dev/images/products/680000762911-2.webp",
+      "/api/v1/dev/images/products/680000762911-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 350,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000762911001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000762911-1.webp"
+      },
+      {
+        "skuId": "680000762911002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000762911-2.webp"
+      },
+      {
+        "skuId": "680000762911003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000762911-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000764028",
+    "title": "礼盒装女士吊坠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000764028-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000764028-1.webp",
+      "/api/v1/dev/images/products/680000764028-2.webp",
+      "/api/v1/dev/images/products/680000764028-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 15400,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000764028001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000764028-1.webp"
+      },
+      {
+        "skuId": "680000764028002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000764028-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000765145",
+    "title": "新款男士项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000765145-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000765145-1.webp",
+      "/api/v1/dev/images/products/680000765145-2.webp",
+      "/api/v1/dev/images/products/680000765145-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 12450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000765145001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000765145-1.webp"
+      },
+      {
+        "skuId": "680000765145002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000765145-2.webp"
+      },
+      {
+        "skuId": "680000765145003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000765145-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000766262",
+    "title": "简约男士项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000766262-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000766262-1.webp",
+      "/api/v1/dev/images/products/680000766262-2.webp",
+      "/api/v1/dev/images/products/680000766262-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 9500,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000766262001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 260,
+        "imageUrl": "/api/v1/dev/images/products/680000766262-1.webp"
+      },
+      {
+        "skuId": "680000766262002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 261,
+        "imageUrl": "/api/v1/dev/images/products/680000766262-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000767379",
+    "title": "时尚男士项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000767379-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000767379-1.webp",
+      "/api/v1/dev/images/products/680000767379-2.webp",
+      "/api/v1/dev/images/products/680000767379-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 4000,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000767379001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 30,
+        "imageUrl": "/api/v1/dev/images/products/680000767379-1.webp"
+      },
+      {
+        "skuId": "680000767379002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 31,
+        "imageUrl": "/api/v1/dev/images/products/680000767379-2.webp"
+      },
+      {
+        "skuId": "680000767379003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000767379-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000768496",
+    "title": "礼盒装男士项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000768496-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000768496-1.webp",
+      "/api/v1/dev/images/products/680000768496-2.webp",
+      "/api/v1/dev/images/products/680000768496-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 1050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000768496001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 451,
+        "imageUrl": "/api/v1/dev/images/products/680000768496-1.webp"
+      },
+      {
+        "skuId": "680000768496002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 452,
+        "imageUrl": "/api/v1/dev/images/products/680000768496-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000769613",
+    "title": "新款珍珠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000769613-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000769613-1.webp",
+      "/api/v1/dev/images/products/680000769613-2.webp",
+      "/api/v1/dev/images/products/680000769613-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 17150,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000769613001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000769613-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000770730",
+    "title": "简约珍珠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000770730-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000770730-1.webp",
+      "/api/v1/dev/images/products/680000770730-2.webp",
+      "/api/v1/dev/images/products/680000770730-3.webp"
+    ],
+    "priceCny": 119,
+    "originalPriceCny": 155,
+    "salesCount": 21250,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000770730001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 375,
+        "imageUrl": "/api/v1/dev/images/products/680000770730-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000771847",
+    "title": "时尚珍珠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000771847-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000771847-1.webp",
+      "/api/v1/dev/images/products/680000771847-2.webp",
+      "/api/v1/dev/images/products/680000771847-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 15750,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000771847001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 145,
+        "imageUrl": "/api/v1/dev/images/products/680000771847-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000772964",
+    "title": "礼盒装珍珠项链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000772964-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000772964-1.webp",
+      "/api/v1/dev/images/products/680000772964-2.webp",
+      "/api/v1/dev/images/products/680000772964-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 12800,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000772964001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 86,
+        "imageUrl": "/api/v1/dev/images/products/680000772964-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000774081",
+    "title": "新款女士手链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000774081-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000774081-1.webp",
+      "/api/v1/dev/images/products/680000774081-2.webp",
+      "/api/v1/dev/images/products/680000774081-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 400,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000774081001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 198,
+        "imageUrl": "/api/v1/dev/images/products/680000774081-1.webp"
+      },
+      {
+        "skuId": "680000774081002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 199,
+        "imageUrl": "/api/v1/dev/images/products/680000774081-2.webp"
+      },
+      {
+        "skuId": "680000774081003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 200,
+        "imageUrl": "/api/v1/dev/images/products/680000774081-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000775198",
+    "title": "简约女士手链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000775198-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000775198-1.webp",
+      "/api/v1/dev/images/products/680000775198-2.webp",
+      "/api/v1/dev/images/products/680000775198-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 24900,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000775198001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 448,
+        "imageUrl": "/api/v1/dev/images/products/680000775198-1.webp"
+      },
+      {
+        "skuId": "680000775198002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 449,
+        "imageUrl": "/api/v1/dev/images/products/680000775198-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000776315",
+    "title": "时尚女士手链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000776315-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000776315-1.webp",
+      "/api/v1/dev/images/products/680000776315-2.webp",
+      "/api/v1/dev/images/products/680000776315-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 11000,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000776315001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000776315-1.webp"
+      },
+      {
+        "skuId": "680000776315002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000776315-2.webp"
+      },
+      {
+        "skuId": "680000776315003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000776315-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000777432",
+    "title": "礼盒装女士手链",
+    "mainImageUrl": "/api/v1/dev/images/products/680000777432-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000777432-1.webp",
+      "/api/v1/dev/images/products/680000777432-2.webp",
+      "/api/v1/dev/images/products/680000777432-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 8050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000777432001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000777432-1.webp"
+      },
+      {
+        "skuId": "680000777432002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000777432-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000778549",
+    "title": "新款时尚戒指",
+    "mainImageUrl": "/api/v1/dev/images/products/680000778549-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000778549-1.webp",
+      "/api/v1/dev/images/products/680000778549-2.webp",
+      "/api/v1/dev/images/products/680000778549-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 2550,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000778549001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000778549-1.webp"
+      },
+      {
+        "skuId": "680000778549002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000778549-2.webp"
+      },
+      {
+        "skuId": "680000778549003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000778549-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000779666",
+    "title": "简约时尚戒指",
+    "mainImageUrl": "/api/v1/dev/images/products/680000779666-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000779666-1.webp",
+      "/api/v1/dev/images/products/680000779666-2.webp",
+      "/api/v1/dev/images/products/680000779666-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 29600,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000779666001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000779666-1.webp"
+      },
+      {
+        "skuId": "680000779666002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 63,
+        "imageUrl": "/api/v1/dev/images/products/680000779666-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000780783",
+    "title": "时尚时尚戒指",
+    "mainImageUrl": "/api/v1/dev/images/products/680000780783-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000780783-1.webp",
+      "/api/v1/dev/images/products/680000780783-2.webp",
+      "/api/v1/dev/images/products/680000780783-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 3700,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000780783001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000780783-1.webp"
+      },
+      {
+        "skuId": "680000780783002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000780783-2.webp"
+      },
+      {
+        "skuId": "680000780783003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 26,
+        "imageUrl": "/api/v1/dev/images/products/680000780783-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000781900",
+    "title": "礼盒装时尚戒指",
+    "mainImageUrl": "/api/v1/dev/images/products/680000781900-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000781900-1.webp",
+      "/api/v1/dev/images/products/680000781900-2.webp",
+      "/api/v1/dev/images/products/680000781900-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 19800,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000781900001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 466,
+        "imageUrl": "/api/v1/dev/images/products/680000781900-1.webp"
+      },
+      {
+        "skuId": "680000781900002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000781900-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000783017",
+    "title": "新款女士耳钉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000783017-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000783017-1.webp",
+      "/api/v1/dev/images/products/680000783017-2.webp",
+      "/api/v1/dev/images/products/680000783017-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 4850,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000783017001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000783017-1.webp"
+      },
+      {
+        "skuId": "680000783017002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000783017-2.webp"
+      },
+      {
+        "skuId": "680000783017003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000783017-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000784134",
+    "title": "简约女士耳钉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000784134-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000784134-1.webp",
+      "/api/v1/dev/images/products/680000784134-2.webp",
+      "/api/v1/dev/images/products/680000784134-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 1900,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000784134001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000784134-1.webp"
+      },
+      {
+        "skuId": "680000784134002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000784134-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000785251",
+    "title": "时尚女士耳钉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000785251-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000785251-1.webp",
+      "/api/v1/dev/images/products/680000785251-2.webp",
+      "/api/v1/dev/images/products/680000785251-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 28950,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000785251001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 289,
+        "imageUrl": "/api/v1/dev/images/products/680000785251-1.webp"
+      },
+      {
+        "skuId": "680000785251002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000785251-2.webp"
+      },
+      {
+        "skuId": "680000785251003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 291,
+        "imageUrl": "/api/v1/dev/images/products/680000785251-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000786368",
+    "title": "礼盒装女士耳钉",
+    "mainImageUrl": "/api/v1/dev/images/products/680000786368-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000786368-1.webp",
+      "/api/v1/dev/images/products/680000786368-2.webp",
+      "/api/v1/dev/images/products/680000786368-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 23450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.03,
+    "keywords": [
+      "配饰",
+      "项链"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000786368001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000786368-1.webp"
+      },
+      {
+        "skuId": "680000786368002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 60,
+        "imageUrl": "/api/v1/dev/images/products/680000786368-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000787485",
+    "title": "新款发夹套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000787485-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000787485-1.webp",
+      "/api/v1/dev/images/products/680000787485-2.webp",
+      "/api/v1/dev/images/products/680000787485-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 20500,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000787485001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 480,
+        "imageUrl": "/api/v1/dev/images/products/680000787485-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000788602",
+    "title": "简约发夹套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000788602-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000788602-1.webp",
+      "/api/v1/dev/images/products/680000788602-2.webp",
+      "/api/v1/dev/images/products/680000788602-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 6600,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000788602001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000788602-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000789719",
+    "title": "时尚发夹套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000789719-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000789719-1.webp",
+      "/api/v1/dev/images/products/680000789719-2.webp",
+      "/api/v1/dev/images/products/680000789719-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 1100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000789719001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 212,
+        "imageUrl": "/api/v1/dev/images/products/680000789719-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000790836",
+    "title": "礼盒装发夹套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000790836-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000790836-1.webp",
+      "/api/v1/dev/images/products/680000790836-2.webp",
+      "/api/v1/dev/images/products/680000790836-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 5200,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "树脂"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000790836001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 174,
+        "imageUrl": "/api/v1/dev/images/products/680000790836-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000791953",
+    "title": "新款真丝丝巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000791953-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000791953-1.webp",
+      "/api/v1/dev/images/products/680000791953-2.webp",
+      "/api/v1/dev/images/products/680000791953-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 2250,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000791953001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 115,
+        "imageUrl": "/api/v1/dev/images/products/680000791953-1.webp"
+      },
+      {
+        "skuId": "680000791953002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 116,
+        "imageUrl": "/api/v1/dev/images/products/680000791953-2.webp"
+      },
+      {
+        "skuId": "680000791953003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 117,
+        "imageUrl": "/api/v1/dev/images/products/680000791953-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000793070",
+    "title": "简约真丝丝巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000793070-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000793070-1.webp",
+      "/api/v1/dev/images/products/680000793070-2.webp",
+      "/api/v1/dev/images/products/680000793070-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 19850,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000793070001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000793070-1.webp"
+      },
+      {
+        "skuId": "680000793070002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 228,
+        "imageUrl": "/api/v1/dev/images/products/680000793070-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000794187",
+    "title": "时尚真丝丝巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000794187-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000794187-1.webp",
+      "/api/v1/dev/images/products/680000794187-2.webp",
+      "/api/v1/dev/images/products/680000794187-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 14350,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000794187001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 477,
+        "imageUrl": "/api/v1/dev/images/products/680000794187-1.webp"
+      },
+      {
+        "skuId": "680000794187002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 478,
+        "imageUrl": "/api/v1/dev/images/products/680000794187-2.webp"
+      },
+      {
+        "skuId": "680000794187003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 479,
+        "imageUrl": "/api/v1/dev/images/products/680000794187-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000795304",
+    "title": "礼盒装真丝丝巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000795304-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000795304-1.webp",
+      "/api/v1/dev/images/products/680000795304-2.webp",
+      "/api/v1/dev/images/products/680000795304-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000795304001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000795304-1.webp"
+      },
+      {
+        "skuId": "680000795304002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000795304-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000796421",
+    "title": "新款保暖手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000796421-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000796421-1.webp",
+      "/api/v1/dev/images/products/680000796421-2.webp",
+      "/api/v1/dev/images/products/680000796421-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 27500,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000796421001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000796421-1.webp"
+      },
+      {
+        "skuId": "680000796421002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000796421-2.webp"
+      },
+      {
+        "skuId": "680000796421003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000796421-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000797538",
+    "title": "简约保暖手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000797538-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000797538-1.webp",
+      "/api/v1/dev/images/products/680000797538-2.webp",
+      "/api/v1/dev/images/products/680000797538-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 22000,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000797538001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 150,
+        "imageUrl": "/api/v1/dev/images/products/680000797538-1.webp"
+      },
+      {
+        "skuId": "680000797538002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 151,
+        "imageUrl": "/api/v1/dev/images/products/680000797538-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000798655",
+    "title": "时尚保暖手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000798655-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000798655-1.webp",
+      "/api/v1/dev/images/products/680000798655-2.webp",
+      "/api/v1/dev/images/products/680000798655-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 19050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000798655001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 91,
+        "imageUrl": "/api/v1/dev/images/products/680000798655-1.webp"
+      },
+      {
+        "skuId": "680000798655002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 92,
+        "imageUrl": "/api/v1/dev/images/products/680000798655-2.webp"
+      },
+      {
+        "skuId": "680000798655003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000798655-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000799772",
+    "title": "礼盒装保暖手套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000799772-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000799772-1.webp",
+      "/api/v1/dev/images/products/680000799772-2.webp",
+      "/api/v1/dev/images/products/680000799772-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 16100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "针织"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000799772001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 32,
+        "imageUrl": "/api/v1/dev/images/products/680000799772-1.webp"
+      },
+      {
+        "skuId": "680000799772002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 33,
+        "imageUrl": "/api/v1/dev/images/products/680000799772-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000800889",
+    "title": "新款男士领带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000800889-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000800889-1.webp",
+      "/api/v1/dev/images/products/680000800889-2.webp",
+      "/api/v1/dev/images/products/680000800889-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 1400,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000800889001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 218,
+        "imageUrl": "/api/v1/dev/images/products/680000800889-1.webp"
+      },
+      {
+        "skuId": "680000800889002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000800889-2.webp"
+      },
+      {
+        "skuId": "680000800889003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000800889-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000802006",
+    "title": "简约男士领带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000802006-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000802006-1.webp",
+      "/api/v1/dev/images/products/680000802006-2.webp",
+      "/api/v1/dev/images/products/680000802006-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 8050,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000802006001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000802006-1.webp"
+      },
+      {
+        "skuId": "680000802006002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000802006-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000803123",
+    "title": "时尚男士领带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000803123-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000803123-1.webp",
+      "/api/v1/dev/images/products/680000803123-2.webp",
+      "/api/v1/dev/images/products/680000803123-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 5100,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000803123001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 292,
+        "imageUrl": "/api/v1/dev/images/products/680000803123-1.webp"
+      },
+      {
+        "skuId": "680000803123002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 293,
+        "imageUrl": "/api/v1/dev/images/products/680000803123-2.webp"
+      },
+      {
+        "skuId": "680000803123003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 294,
+        "imageUrl": "/api/v1/dev/images/products/680000803123-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000804240",
+    "title": "礼盒装男士领带",
+    "mainImageUrl": "/api/v1/dev/images/products/680000804240-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000804240-1.webp",
+      "/api/v1/dev/images/products/680000804240-2.webp",
+      "/api/v1/dev/images/products/680000804240-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 2150,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000804240001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 233,
+        "imageUrl": "/api/v1/dev/images/products/680000804240-1.webp"
+      },
+      {
+        "skuId": "680000804240002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 234,
+        "imageUrl": "/api/v1/dev/images/products/680000804240-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000805357",
+    "title": "新款折叠雨伞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000805357-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000805357-1.webp",
+      "/api/v1/dev/images/products/680000805357-2.webp",
+      "/api/v1/dev/images/products/680000805357-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 26650,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000805357001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "棕色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 483,
+        "imageUrl": "/api/v1/dev/images/products/680000805357-1.webp"
+      },
+      {
+        "skuId": "680000805357002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 484,
+        "imageUrl": "/api/v1/dev/images/products/680000805357-2.webp"
+      },
+      {
+        "skuId": "680000805357003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 485,
+        "imageUrl": "/api/v1/dev/images/products/680000805357-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000806474",
+    "title": "简约折叠雨伞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000806474-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000806474-1.webp",
+      "/api/v1/dev/images/products/680000806474-2.webp",
+      "/api/v1/dev/images/products/680000806474-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 23700,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000806474001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 424,
+        "imageUrl": "/api/v1/dev/images/products/680000806474-1.webp"
+      },
+      {
+        "skuId": "680000806474002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 425,
+        "imageUrl": "/api/v1/dev/images/products/680000806474-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000807591",
+    "title": "时尚折叠雨伞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000807591-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000807591-1.webp",
+      "/api/v1/dev/images/products/680000807591-2.webp",
+      "/api/v1/dev/images/products/680000807591-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 20750,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000807591001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 365,
+        "imageUrl": "/api/v1/dev/images/products/680000807591-1.webp"
+      },
+      {
+        "skuId": "680000807591002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 366,
+        "imageUrl": "/api/v1/dev/images/products/680000807591-2.webp"
+      },
+      {
+        "skuId": "680000807591003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 367,
+        "imageUrl": "/api/v1/dev/images/products/680000807591-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000808708",
+    "title": "礼盒装折叠雨伞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000808708-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000808708-1.webp",
+      "/api/v1/dev/images/products/680000808708-2.webp",
+      "/api/v1/dev/images/products/680000808708-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 4300,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000808708001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 156,
+        "imageUrl": "/api/v1/dev/images/products/680000808708-1.webp"
+      },
+      {
+        "skuId": "680000808708002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 157,
+        "imageUrl": "/api/v1/dev/images/products/680000808708-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000809825",
+    "title": "新款钥匙扣挂件",
+    "mainImageUrl": "/api/v1/dev/images/products/680000809825-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000809825-1.webp",
+      "/api/v1/dev/images/products/680000809825-2.webp",
+      "/api/v1/dev/images/products/680000809825-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 1350,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000809825001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 97,
+        "imageUrl": "/api/v1/dev/images/products/680000809825-1.webp"
+      },
+      {
+        "skuId": "680000809825002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 98,
+        "imageUrl": "/api/v1/dev/images/products/680000809825-2.webp"
+      },
+      {
+        "skuId": "680000809825003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 99,
+        "imageUrl": "/api/v1/dev/images/products/680000809825-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000810942",
+    "title": "简约钥匙扣挂件",
+    "mainImageUrl": "/api/v1/dev/images/products/680000810942-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000810942-1.webp",
+      "/api/v1/dev/images/products/680000810942-2.webp",
+      "/api/v1/dev/images/products/680000810942-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 5450,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000810942001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "红色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 59,
+        "imageUrl": "/api/v1/dev/images/products/680000810942-1.webp"
+      },
+      {
+        "skuId": "680000810942002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 60,
+        "imageUrl": "/api/v1/dev/images/products/680000810942-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000812059",
+    "title": "时尚钥匙扣挂件",
+    "mainImageUrl": "/api/v1/dev/images/products/680000812059-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000812059-1.webp",
+      "/api/v1/dev/images/products/680000812059-2.webp",
+      "/api/v1/dev/images/products/680000812059-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 20500,
+    "shop": {
+      "shopId": "100552",
+      "name": "时尚配饰旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "配饰"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "潮流配饰"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000812059001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "金色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 480,
+        "imageUrl": "/api/v1/dev/images/products/680000812059-1.webp"
+      },
+      {
+        "skuId": "680000812059002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 481,
+        "imageUrl": "/api/v1/dev/images/products/680000812059-2.webp"
+      },
+      {
+        "skuId": "680000812059003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 482,
+        "imageUrl": "/api/v1/dev/images/products/680000812059-3.webp"
+      }
+    ]
   }
 ]

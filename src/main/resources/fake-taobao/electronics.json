@@ -730,5 +730,6445 @@
         "imageUrl": "/api/v1/dev/images/products/680000062552-2.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000407705",
+    "title": "新款头戴式蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000407705-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000407705-1.webp",
+      "/api/v1/dev/images/products/680000407705-2.webp",
+      "/api/v1/dev/images/products/680000407705-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 12200,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000407705001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000407705-1.webp"
+      },
+      {
+        "skuId": "680000407705002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 315,
+        "imageUrl": "/api/v1/dev/images/products/680000407705-2.webp"
+      },
+      {
+        "skuId": "680000407705003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000407705-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000408822",
+    "title": "升级版头戴式蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000408822-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000408822-1.webp",
+      "/api/v1/dev/images/products/680000408822-2.webp",
+      "/api/v1/dev/images/products/680000408822-3.webp"
+    ],
+    "priceCny": 179,
+    "originalPriceCny": 233,
+    "salesCount": 9250,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000408822001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000408822-1.webp"
+      },
+      {
+        "skuId": "680000408822002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 256,
+        "imageUrl": "/api/v1/dev/images/products/680000408822-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000409939",
+    "title": "高颜值头戴式蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000409939-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000409939-1.webp",
+      "/api/v1/dev/images/products/680000409939-2.webp",
+      "/api/v1/dev/images/products/680000409939-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 3750,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000409939001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000409939-1.webp"
+      },
+      {
+        "skuId": "680000409939002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 26,
+        "imageUrl": "/api/v1/dev/images/products/680000409939-2.webp"
+      },
+      {
+        "skuId": "680000409939003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 27,
+        "imageUrl": "/api/v1/dev/images/products/680000409939-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000411056",
+    "title": "耐用头戴式蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000411056-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000411056-1.webp",
+      "/api/v1/dev/images/products/680000411056-2.webp",
+      "/api/v1/dev/images/products/680000411056-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 28400,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000411056001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000411056-1.webp"
+      },
+      {
+        "skuId": "680000411056002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000411056-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000412173",
+    "title": "新款挂耳式运动蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000412173-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000412173-1.webp",
+      "/api/v1/dev/images/products/680000412173-2.webp",
+      "/api/v1/dev/images/products/680000412173-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 25450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000412173001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 99,
+        "imageUrl": "/api/v1/dev/images/products/680000412173-1.webp"
+      },
+      {
+        "skuId": "680000412173002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 100,
+        "imageUrl": "/api/v1/dev/images/products/680000412173-2.webp"
+      },
+      {
+        "skuId": "680000412173003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 101,
+        "imageUrl": "/api/v1/dev/images/products/680000412173-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000413290",
+    "title": "升级版挂耳式运动蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000413290-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000413290-1.webp",
+      "/api/v1/dev/images/products/680000413290-2.webp",
+      "/api/v1/dev/images/products/680000413290-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 22500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000413290001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 40,
+        "imageUrl": "/api/v1/dev/images/products/680000413290-1.webp"
+      },
+      {
+        "skuId": "680000413290002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 41,
+        "imageUrl": "/api/v1/dev/images/products/680000413290-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000414407",
+    "title": "高颜值挂耳式运动蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000414407-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000414407-1.webp",
+      "/api/v1/dev/images/products/680000414407-2.webp",
+      "/api/v1/dev/images/products/680000414407-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 6050,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000414407001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 311,
+        "imageUrl": "/api/v1/dev/images/products/680000414407-1.webp"
+      },
+      {
+        "skuId": "680000414407002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 312,
+        "imageUrl": "/api/v1/dev/images/products/680000414407-2.webp"
+      },
+      {
+        "skuId": "680000414407003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000414407-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000415524",
+    "title": "耐用挂耳式运动蓝牙耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000415524-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000415524-1.webp",
+      "/api/v1/dev/images/products/680000415524-2.webp",
+      "/api/v1/dev/images/products/680000415524-3.webp"
+    ],
+    "priceCny": 84,
+    "originalPriceCny": 109,
+    "salesCount": 3100,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000415524001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000415524-1.webp"
+      },
+      {
+        "skuId": "680000415524002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 253,
+        "imageUrl": "/api/v1/dev/images/products/680000415524-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000416641",
+    "title": "新款有线入耳式耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000416641-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000416641-1.webp",
+      "/api/v1/dev/images/products/680000416641-2.webp",
+      "/api/v1/dev/images/products/680000416641-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000416641001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000416641-1.webp"
+      },
+      {
+        "skuId": "680000416641002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 194,
+        "imageUrl": "/api/v1/dev/images/products/680000416641-2.webp"
+      },
+      {
+        "skuId": "680000416641003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000416641-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000417758",
+    "title": "升级版有线入耳式耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000417758-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000417758-1.webp",
+      "/api/v1/dev/images/products/680000417758-2.webp",
+      "/api/v1/dev/images/products/680000417758-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 24650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000417758001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000417758-1.webp"
+      },
+      {
+        "skuId": "680000417758002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000417758-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000418875",
+    "title": "高颜值有线入耳式耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000418875-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000418875-1.webp",
+      "/api/v1/dev/images/products/680000418875-2.webp",
+      "/api/v1/dev/images/products/680000418875-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 21700,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000418875001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000418875-1.webp"
+      },
+      {
+        "skuId": "680000418875002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 385,
+        "imageUrl": "/api/v1/dev/images/products/680000418875-2.webp"
+      },
+      {
+        "skuId": "680000418875003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 386,
+        "imageUrl": "/api/v1/dev/images/products/680000418875-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000419992",
+    "title": "耐用有线入耳式耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000419992-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000419992-1.webp",
+      "/api/v1/dev/images/products/680000419992-2.webp",
+      "/api/v1/dev/images/products/680000419992-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 18750,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000419992001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 325,
+        "imageUrl": "/api/v1/dev/images/products/680000419992-1.webp"
+      },
+      {
+        "skuId": "680000419992002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 326,
+        "imageUrl": "/api/v1/dev/images/products/680000419992-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000421109",
+    "title": "新款电竞游戏耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000421109-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000421109-1.webp",
+      "/api/v1/dev/images/products/680000421109-2.webp",
+      "/api/v1/dev/images/products/680000421109-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 29900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000421109001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 308,
+        "imageUrl": "/api/v1/dev/images/products/680000421109-1.webp"
+      },
+      {
+        "skuId": "680000421109002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 309,
+        "imageUrl": "/api/v1/dev/images/products/680000421109-2.webp"
+      },
+      {
+        "skuId": "680000421109003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000421109-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000422226",
+    "title": "升级版电竞游戏耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000422226-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000422226-1.webp",
+      "/api/v1/dev/images/products/680000422226-2.webp",
+      "/api/v1/dev/images/products/680000422226-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 26950,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000422226001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 249,
+        "imageUrl": "/api/v1/dev/images/products/680000422226-1.webp"
+      },
+      {
+        "skuId": "680000422226002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000422226-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000423343",
+    "title": "高颜值电竞游戏耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000423343-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000423343-1.webp",
+      "/api/v1/dev/images/products/680000423343-2.webp",
+      "/api/v1/dev/images/products/680000423343-3.webp"
+    ],
+    "priceCny": 209,
+    "salesCount": 24000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000423343001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 209,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000423343-1.webp"
+      },
+      {
+        "skuId": "680000423343002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 209,
+        "stock": 191,
+        "imageUrl": "/api/v1/dev/images/products/680000423343-2.webp"
+      },
+      {
+        "skuId": "680000423343003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 209,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000423343-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000424460",
+    "title": "耐用电竞游戏耳机",
+    "mainImageUrl": "/api/v1/dev/images/products/680000424460-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000424460-1.webp",
+      "/api/v1/dev/images/products/680000424460-2.webp",
+      "/api/v1/dev/images/products/680000424460-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 21050,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码",
+      "耳机"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000424460001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 131,
+        "imageUrl": "/api/v1/dev/images/products/680000424460-1.webp"
+      },
+      {
+        "skuId": "680000424460002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000424460-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000425577",
+    "title": "新款智能运动手环",
+    "mainImageUrl": "/api/v1/dev/images/products/680000425577-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000425577-1.webp",
+      "/api/v1/dev/images/products/680000425577-2.webp",
+      "/api/v1/dev/images/products/680000425577-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 15550,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000425577001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000425577-1.webp"
+      },
+      {
+        "skuId": "680000425577002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000425577-2.webp"
+      },
+      {
+        "skuId": "680000425577003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000425577-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000426694",
+    "title": "升级版智能运动手环",
+    "mainImageUrl": "/api/v1/dev/images/products/680000426694-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000426694-1.webp",
+      "/api/v1/dev/images/products/680000426694-2.webp",
+      "/api/v1/dev/images/products/680000426694-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 12600,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000426694001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000426694-1.webp"
+      },
+      {
+        "skuId": "680000426694002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000426694-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000427811",
+    "title": "高颜值智能运动手环",
+    "mainImageUrl": "/api/v1/dev/images/products/680000427811-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000427811-1.webp",
+      "/api/v1/dev/images/products/680000427811-2.webp",
+      "/api/v1/dev/images/products/680000427811-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 28700,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000427811001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 284,
+        "imageUrl": "/api/v1/dev/images/products/680000427811-1.webp"
+      },
+      {
+        "skuId": "680000427811002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 285,
+        "imageUrl": "/api/v1/dev/images/products/680000427811-2.webp"
+      },
+      {
+        "skuId": "680000427811003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 286,
+        "imageUrl": "/api/v1/dev/images/products/680000427811-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000428928",
+    "title": "耐用智能运动手环",
+    "mainImageUrl": "/api/v1/dev/images/products/680000428928-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000428928-1.webp",
+      "/api/v1/dev/images/products/680000428928-2.webp",
+      "/api/v1/dev/images/products/680000428928-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 23200,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000428928001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 54,
+        "imageUrl": "/api/v1/dev/images/products/680000428928-1.webp"
+      },
+      {
+        "skuId": "680000428928002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 55,
+        "imageUrl": "/api/v1/dev/images/products/680000428928-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000430045",
+    "title": "新款圆形表盘智能手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000430045-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000430045-1.webp",
+      "/api/v1/dev/images/products/680000430045-2.webp",
+      "/api/v1/dev/images/products/680000430045-3.webp"
+    ],
+    "priceCny": 299,
+    "salesCount": 17850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000430045001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 187,
+        "imageUrl": "/api/v1/dev/images/products/680000430045-1.webp"
+      },
+      {
+        "skuId": "680000430045002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000430045-2.webp"
+      },
+      {
+        "skuId": "680000430045003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000430045-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000431162",
+    "title": "升级版圆形表盘智能手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000431162-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000431162-1.webp",
+      "/api/v1/dev/images/products/680000431162-2.webp",
+      "/api/v1/dev/images/products/680000431162-3.webp"
+    ],
+    "priceCny": 269,
+    "salesCount": 14900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000431162001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 128,
+        "imageUrl": "/api/v1/dev/images/products/680000431162-1.webp"
+      },
+      {
+        "skuId": "680000431162002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 269,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000431162-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000432279",
+    "title": "高颜值圆形表盘智能手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000432279-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000432279-1.webp",
+      "/api/v1/dev/images/products/680000432279-2.webp",
+      "/api/v1/dev/images/products/680000432279-3.webp"
+    ],
+    "priceCny": 339,
+    "originalPriceCny": 441,
+    "salesCount": 9400,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000432279001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000432279-1.webp"
+      },
+      {
+        "skuId": "680000432279002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000432279-2.webp"
+      },
+      {
+        "skuId": "680000432279003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 339,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000432279-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000433396",
+    "title": "耐用圆形表盘智能手表",
+    "mainImageUrl": "/api/v1/dev/images/products/680000433396-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000433396-1.webp",
+      "/api/v1/dev/images/products/680000433396-2.webp",
+      "/api/v1/dev/images/products/680000433396-3.webp"
+    ],
+    "priceCny": 249,
+    "salesCount": 6450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "智能手表"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000433396001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 249,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000433396-1.webp"
+      },
+      {
+        "skuId": "680000433396002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 249,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000433396-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000434513",
+    "title": "新款无线充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000434513-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000434513-1.webp",
+      "/api/v1/dev/images/products/680000434513-2.webp",
+      "/api/v1/dev/images/products/680000434513-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 22550,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000434513001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 281,
+        "imageUrl": "/api/v1/dev/images/products/680000434513-1.webp"
+      },
+      {
+        "skuId": "680000434513002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 282,
+        "imageUrl": "/api/v1/dev/images/products/680000434513-2.webp"
+      },
+      {
+        "skuId": "680000434513003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 283,
+        "imageUrl": "/api/v1/dev/images/products/680000434513-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000435630",
+    "title": "升级版无线充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000435630-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000435630-1.webp",
+      "/api/v1/dev/images/products/680000435630-2.webp",
+      "/api/v1/dev/images/products/680000435630-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 19600,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000435630001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000435630-1.webp"
+      },
+      {
+        "skuId": "680000435630002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000435630-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000436747",
+    "title": "高颜值无线充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000436747-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000436747-1.webp",
+      "/api/v1/dev/images/products/680000436747-2.webp",
+      "/api/v1/dev/images/products/680000436747-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 14100,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000436747001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000436747-1.webp"
+      },
+      {
+        "skuId": "680000436747002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000436747-2.webp"
+      },
+      {
+        "skuId": "680000436747003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000436747-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000437864",
+    "title": "耐用无线充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000437864-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000437864-1.webp",
+      "/api/v1/dev/images/products/680000437864-2.webp",
+      "/api/v1/dev/images/products/680000437864-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 11150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000437864001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000437864-1.webp"
+      },
+      {
+        "skuId": "680000437864002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000437864-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000438981",
+    "title": "新款车载充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000438981-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000438981-1.webp",
+      "/api/v1/dev/images/products/680000438981-2.webp",
+      "/api/v1/dev/images/products/680000438981-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 8200,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000438981001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000438981-1.webp"
+      },
+      {
+        "skuId": "680000438981002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 355,
+        "imageUrl": "/api/v1/dev/images/products/680000438981-2.webp"
+      },
+      {
+        "skuId": "680000438981003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 356,
+        "imageUrl": "/api/v1/dev/images/products/680000438981-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000440098",
+    "title": "升级版车载充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000440098-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000440098-1.webp",
+      "/api/v1/dev/images/products/680000440098-2.webp",
+      "/api/v1/dev/images/products/680000440098-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 300,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000440098001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000440098-1.webp"
+      },
+      {
+        "skuId": "680000440098002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000440098-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000441215",
+    "title": "高颜值车载充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000441215-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000441215-1.webp",
+      "/api/v1/dev/images/products/680000441215-2.webp",
+      "/api/v1/dev/images/products/680000441215-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 16400,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000441215001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 278,
+        "imageUrl": "/api/v1/dev/images/products/680000441215-1.webp"
+      },
+      {
+        "skuId": "680000441215002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 279,
+        "imageUrl": "/api/v1/dev/images/products/680000441215-2.webp"
+      },
+      {
+        "skuId": "680000441215003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 280,
+        "imageUrl": "/api/v1/dev/images/products/680000441215-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000442332",
+    "title": "耐用车载充电器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000442332-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000442332-1.webp",
+      "/api/v1/dev/images/products/680000442332-2.webp",
+      "/api/v1/dev/images/products/680000442332-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 13450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.1,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000442332001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000442332-1.webp"
+      },
+      {
+        "skuId": "680000442332002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000442332-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000443449",
+    "title": "新款快充数据线",
+    "mainImageUrl": "/api/v1/dev/images/products/680000443449-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000443449-1.webp",
+      "/api/v1/dev/images/products/680000443449-2.webp",
+      "/api/v1/dev/images/products/680000443449-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 7950,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000443449001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000443449-1.webp"
+      },
+      {
+        "skuId": "680000443449002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000443449-2.webp"
+      },
+      {
+        "skuId": "680000443449003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000443449-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000444566",
+    "title": "升级版快充数据线",
+    "mainImageUrl": "/api/v1/dev/images/products/680000444566-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000444566-1.webp",
+      "/api/v1/dev/images/products/680000444566-2.webp",
+      "/api/v1/dev/images/products/680000444566-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 5000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000444566001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000444566-1.webp"
+      },
+      {
+        "skuId": "680000444566002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000444566-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000445683",
+    "title": "高颜值快充数据线",
+    "mainImageUrl": "/api/v1/dev/images/products/680000445683-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000445683-1.webp",
+      "/api/v1/dev/images/products/680000445683-2.webp",
+      "/api/v1/dev/images/products/680000445683-3.webp"
+    ],
+    "priceCny": 19,
+    "originalPriceCny": 25,
+    "salesCount": 2050,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000445683001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000445683-1.webp"
+      },
+      {
+        "skuId": "680000445683002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000445683-2.webp"
+      },
+      {
+        "skuId": "680000445683003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000445683-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000446800",
+    "title": "耐用快充数据线",
+    "mainImageUrl": "/api/v1/dev/images/products/680000446800-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000446800-1.webp",
+      "/api/v1/dev/images/products/680000446800-2.webp",
+      "/api/v1/dev/images/products/680000446800-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 18150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.08,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "尼龙"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000446800001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 313,
+        "imageUrl": "/api/v1/dev/images/products/680000446800-1.webp"
+      },
+      {
+        "skuId": "680000446800002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 314,
+        "imageUrl": "/api/v1/dev/images/products/680000446800-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000447917",
+    "title": "新款磁吸充电宝5000毫安",
+    "mainImageUrl": "/api/v1/dev/images/products/680000447917-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000447917-1.webp",
+      "/api/v1/dev/images/products/680000447917-2.webp",
+      "/api/v1/dev/images/products/680000447917-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 12650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000447917001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 83,
+        "imageUrl": "/api/v1/dev/images/products/680000447917-1.webp"
+      },
+      {
+        "skuId": "680000447917002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 84,
+        "imageUrl": "/api/v1/dev/images/products/680000447917-2.webp"
+      },
+      {
+        "skuId": "680000447917003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 85,
+        "imageUrl": "/api/v1/dev/images/products/680000447917-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000449034",
+    "title": "升级版磁吸充电宝5000毫安",
+    "mainImageUrl": "/api/v1/dev/images/products/680000449034-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000449034-1.webp",
+      "/api/v1/dev/images/products/680000449034-2.webp",
+      "/api/v1/dev/images/products/680000449034-3.webp"
+    ],
+    "priceCny": 119,
+    "originalPriceCny": 155,
+    "salesCount": 250,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000449034001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 195,
+        "imageUrl": "/api/v1/dev/images/products/680000449034-1.webp"
+      },
+      {
+        "skuId": "680000449034002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 196,
+        "imageUrl": "/api/v1/dev/images/products/680000449034-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000450151",
+    "title": "高颜值磁吸充电宝5000毫安",
+    "mainImageUrl": "/api/v1/dev/images/products/680000450151-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000450151-1.webp",
+      "/api/v1/dev/images/products/680000450151-2.webp",
+      "/api/v1/dev/images/products/680000450151-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 4350,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000450151001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 157,
+        "imageUrl": "/api/v1/dev/images/products/680000450151-1.webp"
+      },
+      {
+        "skuId": "680000450151002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 158,
+        "imageUrl": "/api/v1/dev/images/products/680000450151-2.webp"
+      },
+      {
+        "skuId": "680000450151003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 159,
+        "imageUrl": "/api/v1/dev/images/products/680000450151-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000451268",
+    "title": "耐用磁吸充电宝5000毫安",
+    "mainImageUrl": "/api/v1/dev/images/products/680000451268-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000451268-1.webp",
+      "/api/v1/dev/images/products/680000451268-2.webp",
+      "/api/v1/dev/images/products/680000451268-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 28850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "数码",
+      "充电"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000451268001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000451268-1.webp"
+      },
+      {
+        "skuId": "680000451268002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000451268-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000452385",
+    "title": "新款车载手机支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000452385-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000452385-1.webp",
+      "/api/v1/dev/images/products/680000452385-2.webp",
+      "/api/v1/dev/images/products/680000452385-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 25900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000452385001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000452385-1.webp"
+      },
+      {
+        "skuId": "680000452385002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000452385-2.webp"
+      },
+      {
+        "skuId": "680000452385003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000452385-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000453502",
+    "title": "升级版车载手机支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000453502-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000453502-1.webp",
+      "/api/v1/dev/images/products/680000453502-2.webp",
+      "/api/v1/dev/images/products/680000453502-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 12000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000453502001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 310,
+        "imageUrl": "/api/v1/dev/images/products/680000453502-1.webp"
+      },
+      {
+        "skuId": "680000453502002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 311,
+        "imageUrl": "/api/v1/dev/images/products/680000453502-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000454619",
+    "title": "高颜值车载手机支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000454619-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000454619-1.webp",
+      "/api/v1/dev/images/products/680000454619-2.webp",
+      "/api/v1/dev/images/products/680000454619-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 6500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000454619001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 80,
+        "imageUrl": "/api/v1/dev/images/products/680000454619-1.webp"
+      },
+      {
+        "skuId": "680000454619002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 81,
+        "imageUrl": "/api/v1/dev/images/products/680000454619-2.webp"
+      },
+      {
+        "skuId": "680000454619003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 82,
+        "imageUrl": "/api/v1/dev/images/products/680000454619-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000455736",
+    "title": "耐用车载手机支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000455736-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000455736-1.webp",
+      "/api/v1/dev/images/products/680000455736-2.webp",
+      "/api/v1/dev/images/products/680000455736-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 3550,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000455736001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 21,
+        "imageUrl": "/api/v1/dev/images/products/680000455736-1.webp"
+      },
+      {
+        "skuId": "680000455736002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000455736-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000456853",
+    "title": "新款手机钢化膜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000456853-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000456853-1.webp",
+      "/api/v1/dev/images/products/680000456853-2.webp",
+      "/api/v1/dev/images/products/680000456853-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 600,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000456853001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000456853-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000457970",
+    "title": "升级版手机钢化膜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000457970-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000457970-1.webp",
+      "/api/v1/dev/images/products/680000457970-2.webp",
+      "/api/v1/dev/images/products/680000457970-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 27650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000457970001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000457970-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000459087",
+    "title": "高颜值手机钢化膜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000459087-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000459087-1.webp",
+      "/api/v1/dev/images/products/680000459087-2.webp",
+      "/api/v1/dev/images/products/680000459087-3.webp"
+    ],
+    "priceCny": 14,
+    "originalPriceCny": 18,
+    "salesCount": 12700,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000459087001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000459087-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000460204",
+    "title": "耐用手机钢化膜",
+    "mainImageUrl": "/api/v1/dev/images/products/680000460204-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000460204-1.webp",
+      "/api/v1/dev/images/products/680000460204-2.webp",
+      "/api/v1/dev/images/products/680000460204-3.webp"
+    ],
+    "priceCny": 14,
+    "salesCount": 5850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000460204001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 14,
+        "stock": 307,
+        "imageUrl": "/api/v1/dev/images/products/680000460204-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000461321",
+    "title": "新款硅胶手机壳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000461321-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000461321-1.webp",
+      "/api/v1/dev/images/products/680000461321-2.webp",
+      "/api/v1/dev/images/products/680000461321-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 2900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000461321001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 248,
+        "imageUrl": "/api/v1/dev/images/products/680000461321-1.webp"
+      },
+      {
+        "skuId": "680000461321002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 249,
+        "imageUrl": "/api/v1/dev/images/products/680000461321-2.webp"
+      },
+      {
+        "skuId": "680000461321003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 250,
+        "imageUrl": "/api/v1/dev/images/products/680000461321-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000462438",
+    "title": "升级版硅胶手机壳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000462438-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000462438-1.webp",
+      "/api/v1/dev/images/products/680000462438-2.webp",
+      "/api/v1/dev/images/products/680000462438-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 27400,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000462438001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 498,
+        "imageUrl": "/api/v1/dev/images/products/680000462438-1.webp"
+      },
+      {
+        "skuId": "680000462438002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 499,
+        "imageUrl": "/api/v1/dev/images/products/680000462438-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000463555",
+    "title": "高颜值硅胶手机壳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000463555-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000463555-1.webp",
+      "/api/v1/dev/images/products/680000463555-2.webp",
+      "/api/v1/dev/images/products/680000463555-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 24450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000463555001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000463555-1.webp"
+      },
+      {
+        "skuId": "680000463555002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 440,
+        "imageUrl": "/api/v1/dev/images/products/680000463555-2.webp"
+      },
+      {
+        "skuId": "680000463555003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 441,
+        "imageUrl": "/api/v1/dev/images/products/680000463555-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000464672",
+    "title": "耐用硅胶手机壳",
+    "mainImageUrl": "/api/v1/dev/images/products/680000464672-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000464672-1.webp",
+      "/api/v1/dev/images/products/680000464672-2.webp",
+      "/api/v1/dev/images/products/680000464672-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 21500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.05,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "硅胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000464672001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000464672-1.webp"
+      },
+      {
+        "skuId": "680000464672002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000464672-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000465789",
+    "title": "新款蓝牙自拍杆",
+    "mainImageUrl": "/api/v1/dev/images/products/680000465789-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000465789-1.webp",
+      "/api/v1/dev/images/products/680000465789-2.webp",
+      "/api/v1/dev/images/products/680000465789-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 16000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000465789001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 150,
+        "imageUrl": "/api/v1/dev/images/products/680000465789-1.webp"
+      },
+      {
+        "skuId": "680000465789002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 151,
+        "imageUrl": "/api/v1/dev/images/products/680000465789-2.webp"
+      },
+      {
+        "skuId": "680000465789003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 152,
+        "imageUrl": "/api/v1/dev/images/products/680000465789-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000466906",
+    "title": "升级版蓝牙自拍杆",
+    "mainImageUrl": "/api/v1/dev/images/products/680000466906-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000466906-1.webp",
+      "/api/v1/dev/images/products/680000466906-2.webp",
+      "/api/v1/dev/images/products/680000466906-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 2100,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000466906001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 112,
+        "imageUrl": "/api/v1/dev/images/products/680000466906-1.webp"
+      },
+      {
+        "skuId": "680000466906002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 113,
+        "imageUrl": "/api/v1/dev/images/products/680000466906-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000468023",
+    "title": "高颜值蓝牙自拍杆",
+    "mainImageUrl": "/api/v1/dev/images/products/680000468023-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000468023-1.webp",
+      "/api/v1/dev/images/products/680000468023-2.webp",
+      "/api/v1/dev/images/products/680000468023-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 19700,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000468023001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000468023-1.webp"
+      },
+      {
+        "skuId": "680000468023002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000468023-2.webp"
+      },
+      {
+        "skuId": "680000468023003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000468023-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000469140",
+    "title": "耐用蓝牙自拍杆",
+    "mainImageUrl": "/api/v1/dev/images/products/680000469140-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000469140-1.webp",
+      "/api/v1/dev/images/products/680000469140-2.webp",
+      "/api/v1/dev/images/products/680000469140-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 16750,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "手机壳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000469140001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000469140-1.webp"
+      },
+      {
+        "skuId": "680000469140002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000469140-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000470257",
+    "title": "新款无线键鼠套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000470257-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000470257-1.webp",
+      "/api/v1/dev/images/products/680000470257-2.webp",
+      "/api/v1/dev/images/products/680000470257-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 18300,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000470257001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 436,
+        "imageUrl": "/api/v1/dev/images/products/680000470257-1.webp"
+      },
+      {
+        "skuId": "680000470257002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000470257-2.webp"
+      },
+      {
+        "skuId": "680000470257003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000470257-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000471374",
+    "title": "升级版无线键鼠套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000471374-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000471374-1.webp",
+      "/api/v1/dev/images/products/680000471374-2.webp",
+      "/api/v1/dev/images/products/680000471374-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 15350,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000471374001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000471374-1.webp"
+      },
+      {
+        "skuId": "680000471374002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000471374-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000472491",
+    "title": "高颜值无线键鼠套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000472491-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000472491-1.webp",
+      "/api/v1/dev/images/products/680000472491-2.webp",
+      "/api/v1/dev/images/products/680000472491-3.webp"
+    ],
+    "priceCny": 169,
+    "originalPriceCny": 220,
+    "salesCount": 12400,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000472491001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000472491-1.webp"
+      },
+      {
+        "skuId": "680000472491002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000472491-2.webp"
+      },
+      {
+        "skuId": "680000472491003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000472491-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000473608",
+    "title": "耐用无线键鼠套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000473608-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000473608-1.webp",
+      "/api/v1/dev/images/products/680000473608-2.webp",
+      "/api/v1/dev/images/products/680000473608-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 25950,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000473608001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 109,
+        "imageUrl": "/api/v1/dev/images/products/680000473608-1.webp"
+      },
+      {
+        "skuId": "680000473608002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 110,
+        "imageUrl": "/api/v1/dev/images/products/680000473608-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000474725",
+    "title": "新款电竞游戏鼠标",
+    "mainImageUrl": "/api/v1/dev/images/products/680000474725-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000474725-1.webp",
+      "/api/v1/dev/images/products/680000474725-2.webp",
+      "/api/v1/dev/images/products/680000474725-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 23000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000474725001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 50,
+        "imageUrl": "/api/v1/dev/images/products/680000474725-1.webp"
+      },
+      {
+        "skuId": "680000474725002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 51,
+        "imageUrl": "/api/v1/dev/images/products/680000474725-2.webp"
+      },
+      {
+        "skuId": "680000474725003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 52,
+        "imageUrl": "/api/v1/dev/images/products/680000474725-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000475842",
+    "title": "升级版电竞游戏鼠标",
+    "mainImageUrl": "/api/v1/dev/images/products/680000475842-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000475842-1.webp",
+      "/api/v1/dev/images/products/680000475842-2.webp",
+      "/api/v1/dev/images/products/680000475842-3.webp"
+    ],
+    "priceCny": 89,
+    "originalPriceCny": 116,
+    "salesCount": 20050,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000475842001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000475842-1.webp"
+      },
+      {
+        "skuId": "680000475842002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000475842-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000476959",
+    "title": "高颜值电竞游戏鼠标",
+    "mainImageUrl": "/api/v1/dev/images/products/680000476959-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000476959-1.webp",
+      "/api/v1/dev/images/products/680000476959-2.webp",
+      "/api/v1/dev/images/products/680000476959-3.webp"
+    ],
+    "priceCny": 109,
+    "salesCount": 14550,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000476959001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 241,
+        "imageUrl": "/api/v1/dev/images/products/680000476959-1.webp"
+      },
+      {
+        "skuId": "680000476959002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 242,
+        "imageUrl": "/api/v1/dev/images/products/680000476959-2.webp"
+      },
+      {
+        "skuId": "680000476959003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 243,
+        "imageUrl": "/api/v1/dev/images/products/680000476959-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000478076",
+    "title": "耐用电竞游戏鼠标",
+    "mainImageUrl": "/api/v1/dev/images/products/680000478076-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000478076-1.webp",
+      "/api/v1/dev/images/products/680000478076-2.webp",
+      "/api/v1/dev/images/products/680000478076-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 2150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000478076001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 353,
+        "imageUrl": "/api/v1/dev/images/products/680000478076-1.webp"
+      },
+      {
+        "skuId": "680000478076002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000478076-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000479193",
+    "title": "新款大号鼠标垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680000479193-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000479193-1.webp",
+      "/api/v1/dev/images/products/680000479193-2.webp",
+      "/api/v1/dev/images/products/680000479193-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 29200,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "橡胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000479193001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 294,
+        "imageUrl": "/api/v1/dev/images/products/680000479193-1.webp"
+      },
+      {
+        "skuId": "680000479193002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 295,
+        "imageUrl": "/api/v1/dev/images/products/680000479193-2.webp"
+      },
+      {
+        "skuId": "680000479193003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 296,
+        "imageUrl": "/api/v1/dev/images/products/680000479193-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000480310",
+    "title": "升级版大号鼠标垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680000480310-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000480310-1.webp",
+      "/api/v1/dev/images/products/680000480310-2.webp",
+      "/api/v1/dev/images/products/680000480310-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 22350,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "橡胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000480310001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 277,
+        "imageUrl": "/api/v1/dev/images/products/680000480310-1.webp"
+      },
+      {
+        "skuId": "680000480310002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 278,
+        "imageUrl": "/api/v1/dev/images/products/680000480310-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000481427",
+    "title": "高颜值大号鼠标垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680000481427-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000481427-1.webp",
+      "/api/v1/dev/images/products/680000481427-2.webp",
+      "/api/v1/dev/images/products/680000481427-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 16850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "橡胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000481427001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 47,
+        "imageUrl": "/api/v1/dev/images/products/680000481427-1.webp"
+      },
+      {
+        "skuId": "680000481427002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 48,
+        "imageUrl": "/api/v1/dev/images/products/680000481427-2.webp"
+      },
+      {
+        "skuId": "680000481427003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 49,
+        "imageUrl": "/api/v1/dev/images/products/680000481427-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000482544",
+    "title": "耐用大号鼠标垫",
+    "mainImageUrl": "/api/v1/dev/images/products/680000482544-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000482544-1.webp",
+      "/api/v1/dev/images/products/680000482544-2.webp",
+      "/api/v1/dev/images/products/680000482544-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 13900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "橡胶"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000482544001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000482544-1.webp"
+      },
+      {
+        "skuId": "680000482544002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000482544-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000483661",
+    "title": "新款笔记本电脑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000483661-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000483661-1.webp",
+      "/api/v1/dev/images/products/680000483661-2.webp",
+      "/api/v1/dev/images/products/680000483661-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 10950,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000483661001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000483661-1.webp"
+      },
+      {
+        "skuId": "680000483661002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000483661-2.webp"
+      },
+      {
+        "skuId": "680000483661003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000483661-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000484778",
+    "title": "升级版笔记本电脑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000484778-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000484778-1.webp",
+      "/api/v1/dev/images/products/680000484778-2.webp",
+      "/api/v1/dev/images/products/680000484778-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 5450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000484778001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 179,
+        "imageUrl": "/api/v1/dev/images/products/680000484778-1.webp"
+      },
+      {
+        "skuId": "680000484778002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 180,
+        "imageUrl": "/api/v1/dev/images/products/680000484778-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000485895",
+    "title": "高颜值笔记本电脑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000485895-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000485895-1.webp",
+      "/api/v1/dev/images/products/680000485895-2.webp",
+      "/api/v1/dev/images/products/680000485895-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 2500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000485895001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000485895-1.webp"
+      },
+      {
+        "skuId": "680000485895002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000485895-2.webp"
+      },
+      {
+        "skuId": "680000485895003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000485895-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000487012",
+    "title": "耐用笔记本电脑支架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000487012-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000487012-1.webp",
+      "/api/v1/dev/images/products/680000487012-2.webp",
+      "/api/v1/dev/images/products/680000487012-3.webp"
+    ],
+    "priceCny": 74,
+    "salesCount": 9150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000487012001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 253,
+        "imageUrl": "/api/v1/dev/images/products/680000487012-1.webp"
+      },
+      {
+        "skuId": "680000487012002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 254,
+        "imageUrl": "/api/v1/dev/images/products/680000487012-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000488129",
+    "title": "新款USB扩展坞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000488129-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000488129-1.webp",
+      "/api/v1/dev/images/products/680000488129-2.webp",
+      "/api/v1/dev/images/products/680000488129-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 3650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000488129001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 23,
+        "imageUrl": "/api/v1/dev/images/products/680000488129-1.webp"
+      },
+      {
+        "skuId": "680000488129002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000488129-2.webp"
+      },
+      {
+        "skuId": "680000488129003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000488129-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000489246",
+    "title": "升级版USB扩展坞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000489246-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000489246-1.webp",
+      "/api/v1/dev/images/products/680000489246-2.webp",
+      "/api/v1/dev/images/products/680000489246-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 700,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000489246001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 444,
+        "imageUrl": "/api/v1/dev/images/products/680000489246-1.webp"
+      },
+      {
+        "skuId": "680000489246002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 445,
+        "imageUrl": "/api/v1/dev/images/products/680000489246-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000490363",
+    "title": "高颜值USB扩展坞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000490363-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000490363-1.webp",
+      "/api/v1/dev/images/products/680000490363-2.webp",
+      "/api/v1/dev/images/products/680000490363-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 4800,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000490363001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 406,
+        "imageUrl": "/api/v1/dev/images/products/680000490363-1.webp"
+      },
+      {
+        "skuId": "680000490363002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000490363-2.webp"
+      },
+      {
+        "skuId": "680000490363003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000490363-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000491480",
+    "title": "耐用USB扩展坞",
+    "mainImageUrl": "/api/v1/dev/images/products/680000491480-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000491480-1.webp",
+      "/api/v1/dev/images/products/680000491480-2.webp",
+      "/api/v1/dev/images/products/680000491480-3.webp"
+    ],
+    "priceCny": 64,
+    "salesCount": 1850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.15,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000491480001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000491480-1.webp"
+      },
+      {
+        "skuId": "680000491480002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 64,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000491480-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000492597",
+    "title": "新款高清网络摄像头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000492597-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000492597-1.webp",
+      "/api/v1/dev/images/products/680000492597-2.webp",
+      "/api/v1/dev/images/products/680000492597-3.webp"
+    ],
+    "priceCny": 159,
+    "originalPriceCny": 207,
+    "salesCount": 26350,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000492597001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 117,
+        "imageUrl": "/api/v1/dev/images/products/680000492597-1.webp"
+      },
+      {
+        "skuId": "680000492597002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 118,
+        "imageUrl": "/api/v1/dev/images/products/680000492597-2.webp"
+      },
+      {
+        "skuId": "680000492597003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 119,
+        "imageUrl": "/api/v1/dev/images/products/680000492597-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000493714",
+    "title": "升级版高清网络摄像头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000493714-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000493714-1.webp",
+      "/api/v1/dev/images/products/680000493714-2.webp",
+      "/api/v1/dev/images/products/680000493714-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 12450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000493714001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 79,
+        "imageUrl": "/api/v1/dev/images/products/680000493714-1.webp"
+      },
+      {
+        "skuId": "680000493714002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 80,
+        "imageUrl": "/api/v1/dev/images/products/680000493714-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000494831",
+    "title": "高颜值高清网络摄像头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000494831-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000494831-1.webp",
+      "/api/v1/dev/images/products/680000494831-2.webp",
+      "/api/v1/dev/images/products/680000494831-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 9500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000494831001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 20,
+        "imageUrl": "/api/v1/dev/images/products/680000494831-1.webp"
+      },
+      {
+        "skuId": "680000494831002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 21,
+        "imageUrl": "/api/v1/dev/images/products/680000494831-2.webp"
+      },
+      {
+        "skuId": "680000494831003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000494831-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000495948",
+    "title": "耐用高清网络摄像头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000495948-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000495948-1.webp",
+      "/api/v1/dev/images/products/680000495948-2.webp",
+      "/api/v1/dev/images/products/680000495948-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 4000,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码",
+      "键盘"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000495948001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 270,
+        "imageUrl": "/api/v1/dev/images/products/680000495948-1.webp"
+      },
+      {
+        "skuId": "680000495948002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 271,
+        "imageUrl": "/api/v1/dev/images/products/680000495948-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000497065",
+    "title": "新款智能音箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000497065-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000497065-1.webp",
+      "/api/v1/dev/images/products/680000497065-2.webp",
+      "/api/v1/dev/images/products/680000497065-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 21600,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000497065001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000497065-1.webp"
+      },
+      {
+        "skuId": "680000497065002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000497065-2.webp"
+      },
+      {
+        "skuId": "680000497065003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000497065-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000498182",
+    "title": "升级版智能音箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000498182-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000498182-1.webp",
+      "/api/v1/dev/images/products/680000498182-2.webp",
+      "/api/v1/dev/images/products/680000498182-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 18650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000498182001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000498182-1.webp"
+      },
+      {
+        "skuId": "680000498182002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000498182-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000499299",
+    "title": "高颜值智能音箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000499299-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000499299-1.webp",
+      "/api/v1/dev/images/products/680000499299-2.webp",
+      "/api/v1/dev/images/products/680000499299-3.webp"
+    ],
+    "priceCny": 229,
+    "originalPriceCny": 298,
+    "salesCount": 13150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000499299001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000499299-1.webp"
+      },
+      {
+        "skuId": "680000499299002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 94,
+        "imageUrl": "/api/v1/dev/images/products/680000499299-2.webp"
+      },
+      {
+        "skuId": "680000499299003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 95,
+        "imageUrl": "/api/v1/dev/images/products/680000499299-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000500416",
+    "title": "耐用智能音箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000500416-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000500416-1.webp",
+      "/api/v1/dev/images/products/680000500416-2.webp",
+      "/api/v1/dev/images/products/680000500416-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 14850,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000500416001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 247,
+        "imageUrl": "/api/v1/dev/images/products/680000500416-1.webp"
+      },
+      {
+        "skuId": "680000500416002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 248,
+        "imageUrl": "/api/v1/dev/images/products/680000500416-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000501533",
+    "title": "新款便携投影仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000501533-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000501533-1.webp",
+      "/api/v1/dev/images/products/680000501533-2.webp",
+      "/api/v1/dev/images/products/680000501533-3.webp"
+    ],
+    "priceCny": 599,
+    "salesCount": 11900,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000501533001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 599,
+        "stock": 188,
+        "imageUrl": "/api/v1/dev/images/products/680000501533-1.webp"
+      },
+      {
+        "skuId": "680000501533002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 599,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000501533-2.webp"
+      },
+      {
+        "skuId": "680000501533003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 599,
+        "stock": 190,
+        "imageUrl": "/api/v1/dev/images/products/680000501533-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000502650",
+    "title": "升级版便携投影仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000502650-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000502650-1.webp",
+      "/api/v1/dev/images/products/680000502650-2.webp",
+      "/api/v1/dev/images/products/680000502650-3.webp"
+    ],
+    "priceCny": 539,
+    "originalPriceCny": 701,
+    "salesCount": 8950,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000502650001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 539,
+        "stock": 129,
+        "imageUrl": "/api/v1/dev/images/products/680000502650-1.webp"
+      },
+      {
+        "skuId": "680000502650002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 539,
+        "stock": 130,
+        "imageUrl": "/api/v1/dev/images/products/680000502650-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000503767",
+    "title": "高颜值便携投影仪",
+    "mainImageUrl": "/api/v1/dev/images/products/680000503767-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000503767-1.webp",
+      "/api/v1/dev/images/products/680000503767-2.webp",
+      "/api/v1/dev/images/products/680000503767-3.webp"
+    ],
+    "priceCny": 689,
+    "salesCount": 3450,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000503767001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 689,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000503767-1.webp"
+      },
+      {
+        "skuId": "680000503767002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 689,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000503767-2.webp"
+      },
+      {
+        "skuId": "680000503767003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 689,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000503767-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000504884",
+    "title": "新款无线游戏手柄",
+    "mainImageUrl": "/api/v1/dev/images/products/680000504884-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000504884-1.webp",
+      "/api/v1/dev/images/products/680000504884-2.webp",
+      "/api/v1/dev/images/products/680000504884-3.webp"
+    ],
+    "priceCny": 129,
+    "salesCount": 500,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000504884001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 320,
+        "imageUrl": "/api/v1/dev/images/products/680000504884-1.webp"
+      },
+      {
+        "skuId": "680000504884002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000504884-2.webp"
+      },
+      {
+        "skuId": "680000504884003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000504884-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000506001",
+    "title": "升级版无线游戏手柄",
+    "mainImageUrl": "/api/v1/dev/images/products/680000506001-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000506001-1.webp",
+      "/api/v1/dev/images/products/680000506001-2.webp",
+      "/api/v1/dev/images/products/680000506001-3.webp"
+    ],
+    "priceCny": 119,
+    "originalPriceCny": 155,
+    "salesCount": 7150,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000506001001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "银色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 453,
+        "imageUrl": "/api/v1/dev/images/products/680000506001-1.webp"
+      },
+      {
+        "skuId": "680000506001002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 454,
+        "imageUrl": "/api/v1/dev/images/products/680000506001-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000507118",
+    "title": "高颜值无线游戏手柄",
+    "mainImageUrl": "/api/v1/dev/images/products/680000507118-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000507118-1.webp",
+      "/api/v1/dev/images/products/680000507118-2.webp",
+      "/api/v1/dev/images/products/680000507118-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 1650,
+    "shop": {
+      "shopId": "100779",
+      "name": "数码好物旗舰店"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "数码"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "数码优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000507118001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "黑色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 223,
+        "imageUrl": "/api/v1/dev/images/products/680000507118-1.webp"
+      },
+      {
+        "skuId": "680000507118002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 224,
+        "imageUrl": "/api/v1/dev/images/products/680000507118-2.webp"
+      },
+      {
+        "skuId": "680000507118003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000507118-3.webp"
+      }
+    ]
   }
 ]

@@ -737,5 +737,6181 @@
         "imageUrl": "/api/v1/dev/images/products/680000065903-2.webp"
       }
     ]
+  },
+  {
+    "externalId": "680000508235",
+    "title": "北欧风不锈钢保温杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000508235-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000508235-1.webp",
+      "/api/v1/dev/images/products/680000508235-2.webp",
+      "/api/v1/dev/images/products/680000508235-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 28700,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000508235001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 164,
+        "imageUrl": "/api/v1/dev/images/products/680000508235-1.webp"
+      },
+      {
+        "skuId": "680000508235002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 165,
+        "imageUrl": "/api/v1/dev/images/products/680000508235-2.webp"
+      },
+      {
+        "skuId": "680000508235003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 166,
+        "imageUrl": "/api/v1/dev/images/products/680000508235-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000509352",
+    "title": "家用不锈钢保温杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000509352-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000509352-1.webp",
+      "/api/v1/dev/images/products/680000509352-2.webp",
+      "/api/v1/dev/images/products/680000509352-3.webp"
+    ],
+    "priceCny": 54,
+    "originalPriceCny": 70,
+    "salesCount": 25750,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000509352001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 105,
+        "imageUrl": "/api/v1/dev/images/products/680000509352-1.webp"
+      },
+      {
+        "skuId": "680000509352002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 106,
+        "imageUrl": "/api/v1/dev/images/products/680000509352-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000510469",
+    "title": "简约不锈钢保温杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000510469-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000510469-1.webp",
+      "/api/v1/dev/images/products/680000510469-2.webp",
+      "/api/v1/dev/images/products/680000510469-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 27300,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000510469001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 376,
+        "imageUrl": "/api/v1/dev/images/products/680000510469-1.webp"
+      },
+      {
+        "skuId": "680000510469002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 377,
+        "imageUrl": "/api/v1/dev/images/products/680000510469-2.webp"
+      },
+      {
+        "skuId": "680000510469003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000510469-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000511586",
+    "title": "多功能不锈钢保温杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000511586-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000511586-1.webp",
+      "/api/v1/dev/images/products/680000511586-2.webp",
+      "/api/v1/dev/images/products/680000511586-3.webp"
+    ],
+    "priceCny": 49,
+    "salesCount": 24350,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000511586001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000511586-1.webp"
+      },
+      {
+        "skuId": "680000511586002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000511586-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000512703",
+    "title": "北欧风玻璃储物罐套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000512703-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000512703-1.webp",
+      "/api/v1/dev/images/products/680000512703-2.webp",
+      "/api/v1/dev/images/products/680000512703-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 10450,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000512703001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 279,
+        "imageUrl": "/api/v1/dev/images/products/680000512703-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000513820",
+    "title": "家用玻璃储物罐套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000513820-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000513820-1.webp",
+      "/api/v1/dev/images/products/680000513820-2.webp",
+      "/api/v1/dev/images/products/680000513820-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 7500,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000513820001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 220,
+        "imageUrl": "/api/v1/dev/images/products/680000513820-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000514937",
+    "title": "简约玻璃储物罐套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000514937-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000514937-1.webp",
+      "/api/v1/dev/images/products/680000514937-2.webp",
+      "/api/v1/dev/images/products/680000514937-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 2000,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000514937001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000514937-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000516054",
+    "title": "多功能玻璃储物罐套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000516054-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000516054-1.webp",
+      "/api/v1/dev/images/products/680000516054-2.webp",
+      "/api/v1/dev/images/products/680000516054-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 19600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "玻璃"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000516054001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 102,
+        "imageUrl": "/api/v1/dev/images/products/680000516054-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000517171",
+    "title": "北欧风实木砧板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000517171-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000517171-1.webp",
+      "/api/v1/dev/images/products/680000517171-2.webp",
+      "/api/v1/dev/images/products/680000517171-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 16650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000517171001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 43,
+        "imageUrl": "/api/v1/dev/images/products/680000517171-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000518288",
+    "title": "家用实木砧板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000518288-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000518288-1.webp",
+      "/api/v1/dev/images/products/680000518288-2.webp",
+      "/api/v1/dev/images/products/680000518288-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 11150,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000518288001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 293,
+        "imageUrl": "/api/v1/dev/images/products/680000518288-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000519405",
+    "title": "简约实木砧板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000519405-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000519405-1.webp",
+      "/api/v1/dev/images/products/680000519405-2.webp",
+      "/api/v1/dev/images/products/680000519405-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 27250,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000519405001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000519405-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000520522",
+    "title": "多功能实木砧板",
+    "mainImageUrl": "/api/v1/dev/images/products/680000520522-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000520522-1.webp",
+      "/api/v1/dev/images/products/680000520522-2.webp",
+      "/api/v1/dev/images/products/680000520522-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 1350,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.9,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000520522001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 217,
+        "imageUrl": "/api/v1/dev/images/products/680000520522-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000521639",
+    "title": "北欧风陶瓷马克杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000521639-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000521639-1.webp",
+      "/api/v1/dev/images/products/680000521639-2.webp",
+      "/api/v1/dev/images/products/680000521639-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 25850,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000521639001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000521639-1.webp"
+      },
+      {
+        "skuId": "680000521639002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000521639-2.webp"
+      },
+      {
+        "skuId": "680000521639003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000521639-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000522756",
+    "title": "家用陶瓷马克杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000522756-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000522756-1.webp",
+      "/api/v1/dev/images/products/680000522756-2.webp",
+      "/api/v1/dev/images/products/680000522756-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 22900,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000522756001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000522756-1.webp"
+      },
+      {
+        "skuId": "680000522756002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000522756-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000523873",
+    "title": "简约陶瓷马克杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000523873-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000523873-1.webp",
+      "/api/v1/dev/images/products/680000523873-2.webp",
+      "/api/v1/dev/images/products/680000523873-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 19950,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000523873001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 349,
+        "imageUrl": "/api/v1/dev/images/products/680000523873-1.webp"
+      },
+      {
+        "skuId": "680000523873002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000523873-2.webp"
+      },
+      {
+        "skuId": "680000523873003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000523873-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000524990",
+    "title": "多功能陶瓷马克杯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000524990-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000524990-1.webp",
+      "/api/v1/dev/images/products/680000524990-2.webp",
+      "/api/v1/dev/images/products/680000524990-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 17000,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.4,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000524990001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000524990-1.webp"
+      },
+      {
+        "skuId": "680000524990002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 291,
+        "imageUrl": "/api/v1/dev/images/products/680000524990-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000526107",
+    "title": "北欧风不锈钢汤锅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000526107-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000526107-1.webp",
+      "/api/v1/dev/images/products/680000526107-2.webp",
+      "/api/v1/dev/images/products/680000526107-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 21100,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000526107001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000526107-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000527224",
+    "title": "家用不锈钢汤锅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000527224-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000527224-1.webp",
+      "/api/v1/dev/images/products/680000527224-2.webp",
+      "/api/v1/dev/images/products/680000527224-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 18150,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000527224001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000527224-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000528341",
+    "title": "简约不锈钢汤锅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000528341-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000528341-1.webp",
+      "/api/v1/dev/images/products/680000528341-2.webp",
+      "/api/v1/dev/images/products/680000528341-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 15200,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000528341001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 134,
+        "imageUrl": "/api/v1/dev/images/products/680000528341-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000529458",
+    "title": "多功能不锈钢汤锅",
+    "mainImageUrl": "/api/v1/dev/images/products/680000529458-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000529458-1.webp",
+      "/api/v1/dev/images/products/680000529458-2.webp",
+      "/api/v1/dev/images/products/680000529458-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 9700,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.8,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000529458001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000529458-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000530575",
+    "title": "北欧风电动打蛋器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000530575-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000530575-1.webp",
+      "/api/v1/dev/images/products/680000530575-2.webp",
+      "/api/v1/dev/images/products/680000530575-3.webp"
+    ],
+    "priceCny": 99,
+    "salesCount": 13800,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000530575001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 346,
+        "imageUrl": "/api/v1/dev/images/products/680000530575-1.webp"
+      },
+      {
+        "skuId": "680000530575002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 347,
+        "imageUrl": "/api/v1/dev/images/products/680000530575-2.webp"
+      },
+      {
+        "skuId": "680000530575003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 348,
+        "imageUrl": "/api/v1/dev/images/products/680000530575-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000531692",
+    "title": "家用电动打蛋器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000531692-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000531692-1.webp",
+      "/api/v1/dev/images/products/680000531692-2.webp",
+      "/api/v1/dev/images/products/680000531692-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 10850,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000531692001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 287,
+        "imageUrl": "/api/v1/dev/images/products/680000531692-1.webp"
+      },
+      {
+        "skuId": "680000531692002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 288,
+        "imageUrl": "/api/v1/dev/images/products/680000531692-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000532809",
+    "title": "简约电动打蛋器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000532809-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000532809-1.webp",
+      "/api/v1/dev/images/products/680000532809-2.webp",
+      "/api/v1/dev/images/products/680000532809-3.webp"
+    ],
+    "priceCny": 109,
+    "originalPriceCny": 142,
+    "salesCount": 24400,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000532809001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 78,
+        "imageUrl": "/api/v1/dev/images/products/680000532809-1.webp"
+      },
+      {
+        "skuId": "680000532809002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 79,
+        "imageUrl": "/api/v1/dev/images/products/680000532809-2.webp"
+      },
+      {
+        "skuId": "680000532809003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 109,
+        "stock": 80,
+        "imageUrl": "/api/v1/dev/images/products/680000532809-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000533926",
+    "title": "多功能电动打蛋器",
+    "mainImageUrl": "/api/v1/dev/images/products/680000533926-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000533926-1.webp",
+      "/api/v1/dev/images/products/680000533926-2.webp",
+      "/api/v1/dev/images/products/680000533926-3.webp"
+    ],
+    "priceCny": 84,
+    "salesCount": 21450,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000533926001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 499,
+        "imageUrl": "/api/v1/dev/images/products/680000533926-1.webp"
+      },
+      {
+        "skuId": "680000533926002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 84,
+        "stock": 20,
+        "imageUrl": "/api/v1/dev/images/products/680000533926-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000535043",
+    "title": "北欧风陶瓷茶具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000535043-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000535043-1.webp",
+      "/api/v1/dev/images/products/680000535043-2.webp",
+      "/api/v1/dev/images/products/680000535043-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 9050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000535043001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 131,
+        "imageUrl": "/api/v1/dev/images/products/680000535043-1.webp"
+      },
+      {
+        "skuId": "680000535043002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000535043-2.webp"
+      },
+      {
+        "skuId": "680000535043003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 133,
+        "imageUrl": "/api/v1/dev/images/products/680000535043-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000536160",
+    "title": "家用陶瓷茶具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000536160-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000536160-1.webp",
+      "/api/v1/dev/images/products/680000536160-2.webp",
+      "/api/v1/dev/images/products/680000536160-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 6100,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000536160001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 72,
+        "imageUrl": "/api/v1/dev/images/products/680000536160-1.webp"
+      },
+      {
+        "skuId": "680000536160002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 73,
+        "imageUrl": "/api/v1/dev/images/products/680000536160-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000537277",
+    "title": "简约陶瓷茶具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000537277-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000537277-1.webp",
+      "/api/v1/dev/images/products/680000537277-2.webp",
+      "/api/v1/dev/images/products/680000537277-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000537277001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000537277-1.webp"
+      },
+      {
+        "skuId": "680000537277002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000537277-2.webp"
+      },
+      {
+        "skuId": "680000537277003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000537277-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000538394",
+    "title": "多功能陶瓷茶具套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000538394-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000538394-1.webp",
+      "/api/v1/dev/images/products/680000538394-2.webp",
+      "/api/v1/dev/images/products/680000538394-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 27650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "厨房"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "陶瓷"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000538394001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 263,
+        "imageUrl": "/api/v1/dev/images/products/680000538394-1.webp"
+      },
+      {
+        "skuId": "680000538394002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 264,
+        "imageUrl": "/api/v1/dev/images/products/680000538394-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000539511",
+    "title": "北欧风纯棉浴巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000539511-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000539511-1.webp",
+      "/api/v1/dev/images/products/680000539511-2.webp",
+      "/api/v1/dev/images/products/680000539511-3.webp"
+    ],
+    "priceCny": 39,
+    "originalPriceCny": 51,
+    "salesCount": 13750,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000539511001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 225,
+        "imageUrl": "/api/v1/dev/images/products/680000539511-1.webp"
+      },
+      {
+        "skuId": "680000539511002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 226,
+        "imageUrl": "/api/v1/dev/images/products/680000539511-2.webp"
+      },
+      {
+        "skuId": "680000539511003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 227,
+        "imageUrl": "/api/v1/dev/images/products/680000539511-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000540628",
+    "title": "家用纯棉浴巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000540628-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000540628-1.webp",
+      "/api/v1/dev/images/products/680000540628-2.webp",
+      "/api/v1/dev/images/products/680000540628-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 15300,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000540628001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 496,
+        "imageUrl": "/api/v1/dev/images/products/680000540628-1.webp"
+      },
+      {
+        "skuId": "680000540628002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 497,
+        "imageUrl": "/api/v1/dev/images/products/680000540628-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000541745",
+    "title": "简约纯棉浴巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000541745-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000541745-1.webp",
+      "/api/v1/dev/images/products/680000541745-2.webp",
+      "/api/v1/dev/images/products/680000541745-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 12350,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000541745001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000541745-1.webp"
+      },
+      {
+        "skuId": "680000541745002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 438,
+        "imageUrl": "/api/v1/dev/images/products/680000541745-2.webp"
+      },
+      {
+        "skuId": "680000541745003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000541745-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000542862",
+    "title": "多功能纯棉浴巾",
+    "mainImageUrl": "/api/v1/dev/images/products/680000542862-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000542862-1.webp",
+      "/api/v1/dev/images/products/680000542862-2.webp",
+      "/api/v1/dev/images/products/680000542862-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 9400,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000542862001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 378,
+        "imageUrl": "/api/v1/dev/images/products/680000542862-1.webp"
+      },
+      {
+        "skuId": "680000542862002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 379,
+        "imageUrl": "/api/v1/dev/images/products/680000542862-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000543979",
+    "title": "北欧风记忆棉枕头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000543979-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000543979-1.webp",
+      "/api/v1/dev/images/products/680000543979-2.webp",
+      "/api/v1/dev/images/products/680000543979-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 3900,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000543979001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 148,
+        "imageUrl": "/api/v1/dev/images/products/680000543979-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000545096",
+    "title": "家用记忆棉枕头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000545096-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000545096-1.webp",
+      "/api/v1/dev/images/products/680000545096-2.webp",
+      "/api/v1/dev/images/products/680000545096-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 21500,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000545096001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 260,
+        "imageUrl": "/api/v1/dev/images/products/680000545096-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000546213",
+    "title": "简约记忆棉枕头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000546213-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000546213-1.webp",
+      "/api/v1/dev/images/products/680000546213-2.webp",
+      "/api/v1/dev/images/products/680000546213-3.webp"
+    ],
+    "priceCny": 99,
+    "originalPriceCny": 129,
+    "salesCount": 7600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000546213001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 99,
+        "stock": 222,
+        "imageUrl": "/api/v1/dev/images/products/680000546213-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000547330",
+    "title": "多功能记忆棉枕头",
+    "mainImageUrl": "/api/v1/dev/images/products/680000547330-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000547330-1.webp",
+      "/api/v1/dev/images/products/680000547330-2.webp",
+      "/api/v1/dev/images/products/680000547330-3.webp"
+    ],
+    "priceCny": 74,
+    "salesCount": 4650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000547330001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 74,
+        "stock": 163,
+        "imageUrl": "/api/v1/dev/images/products/680000547330-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000548447",
+    "title": "北欧风夏凉被",
+    "mainImageUrl": "/api/v1/dev/images/products/680000548447-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000548447-1.webp",
+      "/api/v1/dev/images/products/680000548447-2.webp",
+      "/api/v1/dev/images/products/680000548447-3.webp"
+    ],
+    "priceCny": 159,
+    "salesCount": 29150,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000548447001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000548447-1.webp"
+      },
+      {
+        "skuId": "680000548447002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 414,
+        "imageUrl": "/api/v1/dev/images/products/680000548447-2.webp"
+      },
+      {
+        "skuId": "680000548447003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 159,
+        "stock": 415,
+        "imageUrl": "/api/v1/dev/images/products/680000548447-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000549564",
+    "title": "家用夏凉被",
+    "mainImageUrl": "/api/v1/dev/images/products/680000549564-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000549564-1.webp",
+      "/api/v1/dev/images/products/680000549564-2.webp",
+      "/api/v1/dev/images/products/680000549564-3.webp"
+    ],
+    "priceCny": 139,
+    "originalPriceCny": 181,
+    "salesCount": 26200,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000549564001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 354,
+        "imageUrl": "/api/v1/dev/images/products/680000549564-1.webp"
+      },
+      {
+        "skuId": "680000549564002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 355,
+        "imageUrl": "/api/v1/dev/images/products/680000549564-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000550681",
+    "title": "简约夏凉被",
+    "mainImageUrl": "/api/v1/dev/images/products/680000550681-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000550681-1.webp",
+      "/api/v1/dev/images/products/680000550681-2.webp",
+      "/api/v1/dev/images/products/680000550681-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 300,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000550681001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 316,
+        "imageUrl": "/api/v1/dev/images/products/680000550681-1.webp"
+      },
+      {
+        "skuId": "680000550681002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 317,
+        "imageUrl": "/api/v1/dev/images/products/680000550681-2.webp"
+      },
+      {
+        "skuId": "680000550681003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000550681-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000551798",
+    "title": "多功能夏凉被",
+    "mainImageUrl": "/api/v1/dev/images/products/680000551798-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000551798-1.webp",
+      "/api/v1/dev/images/products/680000551798-2.webp",
+      "/api/v1/dev/images/products/680000551798-3.webp"
+    ],
+    "priceCny": 139,
+    "salesCount": 24800,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000551798001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 86,
+        "imageUrl": "/api/v1/dev/images/products/680000551798-1.webp"
+      },
+      {
+        "skuId": "680000551798002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 139,
+        "stock": 87,
+        "imageUrl": "/api/v1/dev/images/products/680000551798-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000552915",
+    "title": "北欧风纯棉床笠",
+    "mainImageUrl": "/api/v1/dev/images/products/680000552915-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000552915-1.webp",
+      "/api/v1/dev/images/products/680000552915-2.webp",
+      "/api/v1/dev/images/products/680000552915-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 10900,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000552915001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 48,
+        "imageUrl": "/api/v1/dev/images/products/680000552915-1.webp"
+      },
+      {
+        "skuId": "680000552915002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 49,
+        "imageUrl": "/api/v1/dev/images/products/680000552915-2.webp"
+      },
+      {
+        "skuId": "680000552915003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 50,
+        "imageUrl": "/api/v1/dev/images/products/680000552915-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000554032",
+    "title": "家用纯棉床笠",
+    "mainImageUrl": "/api/v1/dev/images/products/680000554032-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000554032-1.webp",
+      "/api/v1/dev/images/products/680000554032-2.webp",
+      "/api/v1/dev/images/products/680000554032-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 28500,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000554032001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 160,
+        "imageUrl": "/api/v1/dev/images/products/680000554032-1.webp"
+      },
+      {
+        "skuId": "680000554032002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 161,
+        "imageUrl": "/api/v1/dev/images/products/680000554032-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000555149",
+    "title": "简约纯棉床笠",
+    "mainImageUrl": "/api/v1/dev/images/products/680000555149-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000555149-1.webp",
+      "/api/v1/dev/images/products/680000555149-2.webp",
+      "/api/v1/dev/images/products/680000555149-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 23000,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000555149001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000555149-1.webp"
+      },
+      {
+        "skuId": "680000555149002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 411,
+        "imageUrl": "/api/v1/dev/images/products/680000555149-2.webp"
+      },
+      {
+        "skuId": "680000555149003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000555149-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000556266",
+    "title": "多功能纯棉床笠",
+    "mainImageUrl": "/api/v1/dev/images/products/680000556266-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000556266-1.webp",
+      "/api/v1/dev/images/products/680000556266-2.webp",
+      "/api/v1/dev/images/products/680000556266-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 20050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000556266001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000556266-1.webp"
+      },
+      {
+        "skuId": "680000556266002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000556266-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000557383",
+    "title": "北欧风装饰抱枕套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000557383-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000557383-1.webp",
+      "/api/v1/dev/images/products/680000557383-2.webp",
+      "/api/v1/dev/images/products/680000557383-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 17100,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000557383001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 292,
+        "imageUrl": "/api/v1/dev/images/products/680000557383-1.webp"
+      },
+      {
+        "skuId": "680000557383002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 293,
+        "imageUrl": "/api/v1/dev/images/products/680000557383-2.webp"
+      },
+      {
+        "skuId": "680000557383003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 294,
+        "imageUrl": "/api/v1/dev/images/products/680000557383-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000558500",
+    "title": "家用装饰抱枕套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000558500-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000558500-1.webp",
+      "/api/v1/dev/images/products/680000558500-2.webp",
+      "/api/v1/dev/images/products/680000558500-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 3200,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000558500001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 254,
+        "imageUrl": "/api/v1/dev/images/products/680000558500-1.webp"
+      },
+      {
+        "skuId": "680000558500002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 255,
+        "imageUrl": "/api/v1/dev/images/products/680000558500-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000559617",
+    "title": "简约装饰抱枕套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000559617-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000559617-1.webp",
+      "/api/v1/dev/images/products/680000559617-2.webp",
+      "/api/v1/dev/images/products/680000559617-3.webp"
+    ],
+    "priceCny": 29,
+    "originalPriceCny": 38,
+    "salesCount": 27700,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000559617001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000559617-1.webp"
+      },
+      {
+        "skuId": "680000559617002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000559617-2.webp"
+      },
+      {
+        "skuId": "680000559617003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 26,
+        "imageUrl": "/api/v1/dev/images/products/680000559617-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000560734",
+    "title": "多功能装饰抱枕套",
+    "mainImageUrl": "/api/v1/dev/images/products/680000560734-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000560734-1.webp",
+      "/api/v1/dev/images/products/680000560734-2.webp",
+      "/api/v1/dev/images/products/680000560734-3.webp"
+    ],
+    "priceCny": 19,
+    "salesCount": 1800,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.2,
+    "keywords": [
+      "家居",
+      "四件套"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "棉"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000560734001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 466,
+        "imageUrl": "/api/v1/dev/images/products/680000560734-1.webp"
+      },
+      {
+        "skuId": "680000560734002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 19,
+        "stock": 467,
+        "imageUrl": "/api/v1/dev/images/products/680000560734-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000561851",
+    "title": "北欧风客厅落地灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000561851-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000561851-1.webp",
+      "/api/v1/dev/images/products/680000561851-2.webp",
+      "/api/v1/dev/images/products/680000561851-3.webp"
+    ],
+    "priceCny": 199,
+    "salesCount": 28850,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000561851001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000561851-1.webp"
+      },
+      {
+        "skuId": "680000561851002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 408,
+        "imageUrl": "/api/v1/dev/images/products/680000561851-2.webp"
+      },
+      {
+        "skuId": "680000561851003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000561851-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000562968",
+    "title": "家用客厅落地灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000562968-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000562968-1.webp",
+      "/api/v1/dev/images/products/680000562968-2.webp",
+      "/api/v1/dev/images/products/680000562968-3.webp"
+    ],
+    "priceCny": 179,
+    "originalPriceCny": 233,
+    "salesCount": 23350,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000562968001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 177,
+        "imageUrl": "/api/v1/dev/images/products/680000562968-1.webp"
+      },
+      {
+        "skuId": "680000562968002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 178,
+        "imageUrl": "/api/v1/dev/images/products/680000562968-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000564085",
+    "title": "简约客厅落地灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000564085-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000564085-1.webp",
+      "/api/v1/dev/images/products/680000564085-2.webp",
+      "/api/v1/dev/images/products/680000564085-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 10950,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000564085001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 289,
+        "imageUrl": "/api/v1/dev/images/products/680000564085-1.webp"
+      },
+      {
+        "skuId": "680000564085002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 290,
+        "imageUrl": "/api/v1/dev/images/products/680000564085-2.webp"
+      },
+      {
+        "skuId": "680000564085003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 291,
+        "imageUrl": "/api/v1/dev/images/products/680000564085-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000565202",
+    "title": "多功能客厅落地灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000565202-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000565202-1.webp",
+      "/api/v1/dev/images/products/680000565202-2.webp",
+      "/api/v1/dev/images/products/680000565202-3.webp"
+    ],
+    "priceCny": 169,
+    "salesCount": 27050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000565202001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 251,
+        "imageUrl": "/api/v1/dev/images/products/680000565202-1.webp"
+      },
+      {
+        "skuId": "680000565202002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 169,
+        "stock": 252,
+        "imageUrl": "/api/v1/dev/images/products/680000565202-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000566319",
+    "title": "北欧风餐厅吊灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000566319-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000566319-1.webp",
+      "/api/v1/dev/images/products/680000566319-2.webp",
+      "/api/v1/dev/images/products/680000566319-3.webp"
+    ],
+    "priceCny": 259,
+    "originalPriceCny": 337,
+    "salesCount": 21550,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000566319001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 21,
+        "imageUrl": "/api/v1/dev/images/products/680000566319-1.webp"
+      },
+      {
+        "skuId": "680000566319002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 22,
+        "imageUrl": "/api/v1/dev/images/products/680000566319-2.webp"
+      },
+      {
+        "skuId": "680000566319003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 259,
+        "stock": 23,
+        "imageUrl": "/api/v1/dev/images/products/680000566319-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000567436",
+    "title": "家用餐厅吊灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000567436-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000567436-1.webp",
+      "/api/v1/dev/images/products/680000567436-2.webp",
+      "/api/v1/dev/images/products/680000567436-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 18600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000567436001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 442,
+        "imageUrl": "/api/v1/dev/images/products/680000567436-1.webp"
+      },
+      {
+        "skuId": "680000567436002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 443,
+        "imageUrl": "/api/v1/dev/images/products/680000567436-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000568553",
+    "title": "简约餐厅吊灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000568553-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000568553-1.webp",
+      "/api/v1/dev/images/products/680000568553-2.webp",
+      "/api/v1/dev/images/products/680000568553-3.webp"
+    ],
+    "priceCny": 299,
+    "salesCount": 15650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000568553001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 383,
+        "imageUrl": "/api/v1/dev/images/products/680000568553-1.webp"
+      },
+      {
+        "skuId": "680000568553002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 384,
+        "imageUrl": "/api/v1/dev/images/products/680000568553-2.webp"
+      },
+      {
+        "skuId": "680000568553003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 299,
+        "stock": 385,
+        "imageUrl": "/api/v1/dev/images/products/680000568553-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000569670",
+    "title": "多功能餐厅吊灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000569670-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000569670-1.webp",
+      "/api/v1/dev/images/products/680000569670-2.webp",
+      "/api/v1/dev/images/products/680000569670-3.webp"
+    ],
+    "priceCny": 219,
+    "originalPriceCny": 285,
+    "salesCount": 12700,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 2,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "合金"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000569670001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 219,
+        "stock": 324,
+        "imageUrl": "/api/v1/dev/images/products/680000569670-1.webp"
+      },
+      {
+        "skuId": "680000569670002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 219,
+        "stock": 325,
+        "imageUrl": "/api/v1/dev/images/products/680000569670-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000570787",
+    "title": "北欧风LED装饰灯串",
+    "mainImageUrl": "/api/v1/dev/images/products/680000570787-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000570787-1.webp",
+      "/api/v1/dev/images/products/680000570787-2.webp",
+      "/api/v1/dev/images/products/680000570787-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 14250,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000570787001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 115,
+        "imageUrl": "/api/v1/dev/images/products/680000570787-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000571904",
+    "title": "家用LED装饰灯串",
+    "mainImageUrl": "/api/v1/dev/images/products/680000571904-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000571904-1.webp",
+      "/api/v1/dev/images/products/680000571904-2.webp",
+      "/api/v1/dev/images/products/680000571904-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 350,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000571904001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 77,
+        "imageUrl": "/api/v1/dev/images/products/680000571904-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000573021",
+    "title": "简约LED装饰灯串",
+    "mainImageUrl": "/api/v1/dev/images/products/680000573021-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000573021-1.webp",
+      "/api/v1/dev/images/products/680000573021-2.webp",
+      "/api/v1/dev/images/products/680000573021-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 17950,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000573021001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 189,
+        "imageUrl": "/api/v1/dev/images/products/680000573021-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000574138",
+    "title": "多功能LED装饰灯串",
+    "mainImageUrl": "/api/v1/dev/images/products/680000574138-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000574138-1.webp",
+      "/api/v1/dev/images/products/680000574138-2.webp",
+      "/api/v1/dev/images/products/680000574138-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 12450,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000574138001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 439,
+        "imageUrl": "/api/v1/dev/images/products/680000574138-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000575255",
+    "title": "北欧风床头小夜灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000575255-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000575255-1.webp",
+      "/api/v1/dev/images/products/680000575255-2.webp",
+      "/api/v1/dev/images/products/680000575255-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 9500,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000575255001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 380,
+        "imageUrl": "/api/v1/dev/images/products/680000575255-1.webp"
+      },
+      {
+        "skuId": "680000575255002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 381,
+        "imageUrl": "/api/v1/dev/images/products/680000575255-2.webp"
+      },
+      {
+        "skuId": "680000575255003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000575255-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000576372",
+    "title": "家用床头小夜灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000576372-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000576372-1.webp",
+      "/api/v1/dev/images/products/680000576372-2.webp",
+      "/api/v1/dev/images/products/680000576372-3.webp"
+    ],
+    "priceCny": 34,
+    "originalPriceCny": 44,
+    "salesCount": 6550,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000576372001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 321,
+        "imageUrl": "/api/v1/dev/images/products/680000576372-1.webp"
+      },
+      {
+        "skuId": "680000576372002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 322,
+        "imageUrl": "/api/v1/dev/images/products/680000576372-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000577489",
+    "title": "简约床头小夜灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000577489-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000577489-1.webp",
+      "/api/v1/dev/images/products/680000577489-2.webp",
+      "/api/v1/dev/images/products/680000577489-3.webp"
+    ],
+    "priceCny": 44,
+    "salesCount": 1050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000577489001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 91,
+        "imageUrl": "/api/v1/dev/images/products/680000577489-1.webp"
+      },
+      {
+        "skuId": "680000577489002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 92,
+        "imageUrl": "/api/v1/dev/images/products/680000577489-2.webp"
+      },
+      {
+        "skuId": "680000577489003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 93,
+        "imageUrl": "/api/v1/dev/images/products/680000577489-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000578606",
+    "title": "多功能床头小夜灯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000578606-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000578606-1.webp",
+      "/api/v1/dev/images/products/680000578606-2.webp",
+      "/api/v1/dev/images/products/680000578606-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 17150,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.3,
+    "keywords": [
+      "家居",
+      "灯"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000578606001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 53,
+        "imageUrl": "/api/v1/dev/images/products/680000578606-1.webp"
+      },
+      {
+        "skuId": "680000578606002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 54,
+        "imageUrl": "/api/v1/dev/images/products/680000578606-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000579723",
+    "title": "北欧风衣柜收纳箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000579723-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000579723-1.webp",
+      "/api/v1/dev/images/products/680000579723-2.webp",
+      "/api/v1/dev/images/products/680000579723-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 14200,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000579723001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 474,
+        "imageUrl": "/api/v1/dev/images/products/680000579723-1.webp"
+      },
+      {
+        "skuId": "680000579723002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 475,
+        "imageUrl": "/api/v1/dev/images/products/680000579723-2.webp"
+      },
+      {
+        "skuId": "680000579723003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 476,
+        "imageUrl": "/api/v1/dev/images/products/680000579723-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000580840",
+    "title": "家用衣柜收纳箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000580840-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000580840-1.webp",
+      "/api/v1/dev/images/products/680000580840-2.webp",
+      "/api/v1/dev/images/products/680000580840-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 18300,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000580840001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 436,
+        "imageUrl": "/api/v1/dev/images/products/680000580840-1.webp"
+      },
+      {
+        "skuId": "680000580840002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 437,
+        "imageUrl": "/api/v1/dev/images/products/680000580840-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000581957",
+    "title": "简约衣柜收纳箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000581957-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000581957-1.webp",
+      "/api/v1/dev/images/products/680000581957-2.webp",
+      "/api/v1/dev/images/products/680000581957-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 12800,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000581957001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 206,
+        "imageUrl": "/api/v1/dev/images/products/680000581957-1.webp"
+      },
+      {
+        "skuId": "680000581957002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 207,
+        "imageUrl": "/api/v1/dev/images/products/680000581957-2.webp"
+      },
+      {
+        "skuId": "680000581957003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 208,
+        "imageUrl": "/api/v1/dev/images/products/680000581957-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000583074",
+    "title": "多功能衣柜收纳箱",
+    "mainImageUrl": "/api/v1/dev/images/products/680000583074-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000583074-1.webp",
+      "/api/v1/dev/images/products/680000583074-2.webp",
+      "/api/v1/dev/images/products/680000583074-3.webp"
+    ],
+    "priceCny": 49,
+    "originalPriceCny": 64,
+    "salesCount": 400,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000583074001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 318,
+        "imageUrl": "/api/v1/dev/images/products/680000583074-1.webp"
+      },
+      {
+        "skuId": "680000583074002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 49,
+        "stock": 319,
+        "imageUrl": "/api/v1/dev/images/products/680000583074-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000584191",
+    "title": "北欧风桌面收纳架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000584191-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000584191-1.webp",
+      "/api/v1/dev/images/products/680000584191-2.webp",
+      "/api/v1/dev/images/products/680000584191-3.webp"
+    ],
+    "priceCny": 39,
+    "salesCount": 27450,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000584191001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 259,
+        "imageUrl": "/api/v1/dev/images/products/680000584191-1.webp"
+      },
+      {
+        "skuId": "680000584191002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 260,
+        "imageUrl": "/api/v1/dev/images/products/680000584191-2.webp"
+      },
+      {
+        "skuId": "680000584191003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 39,
+        "stock": 261,
+        "imageUrl": "/api/v1/dev/images/products/680000584191-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000585308",
+    "title": "家用桌面收纳架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000585308-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000585308-1.webp",
+      "/api/v1/dev/images/products/680000585308-2.webp",
+      "/api/v1/dev/images/products/680000585308-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 11000,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000585308001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 50,
+        "imageUrl": "/api/v1/dev/images/products/680000585308-1.webp"
+      },
+      {
+        "skuId": "680000585308002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 51,
+        "imageUrl": "/api/v1/dev/images/products/680000585308-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000586425",
+    "title": "简约桌面收纳架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000586425-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000586425-1.webp",
+      "/api/v1/dev/images/products/680000586425-2.webp",
+      "/api/v1/dev/images/products/680000586425-3.webp"
+    ],
+    "priceCny": 44,
+    "originalPriceCny": 57,
+    "salesCount": 8050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000586425001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 471,
+        "imageUrl": "/api/v1/dev/images/products/680000586425-1.webp"
+      },
+      {
+        "skuId": "680000586425002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 472,
+        "imageUrl": "/api/v1/dev/images/products/680000586425-2.webp"
+      },
+      {
+        "skuId": "680000586425003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 44,
+        "stock": 473,
+        "imageUrl": "/api/v1/dev/images/products/680000586425-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000587542",
+    "title": "多功能桌面收纳架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000587542-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000587542-1.webp",
+      "/api/v1/dev/images/products/680000587542-2.webp",
+      "/api/v1/dev/images/products/680000587542-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 5100,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.6,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "木质"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000587542001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 412,
+        "imageUrl": "/api/v1/dev/images/products/680000587542-1.webp"
+      },
+      {
+        "skuId": "680000587542002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 413,
+        "imageUrl": "/api/v1/dev/images/products/680000587542-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000588659",
+    "title": "北欧风防滑衣架套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000588659-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000588659-1.webp",
+      "/api/v1/dev/images/products/680000588659-2.webp",
+      "/api/v1/dev/images/products/680000588659-3.webp"
+    ],
+    "priceCny": 29,
+    "salesCount": 29600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000588659001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 182,
+        "imageUrl": "/api/v1/dev/images/products/680000588659-1.webp"
+      },
+      {
+        "skuId": "680000588659002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 183,
+        "imageUrl": "/api/v1/dev/images/products/680000588659-2.webp"
+      },
+      {
+        "skuId": "680000588659003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 29,
+        "stock": 184,
+        "imageUrl": "/api/v1/dev/images/products/680000588659-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000589776",
+    "title": "家用防滑衣架套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000589776-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000589776-1.webp",
+      "/api/v1/dev/images/products/680000589776-2.webp",
+      "/api/v1/dev/images/products/680000589776-3.webp"
+    ],
+    "priceCny": 24,
+    "originalPriceCny": 31,
+    "salesCount": 26650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000589776001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 123,
+        "imageUrl": "/api/v1/dev/images/products/680000589776-1.webp"
+      },
+      {
+        "skuId": "680000589776002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 124,
+        "imageUrl": "/api/v1/dev/images/products/680000589776-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000590893",
+    "title": "简约防滑衣架套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000590893-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000590893-1.webp",
+      "/api/v1/dev/images/products/680000590893-2.webp",
+      "/api/v1/dev/images/products/680000590893-3.webp"
+    ],
+    "priceCny": 34,
+    "salesCount": 750,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000590893001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 85,
+        "imageUrl": "/api/v1/dev/images/products/680000590893-1.webp"
+      },
+      {
+        "skuId": "680000590893002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 86,
+        "imageUrl": "/api/v1/dev/images/products/680000590893-2.webp"
+      },
+      {
+        "skuId": "680000590893003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 34,
+        "stock": 87,
+        "imageUrl": "/api/v1/dev/images/products/680000590893-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000592010",
+    "title": "多功能防滑衣架套装",
+    "mainImageUrl": "/api/v1/dev/images/products/680000592010-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000592010-1.webp",
+      "/api/v1/dev/images/products/680000592010-2.webp",
+      "/api/v1/dev/images/products/680000592010-3.webp"
+    ],
+    "priceCny": 24,
+    "salesCount": 7400,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000592010001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 218,
+        "imageUrl": "/api/v1/dev/images/products/680000592010-1.webp"
+      },
+      {
+        "skuId": "680000592010002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 24,
+        "stock": 219,
+        "imageUrl": "/api/v1/dev/images/products/680000592010-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000593127",
+    "title": "北欧风浴室置物架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000593127-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000593127-1.webp",
+      "/api/v1/dev/images/products/680000593127-2.webp",
+      "/api/v1/dev/images/products/680000593127-3.webp"
+    ],
+    "priceCny": 69,
+    "originalPriceCny": 90,
+    "salesCount": 1900,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000593127001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 468,
+        "imageUrl": "/api/v1/dev/images/products/680000593127-1.webp"
+      },
+      {
+        "skuId": "680000593127002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 469,
+        "imageUrl": "/api/v1/dev/images/products/680000593127-2.webp"
+      },
+      {
+        "skuId": "680000593127003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 470,
+        "imageUrl": "/api/v1/dev/images/products/680000593127-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000594244",
+    "title": "家用浴室置物架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000594244-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000594244-1.webp",
+      "/api/v1/dev/images/products/680000594244-2.webp",
+      "/api/v1/dev/images/products/680000594244-3.webp"
+    ],
+    "priceCny": 59,
+    "salesCount": 28950,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000594244001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 409,
+        "imageUrl": "/api/v1/dev/images/products/680000594244-1.webp"
+      },
+      {
+        "skuId": "680000594244002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 410,
+        "imageUrl": "/api/v1/dev/images/products/680000594244-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000595361",
+    "title": "简约浴室置物架",
+    "mainImageUrl": "/api/v1/dev/images/products/680000595361-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000595361-1.webp",
+      "/api/v1/dev/images/products/680000595361-2.webp",
+      "/api/v1/dev/images/products/680000595361-3.webp"
+    ],
+    "priceCny": 79,
+    "salesCount": 26000,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.2,
+    "keywords": [
+      "家居",
+      "收纳"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "不锈钢"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000595361001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 350,
+        "imageUrl": "/api/v1/dev/images/products/680000595361-1.webp"
+      },
+      {
+        "skuId": "680000595361002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 351,
+        "imageUrl": "/api/v1/dev/images/products/680000595361-2.webp"
+      },
+      {
+        "skuId": "680000595361003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 352,
+        "imageUrl": "/api/v1/dev/images/products/680000595361-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000596478",
+    "title": "北欧风客厅地毯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000596478-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000596478-1.webp",
+      "/api/v1/dev/images/products/680000596478-2.webp",
+      "/api/v1/dev/images/products/680000596478-3.webp"
+    ],
+    "priceCny": 199,
+    "originalPriceCny": 259,
+    "salesCount": 20500,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000596478001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 120,
+        "imageUrl": "/api/v1/dev/images/products/680000596478-1.webp"
+      },
+      {
+        "skuId": "680000596478002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 121,
+        "imageUrl": "/api/v1/dev/images/products/680000596478-2.webp"
+      },
+      {
+        "skuId": "680000596478003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 199,
+        "stock": 122,
+        "imageUrl": "/api/v1/dev/images/products/680000596478-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000597595",
+    "title": "家用客厅地毯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000597595-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000597595-1.webp",
+      "/api/v1/dev/images/products/680000597595-2.webp",
+      "/api/v1/dev/images/products/680000597595-3.webp"
+    ],
+    "priceCny": 179,
+    "salesCount": 17550,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000597595001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 61,
+        "imageUrl": "/api/v1/dev/images/products/680000597595-1.webp"
+      },
+      {
+        "skuId": "680000597595002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 179,
+        "stock": 62,
+        "imageUrl": "/api/v1/dev/images/products/680000597595-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000598712",
+    "title": "简约客厅地毯",
+    "mainImageUrl": "/api/v1/dev/images/products/680000598712-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000598712-1.webp",
+      "/api/v1/dev/images/products/680000598712-2.webp",
+      "/api/v1/dev/images/products/680000598712-3.webp"
+    ],
+    "priceCny": 229,
+    "salesCount": 3650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 10,
+    "weightKg": 3,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000598712001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 23,
+        "imageUrl": "/api/v1/dev/images/products/680000598712-1.webp"
+      },
+      {
+        "skuId": "680000598712002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 24,
+        "imageUrl": "/api/v1/dev/images/products/680000598712-2.webp"
+      },
+      {
+        "skuId": "680000598712003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 229,
+        "stock": 25,
+        "imageUrl": "/api/v1/dev/images/products/680000598712-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000599829",
+    "title": "北欧风遮光窗帘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000599829-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000599829-1.webp",
+      "/api/v1/dev/images/products/680000599829-2.webp",
+      "/api/v1/dev/images/products/680000599829-3.webp"
+    ],
+    "priceCny": 129,
+    "originalPriceCny": 168,
+    "salesCount": 28150,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000599829001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "蓝色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 273,
+        "imageUrl": "/api/v1/dev/images/products/680000599829-1.webp"
+      },
+      {
+        "skuId": "680000599829002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 274,
+        "imageUrl": "/api/v1/dev/images/products/680000599829-2.webp"
+      },
+      {
+        "skuId": "680000599829003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 129,
+        "stock": 275,
+        "imageUrl": "/api/v1/dev/images/products/680000599829-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000600946",
+    "title": "家用遮光窗帘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000600946-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000600946-1.webp",
+      "/api/v1/dev/images/products/680000600946-2.webp",
+      "/api/v1/dev/images/products/680000600946-3.webp"
+    ],
+    "priceCny": 119,
+    "salesCount": 10800,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000600946001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 406,
+        "imageUrl": "/api/v1/dev/images/products/680000600946-1.webp"
+      },
+      {
+        "skuId": "680000600946002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 119,
+        "stock": 407,
+        "imageUrl": "/api/v1/dev/images/products/680000600946-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000602063",
+    "title": "简约遮光窗帘",
+    "mainImageUrl": "/api/v1/dev/images/products/680000602063-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000602063-1.webp",
+      "/api/v1/dev/images/products/680000602063-2.webp",
+      "/api/v1/dev/images/products/680000602063-3.webp"
+    ],
+    "priceCny": 149,
+    "salesCount": 28400,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 1.5,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "聚酯纤维"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000602063001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 38,
+        "imageUrl": "/api/v1/dev/images/products/680000602063-1.webp"
+      },
+      {
+        "skuId": "680000602063002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 39,
+        "imageUrl": "/api/v1/dev/images/products/680000602063-2.webp"
+      },
+      {
+        "skuId": "680000602063003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 149,
+        "stock": 40,
+        "imageUrl": "/api/v1/dev/images/products/680000602063-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000603180",
+    "title": "北欧风静音挂钟",
+    "mainImageUrl": "/api/v1/dev/images/products/680000603180-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000603180-1.webp",
+      "/api/v1/dev/images/products/680000603180-2.webp",
+      "/api/v1/dev/images/products/680000603180-3.webp"
+    ],
+    "priceCny": 79,
+    "originalPriceCny": 103,
+    "salesCount": 25450,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000603180001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "粉色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 459,
+        "imageUrl": "/api/v1/dev/images/products/680000603180-1.webp"
+      },
+      {
+        "skuId": "680000603180002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 460,
+        "imageUrl": "/api/v1/dev/images/products/680000603180-2.webp"
+      },
+      {
+        "skuId": "680000603180003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 79,
+        "stock": 461,
+        "imageUrl": "/api/v1/dev/images/products/680000603180-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000604297",
+    "title": "家用静音挂钟",
+    "mainImageUrl": "/api/v1/dev/images/products/680000604297-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000604297-1.webp",
+      "/api/v1/dev/images/products/680000604297-2.webp",
+      "/api/v1/dev/images/products/680000604297-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 19950,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000604297001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "绿色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 229,
+        "imageUrl": "/api/v1/dev/images/products/680000604297-1.webp"
+      },
+      {
+        "skuId": "680000604297002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 230,
+        "imageUrl": "/api/v1/dev/images/products/680000604297-2.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000605414",
+    "title": "简约静音挂钟",
+    "mainImageUrl": "/api/v1/dev/images/products/680000605414-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000605414-1.webp",
+      "/api/v1/dev/images/products/680000605414-2.webp",
+      "/api/v1/dev/images/products/680000605414-3.webp"
+    ],
+    "priceCny": 89,
+    "salesCount": 6050,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "其他"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000605414001",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 191,
+        "imageUrl": "/api/v1/dev/images/products/680000605414-1.webp"
+      },
+      {
+        "skuId": "680000605414002",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "灰色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 192,
+        "imageUrl": "/api/v1/dev/images/products/680000605414-2.webp"
+      },
+      {
+        "skuId": "680000605414003",
+        "properties": [
+          {
+            "name": "颜色分类",
+            "value": "米白色"
+          }
+        ],
+        "priceCny": 89,
+        "stock": 193,
+        "imageUrl": "/api/v1/dev/images/products/680000605414-3.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000606531",
+    "title": "北欧风仿真绿植盆栽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000606531-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000606531-1.webp",
+      "/api/v1/dev/images/products/680000606531-2.webp",
+      "/api/v1/dev/images/products/680000606531-3.webp"
+    ],
+    "priceCny": 59,
+    "originalPriceCny": 77,
+    "salesCount": 3100,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000606531001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 59,
+        "stock": 132,
+        "imageUrl": "/api/v1/dev/images/products/680000606531-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000607648",
+    "title": "家用仿真绿植盆栽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000607648-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000607648-1.webp",
+      "/api/v1/dev/images/products/680000607648-2.webp",
+      "/api/v1/dev/images/products/680000607648-3.webp"
+    ],
+    "priceCny": 54,
+    "salesCount": 27600,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000607648001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 54,
+        "stock": 382,
+        "imageUrl": "/api/v1/dev/images/products/680000607648-1.webp"
+      }
+    ]
+  },
+  {
+    "externalId": "680000608765",
+    "title": "简约仿真绿植盆栽",
+    "mainImageUrl": "/api/v1/dev/images/products/680000608765-1.webp",
+    "images": [
+      "/api/v1/dev/images/products/680000608765-1.webp",
+      "/api/v1/dev/images/products/680000608765-2.webp",
+      "/api/v1/dev/images/products/680000608765-3.webp"
+    ],
+    "priceCny": 69,
+    "salesCount": 24650,
+    "shop": {
+      "shopId": "100332",
+      "name": "品质家居馆"
+    },
+    "chinaShippingCny": 0,
+    "weightKg": 0.8,
+    "keywords": [
+      "家居"
+    ],
+    "attributes": [
+      {
+        "name": "品牌",
+        "value": "家用优选"
+      },
+      {
+        "name": "材质",
+        "value": "塑料"
+      },
+      {
+        "name": "风格",
+        "value": "时尚"
+      },
+      {
+        "name": "产地",
+        "value": "中国大陆"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "680000608765001",
+        "properties": [
+          {
+            "name": "套餐",
+            "value": "标准款"
+          }
+        ],
+        "priceCny": 69,
+        "stock": 323,
+        "imageUrl": "/api/v1/dev/images/products/680000608765-1.webp"
+      }
+    ]
   }
 ]
